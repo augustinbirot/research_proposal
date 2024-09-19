@@ -17,17 +17,16 @@ committee:
 degree: PhD # or MSc
 bibliography: [proposal_refs.bib, packages.bib]
 csl: american-statistical-association.csl
-format: 
+format: html
 #  docx: default   # warning title page not formatted correctly
-  bio-uo-proposal-pdf:
-    toc: true
+  #bio-uo-proposal-pdf:
+    #toc: true
 editor: 
   markdown: 
     wrap: 72
 ---
 
 # Introduction
-
 
 It provides the scientific basis for the study and a (brief) review of
 the current literature, the key question(s) for you research leading -up
