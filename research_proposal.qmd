@@ -28,6 +28,7 @@ editor:
 
 # Introduction
 
+
 It provides the scientific basis for the study and a (brief) review of
 the current literature, the key question(s) for you research leading -up
 to the next section about your specific hypotheses or objectives.
