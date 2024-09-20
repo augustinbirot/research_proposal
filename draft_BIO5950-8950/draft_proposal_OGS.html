@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Augustin Birot">
 
-<title>Proposal OGS 2024</title>
+<title>draft_proposal_ogs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,41 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="draft_proposal_OGS_files/libs/clipboard/clipboard.min.js"></script>
@@ -78,54 +63,68 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Proposal OGS 2024</h1>
+
+
+
+<p>Augustin Birot</p>
+<p><strong><em>Causes and consequences of the Yellow-Bellied Marmot’s body mass in the last half century.</em></strong></p>
+<p><strong>Background</strong>: Natural selection shapes an organism’s phenotype to optimize its fitness within its environment <span class="citation" data-cites="darwin_origin_1859">(<a href="#ref-darwin_origin_1859" role="doc-biblioref">Darwin 1859</a>)</span>. When environmental conditions change, species typically respond in one of two ways: they either disperse or adapt <span class="citation" data-cites="charmantier_evolutionary_2014-1">(<a href="#ref-charmantier_evolutionary_2014-1" role="doc-biblioref">Gienapp and Brommer 2014</a>)</span>. Adaptation occurs through <strong>phenotypic plasticity</strong>, where a genotype can express different phenotypes depending on environmental conditions, or through <strong>microevolution</strong>, which involves shifts in allele frequencies within the population. while plasticity often provides a short-term solution, microevolution drives more permanent changes. Understanding how much each mechanism contributes to phenotypic changes is critical, especially in the context of climate change, where the consequences for populations could vary dramatically over time.</p>
+<p>Researchers have suggested that global warming could lead to a universal decrease in body size, in line with Bergmann’s rule on heat dissipation <span class="citation" data-cites="bergmannc1847 daufresne2009">(<a href="#ref-bergmannc1847" role="doc-biblioref">Bergmann, C 1847</a>; <a href="#ref-daufresne2009" role="doc-biblioref">Daufresne et al. 2009</a>)</span>. However, long-term evidence supporting this pattern is scarce <span class="citation" data-cites="gardner_declining_2011">(<a href="#ref-gardner_declining_2011" role="doc-biblioref">Gardner et al. 2011</a>)</span>, and studies at higher latitudes have often produced contradictory findings <span class="citation" data-cites="guillemain2010 yom-tov2008 sheridan2011">(<a href="#ref-guillemain2010" role="doc-biblioref">Guillemain et al. 2010</a>; <a href="#ref-sheridan2011" role="doc-biblioref">Sheridan and Bickford 2011</a>; <a href="#ref-yom-tov2008" role="doc-biblioref">Yom-Tov et al. 2008</a>)</span>. In Yellow-Bellied Marmots (YBM), <em>Marmota flaviventris</em>, which are the subject of on of the longest-running wild mammal population studies <span class="citation" data-cites="armitage2014">(more details in <a href="#ref-armitage2014" role="doc-biblioref">Armitage 2014</a>)</span>, we observe an increase in body mass in the last decades. Initially, this shift was attributed to phenotypic plasticity resulting from milder environmental conditions and longer active season <span class="citation" data-cites="ozgul_coupled_2010">(<a href="#ref-ozgul_coupled_2010" role="doc-biblioref">Ozgul et al. 2010</a>)</span>.</p>
+<p>However, recent work has raised question about the use of <strong>Integral Projection Model</strong> (IPMs) in making evolutionary inferences <span class="citation" data-cites="chevin_evolution_2015 janeiro_towards_2017">(<a href="#ref-chevin_evolution_2015" role="doc-biblioref">Chevin 2015</a>; <a href="#ref-janeiro_towards_2017" role="doc-biblioref">Janeiro et al. 2017</a>)</span>. My preliminary research, using quantitative genetic analysis with the <strong>Animal Model</strong> in a Bayesian framework <span class="citation" data-cites="hadfield_mcmc_2010">(<strong>MCMCglmm</strong>, <a href="#ref-hadfield_mcmc_2010" role="doc-biblioref">Hadfield 2010</a>)</span>, reveals a strong evolutionary signal alongside phenotypic plasticity. While the lengthening of the active season provides an ecological explanation for the observed plasticity, it does not account for the evolutionary changes. A longer active season should reduce selective pressure for larger body mass. Thus the aim of my PhD is going to rethink the evolutionary drivers behind the observed body mass increase in the last half-century in a wild YBM population. Then study the consequences of significant change in a life-history trait such as body mass in a hibernating species.</p>
+<p><strong>Hypothesis</strong>:</p>
+<p><strong>Research Questions (RQ)</strong>:</p>
+<p><strong>Methods</strong>:</p>
+<p><strong>Significance and Impact</strong>:</p>
+<div style="page-break-after: always;"></div>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
+<div class="{refs}">
+
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Augustin Birot </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-</section>
-<section id="running-code" class="level2">
-<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-armitage2014" class="csl-entry" role="listitem">
+Armitage, K. B. (2014), <span>“Marmot biology.”</span> <a href="https://doi.org/10.1017/cbo9781107284272">https://doi.org/10.1017/cbo9781107284272</a>.
+</div>
+<div id="ref-bergmannc1847" class="csl-entry" role="listitem">
+Bergmann, C (1847), <span>“About the relationships between heat conservation and body size of animals,”</span> <em>Goett Stud</em>, 1.
+</div>
+<div id="ref-chevin_evolution_2015" class="csl-entry" role="listitem">
+Chevin, L. (2015), <span>“Evolution of adult size depends on genetic variance in growth trajectories: A comment on analyses of evolutionary dynamics using integral projection models,”</span> <em>Methods in Ecology and Evolution</em>, (S. Ramula, ed.), 6, 981–986. <a href="https://doi.org/10.1111/2041-210X.12389">https://doi.org/10.1111/2041-210X.12389</a>.
+</div>
+<div id="ref-darwin_origin_1859" class="csl-entry" role="listitem">
+Darwin, C. (1859), <em>The <span>Origin</span> of <span>Species</span>: <span>By</span> <span>Means</span> of <span>Natural</span> <span>Selection</span>, or the <span>Preservation</span> of <span>Favoured</span> <span>Races</span> in the <span>Struggle</span> for <span>Life</span></em>, Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511694295">https://doi.org/10.1017/CBO9780511694295</a>.
+</div>
+<div id="ref-daufresne2009" class="csl-entry" role="listitem">
+Daufresne, M., Lengfellner, K., and Sommer, U. (2009), <span>“Global warming benefits the small in aquatic ecosystems,”</span> <em>Proceedings of the National Academy of Sciences</em>, 106, 12788–12793. <a href="https://doi.org/10.1073/pnas.0902080106">https://doi.org/10.1073/pnas.0902080106</a>.
+</div>
+<div id="ref-gardner_declining_2011" class="csl-entry" role="listitem">
+Gardner, J. L., Peters, A., Kearney, M. R., Joseph, L., and Heinsohn, R. (2011), <span>“Declining body size: A third universal response to warming?”</span> <em>Trends in Ecology &amp; Evolution</em>, 26, 285–291. <a href="https://doi.org/10.1016/j.tree.2011.03.005">https://doi.org/10.1016/j.tree.2011.03.005</a>.
+</div>
+<div id="ref-charmantier_evolutionary_2014-1" class="csl-entry" role="listitem">
+Gienapp, P., and Brommer, J. E. (2014), <span>“Evolutionary dynamics in response to climate change,”</span> in <em>Quantitative <span>Genetics</span> in the <span>Wild</span></em>, eds. A. Charmantier, D. Garant, and L. E. B. Kruuk, Oxford University PressOxford, pp. 254–274. <a href="https://doi.org/10.1093/acprof:oso/9780199674237.003.0015">https://doi.org/10.1093/acprof:oso/9780199674237.003.0015</a>.
+</div>
+<div id="ref-guillemain2010" class="csl-entry" role="listitem">
+Guillemain, M., Elmberg, J., Gauthier-Clerc, M., Massez, G., Hearn, R., Champagnon, J., and Simon, G. (2010), <span>“Wintering French Mallard and Teal Are Heavier and in Better Body Condition than 30 Years Ago: Effects of a Changing Environment?”</span> <em>AMBIO</em>, 39, 170–180. <a href="https://doi.org/10.1007/s13280-010-0020-9">https://doi.org/10.1007/s13280-010-0020-9</a>.
+</div>
+<div id="ref-hadfield_mcmc_2010" class="csl-entry" role="listitem">
+Hadfield, J. D. (2010), <span>“<span>MCMC</span> <span>Methods</span> for <span>Multi</span>-<span>Response</span> <span>Generalized</span> <span>Linear</span> <span>Mixed</span> <span>Models</span>: <span>The</span> <strong>MCMCglmm</strong> <em>r</em> <span>Package</span>,”</span> <em>Journal of Statistical Software</em>, 33. <a href="https://doi.org/10.18637/jss.v033.i02">https://doi.org/10.18637/jss.v033.i02</a>.
+</div>
+<div id="ref-janeiro_towards_2017" class="csl-entry" role="listitem">
+Janeiro, M. J., Coltman, D. W., Festa‐Bianchet, M., Pelletier, F., and Morrissey, M. B. (2017), <span>“Towards robust evolutionary inference with integral projection models,”</span> <em>Journal of Evolutionary Biology</em>, 30, 270–288. <a href="https://doi.org/10.1111/jeb.13000">https://doi.org/10.1111/jeb.13000</a>.
+</div>
+<div id="ref-ozgul_coupled_2010" class="csl-entry" role="listitem">
+Ozgul, A., Childs, D. Z., Oli, M. K., Armitage, K. B., Blumstein, D. T., Olson, L. E., Tuljapurkar, S., and Coulson, T. (2010), <span>“Coupled dynamics of body mass and population growth in response to environmental change,”</span> <em>Nature</em>, 466, 482–485. <a href="https://doi.org/10.1038/nature09210">https://doi.org/10.1038/nature09210</a>.
+</div>
+<div id="ref-sheridan2011" class="csl-entry" role="listitem">
+Sheridan, J. A., and Bickford, D. (2011), <span>“Shrinking body size as an ecological response to climate change,”</span> <em>Nature Climate Change</em>, 1, 401–406. <a href="https://doi.org/10.1038/nclimate1259">https://doi.org/10.1038/nclimate1259</a>.
+</div>
+<div id="ref-yom-tov2008" class="csl-entry" role="listitem">
+Yom-Tov, Y., Yom-Tov, S., and Jarrell, G. (2008), <span>“Recent increase in body size of the American marten Martes americana in Alaska: GLOBAL WARMING AND BODY SIZE OF THE AMERICAN MARTEN,”</span> <em>Biological Journal of the Linnean Society</em>, 93, 701–707. <a href="https://doi.org/10.1111/j.1095-8312.2007.00950.x">https://doi.org/10.1111/j.1095-8312.2007.00950.x</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

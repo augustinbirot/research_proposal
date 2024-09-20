@@ -1,27 +1,27 @@
 ---
-title: "Proposal OGS 2024"
-author: "Augustin Birot"
+bibliography: [ipm_vs_mcmc.bib]
+csl: american-statistical-association.csl
 format: pdf
 editor: visual
 ---
 
-## Quarto
+Augustin Birot
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+***Causes and consequences of the Yellow-Bellied Marmot's body mass in the last half century.***
 
-## Running Code
+**Background**: Natural selection shapes an organism's phenotype to optimize its fitness within its environment [@darwin_origin_1859]. When environmental conditions change, species typically respond in one of two ways: they either disperse or adapt [@charmantier_evolutionary_2014-1]. Adaptation occurs through **phenotypic plasticity**, where a genotype can express different phenotypes depending on environmental conditions, or through **microevolution**, which involves shifts in allele frequencies within the population. while plasticity often provides a short-term solution, microevolution drives more permanent changes. Understanding how much each mechanism contributes to phenotypic changes is critical, especially in the context of climate change, where the consequences for populations could vary dramatically over time.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Researchers have suggested that global warming could lead to a universal decrease in body size, in line with Bergmann's rule on heat dissipation [@bergmannc1847; @daufresne2009]. However, long-term evidence supporting this pattern is scarce [@gardner_declining_2011], and studies at higher latitudes have often produced contradictory findings [@guillemain2010; @yom-tov2008; @sheridan2011]. In Yellow-Bellied Marmots (YBM), *Marmota flaviventris*, which are the subject of on of the longest-running wild mammal population studies [more details in @armitage2014], we observe an increase in body mass in the last decades. Initially, this shift was attributed to phenotypic plasticity resulting from milder environmental conditions and longer active season [@ozgul_coupled_2010].
 
-```{r}
-1 + 1
-```
+However, recent work has raised question about the use of **Integral Projection Model** (IPMs) in making evolutionary inferences [@chevin_evolution_2015; @janeiro_towards_2017]. My preliminary research, using quantitative genetic analysis with the **Animal Model** in a Bayesian framework [**MCMCglmm**, @hadfield_mcmc_2010], reveals a strong evolutionary signal alongside phenotypic plasticity. While the lengthening of the active season provides an ecological explanation for the observed plasticity, it does not account for the evolutionary changes. A longer active season should reduce selective pressure for larger body mass. Thus the aim of my PhD is going to rethink the evolutionary drivers behind the observed body mass increase in the last half-century in a wild YBM population. Then study the consequences of significant change in a life-history trait such as body mass in a hibernating species.
 
-You can add options to executable code like this
+**Research Questions (RQ) and Methods**:
 
-```{r}
-#| echo: false
-2 * 2
-```
+**Significance and Impact**:
 
-The `echo: false` option disables the printing of code (only output is displayed).
+{{< pagebreak >}}
+
+#### References
+
+::: {refs}
+:::
