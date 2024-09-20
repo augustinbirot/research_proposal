@@ -1,7 +1,7 @@
 ---
 title: "Proposal OGS 2024"
 author: "Augustin Birot"
-format: html
+format: pdf
 editor: visual
 ---
 
