@@ -7,7 +7,7 @@ editor: visual
 
 Augustin Birot
 
-***Causes and consequences of the Yellow-Bellied Marmot's body mass in the last half century.***
+***Causes and consequences of the Yellow-Bellied Marmot's body mass shift in the last half century.***
 
 **Background**: Natural selection shapes an organism's phenotype to optimize its fitness within its environment [@darwin_origin_1859]. When environmental conditions change, species typically respond in one of two ways: they either disperse or adapt [@charmantier_evolutionary_2014-1]. Adaptation occurs through **phenotypic plasticity**, where a genotype can express different phenotypes depending on environmental conditions, or through **microevolution**, which involves shifts in allele frequencies within the population. While plasticity often provides a short-term solution, microevolution drives more permanent changes. Understanding how much each mechanism contributes to phenotypic changes is critical, especially in the context of climate change, where the consequences for populations could vary dramatically over time.
 
