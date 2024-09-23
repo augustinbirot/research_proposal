@@ -23,11 +23,11 @@ However, recent work has raised question about the use of **Integral Projection 
 
     -   **Methodology 1**: I will analyze extreme weather events at the study sites and investigate their relationship with population fluctuations and the genetic values of mean body mass across the study period.
 
--   **Hypothesis 2**: Drought events, which have become more frequent with global warming, increase the proportion of dry vegetation, selecting for larger individuals that can consume a more fibrous diet due to longer Mean Retention Time (MRT) [@armitage2014].
+-   **Hypothesis 2**: Drought events, which have become more frequent with global warming, increase the proportion of dry vegetation, enhancing selection for larger individuals that can consume a more fibrous diet due to longer Mean Retention Time (MRT) [@armitage2014].
 
     -   **Methodology 2**: I will study the marmots' diet composition over the years to evaluate changes in vegetation quality and selection.
 
--   **Hypothesis 3**: Larger individuals will be favored by natural selection because they are better able to fend off smaller predators such as *Mustela frenata* and *Martes americana* [@armitage2014].
+-   **Hypothesis 3**: Larger individuals will be favored by natural selection as they are better able to fend off smaller predators such as *Mustela frenata* and *Martes americana* [@armitage2014].
 
     -   **Methodology 3**: I will examine predator population dynamics and species composition and compare that to the recorded causes of marmot mortality over the study period.
 
@@ -35,11 +35,11 @@ However, recent work has raised question about the use of **Integral Projection 
 
 -   **Hypothesis 4**: A significant shift in body mass, combined with environmental changes, will alter the life cycle of this hibernating species.
 
-    -   **Methodology 4**: I will investigate changes in the active season and examine potential correlations with body mass and environmental factors.
+    -   **Methodology 4**: I will investigate changes in the active season/hibernation length balance and examine potential correlations with body mass and environmental factors.
 
 -   **Hypothesis 5**: A shift in body condition will result in behavioral changes at the individual level.
 
-    -   **Methodology 5**: I will assess changes in individual behavior by analysis of boldness data collected through Flight Initiation Distance (FID) experiments over the study period.
+    -   **Methodology 5**: I will assess changes in individual behavior by analysis of boldness data collected through Flight Initiation Distance (FID) experiments over the study period and test its link with body mass.
 
 **Significance and Impact**: This research leverages one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship. This work will provide crucial insights into how wild populations adapt to changing environments. These findings will contribute valuable knowledge to the field of conservation biology, helping shape more effective conservation policies in the context of global climate change.
 
