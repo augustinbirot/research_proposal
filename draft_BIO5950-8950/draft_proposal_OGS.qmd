@@ -2,7 +2,7 @@
 bibliography: [ipm_vs_mcmc.bib]
 csl: american-statistical-association.csl
 format: pdf
-editor: visual
+editor: source
 ---
 
 Augustin Birot
