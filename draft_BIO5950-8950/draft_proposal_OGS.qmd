@@ -1,5 +1,5 @@
 ---
-bibliography: [ipm_vs_mcmc.bib]
+bibliography: [ipm_vs_mcmc.bib, ../research_proposal.bib]
 csl: american-statistical-association.csl
 format:
   pdf:
