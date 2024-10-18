@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Augustin Birot">
-<meta name="dcterms.date" content="2024-10-11">
+<meta name="author" content="Augustin Birot (300444988)">
+<meta name="dcterms.date" content="2024-10-17">
 
-<title>My proposal</title>
+<title>Causes and consequences of major Life-History Trait evolution in a mammalian wild population.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="research_proposal_files/libs/clipboard/clipboard.min.js"></script>
@@ -56,48 +36,44 @@ div.csl-indent {
 <link href="research_proposal_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="research_proposal_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#phenotypic-plasticity-vs-microevolution" id="toc-phenotypic-plasticity-vs-microevolution" class="nav-link" data-scroll-target="#phenotypic-plasticity-vs-microevolution"><span class="header-section-number">1.1</span> Phenotypic plasticity vs microevolution</a></li>
+  <li><a href="#life-history-traits-lht-coevolution" id="toc-life-history-traits-lht-coevolution" class="nav-link" data-scroll-target="#life-history-traits-lht-coevolution"><span class="header-section-number">1.2</span> Life-History Traits (LHT) coevolution</a></li>
+  <li><a href="#the-importance-of-body-size-in-evolution" id="toc-the-importance-of-body-size-in-evolution" class="nav-link" data-scroll-target="#the-importance-of-body-size-in-evolution"><span class="header-section-number">1.3</span> The importance of body size in evolution</a></li>
+  <li><a href="#specie-and-study-site" id="toc-specie-and-study-site" class="nav-link" data-scroll-target="#specie-and-study-site"><span class="header-section-number">1.4</span> Specie and study site</a></li>
+  </ul></li>
+  <li><a href="#research-objectives-and-hypotheses" id="toc-research-objectives-and-hypotheses" class="nav-link" data-scroll-target="#research-objectives-and-hypotheses"><span class="header-section-number">2</span> Research objectives and hypotheses</a></li>
+  <li><a href="#proposed-methodologies" id="toc-proposed-methodologies" class="nav-link" data-scroll-target="#proposed-methodologies"><span class="header-section-number">3</span> Proposed methodologies</a></li>
+  <li><a href="#expected-products" id="toc-expected-products" class="nav-link" data-scroll-target="#expected-products"><span class="header-section-number">4</span> Expected Products</a></li>
+  <li><a href="#scientific-value-and-rationale-for-the-research" id="toc-scientific-value-and-rationale-for-the-research" class="nav-link" data-scroll-target="#scientific-value-and-rationale-for-the-research"><span class="header-section-number">5</span> Scientific value and rationale for the research</a></li>
+  <li><a href="#course-selection" id="toc-course-selection" class="nav-link" data-scroll-target="#course-selection"><span class="header-section-number">6</span> Course selection</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule"><span class="header-section-number">7</span> Schedule</a>
+  <ul class="collapse">
+  <li><a href="#completed-to-date" id="toc-completed-to-date" class="nav-link" data-scroll-target="#completed-to-date"><span class="header-section-number">7.1</span> Completed to date</a></li>
+  <li><a href="#six-month-plan" id="toc-six-month-plan" class="nav-link" data-scroll-target="#six-month-plan"><span class="header-section-number">7.2</span> Six month plan</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8</span> References</a></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My proposal</h1>
-<p class="subtitle lead">a study of awesomeness</p>
+<h1 class="title">Causes and consequences of major Life-History Trait evolution in a mammalian wild population.</h1>
+<p class="subtitle lead">a study of the Yellow-Bellied Marmot’s (<em>Marmota flaviventris</em>) body mass evolution in the last half-century.</p>
 </div>
 
 
@@ -107,14 +83,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Augustin Birot </p>
+             <p>Augustin Birot (300444988) </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 11, 2024</p>
+      <p class="date">October 17, 2024</p>
     </div>
   </div>
   
@@ -126,48 +102,76 @@ window.Quarto = {
 </header>
 
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>It provides the scientific basis for the study and a (brief) review of the current literature, the key question(s) for you research leading -up to the next section about your specific hypotheses or objectives.</p>
-<p>This template is developed for Quarto <span class="citation" data-cites="quarto">(<a href="#ref-quarto" role="doc-biblioref"><strong>quarto?</strong></a>)</span>. You can add tables, figures and code using R <span class="citation" data-cites="base">(<a href="#ref-base" role="doc-biblioref">R Core Team 2023</a>)</span>, Python, Julia or Observables. For more info, go to the Quarto website <a href="https://quarto.org/" class="uri">https://quarto.org/</a></p>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="phenotypic-plasticity-vs-microevolution" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="phenotypic-plasticity-vs-microevolution"><span class="header-section-number">1.1</span> Phenotypic plasticity vs microevolution</h2>
 </section>
-<section id="research-objectives-and-hypotheses" class="level1">
-<h1>Research objectives and hypotheses</h1>
-<p>Specific hypotheses (in the case of hypothesis-testing science) or objectives (in the case of descriptive science), and the underlying logic, for each proposed thesis chapter (minimum three for PhD students)</p>
+<section id="life-history-traits-lht-coevolution" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="life-history-traits-lht-coevolution"><span class="header-section-number">1.2</span> Life-History Traits (LHT) coevolution</h2>
 </section>
-<section id="proposed-methodologies" class="level1">
-<h1>Proposed methodologies</h1>
-<p>Include outlines of data collection and data analysis</p>
-<p>Outline any special skills, equipment, or techniques that will be required.</p>
-<p>In case you want to add a wide table that needs to be on a landscape page you can do like in <a href="#tbl-sideway" class="quarto-xref">Table&nbsp;1</a>. Have a look at the <code>qmd</code> for the code.</p>
-<p>You need to put the table in a pandoc div (delimited by :::) indicating the side way rotation</p>
-<p>It also works for figures just use <code>sidewaysfigure</code> instead of <code>sidewaystable</code></p>
-<div class="sidewaystable">
-<div class="cell">
-<div id="tbl-sideway" class="cell quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sideway-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: This is a wide table
-</figcaption>
-<div aria-describedby="tbl-sideway-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output-display">
-<div id="rvkivrhmbl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#rvkivrhmbl table {
+<section id="the-importance-of-body-size-in-evolution" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="the-importance-of-body-size-in-evolution"><span class="header-section-number">1.3</span> The importance of body size in evolution</h2>
+</section>
+<section id="specie-and-study-site" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="specie-and-study-site"><span class="header-section-number">1.4</span> Specie and study site</h2>
+<!-- It provides the scientific basis for the study and a (brief) review of
+the current literature, the key question(s) for you research leading -up
+to the next section about your specific hypotheses or objectives.
+
+This template is developed for Quarto [@quarto]. You can add tables,
+figures and code using R [@base], Python, Julia or Observables. For more
+info, go to the Quarto website <https://quarto.org/> -->
+</section>
+</section>
+<section id="research-objectives-and-hypotheses" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Research objectives and hypotheses</h1>
+<!-- Specific hypotheses (in the case of hypothesis-testing science) or
+objectives (in the case of descriptive science), and the underlying
+logic, for each proposed thesis chapter (minimum three for PhD students) -->
+</section>
+<section id="proposed-methodologies" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Proposed methodologies</h1>
+<!-- Include outlines of data collection and data analysis
+
+Outline any special skills, equipment, or techniques that will be
+required.
+
+In case you want to add a wide table that needs to be on a landscape
+page you can do like in @tbl-sideway. Have a look at the `qmd` for the
+code.
+
+You need to put the table in a pandoc div (delimited by :::) indicating
+the side way rotation
+
+It also works for figures just use `sidewaysfigure` instead of
+`sidewaystable`
+
+::: {.sidewaystable data-latex=""}
+
+
+::: {#tbl-sideway .cell tbl-cap='This is a wide table'}
+::: {.cell-output-display}
+
+
+```{=html}
+<div id="goducxebgu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#goducxebgu table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#rvkivrhmbl thead, #rvkivrhmbl tbody, #rvkivrhmbl tfoot, #rvkivrhmbl tr, #rvkivrhmbl td, #rvkivrhmbl th {
+#goducxebgu thead, #goducxebgu tbody, #goducxebgu tfoot, #goducxebgu tr, #goducxebgu td, #goducxebgu th {
   border-style: none;
 }
 
-#rvkivrhmbl p {
+#goducxebgu p {
   margin: 0;
   padding: 0;
 }
 
-#rvkivrhmbl .gt_table {
+#goducxebgu .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -193,12 +197,12 @@ Table&nbsp;1: This is a wide table
   border-left-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_caption {
+#goducxebgu .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#rvkivrhmbl .gt_title {
+#goducxebgu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -210,7 +214,7 @@ Table&nbsp;1: This is a wide table
   border-bottom-width: 0;
 }
 
-#rvkivrhmbl .gt_subtitle {
+#goducxebgu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -222,7 +226,7 @@ Table&nbsp;1: This is a wide table
   border-top-width: 0;
 }
 
-#rvkivrhmbl .gt_heading {
+#goducxebgu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -234,13 +238,13 @@ Table&nbsp;1: This is a wide table
   border-right-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_bottom_border {
+#goducxebgu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_col_headings {
+#goducxebgu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -255,7 +259,7 @@ Table&nbsp;1: This is a wide table
   border-right-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_col_heading {
+#goducxebgu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -275,7 +279,7 @@ Table&nbsp;1: This is a wide table
   overflow-x: hidden;
 }
 
-#rvkivrhmbl .gt_column_spanner_outer {
+#goducxebgu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -287,15 +291,15 @@ Table&nbsp;1: This is a wide table
   padding-right: 4px;
 }
 
-#rvkivrhmbl .gt_column_spanner_outer:first-child {
+#goducxebgu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#rvkivrhmbl .gt_column_spanner_outer:last-child {
+#goducxebgu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#rvkivrhmbl .gt_column_spanner {
+#goducxebgu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -307,11 +311,11 @@ Table&nbsp;1: This is a wide table
   width: 100%;
 }
 
-#rvkivrhmbl .gt_spanner_row {
+#goducxebgu .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#rvkivrhmbl .gt_group_heading {
+#goducxebgu .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -337,7 +341,7 @@ Table&nbsp;1: This is a wide table
   text-align: left;
 }
 
-#rvkivrhmbl .gt_empty_group_heading {
+#goducxebgu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -352,15 +356,15 @@ Table&nbsp;1: This is a wide table
   vertical-align: middle;
 }
 
-#rvkivrhmbl .gt_from_md > :first-child {
+#goducxebgu .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#rvkivrhmbl .gt_from_md > :last-child {
+#goducxebgu .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#rvkivrhmbl .gt_row {
+#goducxebgu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -379,7 +383,7 @@ Table&nbsp;1: This is a wide table
   overflow-x: hidden;
 }
 
-#rvkivrhmbl .gt_stub {
+#goducxebgu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -392,7 +396,7 @@ Table&nbsp;1: This is a wide table
   padding-right: 5px;
 }
 
-#rvkivrhmbl .gt_stub_row_group {
+#goducxebgu .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -406,15 +410,15 @@ Table&nbsp;1: This is a wide table
   vertical-align: top;
 }
 
-#rvkivrhmbl .gt_row_group_first td {
+#goducxebgu .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#rvkivrhmbl .gt_row_group_first th {
+#goducxebgu .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#rvkivrhmbl .gt_summary_row {
+#goducxebgu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -424,16 +428,16 @@ Table&nbsp;1: This is a wide table
   padding-right: 5px;
 }
 
-#rvkivrhmbl .gt_first_summary_row {
+#goducxebgu .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_first_summary_row.thick {
+#goducxebgu .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#rvkivrhmbl .gt_last_summary_row {
+#goducxebgu .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -443,7 +447,7 @@ Table&nbsp;1: This is a wide table
   border-bottom-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_grand_summary_row {
+#goducxebgu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -453,7 +457,7 @@ Table&nbsp;1: This is a wide table
   padding-right: 5px;
 }
 
-#rvkivrhmbl .gt_first_grand_summary_row {
+#goducxebgu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -463,7 +467,7 @@ Table&nbsp;1: This is a wide table
   border-top-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_last_grand_summary_row_top {
+#goducxebgu .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -473,11 +477,11 @@ Table&nbsp;1: This is a wide table
   border-bottom-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_striped {
+#goducxebgu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#rvkivrhmbl .gt_table_body {
+#goducxebgu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -486,7 +490,7 @@ Table&nbsp;1: This is a wide table
   border-bottom-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_footnotes {
+#goducxebgu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -500,7 +504,7 @@ Table&nbsp;1: This is a wide table
   border-right-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_footnote {
+#goducxebgu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -509,7 +513,7 @@ Table&nbsp;1: This is a wide table
   padding-right: 5px;
 }
 
-#rvkivrhmbl .gt_sourcenotes {
+#goducxebgu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -523,7 +527,7 @@ Table&nbsp;1: This is a wide table
   border-right-color: #D3D3D3;
 }
 
-#rvkivrhmbl .gt_sourcenote {
+#goducxebgu .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -531,77 +535,77 @@ Table&nbsp;1: This is a wide table
   padding-right: 5px;
 }
 
-#rvkivrhmbl .gt_left {
+#goducxebgu .gt_left {
   text-align: left;
 }
 
-#rvkivrhmbl .gt_center {
+#goducxebgu .gt_center {
   text-align: center;
 }
 
-#rvkivrhmbl .gt_right {
+#goducxebgu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#rvkivrhmbl .gt_font_normal {
+#goducxebgu .gt_font_normal {
   font-weight: normal;
 }
 
-#rvkivrhmbl .gt_font_bold {
+#goducxebgu .gt_font_bold {
   font-weight: bold;
 }
 
-#rvkivrhmbl .gt_font_italic {
+#goducxebgu .gt_font_italic {
   font-style: italic;
 }
 
-#rvkivrhmbl .gt_super {
+#goducxebgu .gt_super {
   font-size: 65%;
 }
 
-#rvkivrhmbl .gt_footnote_marks {
+#goducxebgu .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#rvkivrhmbl .gt_asterisk {
+#goducxebgu .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#rvkivrhmbl .gt_indent_1 {
+#goducxebgu .gt_indent_1 {
   text-indent: 5px;
 }
 
-#rvkivrhmbl .gt_indent_2 {
+#goducxebgu .gt_indent_2 {
   text-indent: 10px;
 }
 
-#rvkivrhmbl .gt_indent_3 {
+#goducxebgu .gt_indent_3 {
   text-indent: 15px;
 }
 
-#rvkivrhmbl .gt_indent_4 {
+#goducxebgu .gt_indent_4 {
   text-indent: 20px;
 }
 
-#rvkivrhmbl .gt_indent_5 {
+#goducxebgu .gt_indent_5 {
   text-indent: 25px;
 }
 
-#rvkivrhmbl .katex-display {
+#goducxebgu .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#rvkivrhmbl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#goducxebgu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
@@ -705,56 +709,72 @@ Table&nbsp;1: This is a wide table
 </table>
 
 </div>
-</div>
-</div>
-</figure>
-</div>
-</div>
-</div>
+```
+
+
+:::
+:::
+
+
+:::
+-->
 </section>
-<section id="expected-products" class="level1">
-<h1>Expected Products</h1>
-<p>A list of the (usually 1/3) articles expected for completion of the MSC/PhD. Think of each as a fantasy abstract.</p>
-<ol type="1">
-<li><p>The Evolution of Human Uniqueness. <u>Bob Hette &amp; Julien Martin.</u></p>
-<p>There is wide agreement that humans are unique. But it is rarely asked: Have they always been unique? In this paper, we derive a general uniqueness theorem that states that any unique species must have been less unique at some point in the past. This theorem has implications for the achievement of world peace.</p></li>
-<li><p>Niche Construction, Disease Transmission, and Global Warming: Chaos Deconstructs the Block Chain. <u>Bob Hette, Igor Tex &amp; Julien Martin</u></p>
-<p>How many buzz words can be combined in a title? In this paper, we find that the natural limit on buzz words in any specific scholarly field is always given by the triangular number <span class="math inline">\(T_n\)</span> where <span class="math inline">\(n\)</span> is one more than the number of tenured faculty in the field.</p></li>
-<li><p>A Bayesian Hierarchical Survival Analysis of Counting Sheep. <u>Bob Hette &amp; Julien Martin</u></p>
-<p>Just like all those other models of counting sheep, but this one will be Bayesian.</p></li>
-</ol>
+<section id="expected-products" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Expected Products</h1>
+<!-- A list of the (usually 1/3) articles expected for completion of the
+MSC/PhD. Think of each as a fantasy abstract.
+
+1.  The Evolution of Human Uniqueness. [Bob Hette & Julien
+    Martin.]{.underline}
+
+    There is wide agreement that humans are unique. But it is rarely
+    asked: Have they always been unique? In this paper, we derive a
+    general uniqueness theorem that states that any unique species must
+    have been less unique at some point in the past. This theorem has
+    implications for the achievement of world peace.
+
+2.  Niche Construction, Disease Transmission, and Global Warming: Chaos
+    Deconstructs the Block Chain. [Bob Hette, Igor Tex & Julien
+    Martin]{.underline}
+
+    How many buzz words can be combined in a title? In this paper, we
+    find that the natural limit on buzz words in any specific scholarly
+    field is always given by the triangular number $T_n$ where $n$ is
+    one more than the number of tenured faculty in the field.
+
+3.  A Bayesian Hierarchical Survival Analysis of Counting Sheep. [Bob
+    Hette & Julien Martin]{.underline}
+
+    Just like all those other models of counting sheep, but this one
+    will be Bayesian. -->
 </section>
-<section id="scientific-value-and-rationale-for-the-research" class="level1">
-<h1>Scientific value and rationale for the research</h1>
+<section id="scientific-value-and-rationale-for-the-research" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Scientific value and rationale for the research</h1>
 </section>
-<section id="course-selection" class="level1">
-<h1>Course selection</h1>
+<section id="course-selection" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Course selection</h1>
 <!-- not necessarily needed for comprehensive exam proposal-->
 </section>
-<section id="schedule" class="level1">
-<h1>Schedule</h1>
-<p>Outline of the calendar for the work. This is necessarily rough and subject to change. Usually include a Gantt chart</p>
-<section id="completed-to-date" class="level2">
-<h2 class="anchored" data-anchor-id="completed-to-date">Completed to date</h2>
+<section id="schedule" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Schedule</h1>
+<!-- Outline of the calendar for the work. This is necessarily rough and
+subject to change. Usually include a Gantt chart -->
+<section id="completed-to-date" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="completed-to-date"><span class="header-section-number">7.1</span> Completed to date</h2>
 </section>
-<section id="six-month-plan" class="level2">
-<h2 class="anchored" data-anchor-id="six-month-plan">Six month plan</h2>
+<section id="six-month-plan" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="six-month-plan"><span class="header-section-number">7.2</span> Six month plan</h2>
 <div style="page-break-after: always;"></div>
 </section>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
+<section id="references" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> References</h1>
 <div class="{refs}">
 
 </div>
-
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-base" class="csl-entry" role="listitem">
-R Core Team (2023), <em>R: A language and environment for statistical computing</em>, Manual, Vienna, Austria: R Foundation for Statistical Computing.
-</div>
-</div></section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
