@@ -1,0 +1,73 @@
+---
+title: "Outline OGS 2024"
+author: "Augustin Birot"
+bibliography: [ipm_vs_mcmc.bib]
+csl: american-statistical-association.csl
+format: html
+editor: visual
+---
+
+***Causes and consequences of the Yellow-Bellied Marmot (YBM)'s body mass shift in the last half-century.***
+
+#### Introduction
+
+-   **Big question**: Climate change --\> Life conditions shifts --\> *Phenotypic response*.
+
+-   **Specific question**: Global warming --\> Impact on the *body mass* --\> not fully understood (lack of generalization[^1]) ***Knowledge gap***
+
+-   **Research question**: Why the *YBM* are *evolving* (just now) to *bigger* individuals? And what could be the *consequences* of this evolution?
+
+[^1]: Citation needed.
+
+This body mass shift was first studied by [@ozgul_coupled_2010], which conclude that this was mainly due to phenotypic plasticity. However, due to recent questioning with the using of IPMs for evolutionary inferences [@chevin_evolution_2015; @janeiro_towards_2017] and preliminary results indicating different results (Martin et al. unpublished), we conducted a quantitative genetic analysis of that case using Animal model with the Bayesian framework MCMCglmm [@hadfield_mcmc_2010]. These new results indicate a high evolutionary signal in addition to some plasticity leading to the need to rethink the evolutionary scenario of this phenotypic shift. Indeed, if the lengthening active season is a suitable explanation for an ecological driver for the phenotypic plasticity (as proposed by [@ozgul_coupled_2010]) it can't explain the observed evolutionary signal as it represents a decreasing selective pressure for a bigger body mass.
+
+*We have an extensive database over the 2nd longest wild mammal population study in the world, let's use it!*
+
+*Highlight the importance of the body mass for a hibernating species.*
+
+**Attack axis**: *Although the consensus to explain this major morphological shift in a well studied population was plasticity (mainly), our analysis highlight the need of a global re-thinking of that case.*
+
+#### Hypothesis
+
+The causes of this body mass shift are multimodal ([^2] *explain the concept of multimodal causes*) due to the general environmental shift induced by climate change. The phenotypic shift on a life history-trait (LHT) will have significant consequences on several aspects of the population.
+
+[^2]: Citation needed.
+
+#### Objective and Methodology 1: Causes
+
+*The causes of this observed body mass evolution are multimodal*
+
+-   **Punctual weather event**: weather data; population fluctuation (*looking for significant drops following strong weather events, indication a potential bottleneck that we can compare with the fluctuations of the body mass' genetic value*)
+
+-   **Predation**: predators population; death causes (*looking for a shift in the predators populations and species composition for an eventual shift in the death causes*)
+
+-   **Diet diversification**: diet habits - behavioral observations, isotopy; frequency of drying events and state of the vegetation (*looking for a shift to a more fibrous diet*)
+
+***+ Interconnection (multicausal)***
+
+#### Objective and Methodology 2: Consequences
+
+*The shift of a likewise LHT will have big consequences on both the population and the individual scale.*
+
+-   **Density dependence emergence?**: *we know that this phenotypic shift is associated with a demographic explosion [@ozgul_coupled_2010], and density dependence was not a problem yet*[^3]. Could it become one?
+
+-   **Behavioral shift?**: *changing in the body condition could modify the mean behavior of the individuals (prediction: Bolder, because more able to defend themselves for example).*
+
+[^3]: Citation needed.
+
+#### Significance and Impact
+
+-   Better understanding of the phenotypic response to climate change thanks to a highly documented natural population; better understanding of the genotype/phenotype/environment relationship.
+
+-   Better understanding of the body mass response to global warming[^4].
+
+-   Gaining more insights of the consequences of that kind of phenotypic shift.
+
+[^4]: Citation needed.
+
+{{< pagebreak >}}
+
+#### References
+
+::: {refs}
+:::
