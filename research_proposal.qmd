@@ -1,6 +1,6 @@
 ---
-title: Causes and consequences of major Life-History Trait evolution in a mammalian wild population.
-subtitle: a study of the Yellow-Bellied Marmot's (*Marmota flaviventris*) body mass evolution in the last half-century.
+title: Coping with climate change.
+subtitle: Implications of the Yellow-Bellied Marmot's (*Marmota flavivientris*) body mass evolution in the last half-century.
 author: Augustin Birot (300444988)
 date: last-modified
 affiliation: Department of Biology
@@ -16,8 +16,8 @@ degree: PhD
 bibliography: [research_proposal.bib, packages.bib]
 csl: american-statistical-association.csl
 format:
-  html:
-  #pdf:
+  #html:
+  pdf:
     toc: true
     number-sections: true
 editor: 
@@ -30,13 +30,13 @@ editor:
 ## Phenotypic plasticity vs microevolution
 
 
-## Life-History Traits (LHT) coevolution
+## Body size as a Life-History Traits (LHT) and expected effect of global warming
 
 
-## The importance of body size in evolution
+## LHT coevolution
 
 
-## Specie and study site
+## Species and study site
 
 
 <!-- It provides the scientific basis for the study and a (brief) review of
@@ -47,15 +47,33 @@ This template is developed for Quarto [@quarto]. You can add tables,
 figures and code using R [@base], Python, Julia or Observables. For more
 info, go to the Quarto website <https://quarto.org/> -->
 
+
+
+# Chapter 1
+*Methodology: $I * E$ detection with double random mixed models*
+
+# Chapter 2
+*Marmot's Biology: What mechanisms are behind the body mass increase?*
+
+Growth? Baseline? Both?
+
+# Chapter 3
+*Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
+
+
+# Chapter 4
+*Marmot's Biology: What could be the implications of that for the population's future?*
+
+<!--
 # Research objectives and hypotheses
 
-<!-- Specific hypotheses (in the case of hypothesis-testing science) or
+Specific hypotheses (in the case of hypothesis-testing science) or
 objectives (in the case of descriptive science), and the underlying
-logic, for each proposed thesis chapter (minimum three for PhD students) -->
+logic, for each proposed thesis chapter (minimum three for PhD students)
 
 # Proposed methodologies
 
-<!-- Include outlines of data collection and data analysis
+Include outlines of data collection and data analysis
 
 Outline any special skills, equipment, or techniques that will be
 required.
@@ -96,11 +114,11 @@ exibble |>
 
 ```
 :::
--->
+
 
 # Expected Products
 
-<!-- A list of the (usually 1/3) articles expected for completion of the
+A list of the (usually 1/3) articles expected for completion of the
 MSC/PhD. Think of each as a fantasy abstract.
 
 1.  The Evolution of Human Uniqueness. [Bob Hette & Julien
@@ -125,22 +143,24 @@ MSC/PhD. Think of each as a fantasy abstract.
     Hette & Julien Martin]{.underline}
 
     Just like all those other models of counting sheep, but this one
-    will be Bayesian. -->
+    will be Bayesian.
 
 # Scientific value and rationale for the research
 
 # Course selection
 
-<!-- not necessarily needed for comprehensive exam proposal-->
+not necessarily needed for comprehensive exam proposal
 
 # Schedule
 
-<!-- Outline of the calendar for the work. This is necessarily rough and
-subject to change. Usually include a Gantt chart -->
+Outline of the calendar for the work. This is necessarily rough and
+subject to change. Usually include a Gantt chart
 
 ## Completed to date
 
+
 ## Six month plan
+-->
 
 {{< pagebreak >}}
 
