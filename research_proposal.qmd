@@ -4,7 +4,7 @@ subtitle: Implications of the Yellow-Bellied Marmot's (*Marmota flavivientris*) 
 author: Augustin Birot (300444988)
 date: last-modified
 affiliation: Department of Biology
-comps-proposal: false # or false
+comps-proposal: true # or false
 committee:
   - name: Julien Martin
     role: supervisor 
@@ -49,20 +49,31 @@ info, go to the Quarto website <https://quarto.org/> -->
 
 
 
-# Chapter 1
-*Methodology: $I * E$ detection with double random mixed models*
-
-# Chapter 2
+# Chapter 1 - Mechanisms
 *Marmot's Biology: What mechanisms are behind the body mass increase?*
 
 Growth? Baseline? Both?
 
-# Chapter 3
+
+Double random (Intercept, Slope)
+
+# Chapter 2 - Methodology
+*Methodology: $I * E$ detection with double random mixed models*
+
+
+# Chapter 3 - Triggers
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
 
+E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 
-# Chapter 4
+Predators, Diet?
+
+
+# Chapter 4 - Implications
 *Marmot's Biology: What could be the implications of that for the population's future?*
+
+Manuscript models Body Mass/active season with survival
+
 
 <!--
 # Research objectives and hypotheses
