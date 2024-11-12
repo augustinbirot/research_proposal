@@ -1,6 +1,6 @@
 ---
-bibliography: [ipm_vs_mcmc.bib, ../research_proposal.bib]
-csl: american-statistical-association.csl
+bibliography: [ipm_vs_mcmc.bib, ../../research_proposal.bib]
+csl: nature.csl
 format:
   pdf:
     margin-bottom: 1.87cm
@@ -13,7 +13,46 @@ editor: source
 
 Augustin Birot
 
-***Causes and consequences of the Yellow-Bellied Marmot's body mass shift in the last half century.***
+Coping with climate change: Implications of a body mass shift in yellow-bellied marmot over the last half century.
+
+BACKGROUND: In today’s climate change context, natural population faces quick variation of different aspects of their environment: temperature, season length, environment predictability, etc. Making persistence more challenging than ever, imposing phenotypic variation in life history traits (LHT, i.e., phenotypic trait affecting directly survival and reproduction). LHT such as body mass and size are expected to decrease with increasing temperature [@daufresne2009; @gardner_declining_2011], following Bergmann’s rule, predicting that decreased surface to volume ratio favors heat dissipation [@bergmannc1847]. Although opposite results highlight the need of more study about this subject [@guillemain2010; @sheridan2011; @yom-tov2008]. Furthermore, LHT are often correlated with individual behavior such as boldness and risk taking as with environment en physiology in line with the pace-of-life syndrome (POLS) [@dammhahnPacelifeSyndromesFramework2018]. These adaptations can be based on genetic changes, so-called evolution (i.e. shift in allele frequencies within the population in response to selection) or non-genetic changes, so-called phenotypic plasticity (i.e., genotype expressing different phenotypes depending on environmental conditions) [@charmantier_evolutionary_2014-1]. Each having different consequences, plasticity being the best fit for transient changes, and evolution the best for long-term as it imply permanent changes.
+
+STUDY SPECIES: Yellow-bellied marmots (Marmota flaviventris) is a ground-dwelling rodent inhabiting alpine habitats in western North America with a life cycle divided between an "active season" representing approximately a third of the year (May-September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the time [@armitage2014]. A significant increase in body mass during the last decades (1970s-2010s) in a wild population has been studied and theorized to be caused by a longer active season due to climate change [@ozgul_coupled_2010]. However, recent works tend to show a strong genetic effect, indicating an evolution event alongside plasticity on this trait, raising the need to reconsider the evolutionary scenario behind this shift. This wild population has been followed since 1962 in Colorado, USA, at the individual level. Presenting extensive data about marmots biology, behavior, individual relatedness and environmental variable. Allowing me to conduct a complete study of this shift and its implication in climate change context.
+
+OBJECTIVES: My PhD will explore three important research questions (RQ). RQ1: What are the mechanisms of this increase? So is it due to an increase in the individual baseline? An increase in growing capacity? Or both? I will assess that by estimating individual specific intercept and slopes for body mass through their lifetime to compare them through cohorts. Having strong variation in the intercept over time would indicate an increase of the individual baseline, and variation on the slopes represent an increase of their growing capacity. RQ2: Which modification in the environment, over the years, could have triggered this shift? I will test the impact of various weather variables (measured at the study site since 1978) on the body mass in order to target precise factors. Then, I will test the effect of a combined variable (computed from principal component analysis) to check for a global weather effect on body mass. RQ3: What are the implications of this change in body condition on marmots' behavior, in line with the POLS? Using results from "flight initiation distance" experiment as a proxy of individual boldness [@ydenbergEconomicsFleeingPredators1986], I will test the impact of body mass, over time, on individual boldness. Then, using "animal model" (i.e., mixed models assessing genetic variance from individual relatedness [@kruukEstimatingGeneticParameters2004]) I will test for variation of the individual's boldness genetic value over time.
+
+SIGNIFICANCE AND IMPACT: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship. It will provide crucial insights into how wild populations adapt to changing environments. The project aims to illustrate the multimodal nature of both causes and consequences of this body mass increase, as we anticipate that no single hypothesis will fully explain the observed changes. Instead, we expect that each hypothesis will account for part of the process, either complementing or conflicting with one another. These findings will contribute valuable knowledge to the field of conservation biology, helping shape more effective conservation policies in the context of global climate change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***Causes and consequences of the Yellow-Bellied Marmot's body mass shift in the last half century.***
 
 **Background**: Natural selection shapes an organism's phenotype to optimize its fitness within its environment [@darwin_origin_1859]. When environmental conditions change, species typically respond in one of two ways: disperse or adapt [@charmantier_evolutionary_2014-1]. Adaptation occurs through **phenotypic plasticity**, where a genotype can express different phenotypes depending on environmental conditions, or **microevolution**, which involves shifts in allele frequencies within the population. While plasticity often provides a short-term solution, microevolution drives more permanent changes. Understanding how much each mechanism contributes to phenotypic changes is critical, especially in the context of climate change, where the consequences for populations could vary dramatically over time.
 
@@ -53,7 +92,7 @@ I reanalyzed this body mass shift, using quantitative genetic analysis, especial
 
     -   **Methodology 5**: I will assess changes in individual behavior by analyzing boldness data collected through Flight Initiation Distance (FID) experiments over the study period and test for links with body mass.
 
-**Significance and Impact**: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship. It will provide crucial insights into how wild populations adapt to changing environments. The project aims to illustrate the multimodal nature of both causes and consequences of this body mass increase, as we anticipate that no single hypothesis will fully explain the observed changes. Instead, we expect that each hypothesis will account for part of the process, either complementing or conflicting with one another. These findings will contribute valuable knowledge to the field of conservation biology, helping shape more effective conservation policies in the context of global climate change.
+**Significance and Impact**: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship. It will provide crucial insights into how wild populations adapt to changing environments. The project aims to illustrate the multimodal nature of both causes and consequences of this body mass increase, as we anticipate that no single hypothesis will fully explain the observed changes. Instead, we expect that each hypothesis will account for part of the process, either complementing or conflicting with one another. These findings will contribute valuable knowledge to the field of conservation biology, helping shape more effective conservation policies in the context of global climate change. -->
 
 {{< pagebreak >}}
 
