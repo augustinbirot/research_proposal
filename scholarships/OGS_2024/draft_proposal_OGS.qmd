@@ -1,7 +1,9 @@
 ---
+reference-location: margin
 bibliography: [ipm_vs_mcmc.bib, ../../research_proposal.bib]
 csl: nature.csl
 format:
+  html: default
   pdf:
     margin-bottom: 1.87cm
     margin-right: 1.87cm
