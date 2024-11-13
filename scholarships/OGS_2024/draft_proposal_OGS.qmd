@@ -1,9 +1,8 @@
 ---
-reference-location: margin
+# reference-location: margin
 bibliography: [ipm_vs_mcmc.bib, ../../research_proposal.bib]
 csl: nature.csl
 format:
-  html: default
   pdf:
     margin-bottom: 1.87cm
     margin-right: 1.87cm
@@ -15,13 +14,13 @@ editor: source
 
 Augustin Birot
 
-Coping with climate change: Implications of a body mass increase^[shift is too vague since it can be either way] in yellow-bellied marmot over the last half century.
+Coping with climate change: Implications of a body mass increase in yellow-bellied marmot over the last half century.
 
 BACKGROUND: As a result of climate change, natural populations face rapid environmental variation with increased temperature, longer summers, and higher fluctuation from year to year making persistence more challenging than ever.
 Several key traits of species such as body mass and size are expected to change in relation to the new environmental conditions.
 Following Bergmann’s rule [@bergmannc1847], body mass and size are expected to decrease with increasing temperature to facilitate heat dissipation [@daufresne2009; @gardner_declining_2011].
 However, body mass might also increase in response to global warming due to an increase in food availability or appearance of milder conditions [@guillemain2010; @sheridan2011; @yom-tov2008; @ozgul_coupled_2010].
-Furthermore, those changes in mass and size are expected to be correlated with a suite of behavioural and physiological traits and might aslo be associated with different survival and reproduction consequences <!--[not sure how the POLS fit here well without a lot more explanation]. -->
+Furthermore, those changes in mass and size are expected to be correlated with a suite of behavioural and physiological traits and might also be associated with different survival and reproduction consequences 
 The observed changes in traits with climate changes can be due to either evolution (*i.e.* changes in allele frequencies in response to selection, with younger individuals being better adapted to the new conditions) or phenotypic plasticity (*i.e.* genotype expressing different phenotypes depending on environmental conditions, or an individual adjusting to conditions within its life) [@charmantier_evolutionary_2014-1].
 Knowing the importance and role of these two mechanisms in the observed changes in the traits of a species is key to understand the impact of climate changes and determine if and how a species can adapt to the new conditions. In Yellow-bellied marmots (*Marmota flaviventris*), a 10% increase in body mass over the past 50 years as been observed [@ozgul_coupled_2010] and was partly attributed to both evolution and plasticity. The reasons for such an increase and its consequences are however unclear.
 
@@ -32,14 +31,11 @@ However, recent works on the same population (my MSc thesis) showed a strong gen
 This study will be based on the long-term study of marmots in Colorado, USA, which started in 1962 and has followed over 5000 individuals from birth to death
 This study presents extensive data at the individual level including morphological, behavioural and physiological as well as survival, reproduction and genetic relatedness information
 
-OBJECTIVES: My PhD will explore three important research questions (RQ).^[running out of steam for this section since it is past 2300. also would be good to discuss since it is unclear what you mean]
+OBJECTIVES: My PhD will explore three important research questions:
 
-- RQ1: What are the mechanisms of this increase? So is it due to an increase in the individual baseline? An increase in growing capacity? Or both? I will assess that by estimating individual specific intercept and slopes for body mass through their lifetime to compare them through cohorts.
-Having strong variation in the intercept over time would indicate an increase of the individual baseline, and variation on the slopes represent an increase of their growing capacity.
-- RQ2: Which modification in the environment, over the years, could have triggered this shift? I will test the impact of various weather variables (measured at the study site since 1978) on the body mass in order to target precise factors.
-Then, I will test the effect of a combined variable (computed from principal component analysis) to check for a global weather effect on body mass.
-- RQ3: What are the implications of this change in body condition on marmots' behavior, in line with the POLS? Using results from "flight initiation distance" experiment as a proxy of individual boldness [@ydenbergEconomicsFleeingPredators1986], I will test the impact of body mass, over time, on individual boldness.
-Then, using "animal model" (i.e., mixed models assessing genetic variance from individual relatedness [@kruukEstimatingGeneticParameters2004]) I will test for variation of the individual's boldness genetic value over time.
+- Are individual heavier now because they are born heavier or they are growing faster, or both? I will assess that by estimating individual specific intercept and slopes for body mass throughout their entire lifetime and how the growth curve changed over the study period. This will be assessed using a within-indivdiaul centering approach (vandepol citation) combined with a quantitative genetic model (kruuk citation)
+- What are the drivers of the changes in body mass? environmental changes? selection pressure? I will test the impact of various weather variables (measured at the study site since 1978) on the body mass and their relation to survival and reproduction in order to target precise factors.
+- What are the implications of this change in body mass on the rest of the phenotype? How behaviour, physiology and or other morphology traits are impacted byt the changes in body mass? I will use a multivariate animal model to decompose the phenotypic correlations among traits into their environmental and genetic effects [@kruukEstimatingGeneticParameters2004].
 
 SIGNIFICANCE: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship.
 It will provide crucial insights into how wild populations adapt to changing environments.
