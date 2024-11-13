@@ -1,0 +1,360 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{luacolor}
+  \usepackage[soul]{lua-ul}
+\else
+  \usepackage{soul}
+  
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{anyfontsize}
+\usepackage{multirow}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={My proposal},
+  pdfauthor={Bob Hette},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{My proposal}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{a study of awesomeness}
+\author{Bob Hette}
+\date{2024-11-12}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{Introduction}\label{introduction}
+
+It provides the scientific basis for the study and a (brief) review of
+the current literature, the key question(s) for you research leading -up
+to the next section about your specific hypotheses or objectives.
+
+This template is developed for Quarto (Allaire et al. 2022). You can add
+tables, figures and code using R (R Core Team 2023), Python, Julia or
+Observables. For more info, go to the Quarto website
+\url{https://quarto.org/}
+
+\section{Research objectives and
+hypotheses}\label{research-objectives-and-hypotheses}
+
+Specific hypotheses (in the case of hypothesis-testing science) or
+objectives (in the case of descriptive science), and the underlying
+logic, for each proposed thesis chapter (minimum three for PhD students)
+
+\section{Proposed methodologies}\label{proposed-methodologies}
+
+Include outlines of data collection and data analysis
+
+Outline any special skills, equipment, or techniques that will be
+required.
+
+In case you want to add a wide table that needs to be on a landscape
+page you can do like in Table~\ref{tbl-sideway}. Have a look at the
+\texttt{qmd} for the code.
+
+You need to put the table in a pandoc div (delimited by :::) indicating
+the side way rotation
+
+It also works for figures just use \texttt{sidewaysfigure} instead of
+\texttt{sidewaystable}
+
+\begin{sidewaystable}
+
+\begin{table}
+
+\caption{\label{tbl-sideway}This is a wide table}
+
+\centering{
+
+\fontsize{12.0pt}{14.4pt}\selectfont
+\begin{tabular*}{1\linewidth}{@{\extracolsep{\fill}}l|rlcrrrr}
+\toprule
+ & num & char & fctr & date & time & datetime & currency \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{8}{>{\raggedright\arraybackslash}m{1\linewidth}}{grp\_a} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+row\_1 & 0,11 & apricot & one & jeu. 15/01/2015 & 13:35 & Monday, January 1, 2018 & 49,95 \\ 
+row\_2 & 2,22 & banana & two & dim. 15/02/2015 & 14:40 & Friday, February 2, 2018 & 17,95 \\ 
+row\_3 & 33,33 & coconut & three & dim. 15/03/2015 & 15:45 & Saturday, March 3, 2018 & 1,39 \\ 
+row\_4 & 444,40 & durian & four & mer. 15/04/2015 & 16:50 & Wednesday, April 4, 2018 & 65 100,00 \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{8}{>{\raggedright\arraybackslash}m{1\linewidth}}{grp\_b} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+row\_5 & 5 550,00 & NA & five & ven. 15/05/2015 & 17:55 & Saturday, May 5, 2018 & 1 325,81 \\ 
+row\_6 & NA & fig & six & lun. 15/06/2015 & NA & Wednesday, June 6, 2018 & 13,26 \\ 
+row\_7 & 777 000,00 & grapefruit & seven & NA & 19:10 & Saturday, July 7, 2018 & NA \\ 
+row\_8 & 8 880 000,00 & honeydew & eight & sam. 15/08/2015 & 20:20 & NA & 0,44 \\ 
+\bottomrule
+\end{tabular*}
+
+}
+
+\end{table}%
+
+\end{sidewaystable}
+
+\section{Expected Products}\label{expected-products}
+
+A list of the (usually 1/3) articles expected for completion of the
+MSC/PhD. Think of each as a fantasy abstract.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The Evolution of Human Uniqueness. \ul{Bob Hette \& Julien Martin.}
+
+  There is wide agreement that humans are unique. But it is rarely
+  asked: Have they always been unique? In this paper, we derive a
+  general uniqueness theorem that states that any unique species must
+  have been less unique at some point in the past. This theorem has
+  implications for the achievement of world peace.
+\item
+  Niche Construction, Disease Transmission, and Global Warming: Chaos
+  Deconstructs the Block Chain. \ul{Bob Hette, Igor Tex \& Julien
+  Martin}
+
+  How many buzz words can be combined in a title? In this paper, we find
+  that the natural limit on buzz words in any specific scholarly field
+  is always given by the triangular number \(T_n\) where \(n\) is one
+  more than the number of tenured faculty in the field.
+\item
+  A Bayesian Hierarchical Survival Analysis of Counting Sheep. \ul{Bob
+  Hette \& Julien Martin}
+
+  Just like all those other models of counting sheep, but this one will
+  be Bayesian.
+\end{enumerate}
+
+\section{Scientific value and rationale for the
+research}\label{scientific-value-and-rationale-for-the-research}
+
+\section{Course selection}\label{course-selection}
+
+\section{Schedule}\label{schedule}
+
+Outline of the calendar for the work. This is necessarily rough and
+subject to change. Usually include a Gantt chart
+
+\subsection{Completed to date}\label{completed-to-date}
+
+\subsection{Six month plan}\label{six-month-plan}
+
+\newpage{}
+
+\section{References}\label{references}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-quarto}
+Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., and Dervieux, C.
+(2022), {``{Quarto}.''} \url{https://doi.org/10.5281/zenodo.5960048}.
+
+\bibitem[\citeproctext]{ref-base}
+R Core Team (2023), \emph{R: A language and environment for statistical
+computing}, Manual, Vienna, Austria: R Foundation for Statistical
+Computing.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}
