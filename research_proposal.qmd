@@ -29,8 +29,8 @@ editor:
 
 # Introduction
 
-## Climate change
-
+## Climate change (C.C.)
+The importance of C.C. and its impact in the near future is no longer in doubt [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
 
 ## Body size as a Life-History Traits (LHT) and expected effect of global warming
 
