@@ -16,55 +16,37 @@ Augustin Birot
 
 Coping with climate change: Implications of a body mass increase in yellow-bellied marmot over the last half century.
 
-BACKGROUND: As a result of climate change, natural populations face rapid environmental variation with increased temperature, longer summers, and higher fluctuation from year to year making persistence more challenging than ever.
+BACKGROUND: As a result of climate change, natural populations face rapid environmental variation with increased temperature, longer summers, and higher fluctuation from year to year, making persistence more challenging than ever.
 Several key traits of species such as body mass and size are expected to change in relation to the new environmental conditions.
 Following Bergmann’s rule [@bergmannc1847], body mass and size are expected to decrease with increasing temperature to facilitate heat dissipation [@daufresne2009; @gardner_declining_2011].
 However, body mass might also increase in response to global warming due to an increase in food availability or appearance of milder conditions [@guillemain2010; @sheridan2011; @yom-tov2008; @ozgul_coupled_2010].
-Furthermore, those changes in mass and size are expected to be correlated with a suite of behavioural and physiological traits and might also be associated with different survival and reproduction consequences 
+Furthermore, those changes in mass and size are expected to be correlated with a suite of behavioral and physiological traits and might also be associated with different survival and reproduction consequences 
 The observed changes in traits with climate changes can be due to either evolution (*i.e.* changes in allele frequencies in response to selection, with younger individuals being better adapted to the new conditions) or phenotypic plasticity (*i.e.* genotype expressing different phenotypes depending on environmental conditions, or an individual adjusting to conditions within its life) [@charmantier_evolutionary_2014-1].
-Knowing the importance and role of these two mechanisms in the observed changes in the traits of a species is key to understand the impact of climate changes and determine if and how a species can adapt to the new conditions. In Yellow-bellied marmots (*Marmota flaviventris*), a 10% increase in body mass over the past 50 years as been observed [@ozgul_coupled_2010] and was partly attributed to both evolution and plasticity. The reasons for such an increase and its consequences are however unclear.
+Knowing the importance and role of these two mechanisms in the observed changes in the traits of a species is key to understand the impact of climate changes and determine if and how a species can adapt to the new conditions. In Yellow-bellied marmots (*Marmota flaviventris*), a 15% increase in body mass over the past 50 years as been observed [@ozgul_coupled_2010] and was partly attributed to both evolution and plasticity. The reasons for such an increase and its consequences are however unclear.
 
 STUDY SPECIES: Yellow-bellied marmots are ground-dwelling rodents inhabiting alpine habitats in western North America.
 They are active above ground for approximately a third of the year (May-September) during which they need to reproduce and accumulate enough fat to survive hibernation for the remainder of the time [@armitage2014].
 The significant increased in body mass observed over the past 50 years has first been hypothesized to be caused simply by milder winters and longer active seasons due to climate change allowing to reach higher masses [@ozgul_coupled_2010].
-However, recent works on the same population (my MSc thesis) showed a strong genetic change of body mass over time which is not expected under the previous hypothesis raising the need to reconsider the evolutionary scenario behind this shift.
+However, recent works on the same population (my MSc thesis) showed a strong genetic change of body mass over time which is not expected under the previous hypothesis, raising the need to reconsider the evolutionary scenario behind this shift.
 This study will be based on the long-term study of marmots in Colorado, USA, which started in 1962 and has followed over 5000 individuals from birth to death
-This study presents extensive data at the individual level including morphological, behavioural and physiological as well as survival, reproduction and genetic relatedness information
+This study presents extensive data at the individual level including morphological, behavioral and physiological as well as survival, reproduction and genetic relatedness information.
 
 OBJECTIVES: My PhD will explore three important research questions:
 
-- Are individual heavier now because they are born heavier or they are growing faster, or both? I will assess that by estimating individual specific intercept and slopes for body mass throughout their entire lifetime and how the growth curve changed over the study period. This will be assessed using a within-indivdiaul centering approach (vandepol citation) combined with a quantitative genetic model (kruuk citation)
-- What are the drivers of the changes in body mass? environmental changes? selection pressure? I will test the impact of various weather variables (measured at the study site since 1978) on the body mass and their relation to survival and reproduction in order to target precise factors.
-- What are the implications of this change in body mass on the rest of the phenotype? How behaviour, physiology and or other morphology traits are impacted byt the changes in body mass? I will use a multivariate animal model to decompose the phenotypic correlations among traits into their environmental and genetic effects [@kruukEstimatingGeneticParameters2004].
+- Are individual heavier now because they are born heavier, or they are growing faster, or both? I will assess that by estimating individual specific intercept and slopes for body mass throughout their entire lifetime and how the growth curve changed over the study period. This will be assessed using a within-individual centering approach [@van_de_pol_simple_2009] combined with a quantitative genetic model [@kruukEstimatingGeneticParameters2004].
+- What are the drivers of the changes in body mass? Environmental changes? Selection pressure? I will test the impact of various weather variables (measured at the study site since 1978) on the body mass and their relation to survival and reproduction in order to target precise factors.
+- What are the implications of this change in body mass on the rest of the phenotype? How behavior, physiology and or other morphology traits are impacted by the changes in body mass? I will use a multivariate animal model to decompose the phenotypic correlations among traits into their environmental and genetic effects [@kruukEstimatingGeneticParameters2004].
 
-SIGNIFICANCE: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship.
-It will provide crucial insights into how wild populations adapt to changing environments.
-The project aims to illustrate the multimodal nature of both causes and consequences of this body mass increase, as we anticipate that no single hypothesis will fully explain the observed changes.
-Instead, we expect that each hypothesis will account for part of the process, either complementing or conflicting with one another.
-These findings will contribute valuable knowledge to both evolutionary biology and conservation biology, helping shape more effective conservation policies in the context of global climate change.
+SIGNIFICANCE: This research uses one of the most extensive natural population databases in the world to better understand how can natural populations cope with climate change. The quality and quality of data provided by this study system will allow conducting powerful and complete analysis that can’t be done on most natural population (such as powerful multivariate animal models). This will provide crucial insight to guide conservation policies in a context of rapidly changing environments.
 
 
+\
+\
 
+#### References
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+::: {refs}
+:::
 
 
 
@@ -113,10 +95,3 @@ I reanalyzed this body mass shift, using quantitative genetic analysis, especial
     -   **Methodology 5**: I will assess changes in individual behavior by analyzing boldness data collected through Flight Initiation Distance (FID) experiments over the study period and test for links with body mass.
 
 **Significance and Impact**: This research uses one of the most extensive natural population databases in the world to deepen our understanding of the genotype-phenotype-environment relationship. It will provide crucial insights into how wild populations adapt to changing environments. The project aims to illustrate the multimodal nature of both causes and consequences of this body mass increase, as we anticipate that no single hypothesis will fully explain the observed changes. Instead, we expect that each hypothesis will account for part of the process, either complementing or conflicting with one another. These findings will contribute valuable knowledge to the field of conservation biology, helping shape more effective conservation policies in the context of global climate change. -->
-
-{{< pagebreak >}}
-
-#### References
-
-::: {refs}
-:::

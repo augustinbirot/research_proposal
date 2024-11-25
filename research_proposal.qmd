@@ -41,11 +41,15 @@ editor:
 ## POLS
 
 
-## I*E
-
-
 ## Phenotypic plasticity vs microevolution
 
+
+## I * E, G * E (individual variation in their plasticity)
+
+
+Link with body mass, individual can vary in their growing speed
+
+I * A and G * A
 
 ## Species and study site
 
