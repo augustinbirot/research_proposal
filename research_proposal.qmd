@@ -84,7 +84,7 @@ Double random (Intercept, Slope)
 So we're doing something different --> examining the residuals of the model (if I * E, still a lot of residual variance ?)
 
 
-**Look at this one: [@wes]
+**Look at this one: [@westneatBiologyHiddenResidual2015a]
 
 # Chapter 3 - Triggers
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
