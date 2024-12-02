@@ -69,6 +69,7 @@ Body mass is a LHT as in many species it has direct impact on survival and repro
 
 
 [@daufresneGlobalWarmingBenefits2009], [@gardnerDecliningBodySize2011], [@guillemainWinteringFrenchMallard2010], [@sheridanShrinkingBodySize2011], [@yom-tovRecentIncreaseBody2008], [@ozgulCoupledDynamicsBody2010]
+[@gienappEvolutionaryDynamicsResponse2014]
 
 And some authors argue that a decreasing body size could be one the universal C.C. response (!!!)
 
@@ -92,6 +93,7 @@ Need to show that with multivariate animal model, but no one has enough power fo
 
 ## POLS
 
+[@dammhahnPacelifeSyndromesFramework2018]
 
 ## Phenotypic plasticity vs microevolution
 
