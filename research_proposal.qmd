@@ -4,7 +4,7 @@ subtitle: Implications of the Yellow-Bellied Marmot's (*Marmota flavivientris*) 
 author: Augustin Birot (300444988)
 date: last-modified
 affiliation: Department of Biology
-comps-proposal: false # or false
+comps-proposal: true # or false
 committee:
   - name: Julien Martin
     role: supervisor 
@@ -34,9 +34,9 @@ editor:
 
 ## Climate change (C.C.)
 
-* The importance of C.C. and its impact in the near future is no longer in doubt [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
+* The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
 
-* Broadly, C.C. is [...] (Polar melting, etc.
+* Broadly, C.C. is [...] (Polar melting, etc.)
 
 * Which even impact human society (e.g., winter in Ottawa isn't the same anymore: Rideau Canal ice skating future is in jeopardy, the number of days with under -20°C is expected to severly decrease in the near future, etc. (!!! + FACT CHECK everything!))
 
@@ -65,6 +65,9 @@ Ok, so, now, how does C.C. and these precise perturbations impacts concretely na
 
 C.C. is expected to impact life history traits [LHT, i.e., traits impacting directly survival and reproduction, so individual's fitness @Roff1992TheEO].
 
+### Link with hibernation
+Body mass for hibernating species is so a LHT as it's usually a determining factor for survival over hibernation and reproduction.
+
 Body mass is a LHT as in many species it has direct impact on survival and reproduction (explain + !!!)
 
 
@@ -82,7 +85,8 @@ Furthermore, these opposite results (i.e., increasing body mass at higher latitu
 
 ## Q.G. and animal models
 
-[@kruukEstimatingGeneticParameters2004]
+Body mass and LHT shifts expected with climate change, **evolution** expected. To test that --> **Animal Models**! [@kruukEstimatingGeneticParameters2004]
+
 [@10.1093/acprof:oso/9780199674237.001.0001] <!-- Q.G. in the wild -->
 
 
@@ -104,19 +108,32 @@ Need to show that with multivariate animal model, but no one has enough power fo
 
 Link with body mass, individual can vary in their growing speed
 
-I * A and G * A
+<!-- I * A and G * A -->
 
 ## Species and study site
 
-### Phenological mismatch??
+A wild Yellow-Bellied Marmot (*Marmota flaviventris*, "YBM") population in the Upper East River Valley, Colorado, USA, is the subject of one of the longest-term study in the world (1962 - today).
+YBM is a ground-dwelling sciurid (rodentia, sciurideae) inhabiting alpine habitats in western North America with a life cycle divided between an "active season" representing approximately a third of the year (from May to September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the time [@armitageMarmotBiologySociality2014].
+Individuals experience high seasonal flutuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to 1) survive through the next active season and 2) have sufficient energy left for hibernation [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014].
+Consequently, body mass is consider being a critical LHT for the marmots.
+YBM lives in colonies composed usually by one or more matriline with on adult males, multiple adult females and their offspring [@armitageMarmotBiologySociality2014]. Our population is composed of seven main colonies divided between an "up" and a "down valley" with a elevation difference arround 300m ("up" = 3,000m; "down" = 2,700m) implying some difference in weather [e.g., delayed snowmel and vegetation growth onset, temperature difference up to 2 °C, @blumsteinYellowbelliedMarmotsMarmota2004; @armitageMarmotBiologySociality2014] and so delayed emergence up to two weeks in the up-valley [@blumsteinSOCIALEFFECTSEMERGENCE2009; @monclusYellowbelliedMarmotsNot2014].
+This two differents condition offers an amazing opportunity to test the impact on environment on several factors while working in natural conditions.
 
-<!-- It provides the scientific basis for the study and a (brief) review of
-the current literature, the key question(s) for you research leading -up
-to the next section about your specific hypotheses or objectives.
+This hibernation (life) cycle is highly environemntally dependant, with the onset and end of the active season believed to be mediated mostly by weather variable such as temperature and snow cover of the region [@armitageMarmotBiologySociality2014]. Thus, body mass is expected to be a keystone phenotypic trait for the marmots. It is therefore crucial to understand how this trait and this species responds to global warming, both for conservaion purposes and to elucidate links between phenotype and environment.
 
-This template is developed for Quarto [@quarto]. You can add tables,
-figures and code using R [@base], Python, Julia or Observables. For more
-info, go to the Quarto website <https://quarto.org/> -->
+
+
+### Body mass increase in YBM
+
+An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
+However, using animal models to properly assess the genetic attributable part of this change, thus estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround 400 g (Birot & Martin, Manuscript in progress). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
+Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which doesn't makes sense!
+Hence, knowing all that, we now need to reconsider the evolutionary scenario behind this major phenotypic change.
+
+I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
+
+
+
 
 
 {{<pagebreak>}}
@@ -156,6 +173,17 @@ So we're doing something different --> examining the residuals of the model (if 
 
 **Look at this one: [@westneatBiologyHiddenResidual2015a]
 
+
+DHGLM, brms, Julien's code
+
+Vve (Variance dans la variance résiduel, estime la variance résiduel pour chaque individu et regarde la variance dans cette variance résiduelle, si I * E Vve > 0)
+
+Attention aux modèle débalancés si pas d'effet fixes
+corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
+
+Ned Dotchermann
+
+
 {{<pagebreak>}}
 
 # Chapter 3 - Triggers
@@ -171,7 +199,12 @@ Predators, Diet?
 *Marmot's Biology: What could be the implications of that for the population's future?*
 
 Manuscript models Body Mass/active season with survival
+=> Phenological mismatch?? (e.g., thermal stress)
 
+
+{{<pagebreak>}}
+
+# Significance and impacts
 
 <!--
 # Research objectives and hypotheses
