@@ -57,13 +57,11 @@ editor:
 Ok, so, now, how does C.C. and these precise perturbations impacts concretely natural population? *Study cases* (!!!)
 
 
-**universal C.C. responses (C.C.)**
+## Body size as a Life-History Traits (LHT)
 
+### Life history trait (LHT)
 
-
-## Body size as a Life-History Traits (LHT) and expected effect of global warming
-
-C.C. is expected to impact life history traits [LHT, i.e., traits impacting directly survival and reproduction, so individual's fitness @Roff1992TheEO].
+Traits impacting directly survival and reproduction, so individual's fitness [@Roff1992TheEO]
 
 ### Link with hibernation
 Body mass for hibernating species is so a LHT as it's usually a determining factor for survival over hibernation and reproduction.
@@ -71,16 +69,23 @@ Body mass for hibernating species is so a LHT as it's usually a determining fact
 Body mass is a LHT as in many species it has direct impact on survival and reproduction (explain + !!!)
 
 
-[@daufresneGlobalWarmingBenefits2009], [@gardnerDecliningBodySize2011], [@guillemainWinteringFrenchMallard2010], [@sheridanShrinkingBodySize2011], [@yom-tovRecentIncreaseBody2008], [@ozgulCoupledDynamicsBody2010]
-[@gienappEvolutionaryDynamicsResponse2014]
+C.C. is expected to impact life history traits => **universal C.C. responses (!!! *look for an article explaining the principles of the universal responses to global warming*)**
 
-And some authors argue that a decreasing body size could be one the universal C.C. response (!!!)
+### Expected effect of global warming on body mass
 
-Because Bergmann's rules, which state that smaller body size should be expected in warmer environment as it raises the surface to volume ratio, thus favoring heat dissipation [@bergmanncRelationshipsHeatConservation1847].
-
-Thus, a general shriking body size is expected with global warming.
+As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used as a rethoric by climate sceptics during cold winters and violent blizzards[^1]<!-- Okay it is poorly said but find a way to keep that in the final proposal -->).
+This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size could be one the universal C.C. response [@daufresneGlobalWarmingBenefits2009]. This hypotheses follows Bergmann's rules, which state that smaller body size should be expected in warmer environment as it raises the surface to volume ratio, thus favoring heat dissipation [@bergmanncRelationshipsHeatConservation1847].
 However opposite results at higher latitude yield objections of this theory and raise the need of more general study about that.
 Furthermore, these opposite results (i.e., increasing body mass at higher latitudes) can also been explain as C.C. is synonym to milder conditions in those latitudes. This change Allows individuals to forage more and thus gain mass.
+
+
+[^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" Donald J. Trump, Jan 20, 2019.
+
+
+
+, [@guillemainWinteringFrenchMallard2010], [@sheridanShrinkingBodySize2011], [@yom-tovRecentIncreaseBody2008], [@ozgulCoupledDynamicsBody2010]
+
+
 
 
 ## Q.G. and animal models
@@ -101,14 +106,44 @@ Need to show that with multivariate animal model, but no one has enough power fo
 
 ## Phenotypic plasticity vs microevolution
 
+<!-- MSc introduction + OGS proposal about difference plasticity * evolution and the importance of that -->
 
-## I * E, G * E (individual variation in their plasticity)
+Phenotype are expected to be the best fit for specific environment as a result of a long evolution by natural selection [i.e., individuals best adapted to their enviromnent will have better survival and reproductive success, @darwinOriginSpeciesMeans1859].
+However, when this environment changes, as expected in today's context of climate change, individuals have two solution to avoid disapearance: **disperse** to a more favorable environment, or **adapt** to their new conditions via phenotypic change [@gienappEvolutionaryDynamicsResponse2014].
+For adaptation, two further possibilities exist: **phenotypic plasticity**, defined as a change in phenotype expressed by a given genotype (!!! *probably Nussey, I think there's a book from the late 90' or early 00'*), which allows for a rapide response within an individual lifetime, is highly flexible and does not involve any changes at the genetic level; and **microevolution**, defined as a change in alleles frequencies in a population over time (!!! *needed?*). {When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and more reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants, !!! *needed? something like Lynch & Walsh, for a definition of heritability sensu stricto*) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one} <!-- A bit long... -->. Thus, this mecanisme can be slow but is a long-term solution when the ecological change is persistent. However if the change is transient, plasticity is a useful mechanism.
+As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer, presenting costs and limits [@dewittCostsLimitsPhenotypic1998], to a transient change. The expected optimal answer to a long-term environmental change, as caused by climate change, is evolution through natural selection.
 
-[@nusseyEvolutionaryEcologyIndividual2007]
+Phenotypic pasticity and microevolution are thus not expected to be mutually exclusive. This is particularly evident in highly plastic traits such as body mass which can vary significantly up and down throughout an individual's life in response to among- and within-year changes in environmental conditions but can also change via microevolution at the population level over the same time period <!-- not the right moment? But make a good transition -->.
 
-Link with body mass, individual can vary in their growing speed
+Nevertheless, as the consequences of theses mechanism can be highly different on the long term (evolution being more permanent than plasticity), quantifying the extent to which each of these mechanisms contributes to the observed change over a long study period remains a chalenging but fundamental task to understand the adaption and evolution of species. <!-- copy paste from body mass evolution manuscript, need a lot of re-writing (like the rest of this section) but need to keep the idea --> This is even more true today, as populations faces the numerous challenge brought by global climate change.
 
-<!-- I * A and G * A -->
+
+
+So Evolution and plasticity are not mutually exclusive, and even more, evolution can even have effect on plasticity itself.
+*Transition with $I * E$ with the reaction norm framework [@nusseyEvolutionaryEcologyIndividual2007].*
+
+## $\textbf{I * E}$, $\textbf{G * E}$ (individual variation in their plasticity)
+
+*Explaine what $I * E$ and $G * E$ is (both in biological and statistical way) [@nusseyEvolutionaryEcologyIndividual2007].*
+
+
+Link plasticity ~ $I * E$
+Importance of the environmental proxies to detect slope variation in reaction norm (so $I * E$ and $G * E$) => Environment Specific Mean phenotype (ESM); Difficulty to find the good environmental proxy [@ramakersProbingVariationReaction2023]
+
+Link with body mass, individual can vary in their growing speed <=> Reaction norm/Plasticity change over time => Evolution directly on the plasticity <=> individual answer to the condition change would be increase their response (i.e., body mass increase within the active season). It would make sense with bet-hedging framework for example
+
+### Bet-hedging
+
+(!!! *Ref about bet-hedging*)
+
+Bet on the best fitness for the long term (even if it can mean lower a bit your immediate fitness) to cope with an unpredictable environment.
+With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*).
+Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., !!! *def + ref about what phenological mismatch is*), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
+
+### $\textbf{I * A}$ and $\textbf{G * A}$
+A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
+
+
 
 ## Species and study site
 
