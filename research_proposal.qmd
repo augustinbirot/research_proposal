@@ -77,9 +77,6 @@ As reminded earlier, one of the most significant consequences of climate change 
 This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size could be one the universal C.C. response [@daufresneGlobalWarmingBenefits2009]. This hypotheses follows Bergmann's rules, which state that smaller body size should be expected in warmer environment as it raises the surface to volume ratio, thus favoring heat dissipation [@bergmanncRelationshipsHeatConservation1847].
 However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal. And indeed, several studies at higher latitude yield opposite results [i.e., increasing body mass, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym to milter conditions. As a consequence, individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding, allowing individuals to become larger.
 
-, which can also been expected as C.C. is synonym to milder conditions in those latitudes. This change Allows individuals to forage more and thus gain mass.
-
-
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" Donald J. Trump, Jan 20, 2019.
 
 
@@ -115,7 +112,7 @@ Need to show that with multivariate animal model, but no one has enough power fo
 Phenotype are expected to be the best fit for specific environment as a result of a long evolution by natural selection [i.e., individuals best adapted to their enviromnent will have better survival and reproductive success, @darwinOriginSpeciesMeans1859].
 However, when this environment changes, as expected in today's context of climate change, individuals have two solution to avoid disapearance: **disperse** to a more favorable environment, or **adapt** to their new conditions via phenotypic change [@gienappEvolutionaryDynamicsResponse2014].
 For adaptation, two further possibilities exist: **phenotypic plasticity**, defined as a change in phenotype expressed by a given genotype (!!! *probably Nussey, I think there's a book from the late 90' or early 00'*), which allows for a rapide response within an individual lifetime, is highly flexible and does not involve any changes at the genetic level; and **microevolution**, defined as a change in alleles frequencies in a population over time (!!! *needed?*). {When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and more reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants, !!! *needed? something like Lynch & Walsh, for a definition of heritability sensu stricto*) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one} <!-- A bit long... -->. Thus, this mecanisme can be slow but is a long-term solution when the ecological change is persistent. However if the change is transient, plasticity is a useful mechanism.
-As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer, presenting costs and limits [@dewittCostsLimitsPhenotypic1998], to a transient change. The expected optimal answer to a long-term environmental change, as caused by climate change, is evolution through natural selection.
+As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer, presenting costs and limits [@dewittCostsLimitsPhenotypic1998], to a transient change. Furthermore, if the optimal response to the new environment is a canalized phenotype (i.e., very low phenotypic variance), plasticity can even be maladaptive [@nusseyEvolutionaryEcologyIndividual2007]. The expected optimal answer to a long-term environmental change, as caused by climate change, is evolution through natural selection.
 
 Phenotypic pasticity and microevolution are thus not expected to be mutually exclusive. This is particularly evident in highly plastic traits such as body mass which can vary significantly up and down throughout an individual's life in response to among- and within-year changes in environmental conditions but can also change via microevolution at the population level over the same time period <!-- not the right moment? But make a good transition -->.
 
@@ -126,15 +123,26 @@ Nevertheless, as the consequences of theses mechanism can be highly different on
 So Evolution and plasticity are not mutually exclusive, and even more, evolution can even have effect on plasticity itself.
 *Transition with $I * E$ with the reaction norm framework [@nusseyEvolutionaryEcologyIndividual2007].*
 
+
 ## $\textbf{I * E}$, $\textbf{G * E}$ (individual variation in their plasticity)
 
-*Explaine what $I * E$ and $G * E$ is (both in biological and statistical way) [@nusseyEvolutionaryEcologyIndividual2007].*
+Plasticity is usually studied using ***Reaction Norms***, so by studying the value of a phenotypic trait (e.g., body masse, size) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment, so by a slope different from 0 for the reaction norm [@nusseyEvolutionaryEcologyIndividual2007].
+A reaction norm has two parameters: **Elevation** (or "Intercept" in statistical terms), which is the expected phenotypic value in the average environment; and the **Slope** (so "Slope" in statistical terms) corresponding to the linear regression of the phenotype over the environmental gradient, so to estimate the phenotypic response to the environment (i.e., phenotypi plasticity) <!-- Part extremely redundant for the sake of clarity -->.
+So that's how phenotypic plasticity is usually studied. But, as emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss if we just study that at the population level (i.e., by just doing a fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual as comonly there's multiple observation per individual, thus not taking that into acount is violation of the independance application condition (cf every basic stat book <!-- do I need to add a citation here? -->).
+So doing that allow us to estimate individual variance in the phenotype in the average environment and take into account the fact that all individual in the population doesn't have the same base phenotype. However, that kind of model doesn't allow to estimate individual-level difference in their plastic response to the environment, which can be really important biologically and so must be accounted for. @nusseyEvolutionaryEcologyIndividual2007 proposed a framework to estimate that, which is now fairly accepted and used: ***Random Regression***. Let's go back to the Linear Mixed Models (LMMs), the "classic" way is to add a random individual term on the intercept to estimate the "individual variance" by allowing the model to fit one intercept per individual, however in this compilation, the slope is the same for each individuals; now, if we add a random term also on the slope, not only the model estimate one intercept per individual, but also one slope (so basically, one reaction norm per individual), estimating thus the individual variance in the phenotype expected in the average environment (*elevation*) but also the individual variation in phenotypic variation (*slope*) which is commonly called $\textbf{I * E}$.
+
+Once we've estimated this between individual variance in plasticity, we can you quantitative genetic methods (i.e., from Animal models, as explained before, but using Random Regression Animal Model: "RRAM", @nusseyEvolutionaryEcologyIndividual2007) to decompose this variance into it's genetic and permanent environment part to estimate the genetic variation in plasticity, which is called $\textbf{G * E}$. From that we can estimate the heritable variation in reaction norm's slope and have an idea of the evolutionary potential of phenotypic plasticity in itself.
 
 
-Link plasticity ~ $I * E$
-Importance of the environmental proxies to detect slope variation in reaction norm (so $I * E$ and $G * E$) => Environment Specific Mean phenotype (ESM); Difficulty to find the good environmental proxy [@ramakersProbingVariationReaction2023]
+So we have a really good method to do all that, however, as underlyned by @ramakersProbingVariationReaction2023, if the environmental proxy used for the reaction norm isn't good enough, a lot of this I * E is missed (what they called a "hidden I * E"). Furthermore, it's often impossible to identify the real driver of plasticity in natural conditions (Which is expected as natural environments are exceptionally complex systems, and individuals generally doesn't have only one environmental variable to deal with...), the real driver can be unknown, unmeasurable are a combination of a lot of different variables [@ramakersProbingVariationReaction2023]. In response to that, the authors proposed a new method, using the Environment Specific Mean phenotype (ESM). Although they've shown this method is indeed efficient, they emphasized that we still need a really good knowledge of the studied system, and really specific conditions to be more efficient that the "regular" method. Hence, although it's a progress, more work is needed to deal with this I * E detection in natural environment problem.
+
+The good news is that we have a really promising, fairly new statistical method that could be applied to that: the "Double Hierarchical Generalized Linear Model" (DHGLM, !!! *find citation + maybe explain a little the method*) [...] from this method we can estimate the *variance in the residual variance* (i.e., "$\boldsymbol{V_{V_e}}$" by estimating the residual variance attributable to each individual). Knowing what these models does (*When I'll write it*), we're confident that it can be applied to developp a more powerfull method to detect individual variation in plasticity (I * E) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 should indicate that there is some I * E in the system and would justify investigation by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that there's no individual variation in plasticity in the studied system. From this method we should be a way to free ourselves from the problems of bad proxies. And obviously, as for the random regreession with the RRAM, we can adapt this method we quantitative genetics to also detect $G * E$ if $I * E$ is detected.
+
+This new method is thus very promising, however, as most new statistical methods, it often poorly understood/used. Hence, a general framework (supervised by someone with good statistical knowledge, i.e., Julien) including the application on how DHGLM could (should) be used to detect I * E would be really helpful for the comunity (especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition with climate change).
+
 
 Link with body mass, individual can vary in their growing speed <=> Reaction norm/Plasticity change over time => Evolution directly on the plasticity <=> individual answer to the condition change would be increase their response (i.e., body mass increase within the active season). It would make sense with bet-hedging framework for example
+
 
 ### Bet-hedging
 
@@ -167,9 +175,15 @@ This hibernation (life) cycle is highly environemntally dependant, with the onse
 An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
 However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround 400 g, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
 Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which doesn't makes sense!
-Hence, knowing all that, we now need to reconsider the evolutionary scenario behind this major phenotypic change.
+
+{{<pagebreak>}}
+
+## Research objectives
+
+Considering that this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
+
 
 
 {{<pagebreak>}}
@@ -177,6 +191,9 @@ I will explore which environmental factors could have triggered this shift, but 
 
 # Chapter 1 - Mechanisms
 *Marmot's Biology: What mechanisms are behind the body mass increase?*
+
+As emphasized in the introduction, we know that the body mass has increased in the last half-century, however we still know very few about it. And for starter, we don't know yet what has changed in the marmots in the last decades: do they have a bigger constitution (i.e., are they born bigger, their Intercept in statistical term), or does their growing capacity has increased through time (in statistical term again, this would correspond to their slope)?
+
 
 Growth? Baseline? Both?
 
@@ -217,7 +234,14 @@ Vve (Variance dans la variance résiduel, estime la variance résiduel pour chaq
 Attention aux modèle débalancés si pas d'effet fixes
 corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
 
-Ned Dotchermann
+Ned Dochtermann
+
+
+<!-- Okay, so now you know what is the problem about estimating/detecting I * E, you know what is a DHGLM (cause I've explained everything in the intro) now here's what I'm gonna do
+
+Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them)
+
+Simulation to test the different bias (Sampling bias, etc.) -->
 
 
 {{<pagebreak>}}
