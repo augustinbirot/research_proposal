@@ -24,7 +24,7 @@ male_col <- "red"
 female_col <- "black"
 
 
-df <- read.csv("/Users/augustinbirot/Desktop/Work/PhD/research/research_projects/ybm_mass_evolution/data/tb_annualid.csv") #nolint
+df <- read.csv("data/tb_annualid.csv") #nolint
 df <- subset(df, df$age_class == "J")
 df <- subset(df, !is.na(df$massaug))
 head(df)
