@@ -34,7 +34,7 @@ editor:
 
 ## Climate change (C.C.)
 
-* The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
+The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
 
 * Broadly, C.C. is [...] (Polar melting, etc.)
 
@@ -57,19 +57,31 @@ editor:
 Ok, so, now, how does C.C. and these precise perturbations impacts concretely natural population? *Study cases* (!!!)
 
 
-## Body size as a Life-History Traits (LHT)
+## Body mass as a Life-History Traits (LHT)
 
-### Life history trait (LHT)
+Life history traits (LHT) are defined as phenotypic traits (i.e., individuals' characteristics) impacting directly the survival and reproduction (so the fitness) of an individual [@Roff1992TheEO].
 
-Traits impacting directly survival and reproduction, so individual's fitness [@Roff1992TheEO]
+[...]
+
+For many species, body mass will indeed impact directly these two parameters
+
+Energetic reserves => Impact individuals capacity; Honnest signal of good performance and ressources for sexual competition.
+
+Not only an individual with a high body mass will have more energetic ressources, allowing it to be more resilient to environmental pressure (as this reserves can buffer a low ressource phase for example), but it can also indicate a better ability from the individual to gather ressources, showing better adaptation and survival skills in a given environment.
+The first consequence of that being an increase of the individual survival with its body mass.
+But also an indvidual with more energy will have better capacity to reproduce, and should be more appealing to potential mates in the case of sexual competition, therefore also increasing its reproduction success. Therefore, in many species, body mass can be indeed consider as a LHT. <!-- Okay, its very badly written but at least you have the beginning of something, add some citations and flesh out your reasoning -->
 
 ### Link with hibernation
-Body mass for hibernating species is so a LHT as it's usually a determining factor for survival over hibernation and reproduction.
 
-Body mass is a LHT as in many species it has direct impact on survival and reproduction (explain + !!!)
+The importance of body mass as a LHT is particularly true for a specific group of species: **Hibernating species**.
+Indeed, to survive unfavorable season (usually winter in our latitudes) some species disperse to milder environment and other cope with it and find ways to survive through. One adaptation to that is hibernation <!-- FIND GENERAL LITERATURE ABOUT HIBERNATION!!! -->, which correspond to a state of torpor, individual keeping their metabolism at a survival minimum, surviving on their energetic ressources through the winter, emerging at the start of the favourable season. A prerequired adaptation for that kind of behaviour is therefore a large body mass, in order to have enough energetic reserve to stay without ressources for a full season. Even more, hibernating species are usually active only for a small part of the year, during which they must gather enough ressources, gain enough mass, to survive through next hibernation. So not only a prerequired adaptation is a big body mass, but also the capacity to gain quickly and efficiently body mass in a short amount of time, which represent a lot of challenges and therefore adaptation for the metabolism.
 
+Furthermore, for some species, reproduction occurs right after the hibernation period, which means that before entering into hibernation, individuals much reach a high enough body mass not only to survive, but also to have enough energy left to reproduce right at the start of the active season. Hence, in that disposition, body mass is a keystone LHT for hibernating species biodemography.
 
-C.C. is expected to impact life history traits => **universal C.C. responses (!!! *look for an article explaining the principles of the universal responses to global warming*)**
+<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the YBM yet) here, knowing that I wont talk about it till the end of the intro?) -->
+
+In addition to that, we know that climate change is expected to have significant impact on LHT. An impact on body size has even been proposed to be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; !!! *look for an article explaining the principles of the universal responses to global warming*]
+
 
 ### Expected effect of global warming on body mass
 
@@ -78,6 +90,8 @@ This average temperature increase is suspected to influence phenotypic traits su
 However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal. And indeed, several studies at higher latitude yield opposite results [i.e., increasing body mass, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym to milter conditions. As a consequence, individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding, allowing individuals to become larger.
 
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" Donald J. Trump, Jan 20, 2019.
+
+<!-- IPCC 2022: "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals (low confidence) (Spiepielski et al. 2019)." -->
 
 
 ## Q.G. and animal models
@@ -91,10 +105,11 @@ This method has the advantage of being relatively simple to employ, allowing gen
 As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations as the most common problem in that kind of study is the lack of power, which could be adress with long-term studies. Such studies would improve our understanding of the relationship between animals and their environment and of the genotype-phenotype-environment relationship, especially in the context of global change.
 
 
-[@10.1093/acprof:oso/9780199674237.001.0001] <!-- Q.G. in the wild -->
+<!-- [@10.1093/acprof:oso/9780199674237.001.0001] => Q.G. in the wild -->
 
 
 ## LHT coevolution
+
 Traits can't evolve alone Gould & Lewontin (1979)
 
 Need to show that with multivariate animal model, but no one has enough power for the models [@teplitskyEvolutionaryPotentialConstraints2014]
@@ -107,8 +122,6 @@ Need to show that with multivariate animal model, but no one has enough power fo
 
 ## Phenotypic plasticity vs microevolution
 
-<!-- MSc introduction + OGS proposal about difference plasticity * evolution and the importance of that -->
-
 Phenotype are expected to be the best fit for specific environment as a result of a long evolution by natural selection [i.e., individuals best adapted to their enviromnent will have better survival and reproductive success, @darwinOriginSpeciesMeans1859].
 However, when this environment changes, as expected in today's context of climate change, individuals have two solution to avoid disapearance: **disperse** to a more favorable environment, or **adapt** to their new conditions via phenotypic change [@gienappEvolutionaryDynamicsResponse2014].
 For adaptation, two further possibilities exist: **phenotypic plasticity**, defined as a change in phenotype expressed by a given genotype (!!! *probably Nussey, I think there's a book from the late 90' or early 00'*), which allows for a rapide response within an individual lifetime, is highly flexible and does not involve any changes at the genetic level; and **microevolution**, defined as a change in alleles frequencies in a population over time (!!! *needed?*). {When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and more reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants, !!! *needed? something like Lynch & Walsh, for a definition of heritability sensu stricto*) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one} <!-- A bit long... -->. Thus, this mecanisme can be slow but is a long-term solution when the ecological change is persistent. However if the change is transient, plasticity is a useful mechanism.
@@ -118,15 +131,13 @@ Phenotypic pasticity and microevolution are thus not expected to be mutually exc
 
 Nevertheless, as the consequences of theses mechanism can be highly different on the long term (evolution being more permanent than plasticity), quantifying the extent to which each of these mechanisms contributes to the observed change over a long study period remains a chalenging but fundamental task to understand the adaption and evolution of species. <!-- copy paste from body mass evolution manuscript, need a lot of re-writing (like the rest of this section) but need to keep the idea --> This is even more true today, as populations faces the numerous challenge brought by global climate change.
 
-
-
 So Evolution and plasticity are not mutually exclusive, and even more, evolution can even have effect on plasticity itself.
 *Transition with $I * E$ with the reaction norm framework [@nusseyEvolutionaryEcologyIndividual2007].*
 
 
 ## $\textbf{I * E}$, $\textbf{G * E}$ (individual variation in their plasticity)
 
-Plasticity is usually studied using ***Reaction Norms***, so by studying the value of a phenotypic trait (e.g., body masse, size) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment, so by a slope different from 0 for the reaction norm [@nusseyEvolutionaryEcologyIndividual2007].
+Plasticity is usually studied using ***Reaction Norm framework*** (!!! *look at DeWitt & Scheiner, 2004; Schlichting & Pigliucci, 1998; West-Eberhard, 2003 from Thibaut's proposal intro*), so by studying the value of a phenotypic trait (e.g., body masse, size) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment, so by a slope different from 0 for the reaction norm [@nusseyEvolutionaryEcologyIndividual2007].
 A reaction norm has two parameters: **Elevation** (or "Intercept" in statistical terms), which is the expected phenotypic value in the average environment; and the **Slope** (so "Slope" in statistical terms) corresponding to the linear regression of the phenotype over the environmental gradient, so to estimate the phenotypic response to the environment (i.e., phenotypi plasticity) <!-- Part extremely redundant for the sake of clarity -->.
 So that's how phenotypic plasticity is usually studied. But, as emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss if we just study that at the population level (i.e., by just doing a fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual as comonly there's multiple observation per individual, thus not taking that into acount is violation of the independance application condition (cf every basic stat book <!-- do I need to add a citation here? -->).
 So doing that allow us to estimate individual variance in the phenotype in the average environment and take into account the fact that all individual in the population doesn't have the same base phenotype. However, that kind of model doesn't allow to estimate individual-level difference in their plastic response to the environment, which can be really important biologically and so must be accounted for. @nusseyEvolutionaryEcologyIndividual2007 proposed a framework to estimate that, which is now fairly accepted and used: ***Random Regression***. Let's go back to the Linear Mixed Models (LMMs), the "classic" way is to add a random individual term on the intercept to estimate the "individual variance" by allowing the model to fit one intercept per individual, however in this compilation, the slope is the same for each individuals; now, if we add a random term also on the slope, not only the model estimate one intercept per individual, but also one slope (so basically, one reaction norm per individual), estimating thus the individual variance in the phenotype expected in the average environment (*elevation*) but also the individual variation in phenotypic variation (*slope*) which is commonly called $\textbf{I * E}$.
@@ -152,9 +163,6 @@ Bet on the best fitness for the long term (even if it can mean lower a bit your 
 With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*).
 Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., !!! *def + ref about what phenological mismatch is*), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
-### $\textbf{I * A}$ and $\textbf{G * A}$
-A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
-
 
 
 ## Species and study site
@@ -178,12 +186,66 @@ Furthermore, although the lengthening active season is indeed a good potential e
 
 {{<pagebreak>}}
 
-## Research objectives
+## Research objectives & Methodology
 
 Considering that this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
 
+
+
+<!--
+# Research objectives and hypotheses
+
+Specific hypotheses (in the case of hypothesis-testing science) or
+objectives (in the case of descriptive science), and the underlying
+logic, for each proposed thesis chapter (minimum three for PhD students)
+
+# Proposed methodologies
+
+Include outlines of data collection and data analysis
+
+Outline any special skills, equipment, or techniques that will be
+required.
+
+In case you want to add a wide table that needs to be on a landscape
+page you can do like in @tbl-sideway. Have a look at the `qmd` for the
+code.
+
+You need to put the table in a pandoc div (delimited by :::) indicating
+the side way rotation
+
+It also works for figures just use `sidewaysfigure` instead of
+`sidewaystable`
+
+::: {.sidewaystable data-latex=""}
+```{r}
+#| label: tbl-sideway
+#| echo: false
+#| tbl-cap: This is a wide table
+library(gt)
+exibble |>
+  gt(
+    rowname_col = "row",
+    groupname_col = "group",
+    locale = "fr"
+  ) |>
+  fmt_number() |>
+  fmt_date(
+    columns = date,
+    date_style = "yMEd"
+  ) |>
+  fmt_datetime(
+    columns = datetime,
+    format = "EEEE, MMMM d, y",
+    locale = "en"
+  ) |>
+  tab_options(table.width = pct(100))
+
+```
+:::
+
+-->
 
 
 {{<pagebreak>}}
@@ -194,6 +256,8 @@ I will explore which environmental factors could have triggered this shift, but 
 
 As emphasized in the introduction, we know that the body mass has increased in the last half-century, however we still know very few about it. And for starter, we don't know yet what has changed in the marmots in the last decades: do they have a bigger constitution (i.e., are they born bigger, their Intercept in statistical term), or does their growing capacity has increased through time (in statistical term again, this would correspond to their slope)?
 
+### $\textbf{I * A}$ and $\textbf{G * A}$
+A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
 
 Growth? Baseline? Both?
 
@@ -209,7 +273,7 @@ Double random (Intercept, Slope)
 #| label: fig-juvenile-trend
 #| fig-cap: Body mass trend over time cohort for females (black) and males (red) juveniles compared between a) the beginning of the active season (birth weight) and b) the end of the season (mass on August 15th).
 
-source("/Users/augustinbirot/Desktop/juvenile_mass.r")
+source("figures/juvenile_mass.r")
 
 cowplot::plot_grid(plot2_jun, plot2_aug, ncol = 2)
 ```
@@ -266,58 +330,9 @@ Manuscript models Body Mass/active season with survival
 
 # Significance and impacts
 
+
+
 <!--
-# Research objectives and hypotheses
-
-Specific hypotheses (in the case of hypothesis-testing science) or
-objectives (in the case of descriptive science), and the underlying
-logic, for each proposed thesis chapter (minimum three for PhD students)
-
-# Proposed methodologies
-
-Include outlines of data collection and data analysis
-
-Outline any special skills, equipment, or techniques that will be
-required.
-
-In case you want to add a wide table that needs to be on a landscape
-page you can do like in @tbl-sideway. Have a look at the `qmd` for the
-code.
-
-You need to put the table in a pandoc div (delimited by :::) indicating
-the side way rotation
-
-It also works for figures just use `sidewaysfigure` instead of
-`sidewaystable`
-
-::: {.sidewaystable data-latex=""}
-```{r}
-#| label: tbl-sideway
-#| echo: false
-#| tbl-cap: This is a wide table
-library(gt)
-exibble |>
-  gt(
-    rowname_col = "row",
-    groupname_col = "group",
-    locale = "fr"
-  ) |>
-  fmt_number() |>
-  fmt_date(
-    columns = date,
-    date_style = "yMEd"
-  ) |>
-  fmt_datetime(
-    columns = datetime,
-    format = "EEEE, MMMM d, y",
-    locale = "en"
-  ) |>
-  tab_options(table.width = pct(100))
-
-```
-:::
-
-
 # Expected Products
 
 A list of the (usually 1/3) articles expected for completion of the
