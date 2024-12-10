@@ -1,0 +1,71 @@
+\begin{titlepage}
+  \null\vfill
+  \begin{center}
+    \vskip 1em
+    {%
+      \usekomafont{title}{\huge
+        \myTitle
+      \par}%
+    }%
+    \vskip 1em
+    {%
+      \usekomafont{subtitle}{%
+        \mySubtitle% <- subtitle
+      \par}%
+    }%
+      \vskip 3em
+      \centerline{\includegraphics[width=12cm]{_extensions/juliengamartin/bio-uo-proposal/uOttawa-crop.png}}
+      \vskip 3em
+    {
+      \usekomafont{author}{
+      $if(comps-proposal)$
+        Comprehensive exam proposal \par
+        $else$
+        Research proposal
+        $endif$
+        by \par
+      }
+    }
+    {%
+      \usekomafont{author}{%
+          \myAuthor \par% <- author
+      }%
+    }%
+    {\usekomafont{date}{\myDate \par}}%
+      \vskip 2em
+    {
+      \usekomafont{author}{%
+      $if(comps-proposal)$
+        Committe members: \par
+        $else$
+        Thesis Advisory Committee members: \par
+      $endif$
+      \lineskip 0.75em
+      \committee \par
+      }
+    }%
+    \vspace*{\fill}
+    {
+
+      A proposal submitted as a partial requirement for a \myDegree \ degree \\
+      at the University of Ottawa, \myAff \par
+
+    }%
+  \end{center}
+  \clearpage
+  % \thispagestyle{empty}
+  % \noindent\begin{minipage}[t]{\textwidth}
+  %   Upper Text% <- upper text
+  % \end{minipage}\par
+  % \vfill
+  % \noindent\begin{minipage}[b]{\textwidth}
+  %   Lower Text% <- lower text
+  % \end{minipage}\par
+\end{titlepage}
+
+\pagebreak
+$if(toc)$
+\tableofcontents
+\vfill
+\pagebreak
+$endif$

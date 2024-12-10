@@ -20,7 +20,7 @@ csl: american-statistical-association.csl
 
 format:
   #html:
-  pdf:
+   bio-uo-proposal-pdf:
     toc: true
 editor: 
   markdown: 
