@@ -159,17 +159,17 @@ Link with body mass, individual can vary in their growing speed <=> Reaction nor
 
 ### Bet-hedging
 
-(!!! *Ref about bet-hedging*)
+[@starrfeltBethedgingaTripleTradeoff2012]
 
 Bet on the best fitness for the long term (even if it can mean lower a bit your immediate fitness) to cope with an unpredictable environment.
 With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*).
-Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., !!! *def + ref about what phenological mismatch is*), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
+Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
 
 
 ## Species and study site
 
-A wild Yellow-Bellied Marmot (*Marmota flaviventris*, "YBM") population in the Upper East River Valley, Colorado, USA, is the subject of one of the longest-term study in the world (1962 - today).
+Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*, "YBM") is followed yearly, first supervised by Kenneth Armitage, and today by Julien Martin and Daniel Blumstein, at the Rocky Moutain Biological Laboratory (RMBL) in Gothic, Colorado, USA, this is the second longest-term study of a natural mammal population in the world.
 YBM is a ground-dwelling sciurid (rodentia, sciurideae) inhabiting alpine habitats in western North America with a life cycle divided between an "active season" representing approximately a third of the year (from May to September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the time [@armitageMarmotBiologySociality2014].
 Individuals experience high seasonal flutuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to 1) survive through the next active season and 2) have sufficient energy left for hibernation [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014].
 Consequently, body mass is consider being a critical LHT for the marmots.
@@ -194,6 +194,24 @@ Considering that this major phenotypic shift for the YBM in the last half-centur
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
 
+
+### Data from the long-term study
+
+Εach year during the active season (May - September), most individuals in the population are regularly trapped. At each capture, individuals are measured, weight, DNA samples are taken. Meanwhile, behavioral observations and experiments are conducted all along the season.
+
+Data are stored in the R package "ybamaRmot" [@ybamaRmot]
+
+Analysis will be perofrmed on R [@base]; Animal models will be performed using R package "MCMCglmm" [@mcmcglmm]; DHGLM and other bayesian analysis (non using MCMCglmm) will be done with "brms" [@brms].
+Figures will be made with "ggplot2" [@ggplot]
+
+
+Morphological data
+
+Population pedigree for most of the individuals (4,652 individuals to this date)
+
+Morphological data
+
+Body mass measured
 
 
 <!--
@@ -318,6 +336,8 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 
 Predators, Diet?
+
+We have precise weather data from Billy Barr
 
 {{<pagebreak>}}
 
