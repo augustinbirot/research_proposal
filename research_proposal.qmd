@@ -34,11 +34,13 @@ editor:
 
 ## Climate change (C.C.)
 
-The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
+Climate change impact a lot of (every?) aspects of our lives [...]
 
-* Broadly, C.C. is [...] (Polar melting, etc.)
+The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to even have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
 
-* Which even impact human society (e.g., winter in Ottawa isn't the same anymore: Rideau Canal ice skating future is in jeopardy, the number of days with under -20°C is expected to severly decrease in the near future, etc. (!!! + FACT CHECK everything!))
+* Broadly, C.C. is [...]: melting ice caps, rising sea levels, rising temperature, more frequent extreme weather events, increasing environmental variability and unpredictibility...
+
+* C.C. of course has an impact on human society and is well illustrated in Ottawa (e.g., the future of the Rideau Canal ice skating rink being more than questionable)<!-- , the number of days with under -20°C is expected to severly decrease in the near future, etc. (!!! + FACT CHECK everything!)) -->. If you look at the changes in Ottawa's climate over the last century, the numbers are pretty disturbing [@walshPrecipitationTemperatureTrends2022], and the projections for the future are not much more reassuring [@zhaiFutureProjectionsTemperature2019].
 
 * Main/Precise impacts of C.C. in natural environments
 
@@ -52,35 +54,26 @@ The importance of C.C. and its impact in the near future is no longer in doubt, 
 
   * **Extreme weather events**: Explain + study case (!!!)
 
-  * etc.
 
 Ok, so, now, how does C.C. and these precise perturbations impacts concretely natural population? *Study cases* (!!!)
 
 
 ## Body mass as a Life-History Traits (LHT)
 
-Life history traits (LHT) are defined as phenotypic traits (i.e., individuals' characteristics) impacting directly the survival and reproduction (so the fitness) of an individual [@Roff1992TheEO].
+Life history traits (LHT) are individual's phenotypic characteristics that impact directly an individual's survival and reproduction (so the selective value, or "**fitness**") [@Roff1992TheEO].
+The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, !!! <!-- Bell 80, Stearns 92, Williams 66 (Caro's thesis) -->]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
+Among various LHTs, body mass plays a crucial role in many species. As a direct indicator of an individual's energetic reserves, body mass serves as an honest signal of their capacity to accumulate resources and compete in sexual selection (!!!). Individuals with higher body mass typically have greater energetic resources, making them more resilient to environmental pressures and better adapted to their environment by giving them a greater capacity to buffer poor years in terms of resources (!!! <!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual quality as a reproducer. Therefore body mass can be considered a key LHT that directly influnces both surivval and reproduction in many species.
 
-[...]
-
-For many species, body mass will indeed impact directly these two parameters
-
-Energetic reserves => Impact individuals capacity; Honnest signal of good performance and ressources for sexual competition.
-
-Not only an individual with a high body mass will have more energetic ressources, allowing it to be more resilient to environmental pressure (as this reserves can buffer a low ressource phase for example), but it can also indicate a better ability from the individual to gather ressources, showing better adaptation and survival skills in a given environment.
-The first consequence of that being an increase of the individual survival with its body mass.
-But also an indvidual with more energy will have better capacity to reproduce, and should be more appealing to potential mates in the case of sexual competition, therefore also increasing its reproduction success. Therefore, in many species, body mass can be indeed consider as a LHT. <!-- Okay, its very badly written but at least you have the beginning of something, add some citations and flesh out your reasoning -->
 
 ### Link with hibernation
 
 The importance of body mass as a LHT is particularly true for a specific group of species: **Hibernating species**.
-Indeed, to survive unfavorable season (usually winter in our latitudes) some species disperse to milder environment and other cope with it and find ways to survive through. One adaptation to that is hibernation <!-- FIND GENERAL LITERATURE ABOUT HIBERNATION!!! -->, which correspond to a state of torpor, individual keeping their metabolism at a survival minimum, surviving on their energetic ressources through the winter, emerging at the start of the favourable season. A prerequired adaptation for that kind of behaviour is therefore a large body mass, in order to have enough energetic reserve to stay without ressources for a full season. Even more, hibernating species are usually active only for a small part of the year, during which they must gather enough ressources, gain enough mass, to survive through next hibernation. So not only a prerequired adaptation is a big body mass, but also the capacity to gain quickly and efficiently body mass in a short amount of time, which represent a lot of challenges and therefore adaptation for the metabolism.
-
-Furthermore, for some species, reproduction occurs right after the hibernation period, which means that before entering into hibernation, individuals much reach a high enough body mass not only to survive, but also to have enough energy left to reproduce right at the start of the active season. Hence, in that disposition, body mass is a keystone LHT for hibernating species biodemography.
+To survive unfavorable season (winter) some species disperse to milder environment, other cope with it and find ways to survive through. Some species survive through unfavorable seasons by entering a state of torpor, this is called "hibernation", individual keeps their metabolism to the survival minimum required level, maintaining on their energetic ressources through the winter, emerging at the start of the favourable season [@geiserHibernation2013a; @nedergaardMammalianHibernation1990]. A commonly prerequired adaptation for that kind of behaviour is the capacity to stock an important quantity of reserve (i.e., large body mass) in order to have enough energy to survive without foraging for a full season. Furthermoren, this energy gathering must be done in a short amont of time, hibernating species are usually active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Hence, not only a prerequired adaptation is an important body mass, but also the capacity to gain weight quickly and efficiently, which represent a lot of challenges and therefore adaptation for the metabolism.
+Additionally, for some species, reproduction occurs right at the onset of the active season, which means that before entering into hibernation, individuals much reach a threshold body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' biodemography.
 
 <!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the YBM yet) here, knowing that I wont talk about it till the end of the intro?) -->
 
-In addition to that, we know that climate change is expected to have significant impact on LHT. An impact on body size has even been proposed to be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; !!! *look for an article explaining the principles of the universal responses to global warming*]
+Meanwhile, C.C. is expected to have significant impact on such LHT. It has been theorized that change in body size could be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005]
 
 
 ### Expected effect of global warming on body mass
@@ -190,7 +183,7 @@ Furthermore, although the lengthening active season is indeed a good potential e
 
 ## Research objectives & Methodology
 
-Considering that this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
+Since this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
 
