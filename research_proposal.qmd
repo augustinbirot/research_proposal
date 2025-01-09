@@ -7,7 +7,7 @@ affiliation: Department of Biology
 comps-proposal: true # or false
 committee:
   - name: Julien Martin
-    role: supervisor 
+    role: Supervisor 
   - name: Vincent Careau
     role: TAC member
   - name: Roslyn Dakin
@@ -32,36 +32,32 @@ editor:
 
 # Introduction
 
-## Climate change (C.C.)
+## Climate change
 
-Climate change impact a lot of (every?) aspects of our lives [...]
+The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change ecompasses melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
 
-The importance of C.C. and its impact in the near future is no longer in doubt, *at the point where it's sad to even have to remind people of them once again.*[@intergovernmentalpanelonclimatechangeipccClimateChange20222023]
+Main characteristics of this global change, usually documented, includes:
 
-* Broadly, C.C. is [...]: melting ice caps, rising sea levels, rising temperature, more frequent extreme weather events, increasing environmental variability and unpredictibility...
+* **Raising T°**: Explain + study case (!!!)
 
-* C.C. of course has an impact on human society and is well illustrated in Ottawa (e.g., the future of the Rideau Canal ice skating rink being more than questionable)<!-- , the number of days with under -20°C is expected to severly decrease in the near future, etc. (!!! + FACT CHECK everything!)) -->. If you look at the changes in Ottawa's climate over the last century, the numbers are pretty disturbing [@walshPrecipitationTemperatureTrends2022], and the projections for the future are not much more reassuring [@zhaiFutureProjectionsTemperature2019].
+* **Changing season length**: Explain + study case (try to find something at RMBL !!!)
 
-* Main/Precise impacts of C.C. in natural environments
+* **Environmental predictibility**: Explain + study case (!!!)
 
-  * **Raising T°**: Explain + study case (!!!)
+* **More frequent and severe droughts**: Explain + study case (!!!)
 
-  * **Changing season length**: Explain + study case (try to find something at RMBL !!!)
-
-  * **Environmental predictibility**: Explain + study case (!!!)
-
-  * **Drought events**: Explain + study case (!!!)
-
-  * **Extreme weather events**: Explain + study case (!!!)
+* **Incresing frequency and severy of extreme weather events**: Explain + study case (!!!)
 
 
-Ok, so, now, how does C.C. and these precise perturbations impacts concretely natural population? *Study cases* (!!!)
+Climate change do impact human society. This impact is, for example, well represented in Ottawa, looking at the temperature, snowing, raining trends over the last century, we have some pretty disturbing numbers [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. An example of concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. As you probably know if you live here, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+
+But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023: !!! *Study cases*]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to led efficient conservation policies.
 
 
 ## Body mass as a Life-History Traits (LHT)
 
-Life history traits (LHT) are individual's phenotypic characteristics that impact directly an individual's survival and reproduction (so the selective value, or "**fitness**") [@Roff1992TheEO].
-The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, !!! <!-- Bell 80, Stearns 92, Williams 66 (Caro's thesis) -->]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
+Life history traits (LHT) are individual's phenotypic characteristics that impact directly an individual's survival and reproduction representing its selective value, or "**fitness**" [@Roff1992TheEO].
+The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, !!!<!-- Bell 80, Stearns 92, Williams 66 (Caro's thesis) -->]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
 Among various LHTs, body mass plays a crucial role in many species. As a direct indicator of an individual's energetic reserves, body mass serves as an honest signal of their capacity to accumulate resources and compete in sexual selection (!!!). Individuals with higher body mass typically have greater energetic resources, making them more resilient to environmental pressures and better adapted to their environment by giving them a greater capacity to buffer poor years in terms of resources (!!! <!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual quality as a reproducer. Therefore body mass can be considered a key LHT that directly influnces both surivval and reproduction in many species.
 
 
@@ -78,23 +74,21 @@ Meanwhile, C.C. is expected to have significant impact on such LHT. It has been 
 
 ### Expected effect of global warming on body mass
 
-As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used as a rethoric by climate sceptics during cold winters and violent blizzards[^1]<!-- Okay it is poorly said but find a way to keep that in the final proposal -->).
+As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used as a rethoric by climate sceptics during cold winters and violent blizzards[^1]<!-- poorly said but find a way to keep it in the proposal -->).
 This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size could be one the universal C.C. response [@daufresneGlobalWarmingBenefits2009]. This hypotheses follows Bergmann's rules, which state that smaller body size should be expected in warmer environment as it raises the surface to volume ratio, thus favoring heat dissipation [@bergmanncRelationshipsHeatConservation1847].
-However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal. And indeed, several studies at higher latitude yield opposite results [i.e., increasing body mass, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym to milter conditions. As a consequence, individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding, allowing individuals to become larger.
+However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal, also in 2022 IPCC report state that "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222023; @siepielskiNoEvidenceThat2019].
+Moreover, several studies at higher latitude yield opposite results [i.e., increasing body mass, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym to milder conditions. As a consequence, individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding, allowing individuals to become larger.
 
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" Donald J. Trump, Jan 20, 2019.
-
-<!-- IPCC 2022: "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals (low confidence) (Spiepielski et al. 2019)." -->
 
 
 ## Q.G. and animal models
 
 Body mass and LHT shifts expected with climate change, **evolution** expected.
 
-{To properly estimate the evolutionary signals of a phenotypic change, quantitative genetic gives us a method to decompose the total phenotypic variance ($V_P$) into it's genetic ($V_A$) and environmental ($V_{PE}$) part: $V_P = V_A + V_{PE}$.} <!-- Rephrase that, recheck the proper term and add citations, like Lynsh & Walsh -->
-<!-- add a part about quantitative genetic in general <=> quantitative trait: a trait mediated by a lot of different genes, each playing a small part-->
-Quantitative Genetics provides a well-established method for estimating the genetic component of an observed phenotype variation: the **Animal Models** [@kruukEstimatingGeneticParameters2004]. This method allows a robust estimation of the genetic variance in a trait affected by a large number of genes with small effects [i.e., a "quantitative trait", @kruukStudyQuantitativeGenetics2014] by fitting a mixed model with individual identity as a non-independant random effect, linked to a relatedness matrix between each individual, extracted from the population pedigree (i.e., parental link between the individual of a population, !!!).
-This method has the advantage of being relatively simple to employ, allowing genetic parameter estimation directly from phenotypic data. Only parental links between individuals need to be known, making this method applicable to wild populations [@kruukEstimatingGeneticParameters2004; @Lynch1996GeneticsAA].
+To properly estimate the evolutionary signals of a phenotypic change, quantitative genetic gives us a method to decompose the total phenotypic variance ($V_P$) into it's genetic ($V_A$) and environmental ($V_{PE}$) part: $V_P = V_A + V_{PE}$ [@lynchGeneticsAnalysisQuantitative1998]. <!-- Rephrase that, recheck the proper term -->
+Quantitative Genetics provides a well-established method for estimating the genetic component of an observed phenotype variation: the **Animal Models** [@kruukEstimatingGeneticParameters2004]. This method allows a robust estimation of the genetic variance in a trait affected by a large number of genes with small effects [i.e., a "quantitative trait", @kruukStudyQuantitativeGenetics2014] by fitting a mixed model with individual identity as a non-independant random effect, linked to a relatedness matrix between each individual, extracted from the population pedigree (i.e., parental link between the individual of a population, @lynchGeneticsAnalysisQuantitative1998).
+This method has the advantage of being relatively simple to employ, allowing genetic parameter estimation directly from phenotypic data. Only parental links between individuals need to be known, making this method applicable to wild populations [@kruukEstimatingGeneticParameters2004; @lynchGeneticsAnalysisQuantitative1998].
 As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations as the most common problem in that kind of study is the lack of power, which could be adress with long-term studies. Such studies would improve our understanding of the relationship between animals and their environment and of the genotype-phenotype-environment relationship, especially in the context of global change.
 
 
@@ -103,7 +97,7 @@ As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need f
 
 ## LHT coevolution
 
-Traits can't evolve alone [@gouldSpandrelsSanMarco1979; @Roff1992TheEO] Gould & Lewontin (1979)
+Traits can't evolve alone [@gouldSpandrelsSanMarco1979; @Roff1992TheEO]
 
 Need to show that with multivariate animal model, but no one has enough power for the models [@teplitskyEvolutionaryPotentialConstraints2014]
 
@@ -118,15 +112,17 @@ Need to show that with multivariate animal model, but no one has enough power fo
 Phenotype are expected to be the best fit for specific environment as a result of a long evolution by natural selection [i.e., individuals best adapted to their enviromnent will have better survival and reproductive success, @darwinOriginSpeciesMeans1859].
 However, when this environment changes, as expected in today's context of climate change, individuals have two solution to avoid disapearance: **disperse** to a more favorable environment, or **adapt** to their new conditions via phenotypic change [@gienappEvolutionaryDynamicsResponse2014].
 For adaptation, two further possibilities exist: **phenotypic plasticity**, defined as a change in phenotype expressed by a given genotype (!!! *probably Nussey or maybe Pigliucci, I think there's a book from the late 90' or early 00'*), which allows for a rapide response within an individual lifetime, is highly flexible and does not involve any changes at the genetic level; and **microevolution**, defined as a change in alleles frequencies in a population over time (!!! *needed?*).
-{When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and more reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants, !!! *needed? something like Lynch & Walsh, for a definition of heritability sensu stricto*) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one} <!-- A bit long... -->.
+When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and more reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants, @lynchGeneticsAnalysisQuantitative1998) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one.
 Thus, this mecanisme can be slow but is a long-term solution when the ecological change is persistent. However if the change is transient, plasticity is a useful mechanism.
 As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer, presenting costs and limits [@dewittCostsLimitsPhenotypic1998], to a transient change. Furthermore, if the optimal response to the new environment is a canalized phenotype (i.e., very low phenotypic variance), plasticity can even be maladaptive [@nusseyEvolutionaryEcologyIndividual2007]. The expected optimal answer to a long-term environmental change, as caused by climate change, is evolution through natural selection.
 
-Phenotypic pasticity and microevolution are thus not expected to be mutually exclusive. This is particularly evident in highly plastic traits such as body mass which can vary significantly up and down throughout an individual's life in response to among- and within-year changes in environmental conditions but can also change via microevolution at the population level over the same time period <!-- not the right moment? But make a good transition -->.
+Phenotypic pasticity and microevolution are thus not expected to be mutually exclusive. This is particularly evident in highly plastic traits such as body mass which can vary significantly up and down throughout an individual's life in response to among- and within-year changes in environmental conditions but can also change via microevolution at the population level over the same time period<!-- not the right moment? But make a good transition -->.
 
-Nevertheless, as the consequences of theses mechanism can be highly different on the long term (evolution being more permanent than plasticity), quantifying the extent to which each of these mechanisms contributes to the observed change over a long study period remains a chalenging but fundamental task to understand the adaption and evolution of species. <!-- copy paste from body mass evolution manuscript, need a lot of re-writing (like the rest of this section) but need to keep the idea --> This is even more true today, as populations faces the numerous challenge brought by global climate change.
+Nevertheless, as the consequences of theses mechanism can be highly different on the long term (evolution being more permanent than plasticity), quantifying the extent to which each of these mechanisms contributes to the observed change over a long study period remains a chalenging but fundamental task to understand the adaption and evolution of species. <!-- copy paste from body mass evolution manuscript, need a lot of re-writing (like the rest of this section) but need to keep the idea -->This is even more true today, as populations faces the numerous challenge brought by global climate change.
 
 So Evolution and plasticity are not mutually exclusive, and even more, evolution can even have effect on plasticity itself.
+
+
 *Transition with $I * E$ with the reaction norm framework [@nusseyEvolutionaryEcologyIndividual2007].*
 
 
@@ -134,7 +130,7 @@ So Evolution and plasticity are not mutually exclusive, and even more, evolution
 
 Plasticity is usually studied using ***Reaction Norm framework*** (!!! *look at DeWitt & Scheiner, 2004; Schlichting & Pigliucci, 1998; West-Eberhard, 2003 from Thibaut's proposal intro*), so by studying the value of a phenotypic trait (e.g., body masse, size) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment, so by a slope different from 0 for the reaction norm [@nusseyEvolutionaryEcologyIndividual2007].
 A reaction norm has two parameters: **Elevation** (or "Intercept" in statistical terms), which is the expected phenotypic value in the average environment; and the **Slope** (so "Slope" in statistical terms) corresponding to the linear regression of the phenotype over the environmental gradient, so to estimate the phenotypic response to the environment (i.e., phenotypi plasticity) <!-- Part extremely redundant for the sake of clarity -->.
-So that's how phenotypic plasticity is usually studied. But, as emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss if we just study that at the population level (i.e., by just doing a fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual as comonly there's multiple observation per individual, thus not taking that into acount is violation of the independance application condition (cf every basic stat book <!-- do I need to add a citation here? -->).
+So that's how phenotypic plasticity is usually studied. But, as emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss if we just study that at the population level (i.e., by just doing a fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual as comonly there's multiple observation per individual, thus not taking that into acount is violation of the independance application condition (*cf every basic stat book*<!-- do I need to add a citation here? -->).
 So doing that allow us to estimate individual variance in the phenotype in the average environment and take into account the fact that all individual in the population doesn't have the same base phenotype. However, that kind of model doesn't allow to estimate individual-level difference in their plastic response to the environment, which can be really important biologically and so must be accounted for. @nusseyEvolutionaryEcologyIndividual2007 proposed a framework to estimate that, which is now fairly accepted and used: ***Random Regression***. Let's go back to the Linear Mixed Models (LMMs), the "classic" way is to add a random individual term on the intercept to estimate the "individual variance" by allowing the model to fit one intercept per individual, however in this compilation, the slope is the same for each individuals; now, if we add a random term also on the slope, not only the model estimate one intercept per individual, but also one slope (so basically, one reaction norm per individual), estimating thus the individual variance in the phenotype expected in the average environment (*elevation*) but also the individual variation in phenotypic variation (*slope*) which is commonly called $\textbf{I * E}$.
 
 Once we've estimated this between individual variance in plasticity, we can you quantitative genetic methods (i.e., from Animal models, as explained before, but using Random Regression Animal Model: "RRAM", @nusseyEvolutionaryEcologyIndividual2007) to decompose this variance into it's genetic and permanent environment part to estimate the genetic variation in plasticity, which is called $\textbf{G * E}$. From that we can estimate the heritable variation in reaction norm's slope and have an idea of the evolutionary potential of phenotypic plasticity in itself.
