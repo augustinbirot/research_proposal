@@ -30,41 +30,45 @@ editor:
 
 {{<pagebreak>}}
 
-# Introduction
+# Introduction {#sec-intro}
 
 ## Climate change
 
-The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change ecompasses melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
+The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change is melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
 
 Main characteristics of this global change, usually documented, includes:
 
 * **Raising T°**: Explain + study case (!!!)
 
-* **Changing season length**: Explain + study case (try to find something at RMBL !!!)
+* **Changing season lengths**: Explain + study case (try to find something at RMBL !!!)
 
-* **Environmental predictibility**: Explain + study case (!!!)
+* **Environmental variability and unpredictibility**: Explain + study case (!!!)
 
 * **More frequent and severe droughts**: Explain + study case (!!!)
 
-* **Incresing frequency and severy of extreme weather events**: Explain + study case (!!!)
+* **Incresing frequency and severity of extreme weather events**: Explain + study case (!!!)
 
 
 Climate change do impact human society. This impact is, for example, well represented in Ottawa, looking at the temperature, snowing, raining trends over the last century, we have some pretty disturbing numbers [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. An example of concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. As you probably know if you live here, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
-But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023: !!! *Study cases*]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to led efficient conservation policies.
+But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023; !!! *Study cases*]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
 
 ## Body mass as a Life-History Traits (LHT)
 
-Life history traits (LHT) are individual's phenotypic characteristics that impact directly an individual's survival and reproduction representing its selective value, or "**fitness**" [@Roff1992TheEO].
+Life history traits (LHT) are phenotypic characteristics that impact directly an individual's survival and reproduction representing its selective value, or "**fitness**" [@Roff1992TheEO].
 The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, !!!<!-- Bell 80, Stearns 92, Williams 66 (Caro's thesis) -->]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
-Among various LHTs, body mass plays a crucial role in many species. As a direct indicator of an individual's energetic reserves, body mass serves as an honest signal of their capacity to accumulate resources and compete in sexual selection (!!!). Individuals with higher body mass typically have greater energetic resources, making them more resilient to environmental pressures and better adapted to their environment by giving them a greater capacity to buffer poor years in terms of resources (!!! <!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual quality as a reproducer. Therefore body mass can be considered a key LHT that directly influnces both surivval and reproduction in many species.
+Among various LHTs, body mass plays a crucial role in many species. Individuals with greater body mass typically have greater energetic resources, making them more resilient to environmental pressures by giving them a greater capacity to buffer poor years in terms of resources (!!!<!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual capacity to accumalte resources and its quality as a reproducer (!!!). Therefore body mass can be considered a key LHT that directly influnces both survival and reproduction in many species.
+
+However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021], and even though some handicaps has been theorized to be a feature in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, individual with a too large body mass will be counter-selected against smaller ones.
+
+Hence, as predicted in Life History Theory, trade-off must be maid between available energy and individual's performances to find the optimal body mass.
 
 
 ### Link with hibernation
 
 The importance of body mass as a LHT is particularly true for a specific group of species: **Hibernating species**.
-To survive unfavorable season (winter) some species disperse to milder environment, other cope with it and find ways to survive through. Some species survive through unfavorable seasons by entering a state of torpor, this is called "hibernation", individual keeps their metabolism to the survival minimum required level, maintaining on their energetic ressources through the winter, emerging at the start of the favourable season [@geiserHibernation2013a; @nedergaardMammalianHibernation1990]. A commonly prerequired adaptation for that kind of behaviour is the capacity to stock an important quantity of reserve (i.e., large body mass) in order to have enough energy to survive without foraging for a full season. Furthermoren, this energy gathering must be done in a short amont of time, hibernating species are usually active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Hence, not only a prerequired adaptation is an important body mass, but also the capacity to gain weight quickly and efficiently, which represent a lot of challenges and therefore adaptation for the metabolism.
+To survive unfavorable season (winter) some species disperse to milder environment, other cope with it and find ways to survive through. Some species survive through unfavorable seasons by entering a specific state of torpor, called "hibernation", individuals keeps their metabolism to the survival minimum required level, sustaining on their energetic ressources through the winter, emerging at the start of the favourable season (Spring/Summer) [@geiserHibernation2013a; @nedergaardMammalianHibernation1990]. A commonly prerequired adaptation for that kind of behaviour is therefore the capacity to stock important quantities of reserve (i.e., large body mass) in order to have enough energy to survive without foraging for a full season. Furthermore, this energy gathering must be done in a short amont of time, hibernating species are usually active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Hence, not only a prerequired adaptation is an important body mass, but also a sufficiently efficient metabolism to gain weight quickly, which represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (!!!).
 Additionally, for some species, reproduction occurs right at the onset of the active season, which means that before entering into hibernation, individuals much reach a threshold body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' biodemography.
 
 <!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the YBM yet) here, knowing that I wont talk about it till the end of the intro?) -->
@@ -74,7 +78,7 @@ Meanwhile, C.C. is expected to have significant impact on such LHT. It has been 
 
 ### Expected effect of global warming on body mass
 
-As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used as a rethoric by climate sceptics during cold winters and violent blizzards[^1]<!-- poorly said but find a way to keep it in the proposal -->).
+As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used in climate sceptics rethoric during specially cold periods and violent blizzards[^1]<!-- poorly said but find a way to keep it in the proposal -->).
 This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size could be one the universal C.C. response [@daufresneGlobalWarmingBenefits2009]. This hypotheses follows Bergmann's rules, which state that smaller body size should be expected in warmer environment as it raises the surface to volume ratio, thus favoring heat dissipation [@bergmanncRelationshipsHeatConservation1847].
 However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal, also in 2022 IPCC report state that "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222023; @siepielskiNoEvidenceThat2019].
 Moreover, several studies at higher latitude yield opposite results [i.e., increasing body mass, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym to milder conditions. As a consequence, individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding, allowing individuals to become larger.
@@ -172,8 +176,16 @@ This hibernation (life) cycle is highly environemntally dependant, with the onse
 ### Body mass increase in YBM
 
 An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
-However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround 400 g, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
+However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround 400 g, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
 Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which doesn't makes sense!
+
+
+::: {#fig-A-F-bodymass}
+
+![](figures/fig-pbv-cohort-1.png) 
+
+Mean cohort’s predicted breeding values trend over 5,000 iterations (gray lines). The median trends of the observations (red line) and under the null scenario (drift alone, black line) are represented, according to linear (solid line) or generalized additive models (two dashed lines). Points and error bars represent the median and 95% credibility interval of the posterior mean PBV for each cohort.
+:::
 
 {{<pagebreak>}}
 
@@ -260,7 +272,7 @@ exibble |>
 {{<pagebreak>}}
 
 
-# Chapter 1 - Mechanisms
+# Chapter 1 - Mechanisms {#sec-chap1}
 *Marmot's Biology: What mechanisms are behind the body mass increase?*
 
 As emphasized in the introduction, we know that the body mass has increased in the last half-century, however we still know very few about it. And for starter, we don't know yet what has changed in the marmots in the last decades: do they have a bigger constitution (i.e., are they born bigger, their Intercept in statistical term), or does their growing capacity has increased through time (in statistical term again, this would correspond to their slope)?
@@ -272,6 +284,12 @@ Growth? Baseline? Both?
 
 
 Double random (Intercept, Slope)
+
+
+
+Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why YBM body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
+
+However, by looking at @fig-juvenile-trend we see that even if the body mass at birth ($a)$) is indeed stable, the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season ($b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (see @sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
 
 
 ```{r}
@@ -287,9 +305,12 @@ source("figures/juvenile_mass.r")
 cowplot::plot_grid(plot2_jun, plot2_aug, ncol = 2)
 ```
 
+As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
+
+
 {{<pagebreak>}}
 
-# Chapter 2 - Methodology
+# Chapter 2 - Methodology {#sec-chap2}
 *Methodology: $I * E$ detection with double random mixed models*
 
 [@nusseyEvolutionaryEcologyIndividual2007] --> double random
@@ -319,7 +340,7 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 {{<pagebreak>}}
 
-# Chapter 3 - Triggers
+# Chapter 3 - Triggers {#sec-chap3}
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
 
 E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
@@ -330,7 +351,7 @@ We have precise weather data from Billy Barr
 
 {{<pagebreak>}}
 
-# Chapter 4 - Implications
+# Chapter 4 - Implications {#sec-chap4}
 *Marmot's Biology: What could be the implications of that for the population's future?*
 
 Manuscript models Body Mass/active season with survival
@@ -339,7 +360,7 @@ Manuscript models Body Mass/active season with survival
 
 {{<pagebreak>}}
 
-# Significance and impacts
+# Significance and impacts {#sec-signif}
 
 
 
