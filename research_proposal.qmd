@@ -92,7 +92,7 @@ Moreover, several studies at higher latitude yield opposite results [i.e., incre
 ## Quantitative Genetics (QG) and Animal Models
 
 As we have discussed, climate change is expected to cause long-term environmental changes. Thus, natural population will need to adapt to these new conditions in order to persist. As mentioned earlier these adaptations can involve shift in geographical ranges, phenology, or phenotype [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005].
-Therefore, we expect natural population to **evolve**, allowing them to be better suited to new environmental conditions [@darwinOriginSpeciesMeans1859].
+Therefore, we expect natural population to **evolve**, allowing them to be better suited to new environmental conditions [@sihEvolutionBehaviouralResponses2011; @darwinOriginSpeciesMeans1859].
 
 However, estimating evolutionary signal in natural conditions can be complicated, and an observed phenotypic change is not necessarily due to evolution (i.e., phenotypic plasticity).
 Fortunately, quantitative genetic provides us a robust and well-established method to adress this by decomposing the total phenotypic variance ($V_P$) into it's genetic ($V_A$) and environmental ($V_{PE}$) components: $V_P = V_A + V_{PE}$ [@lynchGeneticsAnalysisQuantitative1998; @wilsonEcologistsGuideAnimal2010].
@@ -185,7 +185,7 @@ Bet-hedging strategy can be summerized as betting on the best fitness for the lo
 With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*), which should in consquence favour bet-hedging then.
 Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
-But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in maladaption and cause local disparition.
+But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in evolutionary traps [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013]. <!-- whatch out how you say this, there is no intentionality in the "bet"! -->
 
 
 ## Species and study site
@@ -365,6 +365,19 @@ Ned Dochtermann
 Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them)
 
 Simulation to test the different bias (Sampling bias, etc.) -->
+
+
+
+
+::: {#fig-ie-vs-no-ie}
+
+![](figures/ie_no_ie.png) 
+
+[...]
+:::
+
+
+
 
 
 {{<pagebreak>}}
