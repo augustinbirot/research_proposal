@@ -379,6 +379,15 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 
 
+::: {#fig-balanced-unbalanced}
+
+![](figures/balanced_unbalanced.png) 
+
+[...]
+:::
+
+
+
 
 {{<pagebreak>}}
 
