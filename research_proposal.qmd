@@ -122,16 +122,22 @@ To trully understand the evolutionary potential of a trait, we need to acount fo
 
 In this context, we need to consider for the fact that selection will generally act on multiple traits as phenotype is the result of a combination of traits [@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
 
+<br>
+
+A continuation of this reasoning is the **Pace Of Life Syndrome** (POLS) and it's extension [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010] suggesting that life-history strategy, physiological and behavioural traits coevolve in response to the environment.
+
+Hence, if climate change induce phenotypic changes in LHT, it is to expect that other key physiological or behavioural trait will coevolve with it; for example, it has been observed that certain behvioural types will be consistently associated with certain Life-History strategies [@stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
+
+In that case, the consequences of a phenotypic change in a LHT would be even greater, and again, need to be considered and studied efficiently.
+
+<br>
+
 A robust method to study that is **Multivariate Animal model** (i.e., an Animal model with multiple phenotypic trait as dependant variables) which allows us to estimate the genetic covariance between multiple traits [@teplitskyEvolutionaryPotentialConstraints2014].
 
 However such models are heavily data-consuming, and the main reason significant results with such models are quite rare today is that almost no study have enough data to have the statistical power required for theses complex models [@teplitskyEvolutionaryPotentialConstraints2014].
 
 Again, using long-term datasets brings a lot of expectation to adress such limitations.
 
-
-### Pace Of Life Syndrom (POLS)
-
-[@dammhahnPacelifeSyndromesFramework2018]
 
 ## Phenotypic plasticity vs microevolution
 
@@ -174,12 +180,12 @@ Link with body mass, individual can vary in their growing speed <=> Reaction nor
 
 ### Bet-hedging
 
-[@starrfeltBethedgingaTripleTradeoff2012]
+Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012].
 
-Bet on the best fitness for the long term (even if it can mean lower a bit your immediate fitness) to cope with an unpredictable environment.
-With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*).
+With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*), which should in consquence favour bet-hedging then.
 Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
+But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in maladaption and cause local disparition.
 
 
 ## Species and study site
@@ -299,7 +305,8 @@ exibble |>
 
 As emphasized in the introduction, we know that the body mass has increased in the last half-century, however we still know very few about it. And for starter, we don't know yet what has changed in the marmots in the last decades: do they have a bigger constitution (i.e., are they born bigger, their Intercept in statistical term), or does their growing capacity has increased through time (in statistical term again, this would correspond to their slope)?
 
-### $\textbf{I * A}$ and $\textbf{G * A}$
+
+$\textbf{I * A}$ and $\textbf{G * A}$
 A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
 
 Growth? Baseline? Both?
@@ -375,6 +382,8 @@ We have precise weather data from Billy Barr
 
 # Chapter 4 - Implications {#sec-chap4}
 *Marmot's Biology: What could be the implications of that for the population's future?*
+
+***POLS***
 
 Manuscript models Body Mass/active season with survival
 => Phenological mismatch?? (e.g., thermal stress)
