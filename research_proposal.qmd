@@ -34,7 +34,7 @@ editor:
 
 ## Climate change
 
-The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change is melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
+The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change encompass melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
 
 Main characteristics of this global change, usually documented, includes:
 
