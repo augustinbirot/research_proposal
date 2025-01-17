@@ -1,4 +1,6 @@
 library(ggplot2)
+library(tidyr)
+library(dplyr)
 
 
 theme_set(theme(
@@ -13,8 +15,9 @@ theme_set(theme(
   plot.tag = element_text(size = 15)
 ))
 
-variable_names <- list("F" = "FEMALE",
-                       "M" = "MALE")
+
+variable_names <- list("beg" = "Beginning of the season",
+                       "end" = "End of the season")
 
 variable_labeller <- function(variable, value) {
   return(variable_names[value])
@@ -28,23 +31,113 @@ female_col <- "#dbbc09"
 df <- read.csv("data/tb_annualid.csv") #nolint
 df <- subset(df, df$age_class == "J")
 df <- subset(df, !is.na(df$massaug))
-head(df)
+df$year_recruit_sc <- scale(df$year_recruit)
 
-################################### massaug ###################################
+df_long <- df %>%
+  pivot_longer(
+    cols = c(massjun, massaug),
+    names_to = "season",
+    values_to = "mass"
+  ) %>%
+  mutate(season = ifelse(season == "massjun", "beg", "end"))
 
-(plot1_aug <- ggplot(df, aes(x = year_recruit, y = massaug)) +
-   geom_point(alpha = .25, col = "grey") +
-   geom_smooth(method = "loess", formula = "y ~ x",
-               size = 1.2, aes(color = sex)) +
-   geom_smooth(method = "lm", col = "darkgrey", formula = "y ~ x",
-               se = FALSE, linetype = "dashed") +
-   xlab("Cohort (birth year)") + ylab("Body mass (g)") +
-   scale_color_manual(values = c(female_col, male_col),
-                      labels = c("Female", "Male")) +
-   facet_wrap(~ df$sex, labeller = variable_labeller))
+head(df_long)
 
 
-predictions <- ggplot_build(plot1_aug)$data[[2]]
+###############
+# Mod aug
+###############
+
+mod_aug_1 <- lm(massaug ~ poly(year_recruit_sc, 3) * sex, data = df)
+
+mod_aug_2 <- lm(massaug ~ poly(year_recruit_sc, 3) + sex, data = df)
+
+anova(mod_aug_1, mod_aug_2)
+
+mod_aug <- mod_aug_2
+
+summary(mod_aug)
+
+eff_data_aug <- data.frame(effects::effect(c("sex:year_recruit_sc"),
+                                           mod_aug, partial.residuals = TRUE))
+
+eff_data_aug$season <- as.factor(rep("end", nrow(eff_data_aug)))
+
+
+###############
+# Mod jun
+###############
+
+mod_jun_1 <- lm(massjun ~ poly(year_recruit_sc, 3) * sex, data = df)
+
+mod_jun_2 <- lm(massjun ~ poly(year_recruit_sc, 3) + sex, data = df)
+
+anova(mod_jun_1, mod_jun_2)
+
+mod_jun <- mod_jun_2
+
+summary(mod_jun)
+
+eff_data_jun <- data.frame(effects::effect(c("sex:year_recruit_sc"),
+                                           mod_jun, partial.residuals = TRUE))
+
+eff_data_jun$season <- as.factor(rep("beg", nrow(eff_data_jun)))
+
+
+
+################ Combine ################
+
+eff_data <- merge(eff_data_jun, eff_data_aug, all = TRUE)
+
+
+juvenile_trend <- ggplot(eff_data, aes(x = year_recruit_sc,
+                                       y = fit,
+                                       color = sex)) +
+  facet_wrap(~season, labeller = variable_labeller) +
+  geom_ribbon(data = eff_data, aes(ymin = lower, # Model's predictions SE
+                                   ymax = upper,
+                                   fill = sex),
+              linetype = 0, alpha = .4) +
+  geom_line(data = eff_data, aes(x = year_recruit_sc, # Model's predictions
+                                 y = fit,
+                                 color = sex)) +
+  geom_point(data = df_long, aes(x = year_recruit_sc, # Raw data
+                                 y = mass,
+                                 color = sex),
+             size = .8, shape = 16, alpha = .06) +
+  scale_color_manual(values = c(female_col, male_col),
+                     labels = c("Female", "Male")) +
+  scale_fill_manual(values = c(female_col, male_col),
+                    labels = c("Female", "Male")) +
+  scale_y_continuous(limits = c(100, 2500),
+                     breaks = seq(500, 2500, 500)) +
+  scale_x_continuous(labels = unique(df$year_recruit)[c(seq(1, 50, 10))],
+                     breaks = unique(df$year_recruit_sc)[c(seq(1, 50, 10))],
+                     limits = c(unique(df$year_recruit_sc)[1],
+                                unique(df$year_recruit_sc)[50])) +
+  xlab("Cohort") +
+  ylab("Body mass (g)")
+
+ggsave("figures/fig-juvenile-trend.png", plot = juvenile_trend,
+       width = 15, height = 10, units = "cm")
+
+
+
+############################ Aug prediction (raw) ############################
+
+plot_aug_raw <- ggplot(df, aes(x = year_recruit, y = massaug)) +
+  geom_point(alpha = .25, col = "grey") +
+  geom_smooth(method = "loess", formula = "y ~ x",
+              size = 1.2, aes(color = sex)) +
+  geom_smooth(method = "lm", col = "darkgrey", formula = "y ~ x",
+              se = FALSE, linetype = "dashed") +
+  xlab("Cohort (birth year)") + ylab("Body mass (g)") +
+  scale_color_manual(values = c(female_col, male_col),
+                     labels = c("Female", "Male")) +
+  facet_wrap(~ df$sex, labeller = variable_labeller)
+
+
+predictions <- ggplot_build(plot_aug_raw)$data[[2]]
 
 predictions$colour <- as.factor(predictions$colour)
 
@@ -70,115 +163,3 @@ max(predictions_m$y)
 ## Cohort
 predictions_m[which(predictions_m$y == min(predictions_m$y)), "x"]
 predictions_m[which(predictions_m$y == max(predictions_m$y)), "x"]
-
-
-
-
-df$year_recruit_sc <- scale(df$year_recruit)
-
-
-mod1 <- lm(massaug ~ poly(year_recruit_sc, 3) * sex, data = df)
-summary(mod1)
-
-mod2 <- lm(massaug ~ poly(year_recruit_sc, 3) + sex, data = df)
-
-anova(mod1, mod2)
-
-mod <- mod2
-
-summary(mod)
-
-
-
-eff_data <- data.frame(effects::effect(c("sex:year_recruit_sc"),
-                                       mod, partial.residuals = TRUE))
-
-
-(plot2_aug <- ggplot(eff_data, aes(x = year_recruit_sc,
-                                   y = fit,
-                                   color = sex)) +
-  geom_ribbon(data = eff_data, aes(ymin = lower, # Model's predictions SE
-                                   ymax = upper,
-                                   fill = sex),
-              linetype = 0, alpha = .4) +
-  geom_line(data = eff_data, aes(x = year_recruit_sc, # Model's predictions
-                                 y = fit,
-                                 color = sex)) +
-  geom_point(data = df, aes(x = year_recruit_sc, # Raw data
-                            y = massaug,
-                            color = sex),
-             size = .8, shape = 16, alpha = .06) +
-  scale_color_manual(values = c(female_col, male_col),
-                     labels = c("Female", "Male")) +
-  scale_fill_manual(values = c(female_col, male_col),
-                    labels = c("Female", "Male")) +
-  scale_y_continuous(limits = c(100, 2500),
-                     breaks = seq(500, 2500, 500)) +
-  facet_wrap(~sex, labeller = variable_labeller) +
-  xlab("Cohort") +
-  ylab("Body mass (g)") +
-  labs(tag = "b)")) # "Mass at the end of the first season"
-
-
-################################### massjun ###################################
-
-(plot1_jun <- ggplot(df, aes(x = year_recruit, y = massjun)) +
-   geom_point(alpha = .25, col = "grey") +
-   geom_smooth(method = "loess", formula = "y ~ x",
-               size = 1.2, aes(color = sex)) +
-   geom_smooth(method = "lm", col = "darkgrey", formula = "y ~ x",
-               se = FALSE, linetype = "dashed") +
-   xlab("Cohort (birth year)") + ylab("Body mass (g)") +
-   scale_color_manual(values = c(female_col, male_col),
-                      labels = c("Female", "Male")) +
-   facet_wrap(~ df$sex, labeller = variable_labeller))
-
-
-df$year_recruit_sc <- scale(df$year_recruit)
-
-
-mod1 <- lm(massjun ~ poly(year_recruit_sc, 3) * sex, data = df)
-summary(mod1)
-
-mod2 <- lm(massjun ~ poly(year_recruit_sc, 3) + sex, data = df)
-
-anova(mod1, mod2)
-
-mod <- mod2
-
-summary(mod)
-
-
-
-eff_data <- data.frame(effects::effect(c("sex:year_recruit_sc"),
-                                       mod, partial.residuals = TRUE))
-
-(plot2_jun <- ggplot(eff_data, aes(x = year_recruit_sc,
-                                   y = fit,
-                                   color = sex)) +
-   geom_ribbon(data = eff_data, aes(ymin = lower, # Model's predictions SE
-                                    ymax = upper,
-                                    fill = sex),
-               linetype = 0, alpha = .4) +
-   geom_line(data = eff_data, aes(x = year_recruit_sc, # Model's predictions
-                                  y = fit,
-                                  color = sex)) +
-   geom_point(data = df, aes(x = year_recruit_sc, # Raw data
-                             y = massjun,
-                             color = sex),
-              size = .8, shape = 16, alpha = .06) +
-   scale_color_manual(values = c(female_col, male_col),
-                      labels = c("Female", "Male")) +
-   scale_fill_manual(values = c(female_col, male_col),
-                     labels = c("Female", "Male")) +
-   scale_y_continuous(limits = c(100, 2500),
-                      breaks = seq(500, 2500, 500)) +
-   facet_wrap(~sex, labeller = variable_labeller) +
-   xlab("Cohort") +
-   ylab("Body mass (g)") +
-   labs(tag = "a)")) # "Mass at birth"
-
-
-(a <- cowplot::plot_grid(plot2_jun, plot2_aug, ncol = 2))
-ggsave("figures/fig-juvenile-trend.png", plot = a,
-       width = 1920, height = 960, units = "px")

@@ -277,11 +277,16 @@ However, by looking at @fig-juvenile-trend we see that even if the body mass at 
 
 ![](figures/fig-juvenile-trend.png) 
 
-Body mass trend over time cohort for females (black) and males (red) juveniles compared between a) the beginning of the active season (birth weight) and b) the end of the season (mass on August 15th).
+Body mass trend over time cohort for females (gold) and males (black) juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
 :::
 
+Increasing (estimated from local regressions):
 
+* **Males**: 1976 - 1998 (22 cohorts) => 1,206.18 g ; 1,519.71 g (+313.53 g)
 
+* **Females**: 1979 - 2001 (22 cohorts) => 1,130.64 g ; 1,363.03 g (+232.39 g)
+
+*However we don't find significant interaction between sex and cohort, meaning that the slight difference in patterns between males and females aren't statistically significant*
 
 As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
 
@@ -289,7 +294,7 @@ As the body mass was previously hypothesized to be stable as an anti-predator st
 {{<pagebreak>}}
 
 # Chapter 2 - Methodology {#sec-chap2}
-*Methodology: $I * E$ detection with double random mixed models*
+*Methodology: $I * E$ detection with Double Hierarchical Generalized Linear Models (DHGLM)*
 
 [@nusseyEvolutionaryEcologyIndividual2007] --> double random
 
