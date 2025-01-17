@@ -118,8 +118,7 @@ juvenile_trend <- ggplot(eff_data, aes(x = year_recruit_sc,
   xlab("Cohort") +
   ylab("Body mass (g)")
 
-ggsave("figures/fig-juvenile-trend.png", plot = juvenile_trend,
-       width = 15, height = 10, units = "cm")
+ggsave("figures/fig-juvenile-trend.png", plot = juvenile_trend)
 
 
 
