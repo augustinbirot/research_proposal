@@ -34,9 +34,7 @@ editor:
 
 ## Climate change
 
-The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change encompass melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability.
-
-Main characteristics of this global change, usually documented, includes:
+The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change encompass melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability. More specifically, main characteristics of this global change, usually documented, includes:
 
 * **Raising T°**: Explain + study case (!!!)
 
@@ -49,15 +47,15 @@ Main characteristics of this global change, usually documented, includes:
 * **Incresing frequency and severity of extreme weather events**: Explain + study case (!!!)
 
 
-Climate change do impact human society. This impact is, for example, well represented in Ottawa, looking at the temperature, snowing, raining trends over the last century, we have some pretty disturbing numbers [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. An example of concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. As you probably know if you live here, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+Climate change do impact human society, this is, for example, well represented in Ottawa. Temperature, snowing, raining trends in the Canadian capital over the last century, reveals worrying figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. A concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. Indeed, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
-But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023; !!! *Study cases*]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
+But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. These profound ecological changes are putting a large number of species at risk, and they must act accordingly to avoind etinction, either by dispercing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
 
 ## Body mass as a Life-History Traits (LHT)
 
 Life history traits (LHT) are phenotypic characteristics that impact directly an individual's survival and reproduction representing its selective value, or "**fitness**" [@Roff1992TheEO].
-The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, !!!<!-- Bell 80, Stearns 92, Williams 66 (Caro's thesis) -->]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
+The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, @10.1093/oso/9780198577416.001.0001]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
 Among various LHTs, body mass plays a crucial role in many species. Individuals with greater body mass typically have greater energetic resources, making them more resilient to environmental pressures by giving them a greater capacity to buffer poor years in terms of resources (!!!<!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual capacity to accumalte resources and its quality as a reproducer (!!!). Therefore body mass can be considered a key LHT that directly influnces both survival and reproduction in many species.
 
 However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021], and even though some handicaps has been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, individual with a too large body mass will be counter-selected against smaller ones.
@@ -124,7 +122,7 @@ In this context, we need to consider for the fact that selection will generally 
 
 <br>
 
-A continuation of this reasoning is the **Pace Of Life Syndrome** (POLS) and it's extension [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010] suggesting that life-history strategy, physiological and behavioural traits coevolve in response to the environment.
+A continuation of this reasoning is the extended **Pace Of Life Syndrome** (POLS) [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010] suggesting that life-history strategy, physiological and behavioural traits coevolve in response to the environment.
 
 Hence, if climate change induce phenotypic changes in LHT, it is to expect that other key physiological or behavioural trait will coevolve with it; for example, it has been observed that certain behvioural types will be consistently associated with certain Life-History strategies [@stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
 
@@ -182,7 +180,7 @@ Link with body mass, individual can vary in their growing speed <=> Reaction nor
 
 Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012].
 
-With climate change, environment are less predictable than ever (maybe even more in alpine habitat? !!! *fact check + ref about envmt predictability + focus on alpine habitats*), which should in consquence favour bet-hedging then.
+With climate change, environment are less predictable than ever, and the effects of these change are even more important in alpine habitat [@inouyeHIGHALTITUDECLIMATES], which can, in consequence, favour bet-hedging then.
 Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
 But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in evolutionary traps [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013]. <!-- whatch out how you say this, there is no intentionality in the "bet"! -->
@@ -204,7 +202,7 @@ This hibernation (life) cycle is highly environemntally dependant, with the onse
 ### Body mass increase in Yellow-Bellied Marmots (YBM)
 
 An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
-However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround 400 g, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
+However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround $400\ g$, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
 Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which doesn't makes sense!
 
 
@@ -228,10 +226,8 @@ I will explore which environmental factors could have triggered this shift, but 
 
 Εach year during the active season (May - September), most individuals in the population are regularly trapped. At each capture, individuals are measured, weight, DNA samples are taken. Meanwhile, behavioral observations and experiments are conducted all along the season.
 
-Data are stored in the R package "ybamaRmot" [@ybamaRmot]
-
-Analysis will be perofrmed on R [@base]; Animal models will be performed using R package "MCMCglmm" [@mcmcglmm]; DHGLM and other bayesian analysis (non using MCMCglmm) will be done with "brms" [@brms].
-Figures will be made with "ggplot2" [@ggplot]
+**Data at research site**:
+"Since 1962, a wild population of yellow-bellied marmots (Marmota flaviventris), a grounddwelling terrestrial squirrel (Rodentia, Sciuridae) has been monitored at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, in the East River Valley in the Gunnison National Forest, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). The current data set, comprising 60 years of observations (1962 – 2022), represents the second-longest study on mammals in the world. This study was initiated by Kenneth Armitage (Kansas University) and is currently overseen by Daniel Blumstein (UCLA) and Julien Martin (University of Ottawa). The monitored population is distributed across 38 colonies (divided into 56 areas), with seven designated as main colonies. Figure 1 depicts the study site and 13 of these colonies (containing the seven ones I kept in this study). Each year, from the onset until the end of the active season (from May to September) individuals are regularly trapped using baited Tomahawk live traps (81 * 25 * 30 cm, Tomahawk Live Trap Co.) situated near burrows’ entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag (Monel self-piercing fish tags #3, National Band and Tag, Newport, KY) on both ears and with a nontoxic black Nyzanol dye fur mark (Greenville Colorants, Jersey City, NJ) for distant identification during behavioral observations. Upon each capture, the individual is sexed and weighted (initially with a spring scale (± 50g) and now with a digital balance (±10g)). More descriptions can be found in Armitage (2014). The colonies are distributed between two parts of the valley: the “up” valley with an elevation of approximately 3,000 m, and the “down” valley, which rises around 2,700 m (Armitage, 2014), individuals located in the up valley, at higher elevations, may experience more extreme weather conditions. To control for potential bias (demography, dimorphism, etc.) and to ensure that I have only the highestquality data, only data for adult females (following previous studies, individuals aged 3 and over are considered “Adults”) are included in the analysis. Therefore, the observations start in 1965. Additionally, to ensure that the data set comprises only individual data from birth to death and given that the majority of individuals in this population do not survive beyond five years of age, I excluded the data from individuals born less than five years prior to the final year of record in the data set (i.e., 2017) to minimize selective disappearance bias in the data. Recapture rate of adult females is > 95% allowing us to estimate age and longevity accurately (Ozgul et al., 2007, 2009). Over 95% of individuals are captured as juveniles or yearlings, and thus their year of birth (and age) are known. I excluded any individuals with unknown age."<!-- rewrite -->
 
 
 Morphological data
@@ -240,61 +236,17 @@ Population pedigree for most of the individuals (4,652 individuals to this date)
 
 Morphological data
 
-Body mass measured
+**Body mass**:
+"Body mass is a highly plastic trait, particularly for a hibernating species that experiences considerable fluctuations in body mass throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate the body mass of each individual at the same time of the year. Using repeated measures for each individual throughout each year’s active season, ranging from 1 to 20 with an average of 4.5, a linear mixed model was fitted to predict each individual’s body mass on August 15 each year (for details see Ozgul et al. (2010) and Jebb et al. 2021)."<!-- rewrite, developp, citation (Martin) -->
+
+Weather data [@pratherClimateDataRocky2023]
 
 
-<!--
-# Research objectives and hypotheses
 
-Specific hypotheses (in the case of hypothesis-testing science) or
-objectives (in the case of descriptive science), and the underlying
-logic, for each proposed thesis chapter (minimum three for PhD students)
+Data are stored in the R package "ybamaRmot" [@ybamaRmot]
 
-# Proposed methodologies
-
-Include outlines of data collection and data analysis
-
-Outline any special skills, equipment, or techniques that will be
-required.
-
-In case you want to add a wide table that needs to be on a landscape
-page you can do like in @tbl-sideway. Have a look at the `qmd` for the
-code.
-
-You need to put the table in a pandoc div (delimited by :::) indicating
-the side way rotation
-
-It also works for figures just use `sidewaysfigure` instead of
-`sidewaystable`
-
-::: {.sidewaystable data-latex=""}
-```{r}
-#| label: tbl-sideway
-#| echo: false
-#| tbl-cap: This is a wide table
-library(gt)
-exibble |>
-  gt(
-    rowname_col = "row",
-    groupname_col = "group",
-    locale = "fr"
-  ) |>
-  fmt_number() |>
-  fmt_date(
-    columns = date,
-    date_style = "yMEd"
-  ) |>
-  fmt_datetime(
-    columns = datetime,
-    format = "EEEE, MMMM d, y",
-    locale = "en"
-  ) |>
-  tab_options(table.width = pct(100))
-
-```
-:::
-
--->
+Analysis will be perofrmed on R [@base]; Animal models will be performed using R package "MCMCglmm" [@mcmcglmm]; DHGLM and other bayesian analysis (non using MCMCglmm) will be done with "brms" [@brms].
+Figures will be made with "ggplot2" [@ggplot]
 
 
 {{<pagebreak>}}
@@ -321,18 +273,15 @@ Body mass in juvenile was predicted to stay stable as it favour a higher running
 However, by looking at @fig-juvenile-trend we see that even if the body mass at birth ($a)$) is indeed stable, the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season ($b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (see @sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
 
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-#| eval: true
-#| label: fig-juvenile-trend
-#| fig-cap: Body mass trend over time cohort for females (black) and males (red) juveniles compared between a) the beginning of the active season (birth weight) and b) the end of the season (mass on August 15th).
+::: {#fig-juvenile-trend}
 
-source("figures/juvenile_mass.r")
+![](figures/fig-juvenile-trend.png) 
 
-cowplot::plot_grid(plot2_jun, plot2_aug, ncol = 2)
-```
+Body mass trend over time cohort for females (black) and males (red) juveniles compared between a) the beginning of the active season (birth weight) and b) the end of the season (mass on August 15th).
+:::
+
+
+
 
 As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
 
@@ -394,11 +343,12 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 # Chapter 3 - Triggers {#sec-chap3}
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
 
+Extensive and detailed weather data at site from 1975 to 2022 [@pratherClimateDataRocky2023]
+
 E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 
 Predators, Diet?
 
-We have precise weather data from Billy Barr
 
 {{<pagebreak>}}
 
