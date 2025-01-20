@@ -34,39 +34,38 @@ editor:
 
 ## Climate change
 
-The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. Broadly speaking, climate change encompass melting ice caps, rising sea levels, increasing temperatures, more frequent extreme weather events, and greater environmental variability and unpredeactability. More specifically, main characteristics of this global change, usually documented, includes:
-
-* **Raising T°**: Explain + study case (!!!)
-
-* **Changing season lengths**: Explain + study case (try to find something at RMBL !!!)
-
-* **Environmental variability and unpredictibility**: Explain + study case (!!!)
-
-* **More frequent and severe droughts**: Explain + study case (!!!)
-
-* **Incresing frequency and severity of extreme weather events**: Explain + study case (!!!)
+The impacts of climate change on natural environments are well-documented and can, obviously, no longer be ignored [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. Broadly speaking, climate change encompass melting ice caps, rising sea levels. More specifically, main characteristics of this global change, usually documented, includes: **Raising temperature**; **Changing season lengths**; **Environmental variability and unpredictibility**; **More frequent and severe droughts**; **Incresing frequency and severity of extreme weather events** [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
 
 
-Climate change do impact human society, this is, for example, well represented in Ottawa. Temperature, snowing, raining trends in the Canadian capital over the last century, reveals worrying figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. A concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. Indeed, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+Climate change do impact human society, this is, for example, well represented in the city of Ottawa, ON, Canada. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals worrying figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. A concrete consequences of these changes in Ottawa is the management of the Rideau canal ice skating rink. Indeed, in later years the oppening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
-But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222023]. These profound ecological changes are putting a large number of species at risk, and they must act accordingly to avoind etinction, either by dispercing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
+But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological changes are putting a large number of species at risk, and they must act accordingly to avoind etinction, either by dispercing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
 
 ## Body mass as a Life-History Traits (LHT)
 
 Life history traits (LHT) are phenotypic characteristics that impact directly an individual's survival and reproduction representing its selective value, or "**fitness**" [@Roff1992TheEO].
-The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO, @10.1093/oso/9780198577416.001.0001]. Various traits can be considered as LHT, as they represent the outcome of this resources allocation process.
-Among various LHTs, body mass plays a crucial role in many species. Individuals with greater body mass typically have greater energetic resources, making them more resilient to environmental pressures by giving them a greater capacity to buffer poor years in terms of resources (!!!<!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->). Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess, in this context, body mass is considered to be an "honest signal" of the individual capacity to accumalte resources and its quality as a reproducer (!!!). Therefore body mass can be considered a key LHT that directly influnces both survival and reproduction in many species.
+The concept of life history theory relies on the fact that organisms have limited ressources and must allocate them strategically between competing funtions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
-However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021], and even though some handicaps has been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, individual with a too large body mass will be counter-selected against smaller ones.
+Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass typically have greater energetic resources, making them more resilient to environmental pressures by giving them a greater capacity to buffer poor years in terms of resources (!!!<!-- publication about bet-hedging => max body mass to cope with bad years, looks at moufflon thèse de Julien -->).
 
-Hence, as predicted in Life History Theory, trade-off must be maid between available energy and individual's performances to find the optimal body mass.
+Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive sucess. In this context, body mass is considered to be an "honest signal" of an individual capacity to accumalte resources and its quality as a reproducer (!!!). Therefore body mass can be considered a key LHT influencing directly both survival and reproduction in many species.
+
+However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021], and even though some handicaps has been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected against smaller ones. Hence, as predicted in Life History Theory, trade-off must be maid between available energy and individual's performances to find the optimal body mass.
 
 
 ### Link with hibernation
 
-The importance of body mass as a LHT is particularly true for a specific group of species: **Hibernating species**.
-To survive unfavorable season (winter) some species disperse to milder environment, other cope with it and find ways to survive through. Some species survive through unfavorable seasons by entering a specific state of torpor, called "hibernation", where individuals lower their metabolism to the survival minimum required level. More specifically, "Fat-storing" hibernators (in opposition to "Food-storing hibernators") will sustain on their energetic ressources stocked in their white adipose tissue through the winter, then emerge at the start of the favourable season (Spring/Summer) [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003]. A commonly prerequired adaptation for that kind of behaviour is therefore the capacity to stock important quantities of reserve (i.e., large body mass) in order to have enough energy to survive without foraging for a full season. Furthermore, this energy gathering must be done in a short amont of time, hibernating species are usually active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season, some fat-storing hibernators nearly double their weight during the active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014]. Hence, not only a prerequired adaptation is an important body mass, but also a sufficiently efficient metabolism to gain weight quickly, which represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (!!!).
+The importance of body mass as a LHT is particularly true for a specific group of species: **Hibernating species**. To survive unfavorable season (usually winter) some species disperse to milder environments, other cope with it and find ways to survive through (!!!). A way found by some species to survive through is to enter a specific state of torpor, called "hibernation". 
+
+This strategy consists of reducing the metabolism to a minimum survival level. More specifically, "Fat-storing" hibernators (in opposition to "Food-storing hibernators") will sustain on their energetic ressources, stocked in their white adipose tissue, through the winter, then emerge at the start of the favourable season (Spring/Summer) [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003].
+
+A commonly prerequired adaptation for that kind of behaviour is therefore the capacity to stock important quantities of reserve (i.e., large body mass) in order to have sufficient energetic stocks to survive without foraging for a full season.
+
+Furthermore, this energy gathering must be done in a short amont of time, hibernating species are usually active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Some fat-storing hibernators nearly double their weight during the active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014].
+
+Hence, not only a prerequired adaptation is an important body mass, but also a sufficiently efficient metabolism to gain weight quickly, which represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (!!!).
+
 Additionally, for some species, reproduction occurs right at the onset of the active season, which means that before entering into hibernation, individuals much reach a threshold body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' biodemography.
 
 <!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the YBM yet) here, knowing that I wont talk about it till the end of the intro?) -->
@@ -76,65 +75,46 @@ Meanwhile, Climate change is expected to have significant impact on such LHT. It
 
 ### Expected effect of global warming on body mass
 
-As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used in climate sceptics rethoric during episodes of intense cold and violent blizzards[^1]<!-- poorly said but find a way to keep it in the proposal -->).
+As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used in climate sceptics rethoric during unusually intense episodes of cold[^1]<!-- poorly said but find a way to keep it in the proposal -->).
 
-This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size could be one the universal climate change response [@daufresneGlobalWarmingBenefits2009]. This hypothesis follows Bergmann's rules, which state that smaller body size should be favoured in warmer environment as it raises the surface to volume ratio, thus facilitating heat dissipation [@bergmanncRelationshipsHeatConservation1847]. Thus, in a warmer environment caused by global warming, a universal evolutionary response could indeed be a shrinking body size to cope with that.
+This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size should be a universal response to climate change [@daufresneGlobalWarmingBenefits2009]. This hypothesis follows Bergmann's rules, which state that smaller body size should be favoured in warmer environment as it raises the surface to volume ratio, thus facilitating heat dissipation [@bergmannRelationshipsHeatConservation1847]. Therefore, in a warmer environment, due to global warming, an adaptive response could indeed be a shrinking body size.
 
-However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response could be universal, also in 2022 IPCC report state that "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222023; @siepielskiNoEvidenceThat2019].
+However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response is universal. In addition, in 2022, the IPCC's report stated that "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222022; @siepielskiNoEvidenceThat2019].
 
 Moreover, several studies at higher latitude yield opposite results [i.e., increasing body mass in response to climate change, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym of milder conditions, so individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding. Hence these new, milder, conditions allows individuals to become larger.
 
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019.
 
 
-## Quantitative Genetics (QG) and Animal Models
+## Quantitative Genetics and Animal Models
 
-As we have discussed, climate change is expected to cause long-term environmental changes. Thus, natural population will need to adapt to these new conditions in order to persist. As mentioned earlier these adaptations can involve shift in geographical ranges, phenology, or phenotype [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005].
-Therefore, we expect natural population to **evolve**, allowing them to be better suited to new environmental conditions [@sihEvolutionBehaviouralResponses2011; @darwinOriginSpeciesMeans1859].
+As we have discussed, climate change is expected to cause long-term environmental changes. Thus, natural population will need to adapt to these new conditions in order to persist (!!!<!-- needed?-->). As mentioned earlier these adaptations can involve shift in geographical ranges, phenology, or phenotype [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005]. As climate change imply deep and long-term environmental modification, we expect natural population to **evolve**, allowing them to be better suited to new environments [@sihEvolutionBehaviouralResponses2011; @darwinOriginSpeciesMeans1859].
 
 However, estimating evolutionary signal in natural conditions can be complicated, and an observed phenotypic change is not necessarily due to evolution (i.e., phenotypic plasticity).
 Fortunately, quantitative genetic provides us a robust and well-established method to adress this by decomposing the total phenotypic variance ($V_P$) into it's genetic ($V_A$) and environmental ($V_{PE}$) components: $V_P = V_A + V_{PE}$ [@lynchGeneticsAnalysisQuantitative1998; @wilsonEcologistsGuideAnimal2010].
 
-A well-known statistical method to compute this from observed phenotype variation is the **Animal Models** [@kruukEstimatingGeneticParameters2004]. This method allows a robust estimation of the genetic variance in a trait affected by a large number of genes, each with small effects [i.e., a "quantitative trait", @kruukStudyQuantitativeGenetics2014].
-
-An Animal model is a specific kind of mixed model with individual identity as a non-independant random effect, linked to a relatedness matrix between each individual, extracted from the population pedigree (i.e., parental links between each individuals in the population population, @lynchGeneticsAnalysisQuantitative1998).
+A well-known statistical method to estimate these variance components from observed phenotypic data is the **Animal Models** [@kruukEstimatingGeneticParameters2004]. This method allows a robust estimation of the genetic variance in a trait affected by a large number of genes, each with small effects [i.e., a "quantitative trait", @lynchGeneticsAnalysisQuantitative1998; @kruukStudyQuantitativeGenetics2014]. An Animal model is a specific kind of mixed model using individual identity as a non-independant random effect, linked to a relatedness matrix between each individual, extracted from the population pedigree (i.e., parental links between each individuals in the population population, @lynchGeneticsAnalysisQuantitative1998).
 
 This method has the advantage of being relatively simple to employ, enabling genetic parameters estimation directly from phenotypic data. Only parental links between individuals need to be known, making this method applicable to wild populations [@kruukEstimatingGeneticParameters2004; @lynchGeneticsAnalysisQuantitative1998].
 
-As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations, as the most common problem in such studies is the lack of statistical power, which could be adressed with the quantity of data brought by long-term studies.
-
-Such studies would improve our understanding of the relationship between animals and their environment, as well as the genotype-phenotype-environment relationship, especially in a context of global change.
+As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations, as the most common problem in such studies is the lack of statistical power, which can be resolved thanks to the quantity of data brought by long-term studies. Such studies would improve our understanding of the relationship between animals and their environment, as well as the genotype-phenotype-environment relationship, especially in a context of global change.
 
 
 ## Traits coevolution
 
-A well-known challenge when studying evolution in natural context, is to consider that most traits are genetically correlated, causing **traits coevolution** [@gouldSpandrelsSanMarco1979; @Roff1992TheEO].
+A well-recognised challenge when studying evolution in natural context, is to consider the genetic correlation between several traits, causing **traits coevolution** [@gouldSpandrelsSanMarco1979; @Roff1992TheEO]. Indeed a trait cannot evolve independently without impacting other traits. This constraint narrows the range of possibility and reachable outcomes in the adaptive landscape [@arnoldAdaptiveLandscapeConceptual2001; @teplitskyEvolutionaryPotentialConstraints2014; @gouldSpandrelsSanMarco1979].
 
-Indeed a trait cannot evolve independently without impacting other traits. This conception will narrow the range of possibility and reachable outcomes in the adaptive landscape [@arnoldAdaptiveLandscapeConceptual2001; @teplitskyEvolutionaryPotentialConstraints2014].
+When studying the evolution of a specific trait (especially ones having important phenotypic consequences), failling to account for its link with other traits is an oversimplification. This misconception can bias not only our understanding of the causes and consequences of phenotypic change, but also the estimations of its evolutionary potential [@teplitskyEvolutionaryPotentialConstraints2014; !!!]. To effectively study traits' evolution, it is essential to consider that selection generally acts on multiple traits simultaneously, as phenotype is the result of a combination of various traits <!-- clarity... -->[@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
 
-When studying the evolution of a specific trait (especially a trait having important phenotypic consequences), failling to account for its genetic correlations with other traits is an oversimplification [@teplitskyEvolutionaryPotentialConstraints2014].
 
-This misconception can bias not only our understanding of the causes and consequences of phenotypic change, but also when estimates of a trait's evolutionary potential [@teplitskyEvolutionaryPotentialConstraints2014; !!!].
+A continuation of this reasoning is the extended **Pace Of Life Syndrome** (POLS) suggesting that life-history strategy, physiological and behavioral traits coevolve in response to the environment [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010].
 
-To trully understand the evolutionary potential of a trait, we need to acount for its non-independance with other gentically correlated traits [@teplitskyEvolutionaryPotentialConstraints2014].
+So, if climate change induce LHT modifications, it is to expect that other key physiological or behavioural trait will coevolve with it. For example, it has been observed that certain behvioural types will be consistently associated with certain Life-History strategies [e.g., individual with faster life-cycle will tend to be bolder @stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
 
-In this context, we need to consider for the fact that selection will generally act on multiple traits as phenotype is the result of a combination of traits [@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
 
-<br>
+As such, changes in LHTs are expected to have even greater impacts on the global phenotype. A robust method to study such changes are **Multivariate Animal models** (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [@teplitskyEvolutionaryPotentialConstraints2014].
 
-A continuation of this reasoning is the extended **Pace Of Life Syndrome** (POLS) [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010] suggesting that life-history strategy, physiological and behavioural traits coevolve in response to the environment.
-
-Hence, if climate change induce phenotypic changes in LHT, it is to expect that other key physiological or behavioural trait will coevolve with it; for example, it has been observed that certain behvioural types will be consistently associated with certain Life-History strategies [@stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
-
-In that case, the consequences of a phenotypic change in a LHT would be even greater, and again, need to be considered and studied efficiently.
-
-<br>
-
-A robust method to study that is **Multivariate Animal model** (i.e., an Animal model with multiple phenotypic trait as dependant variables) which allows us to estimate the genetic covariance between multiple traits [@teplitskyEvolutionaryPotentialConstraints2014].
-
-However such models are heavily data-consuming, and the main reason significant results with such models are quite rare today is that almost no study have enough data to have the statistical power required for theses complex models [@teplitskyEvolutionaryPotentialConstraints2014].
-
-Again, using long-term datasets brings a lot of expectation to adress such limitations.
+However such models are heavily data-consuming, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for theses complex models. Again, using long-term datasets brings a lot of expectation to adress such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
 
 
 ## Phenotypic plasticity vs microevolution
@@ -200,7 +180,7 @@ This hibernation (life) cycle is highly environemntally dependant, with the onse
 
 ### Long-term study data
 
-The monitored population is distributed over 7 main and 31 smaller colonies, divided between an "up" and a "down" valleys as depicted in @fig-map-study-site. Each Spring-Summer (May - September) since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Towahawk live traps ($81 * 25 * 30 cm$) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag on both ears, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioral observations. Over $95\%$ of individuals are captured between the first two years of their lives and thus have know year of birth and age, from that each we define four age classes, the **juveniles** between 0 and 1 year old, **yearlings** between 1 and 2 years old, **subadults** between 2 and 3 years old, and **adult** over 3 years old.
+The monitored population is distributed over 7 main and 31 smaller colonies, divided between an "up" and a "down" valleys (@fig-map-study-site). Each Spring-Summer (May - September) since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Towahawk live traps ($81 * 25 * 30 cm$) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag on both ears, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioral observations. Over $95\%$ of individuals are captured between the first two years of their lives and thus have know year of birth and age, from that each we define four age classes, the **juveniles** between 0 and 1 year old, **yearlings** between 1 and 2 years old, **subadults** between 2 and 3 years old, and **adult** over 3 years old.
 
  At each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. More descriptions can be found in @armitageMarmotBiologySociality2014.
 
@@ -272,7 +252,7 @@ Double random (Intercept, Slope)
 
 Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why YBM body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
 
-However, by looking at @fig-juvenile-trend we see that even if the body mass at birth ($a)$) is indeed stable, the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season ($b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (see @sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
+However, we see that even if the body mass at birth is indeed stable (@fig-juvenile-trend $a)$), the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend $b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (@sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
 
 
 ::: {#fig-juvenile-trend}
