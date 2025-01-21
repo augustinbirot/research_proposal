@@ -8,14 +8,14 @@ contributes:
       documentclass: scrartcl
       pdf-engine: xelatex
       papersize: letter
-      fontsize: 11pt
+      fontsize: 12pt
       geometry:
       - top=2.5cm
       - bottom=2.5cm
       - left=2.5cm
       - right=2.5cm
 #      colorlinks: true
-#      linestretch: 1.5
+      linestretch: 1.25
       template-partials:
 #        - before-title.tex
         - title.tex
