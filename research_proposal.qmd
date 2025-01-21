@@ -147,13 +147,15 @@ This is how phenotypic plasticity is usually studied. however, as emphasized by 
 
 @nusseyEvolutionaryEcologyIndividual2007 proposed a framework to estimate that individual variance in plasticity, which is now fairly accepted and used: **Random Regression**. Let's go back to the Linear Mixed Models (LMMs), the most classical type of mixed models is to add a random individual term on the intercept to estimate the "individual variance" by allowing the model to fit one intercept per individual, however in this compilation, the slope is the same for each individuals; now, if we add a random term also on the slope, not only the model estimate one intercept per individual, but also one slope (so, one reaction norm) per individual, estimating thus the individual variance in the phenotype expected in the average environment (*elevation*) but also the individual variation in phenotypic variation (*slope*) which is commonly called $\textbf{I * E}$.
 
-Once we've estimated this between-individual variance in plasticity, we can use quantitative genetic methods (i.e., Animal models, but this time using Random Regression Animal Model: "RRAM", @nusseyEvolutionaryEcologyIndividual2007) to decompose this variance into it's genetic and permanent environment part to estimate the genetic variation between-individuals in plasticity, which is usually named $\textbf{G * E}$. From that we can estimate the heritable variation in reaction norm's slope and have an idea of the evolutionary potential of phenotypic plasticity itself.
+Once we've estimated this between-individual variance in plasticity, we can use quantitative genetic methods using Random Regression Animal Model: "RRAM" [@nusseyEvolutionaryEcologyIndividual2007] to decompose this variance into it's genetic and environmental parts in order to get the between-individual genetic variation in plasticity, commonly referred to as $\textbf{G * E}$. From that we can estimate the heritable variation in reaction norm's slope and have an idea of the evolutionary potential of a trait's phenotypic plasticity itself.
 
-From a theoritical point of view, this is a good method, satisfying to estimate properly the ${I * E}$ and ${G * E}$. However, as underlyned by @ramakersProbingVariationReaction2023, an important limitation with this method is the environmental proxy used for the reaction norm. Indeed, if this latter isn't good enough (i.e., to far from the real predictor of the plastic response), an important part of this ${I * E}$ is missed (called "hidden ${I * E}$").
+From a theoritical point of view, this method allows for proper estimations of a trait's ${I * E}$ and ${G * E}$. However, as underlyned by @ramakersProbingVariationReaction2023, an important limitation is the environmental proxy used for the reaction norm. Indeed, if this latter isn't good enough (i.e., to far from the real predictor of the trait's plastic response), an important part of the actual individual variation in their plasticity is missed, this is what @ramakersProbingVariationReaction2023 called the "hidden ${I * E}$".
 
-Furthermore, it's often impossible to identify the real driver of plasticity in natural conditions (Which is expected as natural environments are exceptionally complex systems, and individuals generally doesn't have only one environmental variable to deal with...), the real driver can be unknown, unmeasurable are a combination of a lot of different variables [@ramakersProbingVariationReaction2023]. In response to that, the authors proposed a new method, using the Environment Specific Mean phenotype (ESM). Although they've shown this method is indeed efficient, they emphasized that we still need a really good knowledge of the studied system, and really specific conditions to be more efficient that the "regular" method. Hence, although it's a progress, more work is needed to deal with this ${I * E}$ detection in natural environment problem.
+Furthermore, it is often impossible to identify the real driver of plasticity in natural conditions, as natural environments are exceptionally complex systems, and individuals generally have to react to a combination of enviromental variables rather than one. Therefore, the real driver of plasticity is often unknown, unmeasurable and a combination of a lot of different variables. In response to that, @ramakersProbingVariationReaction2023 proposed a new method, using Environment Specific Mean phenotype (ESM). Although they have shown that this method is indeed efficient, they emphasized that we still need a really good knowledge of the study system, and specific conditions to be more efficient that classic the random regression method. Hence, although it's a progress, more work is needed to deal with this ${I * E}$ detection problem in natural environments.
 
-The good news is that we have a really promising, fairly new statistical method that could be applied to that: the "Double Hierarchical Generalized Linear Model" (DHGLM, !!! *find citation + maybe explain a little the method*) [...] from this method we can estimate the *variance in the residual variance* (i.e., "$\boldsymbol{V_{V_e}}$" by estimating the residual variance attributable to each individual). Knowing what these models does (*When I'll write it*), we're confident that it can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 should indicate that there is some ${I * E}$ in the system and would justify investigation by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that there's no individual variation in plasticity in the studied system. From this method we should be a way to free ourselves from the problems of bad proxies. And obviously, as for the random regreession with the RRAM, we can adapt this method we quantitative genetics to also detect $${G * E}$$ if $${I * E}$$ is detected.
+The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a kind of mixed model fitting random effects to estimate both the mean variance distribution and the dispersion, so the residual variance distribution [@leeDoubleHierarchicalGeneralized2006].
+
+From this method we can estimate the *variance in the residual variance* (i.e., "$\boldsymbol{V_{V_e}}$" by estimating the residual variance attributable to each individual). Knowing what these models does (*When I'll write it*), we're confident that it can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 should indicate that there is some ${I * E}$ in the system and would justify investigation by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that there's no individual variation in plasticity in the studied system. From this method we should be a way to free ourselves from the problems of bad proxies. And obviously, as for the random regreession with the RRAM, we can adapt this method we quantitative genetics to also detect ${G * E}$ if ${I * E}$ is detected.
 
 This new method is thus very promising, however, as most new statistical methods, it often poorly understood/used. Hence, a general framework (supervised by someone with good statistical knowledge, i.e., Julien) including the application on how DHGLM could (should) be used to detect ${I * E}$ would be really helpful for the comunity (especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition with climate change).
 
@@ -228,7 +230,7 @@ Mean cohort’s predicted breeding values trend over 5,000 iterations (gray line
 
 {{<pagebreak>}}
 
-## Research objectives & Methodology
+## Research objective
 
 Since this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
 
@@ -330,6 +332,16 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 
 
+::: {#fig-ie-vs-opposed}
+
+![](figures/ie_vs_opposed.png) 
+
+[...]
+:::
+
+
+
+
 {{<pagebreak>}}
 
 # Chapter 3 - Triggers {#sec-chap3}
@@ -358,6 +370,8 @@ Manuscript models Body Mass/active season with survival
 # Significance and impacts {#sec-signif}
 
 
+
+{{< pagebreak >}}
 
 <!--
 # Expected Products
@@ -395,16 +409,19 @@ MSC/PhD. Think of each as a fantasy abstract.
 
 not necessarily needed for comprehensive exam proposal
 
+-->
+
 # Schedule
 
-Outline of the calendar for the work. This is necessarily rough and
-subject to change. Usually include a Gantt chart
+RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO
 
-## Completed to date
+::: {#fig-timeline}
 
+![](figures/birot_gantt_chart.pdf) 
 
-## Six month plan
--->
+:::
+
+RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO
 
 {{< pagebreak >}}
 
