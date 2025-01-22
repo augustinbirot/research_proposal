@@ -175,7 +175,7 @@ On the one hand, an increase body mass, over a certain threshold, can become a h
 On the other hand, an increased body mass, being synonyme of a more important energy stock, allow indivduals to "buffer" in a poor year in term of ressources. This feature can be very important for species living highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase you body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
 
 However, by definition, a "bet" comports risks. Indeed, when lowering immediate fitness to "bet"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
-
+<!-- JULIEN - J'ai l'impression d'avoir une interprétation un peu à l'envers du bet-hedging, avec, au lieu de l'aspect couvrir toutes les issues, juste parier sur le long terme pour le "on sait jamais" -->
 
 ## Species and study
 
