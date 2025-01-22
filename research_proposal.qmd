@@ -134,7 +134,7 @@ As such, changes in LHTs are expected to have even greater impacts on the global
 However such models are heavily data-consuming, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for theses complex models. Again, using long-term datasets brings a lot of expectation to adress such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
 
 
-*TRANSITION TRANSITION TRANSITION TRANSITION TRANSITION*
+**TRANSITION TRANSITION TRANSITION TRANSITION TRANSITION**
 
 
 ## Individual variation in their plasticity
@@ -170,19 +170,22 @@ This is a very promising method, however, as most new statistical methods, it is
 
 Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
 
-increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
+On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. For example, heavier individuals can be more subject to heat stress; they can be more subject to predation as heavier individuals are slower and more palatable.
 
-But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in evolutionary traps [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013]. <!-- whatch out how you say this, there is no intentionality in the "bet"! -->
+On the other hand, an increased body mass, being synonyme of a more important energy stock, allow indivduals to "buffer" in a poor year in term of ressources. This feature can be very important for species living highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase you body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
+
+However, by definition, a "bet" comports risks. Indeed, when lowering immediate fitness to "bet"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
 
 
 ## Species and study
 
 Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*, "YBM") is followed yearly, first supervised by Kenneth Armitage, and today by Julien Martin and Daniel Blumstein, at the Rocky Moutain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W), this is the second longest-term study of a natural mammal population in the world.
+
 YBM is a ground-dwelling sciurid (rodentia, sciurideae) inhabiting alpine habitats in western North America with a life cycle divided between an "active season" representing approximately a third of the year (from May to September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the time [@armitageMarmotBiologySociality2014].
-Individuals experience high seasonal flutuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to 1) survive through the next active season and 2) have sufficient energy left for hibernation [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014].
-Consequently, body mass is consider being a critical LHT for the marmots.
-YBM lives in colonies composed usually by one or more matriline with on adult males, multiple adult females and their offspring [@armitageMarmotBiologySociality2014]. Our population is composed of seven main colonies divided between an "up" and a "down valley" with a elevation difference arround 300m ("up" = 3,000m; "down" = 2,700m) implying some difference in weather [e.g., delayed snowmel and vegetation growth onset, temperature difference up to 2 °C, @blumsteinYellowbelliedMarmotsMarmota2004; @armitageMarmotBiologySociality2014] and so delayed emergence up to two weeks in the up-valley [@blumsteinSOCIALEFFECTSEMERGENCE2009; @monclusYellowbelliedMarmotsNot2014].
-This two differents condition offers an amazing opportunity to test the impact on environment on several factors while working in natural conditions.
+
+Individuals experience high seasonal flutuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to 1) survive through the next active season and 2) have sufficient energy left for hibernation [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014].Consequently, body mass is consider being a critical LHT for the marmots.
+
+YBM lives in colonies composed usually by one or more matriline with on adult males, multiple adult females and their offspring [@armitageMarmotBiologySociality2014]. Our population is composed of seven main colonies divided between an "up" and a "down valley" with a elevation difference arround 300m ("up" = 3,000m; "down" = 2,700m) implying some difference in weather [e.g., delayed snowmel and vegetation growth onset, temperature difference up to 2 °C, @blumsteinYellowbelliedMarmotsMarmota2004; @armitageMarmotBiologySociality2014] and so delayed emergence up to two weeks in the up-valley [@blumsteinSOCIALEFFECTSEMERGENCE2009; @monclusYellowbelliedMarmotsNot2014]. This two differents condition offers an amazing opportunity to test the impact on environment on several factors while working in natural conditions.
 
 This hibernation (life) cycle is highly environemntally dependant, with the onset and end of the active season believed to be mediated mostly by weather variable such as temperature and snow cover of the region [@armitageMarmotBiologySociality2014]. Thus, body mass is expected to be a keystone phenotypic trait for the marmots. It is therefore crucial to understand how this trait and this species responds to global warming, both for conservaion purposes and to elucidate links between phenotype and environment.
 
@@ -218,8 +221,11 @@ Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be pero
 ### Body mass increase in Yellow-Bellied Marmots (YBM)
 
 An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
+
 However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround $400\ g$, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
+
 Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which seems counter-intuitive.
+
 There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
 
 
