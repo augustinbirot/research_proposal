@@ -41,6 +41,8 @@ Climate change do impact human society, this is, for example, well represented i
 
 But most of all, climate change seriously impacts the vast majority of Earth's ecosystems, as shown by countless studies [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological changes are putting a large number of species at risk, and they must act accordingly to avoind etinction, either by dispercing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our comprehension of how natural population react to this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
+<!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] -->
+
 
 ## Body mass as a Life-History Traits (LHT)
 
@@ -153,23 +155,22 @@ From a theoritical point of view, this method allows for proper estimations of a
 
 Furthermore, it is often impossible to identify the real driver of plasticity in natural conditions, as natural environments are exceptionally complex systems, and individuals generally have to react to a combination of enviromental variables rather than one. Therefore, the real driver of plasticity is often unknown, unmeasurable and a combination of a lot of different variables. In response to that, @ramakersProbingVariationReaction2023 proposed a new method, using Environment Specific Mean phenotype (ESM). Although they have shown that this method is indeed efficient, they emphasized that we still need a really good knowledge of the study system, and specific conditions to be more efficient that classic the random regression method. Hence, although it's a progress, more work is needed to deal with this ${I * E}$ detection problem in natural environments.
 
-The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a kind of mixed model fitting random effects on both the mean and dispersion. In other words, it models the distribution for both the mean and the residual variance [@leeDoubleHierarchicalGeneralized2006]. So, DHGLM estimates the *variance in the residual variance* (i.e., $\boldsymbol{V_{V_e}}$) corresponding to the variance in the proportion of the residual variance attributable to each individual.
+The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a kind of mixed model estimating the distribution for both the mean and the residual variance [@leeDoubleHierarchicalGeneralized2006]. In other words, DHGLM estimates the *variance in the residual variance* hereafter referred to as $\boldsymbol{V_{V_e}}$. This correspond to the variance in the proportion of the residual variance attributable to each individual.
 
-We are confident that DHGLM can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 should indicate that there is some discrepencies in the individual contribution to the residual variance. As this show a different contribution of each individual to the residual variance in phenotype, it shows that the range of phenotype expressed by each individuals is different, ergo it can show an individual variance in their plastic response, so ${I * E}$.
+We are confident that DHGLM can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 indicate some disparities in the individual contributions to the residual variance. To put in differently, it shows that the range of phenotypic values expressed by each individuals is different, which can be interpreted as an individual variance in their plastic response, so ${I * E}$.
 
-Although a non-zero variance isn't necessarly due to the presence of ${I * E}$ in the system, it would justify investigation by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect, @fig-ie-vs-opposed), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
+Although a non-zero variance isn't necessarly due to the presence of ${I * E}$ in the system, it would justify further investigations by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect, @fig-ie-vs-opposed), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
 
-An important feature of this method is that it should be free from the problems of bad proxies as it detects ${I * E}$ from the structure of the residual variance. And obviously, as for the random regreession with the RRAM, we can adapt this method we quantitative genetics to also detect ${G * E}$ if ${I * E}$ is detected by combining a DHGLM with an Animal model, giving a "Double Hierarchical Animal Model" (DHAM).
+An important feature of this method is that it should be free from the problems of bad environmental proxies as it detects ${I * E}$ from the structure of the residual variance in phenotype. And obviously, as for the random regreession with the RRAM, we can use quantitative genetics to also detect ${G * E}$ if ${I * E}$ is detected by combining a DHGLM with an Animal model, giving a "Double Hierarchical Animal Model" (DHAM).
 
-This new method is very promising, however, as most new statistical methods, it is often poorly understood/used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect ${I * E}$ would be really helpful for the comunity, especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition in a context of climate change.
+This is a very promising method, however, as most new statistical methods, it is often poorly understood/used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect ${I * E}$ would be really helpful for the comunity, especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition in a context of climate change.
 
 
 ### Bet-hedging
 
-Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012].
+Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
 
-With climate change, environment are less predictable than ever, and the effects of these change are even more important in alpine habitat [@inouyeHIGHALTITUDECLIMATES], which can, in consequence, favour bet-hedging then.
-Thus bet-hedging, for example increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
+increase you body size to "buffer" is not a crazy strategy, but can be risky in the future => potential phenological mismatch (i.e., [...], @stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005), bet-hedging is a bet, so you're not sure to win in the end, and it can end in maladaption...
 
 But, by definition, a "bet" comports risks, and in such variable conditions due to an extremely fast climate change, betting on the future can end in evolutionary traps [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013]. <!-- whatch out how you say this, there is no intentionality in the "bet"! -->
 
@@ -412,7 +413,7 @@ not necessarily needed for comprehensive exam proposal
 
 -->
 
-# Schedule
+# Timeline
 
 RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO RE-DO
 
