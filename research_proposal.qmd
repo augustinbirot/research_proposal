@@ -177,6 +177,11 @@ On the other hand, an increased body mass, being synonyme of a more important en
 However, by definition, a "bet" comports risks. Indeed, when lowering immediate fitness to "bet"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
 <!-- JULIEN - J'ai l'impression d'avoir une interprétation un peu à l'envers du bet-hedging, avec, au lieu de l'aspect couvrir toutes les issues, juste parier sur le long terme pour le "on sait jamais" -->
 
+Larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
+
+But, again, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment (just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation) (!!!)
+
+
 ## Species and study
 
 Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*, "YBM") is followed yearly, first supervised by Kenneth Armitage, and today by Julien Martin and Daniel Blumstein, at the Rocky Moutain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W), this is the second longest-term study of a natural mammal population in the world.
