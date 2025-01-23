@@ -28,7 +28,7 @@ editor:
 ---
 
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 # Introduction {#sec-intro}
 
@@ -134,9 +134,6 @@ As such, changes in LHTs are expected to have even greater impacts on the global
 However such models are heavily data-consuming, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for theses complex models. Again, using long-term datasets brings a lot of expectation to adress such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
 
 
-**TRANSITION TRANSITION TRANSITION TRANSITION TRANSITION**
-
-
 ## Individual variation in their plasticity
 
 As explained above, evolution and plasticity are not mutually exclusive, but even more so, plasticity itself can evolve (!!!).
@@ -240,7 +237,7 @@ There is a pressing need to explore which environmental factors may have trigger
 Mean cohort’s predicted breeding values trend over 5,000 iterations (gray lines). The median trends of the observations (red line) and under the null scenario (drift alone, black line) are represented, according to linear (solid line) or generalized additive models (two dashed lines). Points and error bars represent the median and 95% credibility interval of the posterior mean PBV for each cohort.
 :::
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 ## Research objective
 
@@ -248,9 +245,25 @@ Since this major phenotypic shift for the YBM in the last half-century has been 
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
 
+<!-- 1st chapter -->
+First,
 
 
-{{<pagebreak>}}
+<!-- 2nd chapter -->
+Then,
+
+
+<!-- 3rd chapter -->
+Now,
+
+
+<!-- 4th chapter -->
+Finally,
+
+
+
+
+{{< pagebreak >}}
 
 
 # Chapter 1 - Mechanisms {#sec-chap1}
@@ -292,7 +305,7 @@ Increasing (estimated from local regressions):
 As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
 
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 # Chapter 2 - Methodology {#sec-chap2}
 *Methodology: $I * E$ detection with Double Hierarchical Generalized Linear Models (DHGLM)*
@@ -354,7 +367,7 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 # Chapter 3 - Triggers {#sec-chap3}
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
@@ -366,7 +379,7 @@ E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 Predators, Diet?
 
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 # Chapter 4 - Implications {#sec-chap4}
 *Marmot's Biology: What could be the implications of that for the population's future?*
@@ -377,7 +390,7 @@ Manuscript models Body Mass/active season with survival
 => Phenological mismatch?? (e.g., thermal stress)
 
 
-{{<pagebreak>}}
+{{< pagebreak >}}
 
 # Significance and impacts {#sec-signif}
 
@@ -385,43 +398,52 @@ Manuscript models Body Mass/active season with survival
 
 {{< pagebreak >}}
 
-<!--
+
 # Expected Products
 
-A list of the (usually 1/3) articles expected for completion of the
-MSC/PhD. Think of each as a fantasy abstract.
+1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
+  Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein, Julien Martin]{.underline}
+    
+    *Lorem ipsum*
 
-1.  The Evolution of Human Uniqueness. [Bob Hette & Julien
-    Martin.]{.underline}
 
-    There is wide agreement that humans are unique. But it is rarely
-    asked: Have they always been unique? In this paper, we derive a
-    general uniqueness theorem that states that any unique species must
-    have been less unique at some point in the past. This theorem has
-    implications for the achievement of world peace.
+2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, Dan Blumstein, Julien Martin]{.underline}
 
-2.  Niche Construction, Disease Transmission, and Global Warming: Chaos
-    Deconstructs the Block Chain. [Bob Hette, Igor Tex & Julien
-    Martin]{.underline}
+    *Lorem ipsum*
 
-    How many buzz words can be combined in a title? In this paper, we
-    find that the natural limit on buzz words in any specific scholarly
-    field is always given by the triangular number $T_n$ where $n$ is
-    one more than the number of tenured faculty in the field.
 
-3.  A Bayesian Hierarchical Survival Analysis of Counting Sheep. [Bob
-    Hette & Julien Martin]{.underline}
+3. Free ourselves from bad envrionmental proxies when estimating I * E with DHGLMs.
+  [Augustin Birot, Ned Dochtermann, Julien Martin]{.underline}
+    
+    *Lorem ipsum*
 
-    Just like all those other models of counting sheep, but this one
-    will be Bayesian.
 
-# Scientific value and rationale for the research
+4. Why do marmots got bigger so late? [Augustin Birot, Dan Blumstein, 
+  Julien Martin]{.underline}
 
-# Course selection
+    *Lorem ipsum*
 
-not necessarily needed for comprehensive exam proposal
 
--->
+5. Is there a link between an increased body mass and behaviour? [Augustin Birot, 
+  Vincent Careau, Dan Blumstein, Julien Martin]{.underline}
+
+    *Lorem ipsum*
+
+
+6. Buffer environmental instability by increase your body mass: an application of 
+  coservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein, 
+  Julien Martin]{.underline}
+
+    *Lorem ipsum*
+
+
+7. How can social network analysis help us understand metapopulation dynamics?
+  [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Pierre Bize, Julien Martin]{.underline}
+
+    *Lorem ipsum*
+
+
+{{< pagebreak >}}
 
 # Timeline
 
