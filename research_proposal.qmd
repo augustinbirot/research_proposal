@@ -192,7 +192,7 @@ The altitude differences between the two valleys implies some differences in wea
 
 The marmots' hibernation life-cycle is highly environment-dependent. Indeed, their phenology (i.e., onset and end of the active season) seems to be mediated mostly by weather variable such as temperature and snow cover [@armitageMarmotBiologySociality2014], as for the rest of high-altitude ecosystems [@inouyeHighAltitudeClimates2003].
 
-Thus, body mass is expected to be a keystone phenotypic trait for the marmots. It is therefore crucial to understand how this trait and this population responds to global warming, both for conservation purposes and to elucidate links between phenotype and environment.
+As shown, body mass is a keystone phenotypic trait for the yellow-bellied marmots. It is therefore crucial to understand how this trait and this population is responding to climate change, both for conservation purposes and better comprehension of the links between phenotype and environment.
 
 ::: {#fig-map-study-site}
 
@@ -398,6 +398,7 @@ Manuscript models Body Mass/active season with survival
 
 # Significance and impacts {#sec-signif}
 
+This research uses one of the most extensive natural population databases in the world to better understand how can natural populations cope with climate change. The quality and quality of data provided by this study system will allow conducting powerful and complete analysis that can’t be done on most natural population (such as powerful multivariate animal models). This will provide crucial insight to guide conservation policies in a context of rapidly changing environments.
 
 
 {{< pagebreak >}}
