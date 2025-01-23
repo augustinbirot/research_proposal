@@ -425,19 +425,27 @@ not necessarily needed for comprehensive exam proposal
 
 # Timeline
 
-::: {#fig-timeline}
+::: {#fig-timeline-first}
 
 ![](figures/gantt_24_25.png)
 
 ![](figures/gantt_25_26.png)
 
+
+Proposed timeline for the first and second years.
+:::
+
+
+::: {#fig-timeline-second}
+
 ![](figures/gantt_26_27.png)
 
 ![](figures/gantt_27_28.png)
 
-GANTT Chart for the PhD (4 years).
 
+Proposed timeline for the third and fourth years.
 :::
+
 
 {{< pagebreak >}}
 
