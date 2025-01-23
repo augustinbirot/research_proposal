@@ -399,6 +399,17 @@ Manuscript models Body Mass/active season with survival
 {{< pagebreak >}}
 
 
+# Potential side projects {#sec-side-proj}
+
+* Dig the conservative bet-hedging hypothesis
+
+* Continue a previously started work at NTNU with Yimen Araya-Ajoy about developping a path between Social Network Analysis (SNA) and metapopulation dynamics studies
+
+
+{{< pagebreak >}}
+
+
+
 # Expected Products
 
 1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
@@ -424,7 +435,7 @@ Manuscript models Body Mass/active season with survival
     *Lorem ipsum*
 
 
-5. Is there a link between an increased body mass and behaviour? [Augustin Birot, 
+5. Is there a link between an increased body mass and behavior? [Augustin Birot, 
   Vincent Careau, Dan Blumstein, Julien Martin]{.underline}
 
     *Lorem ipsum*
