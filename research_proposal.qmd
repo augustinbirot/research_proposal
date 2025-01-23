@@ -70,7 +70,7 @@ Hence, not only a prerequired adaptation is an important body mass, but also a s
 
 Additionally, for some species, reproduction occurs right at the onset of the active season, which means that before entering into hibernation, individuals much reach a threshold body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' biodemography.
 
-<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the YBM yet) here, knowing that I wont talk about it till the end of the intro?) -->
+<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good strategy to bring the marmots (as a tribe, not the yellow-bellied marmots yet) here, knowing that I wont talk about it till the end of the intro?) -->
 
 Meanwhile, Climate change is expected to have significant impact on such LHT. It has been theorized that change in body size could be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005]
 
@@ -180,23 +180,19 @@ Indeed, specializing phenotype, in that case "betting"<!-- whatch out how you sa
 
 ## Species and study
 
-Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*, "YBM") is followed yearly, first supervised by Kenneth Armitage, and today by Julien Martin and Daniel Blumstein, at the Rocky Moutain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W), this is the second longest-term study of a natural mammal population in the world.
+Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*) is monitored continuously, initiated by Kenneth Armitage, and now supervised by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second longest-term wild mammal population monitoring in the world.
 
-YBM is a ground-dwelling sciurid (rodentia, sciurideae) inhabiting alpine habitats in western North America with a life cycle divided between an "active season" representing approximately a third of the year (from May to September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the time [@armitageMarmotBiologySociality2014].
+Yellow-bellied marmots is a ground-dwelling sciurid (Rodentia, Sciuridae) inhabiting alpine habitats in western North America. Their life cycle is divided between an "active season" representing approximately a third of the year (from May to September) where individuals must forage to reach a threshold body mass in order to survive hibernation for the remainder of the year (September to May) [@armitageMarmotBiologySociality2014].
 
-Individuals experience high seasonal flutuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to 1) survive through the next active season and 2) have sufficient energy left for hibernation [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014].Consequently, body mass is consider being a critical LHT for the marmots.
+Individuals experiences high seasonal fluctuation in body mass, with a critical threshold to be reached before the onset of hibernation in order to first, survive through the next active season and second, have enough energy left for reproduction [which occurs in the first weeks of the active season, @armitageVernalBehaviourYellowbellied1965; @armitageMarmotBiologySociality2014]. Hence, body mass is a critical LHT for the marmots.
 
-YBM lives in colonies composed usually by one or more matriline with on adult males, multiple adult females and their offspring [@armitageMarmotBiologySociality2014]. Our population is composed of seven main colonies divided between an "up" and a "down valley" with a elevation difference arround 300m ("up" = 3,000m; "down" = 2,700m) implying some difference in weather [e.g., delayed snowmel and vegetation growth onset, temperature difference up to 2 °C, @blumsteinYellowbelliedMarmotsMarmota2004; @armitageMarmotBiologySociality2014] and so delayed emergence up to two weeks in the up-valley [@blumsteinSOCIALEFFECTSEMERGENCE2009; @monclusYellowbelliedMarmotsNot2014]. This two differents condition offers an amazing opportunity to test the impact on environment on several factors while working in natural conditions.
+Yellow-bellied marmots lives in colonies usually composed by one or more matrilineal with one adult male, multiple adult females and their offspring [@armitageMarmotBiologySociality2014]. Our population is composed of 7 main and 31 smaller colonies divided between an "up" and a "down valley" (@fig-map-study-site) with an elevation difference around 300 m ("up" = 3,000 m; "down" = 2,700 m).
 
-This hibernation (life) cycle is highly environemntally dependant, with the onset and end of the active season believed to be mediated mostly by weather variable such as temperature and snow cover of the region [@armitageMarmotBiologySociality2014]. Thus, body mass is expected to be a keystone phenotypic trait for the marmots. It is therefore crucial to understand how this trait and this species responds to global warming, both for conservaion purposes and to elucidate links between phenotype and environment.
+The altitude differences between the two valleys implies some differences in weather like delayed snowmelt and vegetation growth onset, or temperature differences up to 2 °C [@blumsteinYellowbelliedMarmotsMarmota2004; @armitageMarmotBiologySociality2014]. In consequence of these weather differences, a delayed emergence up to two weeks in the up-valley can be observed [@blumsteinSOCIALEFFECTSEMERGENCE2009; @monclusYellowbelliedMarmotsNot2014]. These two different condition offers an amazing opportunity to test the impact of environmental differences on several factors while working in natural conditions.
 
+The marmots' hibernation life-cycle is highly environment-dependent. Indeed, their phenology (i.e., onset and end of the active season) seems to be mediated mostly by weather variable such as temperature and snow cover [@armitageMarmotBiologySociality2014], as for the rest of high-altitude ecosystems [@inouyeHighAltitudeClimates2003].
 
-### Long-term study data
-
-The monitored population is distributed over 7 main and 31 smaller colonies, divided between an "up" and a "down" valleys (@fig-map-study-site). Each Spring-Summer (May - September) since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Towahawk live traps ($81 * 25 * 30 cm$) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag on both ears, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioral observations. Over $95\%$ of individuals are captured between the first two years of their lives and thus have know year of birth and age, from that each we define four age classes, the **juveniles** between 0 and 1 year old, **yearlings** between 1 and 2 years old, **subadults** between 2 and 3 years old, and **adult** over 3 years old.
-
-At each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. More descriptions can be found in @armitageMarmotBiologySociality2014.
-
+Thus, body mass is expected to be a keystone phenotypic trait for the marmots. It is therefore crucial to understand how this trait and this population responds to global warming, both for conservation purposes and to elucidate links between phenotype and environment.
 
 ::: {#fig-map-study-site}
 
@@ -204,6 +200,32 @@ At each capture, individuals are sexed, weighted (initially with a spring scale 
 
 Red colonies represent the "**up**" valley, blue represent the "**down**" valleys. Plain background polygons represent the seven main colonies. Map created with QGIS software [@qgisdevelopmentteamQGISGeographicInformation2024], base map from ESRI [@GISMappingSoftware].
 :::
+
+
+### Body mass increase in Yellow-Bellied Marmots
+
+An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
+
+However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround $400\ g$, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
+
+Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which seems counter-intuitive.
+
+There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
+
+::: {#fig-A-F-bodymass}
+
+![](figures/fig-pbv-cohort-1.png) 
+
+Mean cohort’s predicted breeding values trend over 5,000 iterations (gray lines). The median trends of the observations (red line) and under the null scenario (drift alone, black line) are represented, according to linear (solid line) or generalized additive models (two dashed lines). Points and error bars represent the median and 95% credibility interval of the posterior mean PBV for each cohort.
+:::
+
+
+### Data
+
+Each Spring-Summer (May - September) since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Towahawk live traps ($81 * 25 * 30 cm$) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag on both ears, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioral observations. Over $95\%$ of individuals are captured between the first two years of their lives and thus have know year of birth and age, from that each we define four age classes, the **juveniles** between 0 and 1 year old, **yearlings** between 1 and 2 years old, **subadults** between 2 and 3 years old, and **adult** over 3 years old.
+
+At each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. More descriptions can be found in @armitageMarmotBiologySociality2014.
+
 
 **Population pedigree**
 Population pedigree for most of the individuals (4,652 individuals to this date)
@@ -219,29 +241,11 @@ Population pedigree for most of the individuals (4,652 individuals to this date)
 Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be perofrmed on R [@base], Animal models will be performed using R package "MCMCglmm" [@mcmcglmm], DHGLM and other bayesian analysis (excluding MCMCglmm) will be done with "brms" [@brms], figures will be made with "ggplot2" [@ggplot].
 
 
-### Body mass increase in Yellow-Bellied Marmots (YBM)
-
-An important body mass increase has been observed in this population over the past half-century (estimated arround 600 g for the adult females). Precedent studies attributed this major change mostly to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothese made in fact a lot of sense, with climate change active season is getting longer (milder condition, higher temperature, less snow, shorter winter, etc.), hence marmots have more time to forage, gain weight, and the hibernation period is getting shorter so less time for the individuals to lose mass, at the end of the day, we have heavier individuals, makes sense!
-
-However, using animal models to properly assess the genetic attributable part of this change, estimating explicitely the body mass' evolutionary signal for the adult females over the time cohort (i.e., year of birth) during the study period, we found an increase, at the genetic scale, estimated arround $400\ g$, with a heritability of $56\%$ (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). So, in fact, arround two third of the body mass increase seems to be due to evolution, not just plasticity.
-
-Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary signal. If the main selective pressure on body mass is survival through hibernation (i.e., heavier individuals having more chance to survive through winter as they have more ressources), then the expected evolutionary response (i.e., average body mass increase) is occuring when the pressure is decreasing, which seems counter-intuitive.
-
-There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
-
-
-::: {#fig-A-F-bodymass}
-
-![](figures/fig-pbv-cohort-1.png) 
-
-Mean cohort’s predicted breeding values trend over 5,000 iterations (gray lines). The median trends of the observations (red line) and under the null scenario (drift alone, black line) are represented, according to linear (solid line) or generalized additive models (two dashed lines). Points and error bars represent the median and 95% credibility interval of the posterior mean PBV for each cohort.
-:::
-
 {{< pagebreak >}}
 
 ## Research objective
 
-Since this major phenotypic shift for the YBM in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
+Since this major phenotypic shift for the yellow-bellied marmots in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
 
 I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
 
@@ -282,7 +286,7 @@ Double random (Intercept, Slope)
 
 
 
-Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why YBM body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
+Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why yellow-bellied marmots body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
 
 However, we see that even if the body mass at birth is indeed stable (@fig-juvenile-trend $a)$), the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend $b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (@sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
 
@@ -413,36 +417,36 @@ Manuscript models Body Mass/active season with survival
 # Expected Products
 
 1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
-  Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein, Julien Martin]{.underline}
+  Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
     
     *Lorem ipsum*
 
 
-2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, Dan Blumstein, Julien Martin]{.underline}
+2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
 3. Free ourselves from bad envrionmental proxies when estimating I * E with DHGLMs.
-  [Augustin Birot, Ned Dochtermann, Julien Martin]{.underline}
+  [Augustin Birot, Ned Dochtermann and Julien Martin]{.underline}
     
     *Lorem ipsum*
 
 
-4. Why do marmots got bigger so late? [Augustin Birot, Dan Blumstein, 
+4. Why do marmots got bigger so late? [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
 5. Is there a link between an increased body mass and behavior? [Augustin Birot, 
-  Vincent Careau, Denis Réale, Dan Blumstein, Julien Martin]{.underline}
+  Vincent Careau, Denis Réale, Dan Blumstein and Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
 6. Buffer environmental instability by increasing your body mass: an application of 
-  coservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein, 
+  coservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
     *Lorem ipsum*
@@ -450,7 +454,7 @@ Manuscript models Body Mass/active season with survival
 
 7. How can social network analysis help us understand metapopulation dynamics?
   [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
-  Pierre Bize, Julien Martin]{.underline}
+  Pierre Bize and Julien Martin]{.underline}
 
     *Lorem ipsum*
 
