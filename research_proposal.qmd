@@ -156,7 +156,7 @@ The good news is that a promising, fairly new, statistical method could bring ne
 
 We are confident that DHGLM can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 indicate some disparities in the individual contributions to the residual variance. To put in differently, it shows that the range of phenotypic values expressed by each individuals is different, which can be interpreted as an individual variance in their plastic response, so ${I * E}$.
 
-Although a non-zero variance isn't necessarly due to the presence of ${I * E}$ in the system, it would justify further investigations by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect, @fig-ie-vs-opposed), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
+Although a non-zero variance isn't necessarly due to the presence of ${I * E}$ in the system, it would justify further investigations by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
 
 An important feature of this method is that it should be free from the problems of bad environmental proxies as it detects ${I * E}$ from the structure of the residual variance in phenotype. And obviously, as for the random regreession with the RRAM, we can use quantitative genetics to also detect ${G * E}$ if ${I * E}$ is detected by combining a DHGLM with an Animal model, giving a "Double Hierarchical Animal Model" (DHAM).
 
@@ -436,12 +436,12 @@ Manuscript models Body Mass/active season with survival
 
 
 5. Is there a link between an increased body mass and behavior? [Augustin Birot, 
-  Vincent Careau, Dan Blumstein, Julien Martin]{.underline}
+  Vincent Careau, Denis Réale, Dan Blumstein, Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
-6. Buffer environmental instability by increase your body mass: an application of 
+6. Buffer environmental instability by increasing your body mass: an application of 
   coservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein, 
   Julien Martin]{.underline}
 
@@ -449,7 +449,8 @@ Manuscript models Body Mass/active season with survival
 
 
 7. How can social network analysis help us understand metapopulation dynamics?
-  [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Pierre Bize, Julien Martin]{.underline}
+  [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
+  Pierre Bize, Julien Martin]{.underline}
 
     *Lorem ipsum*
 
