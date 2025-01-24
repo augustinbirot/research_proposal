@@ -222,19 +222,13 @@ Mean cohort’s body mass predicted breeding values (i.e., genetic value) trend 
 
 Each Spring-Summer (May - September) since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Towahawk live traps ($81 * 25 * 30 cm$) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique numbered ear tag on both ears, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioral observations. Over $95\%$ of individuals are captured between the first two years of their lives and thus have know year of birth and age, from that each we define four age classes, the **juveniles** between 0 and 1 year old, **yearlings** between 1 and 2 years old, **subadults** between 2 and 3 years old, and **adult** over 3 years old [@jebbBiggerNotAlways2021].
 
-At each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. More descriptions can be found in @armitageMarmotBiologySociality2014.
+Pedigree (i.e., parental links between individuals) is known for most individuals in the population (4,652 individuals to this date). This was first estimated through behavioral observations, meaning that only the mother-daughter links could be determined, then pedigree was estimated with genetic methods [details in @blumsteinHeritabilityAntipredatoryTraits2010; @olsonNoEvidenceInbreeding2012].
 
+Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
 
-**Population pedigree**
-Population pedigree for most of the individuals (4,652 individuals to this date)
-
-
-**Body mass**:
-"Body mass is a highly plastic trait, particularly for a hibernating species that experiences considerable fluctuations in body mass throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate the body mass of each individual at the same time of the year. Using repeated measures for each individual throughout each year’s active season, ranging from 1 to 20 with an average of 4.5, a linear mixed model was fitted to predict each individual’s body mass on August 15 each year (for details see Ozgul et al. (2010) and Jebb et al. 2021)."<!-- rewrite, developp, citation (Martin) -->
-
+Body mass is a highly plastic trait, particularly for marmots as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors was used to extract each individual’s body mass on August 15 each year (details in Ozgul et al. (2010) and Jebb et al. 2021).
 
 **Weather data** [@pratherClimateDataRocky2023]
-
 
 Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be perofrmed on R [@base], Animal models will be performed using R package "MCMCglmm" [@mcmcglmm], DHGLM and other bayesian analysis (excluding MCMCglmm) will be done with "brms" [@brms], figures will be made with "ggplot2" [@ggplot].
 
@@ -471,7 +465,7 @@ This research uses one of the most extensive natural population databases in the
 ![](figures/gantt_25_26.png)
 
 
-Proposed timeline for the first and second years.
+Proposed timeline for the first and second year.
 :::
 
 
@@ -482,7 +476,7 @@ Proposed timeline for the first and second years.
 ![](figures/gantt_27_28.png)
 
 
-Proposed timeline for the third and fourth years.
+Proposed timeline for the third and fourth year.
 :::
 
 
