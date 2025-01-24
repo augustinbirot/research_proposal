@@ -421,12 +421,14 @@ This research uses one of the most extensive natural population databases in the
     *Lorem ipsum*
 
 
-2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
+2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, 
+  Dan Blumstein and Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
-3. Free ourselves from bad envrionmental proxies when estimating I * E with DHGLMs.
+3. Break free from bad envrionmental proxies when detecting I * E,
+  the DHGLMs solution.
   [Augustin Birot, Ned Dochtermann and Julien Martin]{.underline}
     
     *Lorem ipsum*
@@ -445,13 +447,13 @@ This research uses one of the most extensive natural population databases in the
 
 
 6. Buffer environmental instability by increasing your body mass: an application of 
-  coservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein and 
+  conservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
     *Lorem ipsum*
 
 
-7. How can social network analysis help us understand metapopulation dynamics?
+7. How can social network analysis help us understand metapopulation dynamics? 
   [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
   Pierre Bize and Julien Martin]{.underline}
 
