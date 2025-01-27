@@ -202,7 +202,7 @@ Red colonies represent the "**up**" valley, blue ones represent the "**down**" v
 
 ### Body mass increase in Yellow-Bellied Marmots
 
-An important body mass increase has been observed in this population over the past half-century (estimated around $600\ g$). Precedent studies concluded that most of this major change was due to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothesis is indeed relevant, with climate change, active season is getting longer and population faces milder conditions (e.g., higher temperature, less snow). Hence, marmots has more time to forage and gain weight, and the hibernation period is getting shorter, meaning less time for individuals to lose mass. With these new conditions, individuals are automatically getting heavier, makes sense!
+An important body mass increase has been observed in this population over the past half-century (estimated around $600\ g$, representing almost $20\%$ of total individuals' body mass). Precedent studies concluded that most of this major change was due to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothesis is indeed relevant, with climate change, active season is getting longer and population faces milder conditions (e.g., higher temperature, less snow). Hence, marmots has more time to forage and gain weight, and the hibernation period is getting shorter, meaning less time for individuals to lose mass. With these new conditions, individuals are automatically getting heavier, makes sense!
 
 However, with now almost 15 additional years of data, we reanalyzed the body using animal models to properly assess the genetic part of this change and estimate explicitly the trait's evolutionary signal of 199 adult females between 1965 and 2022 (657 observations). Our results show an increase, at the genetic scale, estimated around $400\ g$, with a heritability of $56\%$, meaning that around two third of the observed body mass increased is in fact genetic (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). With these results, it is reasonable to conclude that plasticity is not the only process causing this phenotypic shift, but that evolution also plays a crucial role here.
 
@@ -226,9 +226,9 @@ Pedigree (i.e., parental links between individuals) is known for most individual
 
 Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
 
-Body mass is a highly plastic trait, particularly for marmots as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors was used to extract each individual’s body mass on August 15 each year (details in Ozgul et al. (2010) and Jebb et al. 2021).
+Body mass is a highly plastic trait, particularly for marmots as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors was used to extract each individual’s body mass on August 15 each year [details in @ozgulCoupledDynamicsBody2010; @jebbBiggerNotAlways2021].
 
-**Weather data** [@pratherClimateDataRocky2023]
+As our study site has been an important scientific station for more than a century, we have various and exhaustive data. By combining multiple sources, such as Billy Barr (a RMBL resident), the National Oceanic and Amospheric Administration (NOAA), the United States Geological Survey (USGS), the United States Department of Agriculture (USDA) and the Oregon State University's PRISM Climate group, @pratherClimateDataRocky2023 provides us with exhaustive data. We have weather data (e.g., monthly temperatures, snowing, precipitations, season lengths) at our study site from 1975 to 2022.
 
 Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be perofrmed on R [@base], Animal models will be performed using R package "MCMCglmm" [@mcmcglmm], DHGLM and other bayesian analysis (excluding MCMCglmm) will be done with "brms" [@brms], figures will be made with "ggplot2" [@ggplot].
 
@@ -237,26 +237,15 @@ Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be pero
 
 ## Research objective
 
-Since this major phenotypic shift for the yellow-bellied marmots in the last half-century has been miss considered, knowing that there is in fact a strong evolutionary signal, we need to reconsider the evolutionary scenario behind this body mass increase.
+As explained before, the observed major body mass increase ($20\%$) in Yellow-Bellied marmots has been miss considered. We have shown a strong evolutionary signal in this change, meaning that we need to rethink the evolutionary scenario explaining this phenotypic change.
 
-I will explore which environmental factors could have triggered this shift, but also the mechanism behind this increase and finally the potential implication for the population's future. <!-- DEVELOPP, but not too much as you developp in the "chapters" -->
+First, I will study which specific aspects of the marmots body mass has changed. We need to understand if individuals are born with a greater constitution (so the intercept in statistical term), if their growing capacity has increased (slope) or both.
 
-<!-- 1st chapter -->
-First,
+Even though our results indicate a strong genetic variation in body mass, it doesn't explain the entire phenotypic change. Phenotypic plasticity also plays a role here, and to fully understand the population's reaction to climate change, there is a pressing need to develop new methods to detect and study I * E. Therefore I am going to develop a framework to use DHGLMs to detect I * E in natural conditions.
 
+Then, using our extensive datasets on the weather and environment of the marmots, I am going to study the changes during the last half-century in order to understand which factors could have triggered this body mass increase.
 
-<!-- 2nd chapter -->
-Then,
-
-
-<!-- 3rd chapter -->
-Now,
-
-
-<!-- 4th chapter -->
-Finally,
-
-
+Finally, we expect that such modification in a crucial LHT in natural population will not be the only major phenotypic change. Therefore, as theorized by the extended POLS, I am going to investigate potential behavioral changes linked to body mass in marmots.
 
 
 {{< pagebreak >}}
@@ -409,11 +398,17 @@ This research uses one of the most extensive natural population databases in the
 
 # Expected Products
 
+**Introduction (MSc second year project)**
+
+*Manuscript is being prepared for submision to Evolution*
+
 1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
   Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
     
     *Lorem ipsum*
 
+
+**Thesis**
 
 2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, 
   Dan Blumstein and Julien Martin]{.underline}
@@ -428,7 +423,7 @@ This research uses one of the most extensive natural population databases in the
     *Lorem ipsum*
 
 
-4. Why do marmots got bigger so late? [Augustin Birot, Dan Blumstein and 
+4. Why have Marmots only gotten bigger now? [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
     *Lorem ipsum*
@@ -439,6 +434,8 @@ This research uses one of the most extensive natural population databases in the
 
     *Lorem ipsum*
 
+
+**Side projects**
 
 6. Buffer environmental instability by increasing your body mass: an application of 
   conservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein and 
