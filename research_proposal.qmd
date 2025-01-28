@@ -251,21 +251,11 @@ Finally, we expect that such modification in a crucial LHT in natural population
 {{< pagebreak >}}
 
 
-# Chapter 1 - Mechanisms {#sec-chap1}
-*Marmot's Biology: What mechanisms are behind the body mass increase?*
+# Chapter 1 - Mechanisms behind the body mass increase. {#sec-chap1}
 
-As emphasized in the introduction, we know that the body mass has increased in the last half-century, however we still know very few about it. And for starter, we don't know yet what has changed in the marmots in the last decades: do they have a bigger constitution (i.e., are they born bigger, their Intercept in statistical term), or does their growing capacity has increased through time (in statistical term again, this would correspond to their slope)?
+To investigate the body mass increase in the last-half century, the first step is to understand what happened precisely. By understanding the mechanism of this increase, I mean understand if cohorts now have a bigger constitution than before (i.e., are they born bigger), or does their growing capacity has increased through time?
 
-
-$\textbf{I * A}$ and $\textbf{G * A}$
-A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
-
-Growth? Baseline? Both?
-
-
-Double random (Intercept, Slope)
-
-
+To explain that in statistical term, if we look at the individual body mass over time, I want to know if the intercept (constitution), the slope (growing) aor both have changed over the time cohorts.
 
 Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why yellow-bellied marmots body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
 
@@ -289,10 +279,14 @@ Increasing (estimated from local regressions):
 
 As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
 
+<!-- I * A and G * A
+A: AGE => Reaction norm over individual lifetime rather than Environmental gradient
+Growth? Baseline? Both?
+Double random (Intercept, Slope) -->
 
 {{< pagebreak >}}
 
-# Chapter 2 - Methodology {#sec-chap2}
+# Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
 *Methodology: $I * E$ detection with Double Hierarchical Generalized Linear Models (DHGLM)*
 
 [@nusseyEvolutionaryEcologyIndividual2007] --> double random
@@ -354,7 +348,8 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 {{< pagebreak >}}
 
-# Chapter 3 - Triggers {#sec-chap3}
+# Identifying the predictors of increased body mass. {#sec-chap3}
+
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
 
 Extensive and detailed weather data at site from 1975 to 2022 [@pratherClimateDataRocky2023]
@@ -363,10 +358,12 @@ E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 
 Predators, Diet?
 
+PCA
+
 
 {{< pagebreak >}}
 
-# Chapter 4 - Implications {#sec-chap4}
+# Chapter 4 - Links between increasing body mass and behavior in marmots. {#sec-chap4}
 *Marmot's Biology: What could be the implications of that for the population's future?*
 
 ***POLS***
@@ -398,7 +395,7 @@ This research uses one of the most extensive natural population databases in the
 
 # Expected Products
 
-**Introduction (MSc second year project)**
+**Introduction** *(MSc second year project)*
 
 *Manuscript is being prepared for submision to Evolution*
 
