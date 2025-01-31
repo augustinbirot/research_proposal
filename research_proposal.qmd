@@ -264,7 +264,7 @@ However, looking at body mass in Juvenile over time cohort for both males and fe
 
 The relax of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.
 
-First thing to do would be to study these patterns at the beginning and end of the active season for each age classes at both the phenotypic and genetic level to describe the changes in the last half century. It will be intersting to investigate both the average cohorts mass at these two moments and the reaction norm and slope of each cohort during the active season.
+First thing to do would be to study these patterns at the beginning and end of the active season for each age classes at both the phenotypic and genetic level to describe the changes in the last half century. Then, will be intersting to investigate both the average cohorts mass at these two moments, and the reaction norm and slope of each cohort during the active season.
 
 
 ::: {#fig-juvenile-trend}
