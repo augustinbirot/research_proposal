@@ -202,19 +202,22 @@ Red colonies represent the "**up**" valley, blue ones represent the "**down**" v
 
 ### Body mass increase in Yellow-Bellied Marmots
 
-An important body mass increase has been observed in this population over the past half-century (estimated around $600\ g$, representing almost $20\%$ of total individuals' body mass). Precedent studies concluded that most of this major change was due to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothesis is indeed relevant, with climate change, active season is getting longer and population faces milder conditions (e.g., higher temperature, less snow). Hence, marmots has more time to forage and gain weight, and the hibernation period is getting shorter, meaning less time for individuals to lose mass. With these new conditions, individuals are automatically getting heavier, makes sense!
+An important body mass increase has been observed in this population over the past half-century, estimated around $600\ g$, representing almost $20\%$ of total individuals' body mass (Birot, Blumstein & Martin, Manuscript in progress, @fig-phenot). Precedent studies concluded that most of this major change was due to phenotypic plasticity [@ozgulCoupledDynamicsBody2010]. This hypothesis is indeed relevant, with climate change, active season is getting longer and population faces milder conditions (e.g., higher temperature, less snow). Hence, marmots has more time to forage and gain weight, and the hibernation period is getting shorter, meaning less time for individuals to lose mass. With these new conditions, individuals are automatically getting heavier, makes sense!
 
-However, with now almost 15 additional years of data, we reanalyzed the body using animal models to properly assess the genetic part of this change and estimate explicitly the trait's evolutionary signal of 199 adult females between 1965 and 2022 (657 observations). Our results show an increase, at the genetic scale, estimated around $400\ g$, with a heritability of $56\%$, meaning that around two third of the observed body mass increased is in fact genetic (Birot & Martin, Manuscript in progress, @fig-A-F-bodymass). With these results, it is reasonable to conclude that plasticity is not the only process causing this phenotypic shift, but that evolution also plays a crucial role here.
+However, with now almost 15 additional years of data, we reanalyzed the body using animal models to properly assess the genetic part of this change and estimate explicitly the trait's evolutionary signal of 199 adult females between 1965 and 2022 (657 observations). Our results show an increase, at the genetic scale, estimated around $400\ g$, with a heritability of $56\%$, meaning that around two third of the observed body mass increased is in fact genetic (Birot Blumstein & Martin, Manuscript in progress, @fig-genet). With these results, it is reasonable to conclude that plasticity is not the only process causing this phenotypic shift, but that evolution also plays a crucial role here.
 
 Furthermore, although the lengthening active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary pattern. Indeed, the observed increasingly milder conditions in parallel to this change in body mass should decrease selection on body mass, as it lower the survival pressure through hibernation. The observed body mass increase here should be expected with an increasing pressure over winter survival. It is clear that the lengthening active season and global milder condition are not the only drivers of body mass changes, since we observed both plasticity and microevolution.
 
 As explained earlier, body mass is a keystone phenotypic trait for the yellow-bellied marmots. It is therefore crucial to understand how this trait and this population is responding to climate change, both for conservation purposes and better comprehension of the links between phenotype and environment. There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
 
-::: {#fig-A-F-bodymass}
+::: {#fig-A-F-bodymass layout-nrow=2}
 
-![](figures/fig-pbv-cohort-1.png) 
+![](figures/fig-cohort-mod-1.png){#fig-phenot}
 
-Mean cohort’s body mass predicted breeding values (i.e., genetic value) trend over 5,000 iterations (gray lines). The median trends of the observations (red line) and under a null scenario (i.e., with only genetic drift occurring, black line) are represented, according to linear (solid line) or generalized additive models (dashed line). Points and error bars represent the median and 95% credibility interval of the posterior mean predicted breading values for each cohort.
+![](figures/fig-pbv-cohort-1.png){#fig-genet}
+
+Mean cohort’s body mass. a) At phenotypic level, trend lines (± SE) represent LMM predictions and points shows raw data.  b) At genetic level, median trends of the observations (red line) and under a null scenario (black line) are represented, according to linear models, points and error bars represent the median and 95% credibility interval of the posterior mean predicted breading values for each cohort.
+
 :::
 
 
@@ -253,20 +256,18 @@ Finally, we expect that such modification in a crucial LHT in natural population
 
 # Chapter 1 - Mechanisms behind the body mass increase. {#sec-chap1}
 
-To investigate the body mass increase in the last-half century, the first step is to understand what happened precisely. By understanding the mechanism of this increase, I mean understand if cohorts now have a bigger constitution than before (i.e., are they born bigger), or does their growing capacity has increased through time?
+To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understand if cohorts have now a bigger constitution than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand if the intercept (constitution), the slope (growing) or both has changed over time cohorts.
 
-To explain that in statistical term, if we look at the individual body mass over time, I want to know if the intercept (constitution), the slope (growing) aor both have changed over the time cohorts.
+Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. This  prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. Stable body mass in Juvenile, holding selection is called "invisible fraction" and is explained by @jebbBiggerNotAlways2021.
 
-Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging [@jebbBiggerNotAlways2021]. This was one of the main argument to explain why yellow-bellied marmots body mass was (before the 70s) stable in adults, the "invisible fraction" explained by @jebbBiggerNotAlways2021.
-
-However, we see that even if the body mass at birth is indeed stable (@fig-juvenile-trend $a)$), the mass at the end of the individuals first season however, shows a pattern found in @fig-A-F-bodymass. Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend $b)$). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time (@sec-chap3<!-- JULIEN - On dirait que la reférence ne fonctionne pas ici-->).
+However, looking at body mass in Juvenile over time cohort for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows the same pattern found in adult females (@fig-A-F-bodymass). Indeed, the body mass at the end of our juveniles' first foraging season has increased by $23\%$ in 23 years (23 cohorts), meaning that between 1977 and 2000, each cohort was $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend). This could be a serious clue to explain the sudden body mass increase observed in adults arround the same period. We can hypothesized that a relax on the juvenile body mass constrained has occured. Now we must find which constraint has change during this specific period of time.
 
 
 ::: {#fig-juvenile-trend}
 
 ![](figures/fig-juvenile-trend.png)
 
-Body mass trend over time cohort for females (gold) and males (black) juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
+Body mass trend over time cohort for females (yellow) and males (black) juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
 :::
 
 Increasing (estimated from local regressions):
@@ -303,8 +304,6 @@ Vve (Variance dans la variance résiduel, estime la variance résiduel pour chaq
 
 Attention aux modèle débalancés si pas d'effet fixes
 corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
-
-Ned Dochtermann
 
 
 <!-- Okay, so now you know what is the problem about estimating/detecting I * E, you know what is a DHGLM (cause I've explained everything in the intro) now here's what I'm gonna do
@@ -348,7 +347,7 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 {{< pagebreak >}}
 
-# Identifying the predictors of increased body mass. {#sec-chap3}
+# Chapter 3 - Identifying the predictors of increased body mass. {#sec-chap3}
 
 *Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
 
@@ -358,7 +357,7 @@ E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 
 Predators, Diet?
 
-PCA
+Using our extensive weather data, I will perform multivariate analysises [Principal Components Analysis, PCA with "ade4" package, @drayAde4AnalysisEcological2023]
 
 
 {{< pagebreak >}}
@@ -368,8 +367,8 @@ PCA
 
 ***POLS***
 
-Manuscript models Body Mass/active season with survival
-=> Phenological mismatch?? (e.g., thermal stress)
+<!-- Manuscript models Body Mass/active season with survival
+=> Phenological mismatch?? (e.g., thermal stress) -->
 
 
 {{< pagebreak >}}
