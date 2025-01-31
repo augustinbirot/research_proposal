@@ -278,29 +278,29 @@ Body mass trend over time cohort for females (yellow) and males (black) Juvenile
 {{< pagebreak >}}
 
 # Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
-*Methodology: $I * E$ detection with Double Hierarchical Generalized Linear Models (DHGLM)*
-
-[@nusseyEvolutionaryEcologyIndividual2007] --> double random
-
-So we're doing something different --> examining the residuals of the model (if I * E, still a lot of residual variance ?)
 
 
-**Look at this one: [@westneatBiologyHiddenResidual2015a]
-
-
-DHGLM, brms, Julien's code
+<!-- DHGLM, brms, Julien's code -->
 
 Vve (Variance dans la variance résiduel, estime la variance résiduel pour chaque individu et regarde la variance dans cette variance résiduelle, si I * E Vve > 0)
 
-Attention aux modèle débalancés si pas d'effet fixes
+
 corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
+
+
+Expected results @fig-ie-vs-no-ie, unless very specific case (i.e., exact opposite effect, @fig-ie-vs-opposed)
+
+But watch out for unbalanced model which can give the same results even though there is no I * E (@fig-balanced-unbalanced)
 
 
 <!-- Okay, so now you know what is the problem about estimating/detecting I * E, you know what is a DHGLM (cause I've explained everything in the intro) now here's what I'm gonna do
 
 Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them)
 
-Simulation to test the different bias (Sampling bias, etc.) -->
+Simulation to test the different bias (Sampling bias, etc.)
+
+
+**Look at this one: [@westneatBiologyHiddenResidual2015a]-->
 
 
 
@@ -313,6 +313,12 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 :::
 
 
+::: {#fig-ie-vs-opposed}
+
+![](figures/ie_vs_opposed.png) 
+
+[...]
+:::
 
 
 ::: {#fig-balanced-unbalanced}
@@ -321,17 +327,6 @@ Simulation to test the different bias (Sampling bias, etc.) -->
 
 [...]
 :::
-
-
-
-
-::: {#fig-ie-vs-opposed}
-
-![](figures/ie_vs_opposed.png) 
-
-[...]
-:::
-
 
 
 
