@@ -216,7 +216,7 @@ As explained earlier, body mass is a keystone phenotypic trait for the yellow-be
 
 ![](figures/fig-pbv-cohort-1.png){#fig-genet}
 
-Mean cohort’s body mass. a) At phenotypic level, trend lines (± SE) represent LMM predictions and points shows raw data.  b) At genetic level, median trends of the observations (red line) and under a null scenario (black line) are represented, according to linear models, points and error bars represent the median and 95% credibility interval of the posterior mean predicted breading values for each cohort.
+Adult females' mean cohort’s body mass. a) At phenotypic level, trend lines (± SE) represent LMM predictions and points shows raw data.  b) At genetic level, median trends of the observations (red line) and under a null scenario (black line) are represented, according to linear models, points and error bars represent the median and 95% credibility interval of the posterior mean predicted breading values for each cohort.
 
 :::
 
