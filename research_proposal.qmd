@@ -152,7 +152,7 @@ From a theoritical point of view, this method allows for proper estimations of a
 
 Furthermore, it is often impossible to identify the real driver of plasticity in natural conditions, as natural environments are exceptionally complex systems, and individuals generally have to react to a combination of enviromental variables rather than one. Therefore, the real driver of plasticity is often unknown, unmeasurable and a combination of a lot of different variables. In response to that, @ramakersProbingVariationReaction2023 proposed a new method, using Environment Specific Mean phenotype (ESM). Although they have shown that this method is indeed efficient, they emphasized that we still need a really good knowledge of the study system, and specific conditions to be more efficient that classic the random regression method. Hence, although it's a progress, more work is needed to deal with this ${I * E}$ detection problem in natural environments.
 
-The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a kind of mixed model estimating the distribution for both the mean and the residual variance [@leeDoubleHierarchicalGeneralized2006]. In other words, DHGLM estimates the *variance in the residual variance* hereafter referred to as $\boldsymbol{V_{V_e}}$. This correspond to the variance in the proportion of the residual variance attributable to each individual.
+The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a kind of mixed model estimating the distribution for both the mean and the residual variance [@leeDoubleHierarchicalGeneralized2006]. A DHGLM estimates the residual variance for each individual, then estimates the variance in this residual variance. In other words, DHGLM estimates the *variance in the residual variance* hereafter referred to as $\boldsymbol{V_{V_e}}$. This correspond to the variance in the proportion of residual variance attributable to each individual.
 
 We are confident that DHGLM can be applied to developp a more powerfull method to detect individual variation in plasticity (${I * E}$) in natural systems. Indeed, a $V_{V_e}$ significantly greater than 0 indicate some disparities in the individual contributions to the residual variance. To put in differently, it shows that the range of phenotypic values expressed by each individuals is different, which can be interpreted as an individual variance in their plastic response, so ${I * E}$.
 
@@ -260,11 +260,11 @@ To investigate the body mass increase in the last-half century, the first step i
 
 Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021.
 
-However, looking at body mass in Juvenile over time cohort for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass). Indeed, the body mass at the end of our juveniles' first foraging season has increased *from 1,206.18 g in 1976* (Males) *and 1,130.64 g in 1979* (Females) *to 1,519.71 g in 1998* (Males) *and 1,363.03 g in 2001* (Females, *Estimations from local regression on raw data*). These changes represent a body mass increase of $23\%$ in 22 years (22 cohorts), meaning that between the mid 1970s and the 2000s, each cohort was in average $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
+However, looking at body mass in Juvenile over time cohort for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased *from 1,206.18 g in 1976* (Males) *and 1,130.64 g in 1979* (Females) *to 1,519.71 g in 1998* (Males) *and 1,363.03 g in 2001* (Females, *Estimations from local regression on raw data*). These changes represent a body mass increase of $23\%$ in 22 years (22 cohorts), meaning that between the mid 1970s and the 2000s, each cohort was in average $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
 
 The relax of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.
 
-First thing to do would be to study these patterns at the beginning and end of the active season for each age classes at both the phenotypic and genetic level to describe the changes in the last half century. Then, will be intersting to investigate both the average cohorts mass at these two moments, and the reaction norm and slope of each cohort during the active season.
+First, I will study the body mass patternst through time cohorts at the beginning and end of the active season for each age classes at both phenotypic and genetic level to understand the changes in the last half century. Then, I will investigate the reaction norms (at cohort scale) by looking both the average cohorts mass at these two moments, and slopes over the active season.
 
 
 ::: {#fig-juvenile-trend}
@@ -279,11 +279,9 @@ Body mass trend over time cohort for females (yellow) and males (black) Juvenile
 
 # Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
 
+As explained in the introduction, detecting more efficiently individual variation in plasticity (I * E) in natural condition is essential to better understand individual responses to climate change. However, although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today.
 
-<!-- DHGLM, brms, Julien's code -->
-
-Vve (Variance dans la variance résiduel, estime la variance résiduel pour chaque individu et regarde la variance dans cette variance résiduelle, si I * E Vve > 0)
-
+As said in the introduction again, we believe that using Double Hierarchical Generalized Models (DHGLM) can drastically reduce these problems and help us improve the efficiency of I * E detection in natural populations.
 
 corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
 
@@ -293,16 +291,9 @@ Expected results @fig-ie-vs-no-ie, unless very specific case (i.e., exact opposi
 But watch out for unbalanced model which can give the same results even though there is no I * E (@fig-balanced-unbalanced)
 
 
-<!-- Okay, so now you know what is the problem about estimating/detecting I * E, you know what is a DHGLM (cause I've explained everything in the intro) now here's what I'm gonna do
-
-Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them)
-
-Simulation to test the different bias (Sampling bias, etc.)
-
+<!-- Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them). Simulation to test the different bias (Sampling bias, etc.)
 
 **Look at this one: [@westneatBiologyHiddenResidual2015a]-->
-
-
 
 
 ::: {#fig-ie-vs-no-ie}
@@ -312,14 +303,12 @@ Simulation to test the different bias (Sampling bias, etc.)
 [...]
 :::
 
-
 ::: {#fig-ie-vs-opposed}
 
 ![](figures/ie_vs_opposed.png) 
 
 [...]
 :::
-
 
 ::: {#fig-balanced-unbalanced}
 
