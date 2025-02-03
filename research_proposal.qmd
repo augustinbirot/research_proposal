@@ -279,21 +279,19 @@ Body mass trend over time cohort for females (yellow) and males (black) Juvenile
 
 # Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
 
-As explained in the introduction, detecting more efficiently individual variation in plasticity (I * E) in natural condition is essential to better understand individual responses to climate change. However, although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today.
+As explained previously, detecting more efficiently individual variation in plasticity (I * E) in natural condition is essential to better understand individual responses to climate change. However, although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today. As said in the introduction again, we believe that using Double Hierarchical Generalized Models (DHGLM) can drastically reduce these problems and help us improve the efficiency of I * E detection in natural populations.
 
-As said in the introduction again, we believe that using Double Hierarchical Generalized Models (DHGLM) can drastically reduce these problems and help us improve the efficiency of I * E detection in natural populations.
+DHGLMs will estimate the residual variance for each individuals, then the variance in this residual variance: $V_{V_e}$. When fitting a DHGLM on a focal phenotypic trait with multiple values for each individuals, if there is no I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a), there will be no variance in the residual variance as each individual will exhibit the same range of phenotypic values (@fig-ie-vs-no-ie b), so $V_{V_e} = 0$.
 
-corrige pour les variations par effet fixes, puis test pour le I * E, si y'en a tu pexu chercher la variable environnemental pour lesquels on a de la variation dans la plasitcité (I * E)
+However, if there's individual variation in their plastic response (I * E) for the focal phenotypic trait (@fig-ie-vs-no-ie c), there, the residual variance won't be the same for each individual, hence there will be a $V_{V_e}$ different from 0 (@fig-ie-vs-no-ie d).
 
+Therefore, although a $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself (as it could come from something else), such result show that investigation on this focal trait are worth doing. On the contrary, unless in very specific case, almost never met in natural conditions (i.e., exact opposite effect, @fig-ie-vs-opposed c, d), leading to false negatives, a $V_{V_e} = 0$ most likely indicate that there is no individual variation in their plastic response for the focal trait.
 
-Expected results @fig-ie-vs-no-ie, unless very specific case (i.e., exact opposite effect, @fig-ie-vs-opposed)
+Finally, it is worth noting a potential limitation with this method that must be taken into acount before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables vamues. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). In other words, a false positive.
 
-But watch out for unbalanced model which can give the same results even though there is no I * E (@fig-balanced-unbalanced)
+Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced models and fit DHGLMs on it to test the detection capacity of this method. Then I will apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
 
-
-<!-- Simulations to see how we can estimate it (data with and without I * E => fit the models, check how the different parameters reacts and how we interpret it, and also how we can present them). Simulation to test the different bias (Sampling bias, etc.)
-
-**Look at this one: [@westneatBiologyHiddenResidual2015a]-->
+<!-- **Look at this one: [@westneatBiologyHiddenResidual2015a]-->
 
 
 ::: {#fig-ie-vs-no-ie}
@@ -334,6 +332,17 @@ E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
 Predators, Diet?
 
 Using our extensive weather data, I will perform multivariate analysises [Principal Components Analysis, PCA with "ade4" package, @drayAde4AnalysisEcological2023]
+
+
+(Birot, Blumstein & Martin, Manuscript in progress, @fig-seasonal-gradient)
+
+
+::: {#fig-seasonal-gradient}
+
+![](figures/fig-seasonal-gradient.png)
+
+[...]
+:::
 
 
 {{< pagebreak >}}
@@ -438,7 +447,7 @@ Proposed timeline for the first and second year.
 :::
 
 
-::: {#fig-timeline-second}
+::: {#fig-timeline-second layout-valign="top"}
 
 ![](figures/gantt_26_27.png)
 
