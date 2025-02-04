@@ -317,44 +317,41 @@ Reactions norms for two individuals (blue and yellow) for a trait without indivi
 
 {{< pagebreak >}}
 
-# Chapter 3 - Identifying the predictors of increased body mass. {#sec-chap3}
+# Chapter 3 - Identifying predictors of increased body mass. {#sec-chap3}
 
-*Marmot's Biology: Which environemntal factors have triggered the phenotypic shift?*
+In the introduction, I explained the link between climate and body mass, especially in hibernating species such as marmots. I also discuss about the different hypotheses in the litterature about the links between climate change and body size. Knowing all that, the main hypothesis to explain the body mass increased in Yellow-Bellied Marmots in the last half-century is a change in climate over the years.
 
-As the body mass was previously hypothesized to be stable as an anti-predator strategy, it seems logical to look for a change in predators populations or behaviour between the 1970s and the 2000s at our study site.
+Using weathers data on our study site from 1975 to 2013, I performed some preliminary multivariate anaylises [Principal Components Analysis, PCA with "ade4" package, @drayAde4AnalysisEcological2023] from which I obtained a "seasonal gradient" (@fig-climate-corircle) with high values corresponding to harsh years (i.e., long and snowy winter, lower temperatures) and lower values to milder years (i.e., long active season, warmer temperatures).
 
-Extensive and detailed weather data at site from 1975 to 2022 [@pratherClimateDataRocky2023]
+:::{#fig-climate-corircle}
 
-E1 - E10 (T°, Precipitation, ...), Seasonal Gradient
+![](figures/climate-corcircle.png)
 
-Predators, Diet?
+Correlation circle from the PCA of 10 different weather variables at RMBL between 1975 to 2013.
+:::
 
-Using our extensive weather data, I will perform multivariate analysises [Principal Components Analysis, PCA with "ade4" package, @drayAde4AnalysisEcological2023]
-
-
-(Birot, Blumstein & Martin, Manuscript in progress, @fig-seasonal-gradient)
-
+Looking at this seasonal gradient through time reveal interesting variation (Birot, Blumstein & Martin, Manuscript in progress, @fig-seasonal-gradient). This, happening at the same period as body mass, justify further investigation. I will use more extensive and detailed weather data at the study site from 1975 to 2022, collected and treated by @pratherClimateDataRocky2023. I will perform deeper multivariate analysis and test for different predictors for body mass changes within weathers variables.
 
 ::: {#fig-seasonal-gradient}
 
 ![](figures/fig-seasonal-gradient.png)
 
-[...]
+Seasonal gradient variation at RMBL from 1975 to 2013.
 :::
+
+In a second time, I will test another hypothetic predictors. Body mass was previously hypothesized to be stable in juveniles as an anti-predator strategy [@jebbBiggerNotAlways2021], however, it seems that juvenile body mass has also changed (@fig-juvenile-trend). Therefore, a potential explanation for the global body mass change is a change in the predation pressures, allowing juvenile body mass to increase and so impacting the other age classes.
+
+Hence, using observation data at RMBL, I will look for changes in predators populations or behaviour between the 1970s and the 2000s and test for potential effect on the body mass of the different age classes.
 
 
 {{< pagebreak >}}
 
-# Chapter 4 - Links between increasing body mass and behavior in marmots. {#sec-chap4}
-*Marmot's Biology: What could be the implications of that for the population's future?*
+# Chapter 4 - Balance between body condition and experience as predictor of marmots' behavior. {#sec-chap4}
 
-***POLS***
-
-
-With the POLS, we expect to see a clear effect of the body mass on the behavior. However, by looking at some preliminary results, although some results seems statistically significant, the biological effect is really small
+According to the extended Pace Of Life Syndrome [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see a clear effect of the body mass on the behavior. However, by looking at some preliminary results, although some results seems statistically significant, the biological effect is fairly small
 
 
-fig => effect of the **experience** compared to the physiological effect (i.e., body mass seems to impact the behavior more in Juveniles than in adults)
+proportion of time stand looking highly body mass dependant especially during the two first years of life, but the impact of body mass is less and less important with age, to become almost flat in adults [@fig-prop-slook]. Athough the impact of body mass, with heavier individuals spending more time looking is easily explanable as heavier individuals are slower and thus must stay more vigilent to avoid predation, this age effect is interesting to note and advocate for the hypothesis that with age, experience prevail on physical condition to dictate behavior, with older individuals more careful than juveniles, as already suggested by @jebbBiggerNotAlways2021.
 
 
 :::{#fig-prop-sfg}
@@ -430,7 +427,7 @@ This research uses one of the most extensive natural population databases in the
     *Lorem ipsum*
 
 
-5. Is there a link between an increased body mass and behavior? [Augustin Birot, 
+5. Balance between body condition and experience as predictor of marmots' behavior. [Augustin Birot, 
   Vincent Careau, Denis Réale, Dan Blumstein and Julien Martin]{.underline}
 
     *Lorem ipsum*
