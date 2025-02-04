@@ -348,11 +348,7 @@ Hence, using observation data at RMBL, I will look for changes in predators popu
 
 # Chapter 4 - Balance between body condition and experience as predictor of marmots' behavior. {#sec-chap4}
 
-According to the extended Pace Of Life Syndrome [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see a clear effect of the body mass on the behavior. However, by looking at some preliminary results, although some results seems statistically significant, the biological effect is fairly small
-
-
-proportion of time stand looking highly body mass dependant especially during the two first years of life, but the impact of body mass is less and less important with age, to become almost flat in adults [@fig-prop-slook]. Athough the impact of body mass, with heavier individuals spending more time looking is easily explanable as heavier individuals are slower and thus must stay more vigilent to avoid predation, this age effect is interesting to note and advocate for the hypothesis that with age, experience prevail on physical condition to dictate behavior, with older individuals more careful than juveniles, as already suggested by @jebbBiggerNotAlways2021.
-
+Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes focal observation with detailed ethogramms) and experiments (Flight Initiation distance) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
 
 :::{#fig-prop-sfg}
 
@@ -361,6 +357,9 @@ proportion of time stand looking highly body mass dependant especially during th
 [...]
 :::
 
+For example, the proportion of time "stand looking" is impacted by body mass dependant especially during the two first years of life, but this relationship is less and less important through age classes, to become almost flat in adults (@fig-prop-slook).
+
+Athough the impact of body mass, with bigger individuals spending more time looking is easily explanable as heavier individuals are slower and thus must stay more vigilent to avoid predation, this age effect is interesting to note and advocate for the hypothesis that with age, experience prevail on physical condition to dictate behavior, with older individuals more careful than juveniles, as already suggested by @jebbBiggerNotAlways2021.
 
 :::{#fig-prop-slook}
 
@@ -369,8 +368,9 @@ proportion of time stand looking highly body mass dependant especially during th
 [...]
 :::
 
-<!-- Manuscript models Body Mass/active season with survival
-=> Phenological mismatch?? (e.g., thermal stress) -->
+Using various and extensive behavioral data on our individuals, I am going to describe the impact of body mass at the beginning and end of the active season on behavior and its potential correlations with different behavioral types between age classes and sexes. The aim of this chapter will be te discriminate the effects of body condition (i.e., body mass) and experience (i.e., age class) as behavior predictors.
+
+Understand the links between behavior and body mass is crucial to truely comprehend the impacts of such phenotypic shifts for the population's future.
 
 
 {{< pagebreak >}}
