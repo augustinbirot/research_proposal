@@ -285,36 +285,34 @@ DHGLMs will estimate the residual variance for each individuals, then the varian
 
 However, if there's individual variation in their plastic response (I * E) for the focal phenotypic trait (@fig-ie-vs-no-ie c), there, the residual variance won't be the same for each individual, hence there will be a $V_{V_e}$ different from 0 (@fig-ie-vs-no-ie d).
 
-Therefore, although a $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself (as it could come from something else), such result show that investigation on this focal trait are worth doing. On the contrary, unless in very specific case, almost never met in natural conditions (i.e., exact opposite effect, @fig-ie-vs-opposed c, d), leading to false negatives, a $V_{V_e} = 0$ most likely indicate that there is no individual variation in their plastic response for the focal trait.
-
-Finally, it is worth noting a potential limitation with this method that must be taken into acount before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables vamues. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). In other words, a false positive.
-
-Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced models and fit DHGLMs on it to test the detection capacity of this method. Then I will apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
-
-<!-- **Look at this one: [@westneatBiologyHiddenResidual2015a]-->
-
-
 ::: {#fig-ie-vs-no-ie}
 
 ![](figures/ie_no_ie.png) 
 
-[...]
+Reaction norms for two individuals (blue and yellow) for a trait a) without and b) with individual variations in plasticity. c) In the absence of I * E, both individual express the same range of phenotypic values. d) However, with I * E, individuals express different range of values.
 :::
+
+Therefore, although a $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself (as it could come from something else), such result show that investigation on this focal trait are worth doing. On the contrary, unless in very specific case, almost never met in natural conditions (i.e., exact opposite effect, @fig-ie-vs-opposed c, d), leading to false negatives, a $V_{V_e} = 0$ most likely indicate that there is no individual variation in their plastic response for the focal trait.
 
 ::: {#fig-ie-vs-opposed}
 
 ![](figures/ie_vs_opposed.png) 
 
-[...]
+Reactions norms for two individuals (blue and yellow) for a trait a) with individual variation in their relationships and b) with the exact opposite effects. Here, although individuals in the first case c) express different ranges of phenotypic value, d) in the second case, they express the same range despite the I * E.
 :::
+
+Finally, it is worth noting a potential limitation with this method that must be taken into acount before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables vamues. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). In other words, a false positive.
+
+Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced models and fit DHGLMs on it to test the detection capacity of this method. Then I will apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
 
 ::: {#fig-balanced-unbalanced}
 
 ![](figures/balanced_unbalanced.png) 
 
-[...]
+Reactions norms for two individuals (blue and yellow) for a trait without individual variation in their plasticity in a a) balanced and an b) unbalanced design. c) In the balanced design there is indeed no individual difference in the range of expressed phenotypic values. d) But in the unbalanced design, although both individuals have the same slope (i.e., phenotypic response), there is a difference in the range of expressed phenotypic values.
 :::
 
+<!-- **Look at this one: [@westneatBiologyHiddenResidual2015a]-->
 
 
 {{< pagebreak >}}
@@ -351,6 +349,28 @@ Using our extensive weather data, I will perform multivariate analysises [Princi
 *Marmot's Biology: What could be the implications of that for the population's future?*
 
 ***POLS***
+
+
+With the POLS, we expect to see a clear effect of the body mass on the behavior. However, by looking at some preliminary results, although some results seems statistically significant, the biological effect is really small
+
+
+fig => effect of the **experience** compared to the physiological effect (i.e., body mass seems to impact the behavior more in Juveniles than in adults)
+
+
+:::{#fig-prop-sfg}
+
+![](figures/prop_sfg.png)
+
+[...]
+:::
+
+
+:::{#fig-prop-slook}
+
+![](figures/prop_slook.png)
+
+[...]
+:::
 
 <!-- Manuscript models Body Mass/active season with survival
 => Phenological mismatch?? (e.g., thermal stress) -->
