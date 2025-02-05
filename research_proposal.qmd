@@ -385,9 +385,18 @@ This research uses one of the most extensive natural population databases in the
 
 # Potential side projects {#sec-side-proj}
 
-* Dig the conservative bet-hedging hypothesis
+1. **Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.**
 
-* Continue a previously started work at NTNU with Yimen Araya-Ajoy about developping a path between Social Network Analysis (SNA) and metapopulation dynamics studies
+[...]
+
+
+2. **Identify key patches for metapopulation persistence using Social Network Analysis methods.**
+  
+    *(Continuation of a previously started work at NTNU with Dr. Yimen Araya-Ajoy)*
+
+[...]
+
+
 
 
 {{< pagebreak >}}
@@ -396,14 +405,10 @@ This research uses one of the most extensive natural population databases in the
 
 # Expected Products
 
-**Introduction** *(MSc second year project)*
-
-*Manuscript is being prepared for submision to Evolution*
+**Introduction** *(MSc second year project)*;  *Manuscript is being prepared for submision to Evolution*
 
 1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
   Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
-    
-    *Lorem ipsum*
 
 
 **Thesis**
@@ -411,26 +416,18 @@ This research uses one of the most extensive natural population databases in the
 2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, 
   Dan Blumstein and Julien Martin]{.underline}
 
-    *Lorem ipsum*
-
 
 3. Break free from bad envrionmental proxies when detecting I * E,
   the DHGLMs solution.
   [Augustin Birot, Ned Dochtermann and Julien Martin]{.underline}
-    
-    *Lorem ipsum*
 
 
 4. Why have Marmots only gotten bigger now? [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
-    *Lorem ipsum*
-
 
 5. Balance between body condition and experience as predictor of marmots' behavior. [Augustin Birot, 
   Vincent Careau, Denis Réale, Dan Blumstein and Julien Martin]{.underline}
-
-    *Lorem ipsum*
 
 
 **Side projects**
@@ -439,14 +436,10 @@ This research uses one of the most extensive natural population databases in the
   conservative bet-hedging in a hibernant rodent [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
-    *Lorem ipsum*
 
-
-7. How can social network analysis help us understand metapopulation dynamics? 
+7. Identify key patches for metapopulation persistence using Social Network Analysis methods. 
   [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
   Pierre Bize and Julien Martin]{.underline}
-
-    *Lorem ipsum*
 
 
 {{< pagebreak >}}
