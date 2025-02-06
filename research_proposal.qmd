@@ -378,7 +378,7 @@ We hope that fidings from this research will help inform conservation policymake
 
 # Potential side projects {#sec-side-proj}
 
-1. **Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.**
+**1. Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.**
 
 Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
 
@@ -396,13 +396,20 @@ I will test the hypothesis that a population average increase in body mass can b
 
 
 
-2. **Identify key patches for metapopulation persistence using Social Network Analysis methods.**
+**2. Identify key patches for metapopulation persistence using Social Network Analysis methods.**
   
     *(Continuation of a previously started work at NTNU with Dr. Yimen Araya-Ajoy)*
 
-[...]
+<!-- Abstract from M1 project, to remake + rethink the project with draft_1 and sna_metapop analysis -->
+A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected (!!!). Links between subpopualtions (i.e., migration fluxes) in a metapopulations is crucial for its survival over time as it maintains genetic diversity (!!!). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (!!!).
 
+To various extent, a metapopulation can be viewed as a population-scale network (i.e., a set of patches connected by edges of varying intensity). Therefore, Social Network Analysis (SNA, !!!) can offers a valuable approach to study metapopulation dynamics by identifying key patches contributing to network connectivity and resilience.
 
+Using data from a long-term study on a wild house sparrow metapopulation inhabiting an archipelago in the district Helgeland, northern Norway (!!!), I conducted preliminary analysis to test these analysis. Initial findings (e.g., non-random structural patterns and hierarchical order in island selection for emigration, independant from geographic distance) provides encouraging insight about migratory behavior within metapopulation.
+
+Focus on understanding the migration dynamics and identifying critical patches in metapopulation can offer insight for policymakers. We hope to developp new methodes allowing to take effective measures, applicable more efficiently with less need of extensive data. This would help to preserve metapopulation, safeguarding genetic diversity, connectivity and better understanding their resilience capacity in context of changing environment.
+<!-- Need a paragraph about block matrices -->
+I am planing to test the efficiency of different tools already developps for SNA, applied to metapopulation dynamics, and try to developp new ones from simulations.
 
 
 {{< pagebreak >}}
