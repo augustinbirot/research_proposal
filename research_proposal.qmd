@@ -163,21 +163,6 @@ An important feature of this method is that it should be free from the problems 
 This is a very promising method, however, as most new statistical methods, it is often poorly understood/used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect ${I * E}$ would be really helpful for the comunity, especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition in a context of climate change.
 
 
-### Bet-hedging
-
-Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
-
-On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. For example, heavier individuals can be more subject to heat stress; they can be more subject to predation as heavier individuals are slower and more palatable.
-
-On the other hand, an increased body mass, being synonyme of a more important energy stock, allow indivduals to "buffer" in a poor year in term of ressources. This feature can be very important for species living highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase you body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
-
-Furthermore, larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
-
-However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (!!!).
-
-Indeed, specializing phenotype, in that case "betting"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
-
-
 ## Species and study
 
 Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*) is monitored continuously, initiated by Kenneth Armitage, and now supervised by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second longest-term wild mammal population monitoring in the world.
@@ -395,7 +380,20 @@ We hope that fidings from this research will help inform conservation policymake
 
 1. **Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.**
 
-[...]
+Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
+
+On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. For example, heavier individuals can be more subject to heat stress; they can be more subject to predation as heavier individuals are slower and more palatable.
+
+On the other hand, an increased body mass, being synonyme of a more important energy stock, allow indivduals to "buffer" in a poor year in term of ressources. This feature can be very important for species living highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase you body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
+
+Furthermore, larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
+
+However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (!!!).
+
+Indeed, specializing phenotype, in that case "betting"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
+
+I will test the hypothesis that a population average increase in body mass can be interpreted as a conservative bet-hedging strategy to cope with environmental variability on the long-term. To do so, I will simulate different bet-hedging scenario to compare there predictions to the observed patterns in our population.
+
 
 
 2. **Identify key patches for metapopulation persistence using Social Network Analysis methods.**
