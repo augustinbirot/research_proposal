@@ -346,7 +346,7 @@ Hence, using observation data at RMBL, I will look for changes in predators popu
 
 {{< pagebreak >}}
 
-# Chapter 4 - Balance between body condition and experience as predictor of marmots' behavior. {#sec-chap4}
+# Chapter 4 - Balance between body condition and experience as predictors of marmots' behavior. {#sec-chap4}
 
 Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes focal observation with detailed ethogramms) and experiments (Flight Initiation distance) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
 
@@ -354,7 +354,7 @@ Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndr
 
 ![](figures/prop_sfg.png)
 
-[...]
+Proportion of time spent stand foraging (within two-minute focal observations) as a function of scaled mass on August 15th across age classes: Juveniles (0-1 year), Yearlings (1-2 years), Subadults (2-3 years), and Adults (3+ years). Red lines represent local regressions, and points represent raw data.
 :::
 
 For example, the proportion of time "stand looking" is impacted by body mass dependant especially during the two first years of life, but this relationship is less and less important through age classes, to become almost flat in adults (@fig-prop-slook).
@@ -365,7 +365,7 @@ Athough the impact of body mass, with bigger individuals spending more time look
 
 ![](figures/prop_slook.png)
 
-[...]
+Proportion of time spent stand looking (within two-minute focal observations) as a function of scaled mass on August 15th across age classes: Juveniles (0-1 year), Yearlings (1-2 years), Subadults (2-3 years), and Adults (3+ years). Red lines represent local regressions, and points represent raw data.
 :::
 
 Using various and extensive behavioral data on our individuals, I am going to describe the impact of body mass at the beginning and end of the active season on behavior and its potential correlations with different behavioral types between age classes and sexes. The aim of this chapter will be te discriminate the effects of body condition (i.e., body mass) and experience (i.e., age class) as behavior predictors.
@@ -377,7 +377,15 @@ Understand the links between behavior and body mass is crucial to truely compreh
 
 # Significance and impacts {#sec-signif}
 
-This research uses one of the most extensive natural population databases in the world to better understand how can natural populations cope with climate change. The quality and quality of data provided by this study system will allow conducting powerful and complete analysis that can’t be done on most natural population (such as powerful multivariate animal models). This will provide crucial insight to guide conservation policies in a context of rapidly changing environments.
+This project provide a rare opportunity to study a remarkable response to climate change at both phenotypic and genetic levels. The observed body mass increase in Yellow-Bellied Marmots -representing a substential 20% rise in adult females- occured at a notable speed, seemingly, three decades, between the 1970s and the early 2000s.
+
+Using one of the most extensive and detailed long-term datasets on a natural population, this research enables an unparalleled exploration of wild populations' response to climate change. This research allows for powerful analyses, typically unfeasible in natural systems.
+
+By investigating how the body mass has changed (i.e., basis constitution or growing capacity), developping new methods to detect individual variation in plasticity, and identifying predictors of this shift, this research will contribute crucial knowledge about the complex interplay between genotype, phenotype and environment. Furthermore, exploring balance between body condition and life experience as predictors of individual behavior will improve our understanding of adaptive strategies in wild population.
+
+By studying how natural population respond to rapidly changing environmental conditions, this project aims to give critical insights for conservations strategies and predictions. Understanding the causes and consequences of phenotypic response to climate change is essential for predicting future viability of natural populations.
+
+We hope that fidings from this research will help inform conservation policymakers by improving projections of species' adaptive capacity and resilience to climate change, offering guidance for managing biodiversity in a rapidly changing world.
 
 
 {{< pagebreak >}}
