@@ -1,0 +1,29 @@
+title: Bio-uO-proposal
+author: JulienGAMartin
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      documentclass: scrartcl
+      pdf-engine: xelatex
+      papersize: letter
+      fontsize: 12pt
+      geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+#      colorlinks: true
+      linestretch: 1.25
+      template-partials:
+#        - before-title.tex
+        - title.tex
+        - before-body.tex
+        - before-title.tex
+        - toc.tex
+#      lof: true
+#      lot: true
+    docx:
+      # See https://quarto.org/docs/output-formats/ms-word-templates.html
+      reference-doc: template.docx
