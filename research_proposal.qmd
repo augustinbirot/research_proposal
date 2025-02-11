@@ -74,13 +74,13 @@ Meanwhile, Climate change is expected to have significant impact on such LHTs. I
 
 ### Expected effect of global warming on body mass
 
-As reminded earlier, one of the most significant consequences of climate change is an increase in global temperature (which is why climate change is also commonly reffered to as *global warming*, although this term is often used in climate sceptics rethoric during unusually intense episodes of cold[^1]<!-- poorly said but find a way to keep it in the proposal -->).
+As said earlier, a key aspect of climate change is a rise in global average temperatures — hence the expression *global warming* (a term often invoked by climate skeptics during unusually cold spells[^1]).
 
-This average temperature increase is suspected to influence phenotypic traits such as body mass or size. However, the direction of the response remains uncertain. Some authors argue that a shrinking body size should be a universal response to climate change [@daufresneGlobalWarmingBenefits2009]. This hypothesis follows Bergmann's rules, which state that smaller body size should be favoured in warmer environment as it raises the surface to volume ratio, thus facilitating heat dissipation [@bergmannRelationshipsHeatConservation1847]. Therefore, in a warmer environment, due to global warming, an adaptive response could indeed be a shrinking body size.
+This overall temperature increase is suspected to influence phenotypic traits such as body mass and size, though the precise direction of these changes remains uncertain. Some authors argue that a shrinking body size might be a universal response to climate change [@daufresneGlobalWarmingBenefits2009]. This hypothesis is based on Bergmann's rules, which states that smaller body size are favoured in warmer environment as a higher surface-to-volume ratio facilitates heat dissipation [@bergmannRelationshipsHeatConservation1847]. In other words, in warmer environments, an expected adaptive response would be a shrinking body size.
 
-However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevent us to demonstrate that this response is universal. In addition, in 2022, the IPCC's report stated that "Evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222022; @siepielskiNoEvidenceThat2019].
+However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale comparative studies prevents us from confirming that this response is universal. In addition to that, in 2022, the IPCC's report stated that "evidence is weak for a consistent reduction in body size across taxonomic groups in terrestrial animals" [@intergovernmentalpanelonclimatechangeipccClimateChange20222022; @siepielskiNoEvidenceThat2019].
 
-Moreover, several studies at higher latitude yield opposite results [i.e., increasing body mass in response to climate change, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. At higher latitudes and altitude, climate change is synonym of milder conditions, so individuals have access to a large food supply for a longer time and face less hard conditions during the less favorable season which overall is less energetically demanding. Hence these new, milder, conditions allows individuals to become larger.
+On the other hand, several studies at higher latitudes and altitudes yield opposite results [i.e., increasing body mass in response to climate change, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. In these regions, climate change is a synonym of milder conditions. Hence, individuals have access to a large food supply for a longer time and the severity of the harsh season is reduced, which overall is less energetically demanding. Ultimately, these new conditions enable individuals to grow larger.
 
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019.
 
@@ -394,7 +394,6 @@ I will test the hypothesis that a population average increase in body mass can b
 
 
 **2. Identify key patches for metapopulation persistence using Social Network Analysis methods.**
-  
     *(Continuation of a previously started work at NTNU with Dr. Yimen Araya-Ajoy)*
 
 <!-- Abstract from M1 project, to remake + rethink the project with draft_1 and sna_metapop analysis -->
