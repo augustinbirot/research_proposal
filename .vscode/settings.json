@@ -1,0 +1,6 @@
+{
+    "ltex.statusBarItem": true,
+    "ltex.language": "en-CA",
+    "ltex.additionalRules.enablePickyRules": true,
+    "ltex.additionalRules.motherTongue": "fr"
+}
