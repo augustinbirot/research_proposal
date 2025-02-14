@@ -27,6 +27,10 @@ editor:
     wrap: 72
 ---
 
+<!--
+* comments will be added as qmd comments
+* edits will be just done in the qmd
+-->
 
 {{< pagebreak >}}
 
