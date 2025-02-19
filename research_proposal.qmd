@@ -48,47 +48,76 @@ I wrote that comment a few time but it is valid for all the document. Please edi
 
 ## Climate change
 
-Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its impacts (e.g., melting polar ice caps, rising sea levels) are well documented and increasingly evident. More specifically, this global phenomenon is characterized by **rising temperatures**, **changing season lengths**, **increased environmental variability and unpredictability**, and a **growing frequency and severity of droughts and extreme weather events** [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
+Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its global impacts such as melting polar ice caps and rising sea levels for examples are well documented and increasingly evident. This phenomenon is characterized by rising temperatures^[JM no needed to put anything in bold this is a proposal for a PhD not a grant]
+, changing season lengths, increased environmental variability and unpredictability, and a growing frequency and severity of droughts and extreme weather events [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
 
-Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals worrying figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
-But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our comprehension of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
+
+Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals
+worrying^[JM in what way, please provide more info]
+figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+
+But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
 <!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] -->
 
+::: {.callout-note}
+- Add somthing indicating that alpine habitat have been affected at a faster rate and are under higher risk**
 
-## Body mass as a Life-History Traits (LHT)
+- you are jumping from climate change to body mass and life history trait. I would argue it is too much of a jump and that you need to include a nice link here. you can say that plant will be highly affected  thus having major impact on food availability for a wide diversity of animals. So not only animal should adjust to temperature but also to food availability potentially. Then your link is that mass is strongly related to both temperature acclimation and food abundance thus we need to study it in that context. In addition, the theory that allows us to study and understand evolution in changing environment is the life history theory (something like that)
+:::
 
-Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall "**fitness**" [@Roff1992TheEO].
-The concept of life history theory relies on the hypothesis that organisms have limited resources and must allocate them strategically between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
+## Body mass a life-history trait
 
-Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (!!!<!-- study case-->).
+Life history traits (LHTs)^[JM would be better to first describe the theory then define the traits]
+are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness^[JM bold not needed]
+[@Roff1992TheEO].
+The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
-Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive success. Body mass is considered to be an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (!!!). Therefore, body mass can be considered a key LHT influencing directly both survival and reproduction in many species.
+Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (!!!<!-- study case--> ^[**JM** yep would be good to have an example]).
+
+Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive success **REF**. Body mass is often an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (!!!**REF**). Overall, body mass can be considered a key LHT influencing directly both survival and reproduction in many species.
+
+::: {.callout-note}
+not sure I see the link between the 2 paragraphs here
+:::
 
 However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021]. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected. Hence, as predicted in Life History Theory, trade-offs must be made between available energy and individuals' performances to find the optimal trait value, here, body mass.
 
 
-### Link with hibernation
+### Body mass and hibernation
 
-The role of body mass as a LHT is particularly important for a specific group of species: **Hibernators**. To survive unfavourable seasons, some species disperse to milder environments, others cope with it and find ways to survive through (!!!). A strategy adopted by some species to survive through is to enter a specific state of torpor, called "**hibernation**". 
+::: {.callout-note}
+**JM**I would start byu mentionning something about the fact that food abundance fluctuates with the season and that species need to adjust to the seasonal variation. Quite often there is a harsh season with lower food abundance and more extreme temperatures There are different ways too adapt either migrating, storing food or storing energy as fat. Then there is also the possibility of hibernating
+:::
+
+The role of body mass is particularly important for a specific group of species: **Hibernators**.^[**JM** statement a bit too strong, most species need to survive the harsh season and a lot of them do not hibernate but still store energy reserves as fat, e.g. any capital breeder such as seals, bighorn sheep, ... In addition some hibernating species rely on stored food and not fat e.g. chipmunk species do not get fatter even if they hibernate but they store a crap load of seeds in their burrows]
+To survive unfavorable seasons, some species disperse to milder environments, others cope with it and find ways to survive through (!!!)^[note sure why you use that regularly in your text]
+. A strategy adopted by some species to survive through is to enter a specific state of torpor, called "**hibernation**".
+
+::: {.callout-note}
+**JM** once you have defined the strategies to survive the harsh season you can get into the complexities of hibernation e.g. torpor and short period of time to accumulate resources as well as reproduce
+:::
 
 This strategy consists of reducing the metabolism to a minimum survival level. More specifically, "Fat-storing" hibernators (in opposition to "Food-storing hibernators") will sustain on their energetic resources, stocked in their white adipose tissue, through the harsh season, then emerge at the start of the favourable season [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003].
 
 Furthermore, this energy gathering must be done in a short amount of time, as hibernators are active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Some fat-storing hibernators nearly double their weight during a 4 months active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014].
 
-Hence, not only a prerequisite adaptation is an important body mass, but also a sufficiently efficient metabolism to gain weight quickly. These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (!!!).
+Hence, not only a prerequisite adaptation is an important body mass, but also a sufficiently efficient metabolism to gain weight quickly.^[JM not sure I understand what you mean in this sentence honestly. What is an important body mass ??]
+These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (!!!).
 
-Additionally, for some species, reproduction occurs right at the onset of the active season. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
+Additionally, for some species (**REFs**), reproduction occurs right at the onset of the active season. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
 
-<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good idea to bring the marmots (as a tribe, not the yellow-bellied marmots yet) here, knowing that I wont talk about it till the end of the intro?) -->
-
-Meanwhile, Climate change is expected to have significant impact on such LHTs. It has been theorized that changes in body size could be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005].
+<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good idea to bring the marmots (as a tribe, not the yellow-bellied marmots yet) here, knowing that I wont talk about it till the end of the intro?) JM yes please-->
 
 
 ### Expected effect of global warming on body mass
 
-As said earlier, a key aspect of climate change is a rise in global average temperatures — hence the expression *global warming* (a term often invoked by climate skeptics during unusually cold spells[^1]).
+It has been theorized that changes in body size could be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005].
+
+<!-- Jm removed not needed. you are writing for a scientific audience. If you want to keep it maybe put it in the first section about climate change and put the quote as a quote and not a footnote (i.e. using >)
+
+As said earlier, a key aspect of climate change is a rise in global average temperatures — hence the expression *global warming* (a term often invoked by climate skeptics during unusually cold spells[^1]). -->
 
 This overall temperature increase is suspected to influence phenotypic traits such as body mass and size, though the precise direction of these changes remains uncertain. Some authors argue that a shrinking body size might be a universal response to climate change [@daufresneGlobalWarmingBenefits2009]. This hypothesis is based on Bergmann's rules, which states that smaller body size are favoured in warmer environment as a higher surface-to-volume ratio facilitates heat dissipation [@bergmannRelationshipsHeatConservation1847]. In other words, in warmer environments, an expected adaptive response would be a shrinking body size.
 
@@ -96,14 +125,26 @@ However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale compar
 
 On the other hand, several studies at higher latitudes and altitudes yield opposite results [i.e., increasing body mass in response to climate change, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. In these regions, climate change is a synonym of milder conditions. Hence, individuals have access to a large food supply for a longer time and the severity of the harsh season is reduced, which overall is less energetically demanding. Ultimately, these new conditions enable individuals to grow larger.
 
+::: {.callout-note}
+good but now you need to say something about the fact that we need to understand what is driving the change and how the change is happening.
+:::
+
+<!--
+just add that as a quote (check quarto blockquote) in the first section
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019.
+-->
 
 
 ## Phenotypic plasticity vs microevolution
 
-Evolution by natural selection was defined by @darwinOriginSpeciesMeans1859 as so: individuals that are best adapted to their environment will have better survival and reproductive success. This process result in a population composed mainly of individuals adapted to their environment. So, observed phenotypes in natural populations are expected to be the best fit for a specific environment.
+::: {.callout-note}
+following the link you can start by saying that a change in a trait or species could happen in multiple ways, plasticity and or evolution. then you define both
+:::
 
-However, when this environment changes, individuals have two solution to avoid disappearance: **disperse** to a more favourable environment, or **adapt** to their new conditions through phenotypic changes [@gienappEvolutionaryDynamicsResponse2014].
+Evolution by natural selection was defined by @darwinOriginSpeciesMeans1859 as : individuals that are best adapted to their environment will have better survival and higher reproductive success. This process result in a population composed mainly of individuals adapted to their environment. So, observed phenotypes in natural populations are expected to be the best fit for a specific environment.^[JM is it Darwin's word if yes use a quote if note we might tweak them]
+
+However, when this environment changes, individuals have two main^[JM other alternatiuve is to modify the environment]
+solutions to avoid disappearance: **disperse** to a more favourable environment, or **adapt** to their new conditions through phenotypic changes [@gienappEvolutionaryDynamicsResponse2014].
 
 They can adapt in two ways: **phenotypic plasticity**, define as a change in phenotype expressed by a given genotype, which allows for rapid responses within individuals' lifetime, is highly flexible and does not involve any changes at the genetic level [@pigliucciPhenotypicPlasticityNature2001]; and **microevolution**, define as a change in alleles frequencies in a population over time. When an individual with a better-fitted phenotype for its new environment appears, it would have a better survival and reproductive success. If this advantage relies on a heritable genetic difference (i.e., transmitted to its descendants) the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998].
 
