@@ -19,18 +19,28 @@ bibliography: [research_proposal.bib, packages.bib]
 csl: american-statistical-association.csl
 
 format:
-  #html:
-   bio-uo-proposal-pdf:
+  html:
+    reference-location: margin
+  bio-uo-proposal-pdf:
     toc: true
 editor: 
   markdown: 
     wrap: 72
 ---
 
-<!--
-* comments will be added as qmd comments
-* edits will be just done in the qmd
--->
+::: {.callout-important}
+comments are added as:
+
+- footnote in the margin of the html and should start with JM so that you can look for them easily. they are written as \^\[JM blablabla\]^[JM blablabla]
+- callout boxes 
+- comments using \<\!\-\- JM blablabla \-\-\> <!--JM blablabla -->
+:::
+
+::: {.callout-warning}
+no need to put any word in bold to highlight some stuff. It is not usually done in thesis proposal and not expected.
+
+I wrote that comment a few time but it is valid for all the document. Please edit throughout
+:::
 
 {{< pagebreak >}}
 
