@@ -412,7 +412,7 @@ Using weathers data on our study site from 1975 to 2013, I performed some prelim
 Correlation circle from the PCA of 10 different weather variables at RMBL between 1975 to 2013.
 :::
 
-Looking at this seasonal gradient through time reveal interesting variation (Birot, Blumstein & Martin, Manuscript in progress, @fig-seasonal-gradient). This, happening at the same period as body mass, justify further investigation. I will use more extensive and detailed weather data at the study site from 1975 to 2022, collected and treated by @pratherClimateDataRocky2023. I will perform deeper multivariate analysis and test for different predictors for body mass changes within weathers variables.
+Looking at this seasonal gradient through time reveal interesting variation (Birot et al, Manuscript in progress, @fig-seasonal-gradient). This, happening at the same period as body mass, justify further investigation. I will use more extensive and detailed weather data at the study site from 1975 to 2022, collected and treated by @pratherClimateDataRocky2023. I will perform deeper multivariate analysis and test for different predictors for body mass changes within weathers variables.
 
 ::: {#fig-seasonal-gradient}
 
@@ -430,7 +430,11 @@ Hence, using observation data at RMBL, I will look for changes in predators popu
 
 # Chapter 4 - Balance between body condition and experience as predictors of marmots' behavior. {#sec-chap4}
 
-Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes focal observation with detailed ethogramms) and experiments (Flight Initiation distance) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
+::: {.callout-note}
+this chapter seems really descriptive despite the fact that you start by framing it in terms of POLS. can you make it more hypothesis testing ?
+:::
+
+Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes foraging focal observations [ref]) and experiments (Flight Initiation distance [ref]) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
 
 :::{#fig-prop-sfg}
 
@@ -467,7 +471,7 @@ By investigating how the body mass has changed (i.e., basis constitution or grow
 
 By studying how natural population respond to rapidly changing environmental conditions, this project aims to give critical insights for conservations strategies and predictions. Understanding the causes and consequences of phenotypic response to climate change is essential for predicting future viability of natural populations.
 
-We hope that fidings from this research will help inform conservation policymakers by improving projections of species' adaptive capacity and resilience to climate change, offering guidance for managing biodiversity in a rapidly changing world.
+We hope that findings from this research will help inform conservation policymakers by improving projections of species' adaptive capacity and resilience to climate change, offering guidance for managing biodiversity in a rapidly changing world.
 
 
 {{< pagebreak >}}
