@@ -1,6 +1,6 @@
 ---
 title: Coping with climate change.
-subtitle: Implications of the Yellow-Bellied Marmot's (*Marmota flavivientris*) body mass evolution in the last half-century.
+subtitle: Implications of the Yellow-Bellied Marmot's (*Marmota flaviventer*) body mass evolution in the last half-century.
 author: Augustin Birot (300444988)
 date: last-modified
 affiliation: Department of Biology
@@ -62,7 +62,7 @@ But above all, as shown by countless studies, climate change deeply impacts the 
 <!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] -->
 
 ::: {.callout-note}
-- Add somthing indicating that alpine habitat have been affected at a faster rate and are under higher risk**
+- Add something indicating that alpine habitat have been affected at a faster rate and are under higher risk
 
 - you are jumping from climate change to body mass and life history trait. I would argue it is too much of a jump and that you need to include a nice link here. you can say that plant will be highly affected  thus having major impact on food availability for a wide diversity of animals. So not only animal should adjust to temperature but also to food availability potentially. Then your link is that mass is strongly related to both temperature acclimation and food abundance thus we need to study it in that context. In addition, the theory that allows us to study and understand evolution in changing environment is the life history theory (something like that)
 :::
@@ -99,7 +99,7 @@ To survive unfavorable seasons, some species disperse to milder environments, ot
 **JM** once you have defined the strategies to survive the harsh season you can get into the complexities of hibernation e.g. torpor and short period of time to accumulate resources as well as reproduce
 :::
 
-This strategy consists of reducing the metabolism to a minimum survival level. More specifically, "Fat-storing" hibernators (in opposition to "Food-storing hibernators") will sustain on their energetic resources, stocked in their white adipose tissue, through the harsh season, then emerge at the start of the favourable season [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003].
+This strategy consists of reducing the metabolism to a minimum survival level. More specifically, "Fat-storing" hibernators (in opposition to "Food-storing hibernators") will sustain on their energetic resources, stocked in their white adipose tissue, through the harsh season, then emerge at the start of the favorable season [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003].
 
 Furthermore, this energy gathering must be done in a short amount of time, as hibernators are active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Some fat-storing hibernators nearly double their weight during a 4 months active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014].
 
@@ -150,12 +150,12 @@ Species can adapt to the new environment in two ways: **phenotypic plasticity**,
 the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998].
 
 ::: {.callout-note}
-be careful in the previsou paragrpah because you are defining microevolution (which can include drift, but then explain evolution by natural selection which is quite different)
+be careful in the previous paragraph because you are defining microevolution (which can include drift, but then explain evolution by natural selection which is quite different)
 :::
 
 Hence, adaptation through evolution by natural selection can be slow but is a long-term solution, and a better answer to persistent ecological changes. However, if the change is transient, plasticity might be better suited. As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer to a temporary change, presenting costs and limits [@dewittCostsLimitsPhenotypic1998]. Furthermore, if the optimal response to the new environment is a canalized phenotype (i.e., very low phenotypic variance), plasticity can even be maladaptive [@nusseyEvolutionaryEcologyIndividual2007]. Therefore, the expected optimal answer to a long-term environmental change, as expected with climate change, is evolution through natural selection.
 
-Phenotypic plasticity and microevolution are not mutually exclusive. For example, highly plastic traits, like body mass, can change considerably during an individual's life in response to environmental fluctuations both within and between years. At the same time, these traits can also evolve at the population level over similar time scales. Plasticity in itself for such traits can also evolve^[JM how please add a bit more details].
+Phenotypic plasticity and micro-evolution are not mutually exclusive. For example, highly plastic traits, like body mass, can change considerably during an individual's life in response to environmental fluctuations both within and between years. At the same time, these traits can also evolve at the population level over similar time scales. Plasticity in itself for such traits can also evolve^[JM how please add a bit more details].
 
 Long-term consequences of these processes differ substantially since evolutionary changes are measured across generations and tend to be more permanent than plastic adjustments made across an individual lifespan. As a result, determining how much each mechanism contributes to long-term changes is challenging but essential for understanding adaption and evolution in response to climate change in natural population.
 
@@ -163,7 +163,7 @@ Long-term consequences of these processes differ substantially since evolutionar
 ## Quantitative Genetics and Animal Models
 
 ::: {.callout-note}
-no need to repeat all the stuff you mentionned already we have read it already.
+no need to repeat all the stuff you mentioned already we have read it already.
 if you start a sentence by "as previously mentioned earlier,..." then you can avoid typing it :)
 
 :::
@@ -231,20 +231,20 @@ From a theoretical point of view, this method allows for proper estimations of a
 
 Furthermore, it is often impossible to identify the real driver of plasticity in natural conditions, as natural environments are exceptionally complex systems, and individuals generally have to react to a combination of environmental variables rather than one. Therefore, the real driver of plasticity is often unknown, unmeasurable and a combination of a lot of different variables. In response to that, @ramakersProbingVariationReaction2023 proposed a new method, using Environment Specific Mean phenotype (ESM)^[JM this is far from being new since it goes back to the 1963]. Although they have shown that this method is indeed efficient, they emphasized that we still need a really good knowledge of the study system, and specific conditions to be an effective approach. Although the ESM method is helpful, it is far from perfect and more work is needed to deal with this ${I * E}$ detection problem in natural environments.
 
-The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a type of mixed model estimating fitting a model on both the mean and the dispersion of a trait [@leeDoubleHierarchicalGeneralized2006]. In additioon to the standard mixed model, a DHGLM directly model the variation in the residual as a function of fixed and random effects. In other words, a DHGLM can estimate the *among-individual variance in the residual variance* hereafter referred to as $V_{V_e}$.
+The good news is that a promising, fairly new, statistical method could bring new interesting insights to that matter: the "Double Hierarchical Generalized Linear Model" (DHGLM). DHGLM is a type of mixed model estimating fitting a model on both the mean and the dispersion of a trait [@leeDoubleHierarchicalGeneralized2006]. In addition to the standard mixed model, a DHGLM directly model the variation in the residual as a function of fixed and random effects. In other words, a DHGLM can estimate the *among-individual variance in the residual variance* hereafter referred to as $V_{V_e}$.
 
 We are confident that DHGLM can become an important approach in the toolbox used to detect *I \* E*. Indeed, when *I \* E* are not modelled in a DHGLM via a random slope because the *E* is unknown for example then the variation due to *I \* E* will be captured by the among-individual variance in the residual variance $V_{V_e}$.
 
-Although a non-zero value for $V_{V_e} isn't necessarly due to the presence of ${I * E}$ in the system, it would justify further investigations by testing different environmental proxies. In contrast, except in very specific conditons, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
+Although a non-zero value for $V_{V_e} isn't necessarily due to the presence of ${I * E}$ in the system, it would justify further investigations by testing different environmental proxies. In contrast, except in very specific conditions, almost impossible in natural conditions (i.e., **perfect** contrary effect), a $V_{V_e}$ equal to 0 indicate that the relative contribution to the residual variance in phenotype isn't significantly different between each individual, and so that there's no individual variation in plasticity in the studied system.
 
-An important feature of this method is that it should be free from the problems of bad environmental proxies as it detects ${I * E}$ from the structure of the residual variance in phenotype. And obviously, as for the random regreession with the RRAM, we can use quantitative genetics to also detect ${G * E}$ by combining a DHGLM with an Animal model, giving a "Double Animal Model" (DAM).^[JM the animal model is already a HGLM]
+An important feature of this method is that it should be free from the problems of bad environmental proxies as it detects ${I * E}$ from the structure of the residual variance in phenotype. And obviously, as for the random regression with the RRAM, we can use quantitative genetics to also detect ${G * E}$ by combining a DHGLM with an Animal model, giving a "Double Animal Model" (DAM).^[JM the animal model is already a HGLM]
 
-This is a very promising method, however, as most new statistical methods, it is  poorly understood and rarely used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect ${I * E}$ would be really helpful for the comunity, especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition in a context of climate change.
+This is a very promising method, however, as most new statistical methods, it is  poorly understood and rarely used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect ${I * E}$ would be really helpful for the community, especially with the rising need to study efficiently phenotypic plasticity and it's evolution, in natural condition in a context of climate change.
 
 
 ## Species and study
 
-Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventris*) is monitored continuously, initiated by Kenneth Armitage, and now co-lead by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second longest long-term monitoring of a wild mammal population in the world.
+Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventer*) is monitored continuously, initiated by Kenneth Armitage, and now co-lead by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second longest long-term monitoring of a wild mammal population in the world.
 
 Yellow-bellied marmots is a ground-dwelling sciurid (Rodentia, Sciuridae) inhabiting alpine habitats in western North America. Their life cycle is divided between an "active season" representing approximately a third of the year (from May to September) where individuals must reproduce and accumulate enough fat reserves in order to survive hibernation over the remainder of the year (September to May) [@armitageMarmotBiologySociality2014].
 
@@ -332,7 +332,7 @@ Finally, we expect that such modification in an important life-history trait in 
 
 # Chapter 1 - Mechanisms behind the body mass increase. {#sec-chap1}
 
-To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understanding if cohorts have now a bigger [constitution]^[JM guess we need a better word. I think what you are trying to say is that we need to know if a marmot is born bigger or if it growth faster or for a longer period] than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand which of the intercept (consitution^[JM yark :)]), the slope (growing) and the length of the growing period have changed over time cohorts.
+To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understanding if cohorts have now a bigger [constitution]^[JM guess we need a better word. I think what you are trying to say is that we need to know if a marmot is born bigger or if it growth faster or for a longer period] than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand which of the intercept (constitution^[JM yark :)]), the slope (growing) and the length of the growing period have changed over time cohorts.
 
 Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021^[JM you should get much better references for the missing fraction, some about the theory and not only the marmoty stuff].
 
@@ -481,11 +481,11 @@ We hope that findings from this research will help inform conservation policymak
 
 **1. Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.**
 
-Bet-hedging strategy can be summerized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
+Bet-hedging strategy can be summarized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. With climate change, environment are less predictable than ever, therefore, bet-hedging is expected to be a relevant adaptive strategy in such context. Let's take body mass increase as an example again.
 
-On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. For example, heavier individuals can be more subject to heat stress; they can be more subject to predation as heavier individuals are slower and more palatable.
+On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. Heavier individuals can be more subject to heat stress and they can be more subject to predation as heavier individuals are potentially slower to escape and more provide a higher energetic benefit.
 
-On the other hand, an increased body mass, being synonyme of a more important energy stock, allow indivduals to "buffer" in a poor year in term of ressources. This feature can be very important for species living highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase you body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
+On the other hand, an increased body mass, being synonym of a more important energy stock, potentially allow indivduals to increase survival in a harsh year. This can be very important for species living in highly constrainted<!-- poorly said--> environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase in body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment.
 
 Furthermore, larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
 
@@ -495,10 +495,16 @@ Indeed, specializing phenotype, in that case "betting"<!-- whatch out how you sa
 
 I will test the hypothesis that a population average increase in body mass can be interpreted as a conservative bet-hedging strategy to cope with environmental variability on the long-term. To do so, I will simulate different bet-hedging scenario to compare there predictions to the observed patterns in our population.
 
+::: {.callout-note}
+I like the idea her ebut it is really hard to follow. I think it would be much better if you start by defining what is conservative bet-hedging and then talk about mass being a potential trait helping to buffer the inter-annual variation in fitness leading to conservative bet-hedging. 
+
+No sure about the method you are suggesting , but I am not sure what you want to do really. so 
+more details needed and maybe a chat to clarify all that
+:::
 
 
 **2. Identify key patches for metapopulation persistence using Social Network Analysis methods.**
-    *(Continuation of a previously started work at NTNU with Dr. Yimen Araya-Ajoy)*
+    *(Continuation of a project previously started at NTNU with Dr. Yimen Araya-Ajoy)*
 
 <!-- Abstract from M1 project, to remake + rethink the project with draft_1 and sna_metapop analysis -->
 A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected (!!!). Links between subpopualtions (i.e., migration fluxes) in a metapopulations is crucial for its survival over time as it maintains genetic diversity (!!!). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (!!!).
@@ -518,29 +524,30 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 # Expected Products
 
-**Introduction** *(MSc second year project)*;  *Manuscript is being prepared for submision to Evolution*
+**JM add potential journal for each of them. Maybe dream a bit**
 
-1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the
-  Yellow-bellied Marmot. [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
+**Introduction** *(French MSc second year project)*
+
+1. Beyond plasticity: Study of the evolutionary character of the increase in body mass in the Yellow-bellied Marmot.^[JM I don't really like that title honestly, can you use something closer to the results]
+[A Birot, D Blumstein and JGA Martin]{.underline} Prepared for Evolution
 
 
 **Thesis**
 
-2. What has changed in Yellow-bellied Marmots' body mass. [Augustin Birot, 
+2. What has changed in Yellow-bellied Marmots' body mass.^[JM not the most exciting for non marmot people] [Augustin Birot, 
   Dan Blumstein and Julien Martin]{.underline}
 
 
-3. Break free from bad envrionmental proxies when detecting I * E,
+3. Break free from bad environmental proxies when studying I * E,
   the DHGLMs solution.
   [Augustin Birot, Ned Dochtermann and Julien Martin]{.underline}
 
 
-4. Why have Marmots only gotten bigger now? [Augustin Birot, Dan Blumstein and 
+4. Why have Marmots only gotten bigger now?^[JM is it really what you will be looking at in chapter 3, I don't think so] [Augustin Birot, Dan Blumstein and 
   Julien Martin]{.underline}
 
 
-5. Balance between body condition and experience as predictor of marmots' behavior. [Augustin Birot, 
-  Vincent Careau, Denis Réale, Dan Blumstein and Julien Martin]{.underline}
+5. Balance between body condition and experience as predictor of marmots' behavior.^[JM is it really what you will be looking at in chapter 4, I don't think so] [Augustin Birot,^[JM not sure why you added Vincent and Denis since such a collaboration is not suggested before] Dan Blumstein and Julien Martin]{.underline}
 
 
 **Side projects**
@@ -550,14 +557,18 @@ I am planing to test the efficiency of different tools already developps for SNA
   Julien Martin]{.underline}
 
 
-7. Identify key patches for metapopulation persistence using Social Network Analysis methods. 
-  [Augustin Birot, Yimen Araya-Ajoy, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
-  Pierre Bize and Julien Martin]{.underline}
+7. Identify key patches for metapopulation persistence using Social Network Analysis methods.^[we should discuss authors here, I think Yimen would be last author, not sure if Pierre would be on it, and I might not be on it depending on how it is going honestly] 
+  [Augustin Birot, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
+  Julien Martin, Yimen Araya-Ajoy]{.underline}
 
 
 {{< pagebreak >}}
 
 # Timeline
+
+::: {.callout-note}
+it is confusing to have chapters and papers numbered differently please just use chapter 1-4, MSc project or side project. It is confusing to have chapter 2 writing transforming into Paper 3 submission for example
+:::
 
 ::: {#fig-timeline-first}
 
