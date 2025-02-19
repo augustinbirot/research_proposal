@@ -291,7 +291,7 @@ Each year between May and September since 1962, marmots are regularly trapped (b
 
 Parental links between individuals are known for most individuals in the population (4,652 individuals to this date), allowing the reconstruciton of a highly detailed pedigree. Before 2002, maternal links were estimated via behavioural observations. Since 2002, genetic parentage assignment is used to confirm the maternal links and determine the paternal links [details in @blumsteinHeritabilityAntipredatoryTraits2010; @olsonNoEvidenceInbreeding2012].
 
-Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale ($± 50 g$) and now with a digital balance ($± 10 g$)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
+Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (!!!)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale (± 50 g) and now with a digital balance (± 10 g)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
 
 Body mass is a highly plastic trait, particularly for marmots as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors was used to extract each individual’s body mass on August 15 each year [details in @ozgulCoupledDynamicsBody2010; @jebbBiggerNotAlways2021].
 
@@ -302,17 +302,29 @@ Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be perf
 
 {{< pagebreak >}}
 
-## Research objective
+## Research objectives
 
-As explained before, the observed major body mass increase ($20\%$) in Yellow-Bellied marmots has been miss considered. We have shown a strong evolutionary signal in this change, meaning that we need to rethink the evolutionary scenario explaining this phenotypic change.
+::: {.callout-note}
+here you describe what you plan to do but you are not describing objectives really. The first 2 sentences are good but after that I would expect something a bit different a quite broader.
 
-First, I will study which specific aspects of the marmots body mass has changed. We need to understand if individuals are born with a greater constitution (so the intercept in statistical term), if their growing capacity has increased (slope) or both.
+So we need to rethink the evolutionary scenario of the change what does in means in terms of your obejectives. You want/need to :
 
-Even though our results indicate a strong genetic variation in body mass, it doesn't explain the entire phenotypic change. Phenotypic plasticity also plays a role here, and to fully understand the population's reaction to climate change, there is a pressing need to develop new methods to detect and study I * E. Therefore I am going to develop a framework to use DHGLMs to detect I * E in natural conditions.
+- understand the causes of changes and the selection driving the genetic change
+- understand the consequences of the changes in terms of the phenotype and potential population dynamic
+- provide a clear explanation of what happen and what will happen in the marmot
+
+To do so you will .... [here fits what you described]
+:::
+
+The body mass increased by approximately 20\% in Yellow-Bellied marmots over the past 50 years. Contrary to previous studies, I have shown during my MSc work that a large part of the change in body mass is in fact due to micro-evolution meaning that we need to rethink the evolutionary scenario explaining this phenotypic change.
+
+First, I will study which specific aspects of the marmots body mass has changed. We need to understand if individuals are born with a greater constitution^[JM not sure I agree or even understand what you mean by that] (so the intercept in statistical term), if their growing capacity has increased (slope) or both.
+
+Even though our results indicate a strong genetic variation in body mass, it doesn't explain the entire phenotypic change. Phenotypic plasticity also plays a role here, and to fully understand the population's reaction to climate change, there is a pressing need to develop new methods to detect and study *I \* E*. Therefore I am going to develop a framework to use DHGLMs to detect *I \* E* in natural conditions.
 
 Then, using our extensive datasets on the weather and environment of the marmots, I am going to study the changes during the last half-century in order to understand which factors could have triggered this body mass increase.
 
-Finally, we expect that such modification in a crucial LHT in natural population will not be the only major phenotypic change. Therefore, as theorized by the extended POLS, I am going to investigate potential behavioral changes linked to body mass in marmots.
+Finally, we expect that such modification in an important life-history trait in natural population will not be the only major phenotypic change. Therefore, as theorized by the extended POLS, I am going to investigate potential behavioral changes linked to body mass in marmots.
 
 
 {{< pagebreak >}}
@@ -320,15 +332,19 @@ Finally, we expect that such modification in a crucial LHT in natural population
 
 # Chapter 1 - Mechanisms behind the body mass increase. {#sec-chap1}
 
-To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understand if cohorts have now a bigger constitution than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand if the intercept (constitution), the slope (growing) or both has changed over time cohorts.
+To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understanding if cohorts have now a bigger [constitution]^[JM guess we need a better word. I think what you are trying to say is that we need to know if a marmot is born bigger or if it growth faster or for a longer period] than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand which of the intercept (consitution^[JM yark :)]), the slope (growing) and the length of the growing period have changed over time cohorts.
 
-Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021.
+Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021^[JM you should get much better references for the missing fraction, some about the theory and not only the marmoty stuff].
 
-However, looking at body mass in Juvenile over time cohort for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased *from 1,206.18 g in 1976* (Males) *and 1,130.64 g in 1979* (Females) *to 1,519.71 g in 1998* (Males) *and 1,363.03 g in 2001* (Females, *Estimations from local regression on raw data*). These changes represent a body mass increase of $23\%$ in 22 years (22 cohorts), meaning that between the mid 1970s and the 2000s, each cohort was in average $1\%$ heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
+However, a preliminary analysis looking at the body mass in juvenile cohorts over the study period for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased from *1,206.18 g in 1976* (Males) and *1,130.64 g in 1979* (Females) to *1,519.71 g in 1998* (Males) and *1,363.03 g in 2001* (Females, *Estimations from local regression on raw data*). These changes represent a body mass increase of 23\% in 22 years (22 cohorts), meaning that between the mid 1970s and the 2000s, each cohort was in average 1\% heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
 
-The relax of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.
+The relax^[????] of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.^[JM I don't think I follow what you mean here]
 
-First, I will study the body mass patternst through time cohorts at the beginning and end of the active season for each age classes at both phenotypic and genetic level to understand the changes in the last half century. Then, I will investigate the reaction norms (at cohort scale) by looking both the average cohorts mass at these two moments, and slopes over the active season.
+To better understand the observed change in body mass in adult female marmots, I will analyse the changes in body mass over the study period for all age and sex classes at both phenotypic and genetic level. I will also study the changes in the growth pattern each summer (growth curves as reaction norms) and estimate their correlation with environmental condition variation.
+
+::: {.callout-note}
+you can add some info about sample size talk a bit more about animal model and maybe what you see in terms of analysis
+:::
 
 
 ::: {#fig-juvenile-trend}
