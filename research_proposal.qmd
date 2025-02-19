@@ -359,31 +359,33 @@ Body mass trend over time cohort for females (yellow) and males (black) Juvenile
 
 # Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
 
-As explained previously, detecting more efficiently individual variation in plasticity (I * E) in natural condition is essential to better understand individual responses to climate change. However, although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today. As said in the introduction again, we believe that using Double Hierarchical Generalized Models (DHGLM) can drastically reduce these problems and help us improve the efficiency of I * E detection in natural populations.
+Detecting individual variation in plasticity is challenging due to the unknown aspect of the environmental variables organism are responding to [Nussey et al 2007 and rammakers 2023]. Although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today. DHGLMs are a promising avenue to help the study of *I \* E* in natural populations, but an investigation to reveal its potential and limit is needed.
 
-DHGLMs will estimate the residual variance for each individuals, then the variance in this residual variance: $V_{V_e}$. When fitting a DHGLM on a focal phenotypic trait with multiple values for each individuals, if there is no I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a), there will be no variance in the residual variance as each individual will exhibit the same range of phenotypic values (@fig-ie-vs-no-ie b), so $V_{V_e} = 0$.
+When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individuals, an absence of I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a) should show and absence of among-individual variance in the residual variance ($V_{V_e} = 0$) as each individual will exhibit the same range of phenotypic values ([Fig. @fig-ie-vs-no-ie] c), so .
 
-However, if there's individual variation in their plastic response (I * E) for the focal phenotypic trait (@fig-ie-vs-no-ie c), there, the residual variance won't be the same for each individual, hence there will be a $V_{V_e}$ different from 0 (@fig-ie-vs-no-ie d).
+However, if there's individual variation in their plastic response (*I \* E*) for the focal phenotypic trait (@fig-ie-vs-no-ie b) and it is not modelled with a reaction norm then within a DHGLM the variation in residual variance won't be the same for each individual, hence $V_{V_e}$ will be different from 0 (@fig-ie-vs-no-ie d).
 
 ::: {#fig-ie-vs-no-ie}
 
 ![](figures/ie_no_ie.png) 
 
-Reaction norms for two individuals (blue and yellow) for a trait a) without and b) with individual variations in plasticity. c) In the absence of I * E, both individual express the same range of phenotypic values. d) However, with I * E, individuals express different range of values.
+Reaction norms (a,b) and phenotypic variance (c,d) for two individuals (blue and yellow) for a trait without (a,c) and with (b,d) individual variations in plasticity. In the absence of I * E, both individual express the same range of phenotypic values. However, with I * E, individuals express different range of values.
 :::
 
-Therefore, although a $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself (as it could come from something else), such result show that investigation on this focal trait are worth doing. On the contrary, unless in very specific case, almost never met in natural conditions (i.e., exact opposite effect, @fig-ie-vs-opposed c, d), leading to false negatives, a $V_{V_e} = 0$ most likely indicate that there is no individual variation in their plastic response for the focal trait.
+Although detecting $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself , as the variation could be due to other processes, it is a necessary condition of I * E (except under very unlikely conditions @fig-ie-vs-opposed). Finding $V_{V_e} > 0$ would thus suggest that investigating I * E and looking for the enknown E is a worthwhile investigation. 
 
 ::: {#fig-ie-vs-opposed}
 
 ![](figures/ie_vs_opposed.png) 
 
 Reactions norms for two individuals (blue and yellow) for a trait a) with individual variation in their relationships and b) with the exact opposite effects. Here, although individuals in the first case c) express different ranges of phenotypic value, d) in the second case, they express the same range despite the I * E.
+
+JM a) and b) are just a repeated of c and d from the previous figure so not needed I think
 :::
 
-Finally, it is worth noting a potential limitation with this method that must be taken into acount before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables vamues. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). In other words, a false positive.
+Finally, it is worth noting a potential limitation with this method that must be taken into account before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables values. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). However, adding the environment as a fixed effect in the model should remove this bias.
 
-Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced models. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@brms], using stan software [@carpenterStanProbabilisticProgramming2017]. I will use the models $V_{V_e}$ estimation to assess the detection capacity of this method. Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
+Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced environmental conditions. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@brms], using stan software [@carpenterStanProbabilisticProgramming2017]. I will also investigate the potential use of TMB [ref] which allows to fit DHGLMs using a frequentist approach which is much faster especially in a simulation setup but it relies on a different coding language (mixe of R and C). Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
 
 ::: {#fig-balanced-unbalanced}
 
