@@ -36,6 +36,12 @@ comments are added as:
 - comments using \<\!\-\- JM blablabla \-\-\> <!--JM blablabla -->
 :::
 
+::: {.callout-important}
+When a comment is resolved/has been taken into account, I put it in comment \<\!\-\- comment \-\-\> and add "AB CHECKED"
+:::
+
+
+
 ::: {.callout-warning}
 no need to put any word in bold to highlight some stuff. It is not usually done in thesis proposal and not expected.
 
@@ -326,11 +332,17 @@ Then, using our extensive datasets on the weather and environment of the marmots
 
 Finally, we expect that such modification in an important life-history trait in natural population will not be the only major phenotypic change. Therefore, as theorized by the extended POLS, I am going to investigate potential behavioral changes linked to body mass in marmots.
 
+::: {#fig-framework-objectives}
+
+![](figures/framework_objectives.png)
+
+Research objectives illustrative framework.
+:::
 
 {{< pagebreak >}}
 
 
-# Chapter 1 - Mechanisms behind the body mass increase. {#sec-chap1}
+# Chapter 1 - Structure of the body mass increase. {#sec-chap1}
 
 To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understanding if cohorts have now a bigger [constitution]^[JM guess we need a better word. I think what you are trying to say is that we need to know if a marmot is born bigger or if it growth faster or for a longer period] than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand which of the intercept (constitution^[JM yark :)]), the slope (growing) and the length of the growing period have changed over time cohorts.
 
@@ -402,6 +414,13 @@ Reactions norms for two individuals (blue and yellow) for a trait without indivi
 # Chapter 3 - Identifying predictors of increased body mass. {#sec-chap3}
 
 In the introduction, I explained the link between climate and body mass, especially in hibernating species such as marmots. I also discuss about the different hypotheses in the litterature about the links between climate change and body size. Knowing all that, the main hypothesis to explain the body mass increased in Yellow-Bellied Marmots in the last half-century is a change in climate over the years.
+
+::: {#fig-framework-chapter-3}
+
+![](figures/framework_chapter_3.png)
+
+Evolutive incoherence behind this shift.
+:::
 
 Using weathers data on our study site from 1975 to 2013, I performed some preliminary multivariate anaylises [Principal Components Analysis, PCA with "ade4" package, @drayAde4AnalysisEcological2023] from which I obtained a "seasonal gradient" (@fig-climate-corircle) with high values corresponding to harsh years (i.e., long and snowy winter, lower temperatures) and lower values to milder years (i.e., long active season, warmer temperatures).
 
@@ -566,9 +585,9 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 # Timeline
 
-::: {.callout-note}
+<!-- ::: {.callout-note}
 it is confusing to have chapters and papers numbered differently please just use chapter 1-4, MSc project or side project. It is confusing to have chapter 2 writing transforming into Paper 3 submission for example
-:::
+::: AB CHECKED -->
 
 ::: {#fig-timeline-first}
 
