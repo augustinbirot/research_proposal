@@ -46,9 +46,7 @@ comments are added as:
 Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its global impacts such as melting polar ice caps and rising sea levels for examples are well documented and increasingly evident. This phenomenon is characterized by rising temperatures, changing season lengths, increased environmental variability and unpredictability, and a growing frequency and severity of droughts and extreme weather events [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
 
 
-Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals
-worrying^[JM in what way, please provide more info]
-figures [@walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [@zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals worrying, but expected figures [*e.g.*, increasing temperature, less snow, more rain, @walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [*e.g.*, further increase in temperature, @zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
 But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
@@ -96,9 +94,9 @@ Furthermore, this energy gathering must be done in a short amount of time, as hi
 
 Hence, not only a prerequisite adaptation is the ability to store a lot of fat, but also a sufficiently efficient metabolism to gain weight quickly. These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (REF).
 
-Additionally, for some species (**REFs**), reproduction occurs right at the onset of the active season. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
+Additionally, for some species, reproduction occurs right at the onset of the active season [@armitageMarmotBiologySociality2014; **REFs**]. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
 
-<!-- {One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good idea to bring the marmots (as a tribe, not the yellow-bellied marmots yet) here, knowing that I wont talk about it till the end of the intro?) JM yes please-->
+{One of the most commonly known example of hibernating species in our society are the Marmots [@armitageMarmotBiologySociality2014]. [...]} (Is it a good idea to bring the marmots (as a tribe, not the yellow-bellied marmots yet) here, knowing that I wont talk about it till the end of the intro?)^[JM yes please]
 
 
 ### Expected effect of global warming on body mass
@@ -111,7 +109,7 @@ As said earlier, a key aspect of climate change is a rise in global average temp
 
 
 just add that as a quote (check quarto blockquote) in the first section
-[^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019.-->
+[^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019. -->
 
 This overall temperature increase is suspected to influence phenotypic traits such as body mass and size, though the precise direction of these changes remains uncertain. Some authors argue that a shrinking body size might be a universal response to climate change [@daufresneGlobalWarmingBenefits2009]. This hypothesis is based on Bergmann's rules, which states that smaller body size are favoured in warmer environment as a higher surface-to-volume ratio facilitates heat dissipation [@bergmannRelationshipsHeatConservation1847]. In other words, in warmer environments, an expected adaptive response would be a shrinking body size.
 
@@ -190,7 +188,7 @@ When studying the evolution of a specific trait (especially ones having importan
 
 A continuation of this reasoning is the extended Pace Of Life Syndrome suggesting that life-history strategy, physiological and behavioral traits coevolve in response to the environment [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010].
 
-So, if climate change lead to life history traits changes, it should be expected that other key physiological or behavioural trait will coevolve with it. For example, it has been observed that some behavioural types will be consistently associated with specific Life-History strategies [*e.g.*, individual with faster life-cycle will tend to be bolder; @stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
+So, if climate change lead to life history traits changes, it should be expected that other key physiological or behavioural trait will coevolve with it. For example, it has been observed that some behavioural types will be consistently associated with specific Life-History strategies [*e.g.*, individual with faster life-cycle will tend to be bolder, @stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
 
 
 As such, changes in LHTs are expected to have even greater impacts on the global phenotype.^[JM careful with the implicit causality. not sure I agree with that because one might argue that LHT are the end-product of a series of traits and thus LHT are not causing more changes in the phenotype but are the results of numerous changes] A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [REF<!--Kruuk 2004?-->].
@@ -345,25 +343,45 @@ you can add some info about sample size talk a bit more about animal model and m
 Body mass trend over time cohort for females (yellow) and males (black) Juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
 :::
 
-see @eq-mod-ch1
+see @eq-mod1-ch1 & @eq-mod2-ch1
 
 
 $$
 \begin{pmatrix}
-Body\ mass_{Juveniles} \\
+Body\ mass\ June_{Juveniles} \\
 \\
-Body\ mass_{Yearlings} \\
+Body\ mass\ June_{Yearlings} \\
 \\
-Body\ mass_{Subadults} \\
+Body\ mass\ June_{Subadults} \\
 \\
-Body\ mass_{Adults}
+Body\ mass\ June_{Adults}
 \end{pmatrix}
 \sim
 \begin{aligned}
 Fixed &= Valley + Age \\
 Random &= Animal + UID + Measurement\ year
 \end{aligned}
-$$ {#eq-mod-ch1}
+$$ {#eq-mod1-ch1}
+
+
+
+$$
+\begin{pmatrix}
+Body\ mass\ August_{Juveniles} \\
+\\
+Body\ mass\ August_{Yearlings} \\
+\\
+Body\ mass\ August_{Subadults} \\
+\\
+Body\ mass\ August_{Adults}
+\end{pmatrix}
+\sim
+\begin{aligned}
+Fixed &= Valley + Age \\
+Random &= Animal + UID + Measurement\ year
+\end{aligned}
+$$ {#eq-mod2-ch1}
+
 
 
 {{< pagebreak >}}
