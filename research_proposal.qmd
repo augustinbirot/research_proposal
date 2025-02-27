@@ -50,10 +50,10 @@ Climate change impacts on human society are, for example, well represented in th
 
 But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
-<!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] -->
+<!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] --> 
 
 ::: {.callout-note}
-- Add something indicating that alpine habitat have been affected at a faster rate and are under higher risk
+- Add something indicating that alpine habitat have been affected at a faster rate and are under higher risk [@grabherrClimateChangeImpacts2010]
 
 - you are jumping from climate change to body mass and life history trait. I would argue it is too much of a jump and that you need to include a nice link here. you can say that ***plant will be highly affected thus having major impact on food availability for a wide diversity of animals. So not only animal should adjust to temperature but also to food availability potentially.*** Then your link is that ***mass is strongly related to both temperature acclimation and food abundance thus we need to study it in that context***. In addition, the ***theory that allows us to study and understand evolution in changing environment is the life history theory*** (something like that)
 :::
@@ -64,7 +64,7 @@ Life history traits (LHTs)^[JM would be better to first describe the theory then
 are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness[@Roff1992TheEO].
 The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
-Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (REF<!-- study case--> ^[**JM** yep would be good to have an example]).
+Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (**REF**<!-- study case--> ^[**JM** yep would be good to have an example]).
 
 Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive success **REF**. Body mass is often an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (**REF**). Overall, body mass can be considered a key LHT influencing directly both survival and reproduction in many species.
 
@@ -72,7 +72,7 @@ Additionally, individuals with greater energy reserves have a better capacity to
 not sure I see the link between the 2 paragraphs here
 :::
 
-However, as said before, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021]. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected. Hence, as predicted in Life History Theory, trade-offs must be made between available energy and individuals' performances to find the optimal trait value, here, body mass.
+However, **as said before**, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021]. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected. Hence, as predicted in Life History Theory, trade-offs must be made between available energy and individuals' performances to find the optimal trait value, here, body mass.
 
 
 ### Body mass and hibernation
@@ -82,7 +82,7 @@ However, as said before, energy quantity are limited and cannot be invested only
 :::
 
 The role of body mass is particularly important for a specific group of species: Hibernators.^[**JM** statement a bit too strong, most species need to survive the harsh season and a lot of them do not hibernate but still store energy reserves as fat, e.g. any capital breeder such as seals, bighorn sheep, ... In addition some hibernating species rely on stored food and not fat e.g. chipmunk species do not get fatter even if they hibernate but they store a crap load of seeds in their burrows]
-To survive unfavorable seasons, some species disperse to milder environments, others cope with it and find ways to survive through (REF). A strategy adopted by some species to survive through is to enter a specific state of torpor, called "hibernation".
+To survive unfavorable seasons, some species disperse to milder environments, others cope with it and find ways to survive through (**REF**). A strategy adopted by some species to survive through is to enter a specific state of torpor, called "hibernation".
 
 ::: {.callout-note}
 **JM** once you have defined the strategies to survive the harsh season you can get into the complexities of hibernation e.g. torpor and short period of time to accumulate resources as well as reproduce
@@ -92,7 +92,7 @@ This strategy consists of reducing the metabolism to a minimum survival level. M
 
 Furthermore, this energy gathering must be done in a short amount of time, as hibernators are active only for a small part of the year, during which they must forage as efficiently as possible to gain enough mass to survive through next hibernating season. Some fat-storing hibernators nearly double their weight during a 4 months active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014].
 
-Hence, not only a prerequisite adaptation is the ability to store a lot of fat, but also a sufficiently efficient metabolism to gain weight quickly. These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (REF).
+Hence, not only a prerequisite adaptation is the ability to store a lot of fat, but also a sufficiently efficient metabolism to gain weight quickly. These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species (**REF**).
 
 Additionally, for some species, reproduction occurs right at the onset of the active season [@armitageMarmotBiologySociality2014; **REFs**]. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
 
@@ -104,10 +104,6 @@ Additionally, for some species, reproduction occurs right at the onset of the ac
 It has been theorized that changes in body size could be a third universal response to climate change, alongside modification in phenology and geographic range [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005].
 
 <!-- Jm removed not needed. you are writing for a scientific audience. If you want to keep it maybe put it in the first section about climate change and put the quote as a quote and not a footnote (i.e. using >)
-
-As said earlier, a key aspect of climate change is a rise in global average temperatures — hence the expression *global warming* (a term often invoked by climate skeptics during unusually cold spells[^1]).
-
-
 just add that as a quote (check quarto blockquote) in the first section
 [^1]: "[...] Large parts of the Country are suffering from tremendous amounts of snow and near record setting cold. [...] Wouldn't be bad to have a little of that good old fashioned Global Warming right now!" U.S. President, Jan 20, 2019. -->
 
@@ -183,7 +179,7 @@ As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need f
 
 A well-recognized challenge when studying evolution in natural context, is to consider the genetic correlation between several traits [@gouldSpandrelsSanMarco1979; @Roff1992TheEO]. Indeed, when genetically correlated to another trait, a trait does not evolve independently and its evolution can either drive changes in other traits or be driven by other traits. Genetic correlations are often seen as constraints narrowing the range of possibility and reachable outcomes in the adaptive landscape but can also speed-up the process of reaching and optimum [@arnoldAdaptiveLandscapeConceptual2001; @teplitskyEvolutionaryPotentialConstraints2014; @gouldSpandrelsSanMarco1979].
 
-When studying the evolution of a specific trait (especially ones having important phenotypic consequences), failing to account for its link with other traits is an oversimplification. This failure can bias not only our understanding of the causes and consequences of phenotypic change, but also the estimations of its evolutionary potential [@teplitskyEvolutionaryPotentialConstraints2014; REF]. To effectively study traits' evolution, it is essential to consider that selection generally acts on multiple traits simultaneously, as a phenotype is the result of a combination of various traits <!-- clarity... -->[@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
+When studying the evolution of a specific trait (especially ones having important phenotypic consequences), failing to account for its link with other traits is an oversimplification. This failure can bias not only our understanding of the causes and consequences of phenotypic change, but also the estimations of its evolutionary potential [@teplitskyEvolutionaryPotentialConstraints2014; **REF**]. To effectively study traits' evolution, it is essential to consider that selection generally acts on multiple traits simultaneously, as a phenotype is the result of a combination of various traits <!-- clarity... -->[@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
 
 
 A continuation of this reasoning is the extended Pace Of Life Syndrome suggesting that life-history strategy, physiological and behavioral traits coevolve in response to the environment [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010].
@@ -191,16 +187,16 @@ A continuation of this reasoning is the extended Pace Of Life Syndrome suggestin
 So, if climate change lead to life history traits changes, it should be expected that other key physiological or behavioural trait will coevolve with it. For example, it has been observed that some behavioural types will be consistently associated with specific Life-History strategies [*e.g.*, individual with faster life-cycle will tend to be bolder, @stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
 
 
-As such, changes in LHTs are expected to have even greater impacts on the global phenotype.^[JM careful with the implicit causality. not sure I agree with that because one might argue that LHT are the end-product of a series of traits and thus LHT are not causing more changes in the phenotype but are the results of numerous changes] A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [REF<!--Kruuk 2004?-->].
+As such, changes in LHTs are expected to have even greater impacts on the global phenotype.^[JM careful with the implicit causality. not sure I agree with that because one might argue that LHT are the end-product of a series of traits and thus LHT are not causing more changes in the phenotype but are the results of numerous changes] A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [**REF**<!--Kruuk 2004?-->].
 
-However such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for theses complex models **refs**. Again, using long-term datasets brings a lot of expectation to address such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
+However such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for theses complex models [**REFs**]. Again, using long-term datasets brings a lot of expectation to address such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
 
 
 ## Individual variation in their plasticity
 
-As explained above, evolution and plasticity are not mutually exclusive, but even more so, plasticity itself can evolve.
+**As explained above**, evolution and plasticity are not mutually exclusive, but even more so, plasticity itself can evolve.
 
-Plasticity is usually studied using Reaction Norm framework (REF<!--look at DeWitt & Scheiner, 2004; Schlichting & Pigliucci, 1998; West-Eberhard, 2003 from Thibaut's proposal intro-->), i.e., studying the value of a phenotypic trait (e.g., body mass) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment. In this framework, a trait is plastic if the slope of the reaction norm is different from 0 [@nusseyEvolutionaryEcologyIndividual2007].
+Plasticity is usually studied using Reaction Norm framework (**REF**<!--look at DeWitt & Scheiner, 2004; Schlichting & Pigliucci, 1998; West-Eberhard, 2003 from Thibaut's proposal intro-->), i.e., studying the value of a phenotypic trait (e.g., body mass) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment. In this framework, a trait is plastic if the slope of the reaction norm is different from 0 [@nusseyEvolutionaryEcologyIndividual2007].
 
 A reaction norm has two parameters: Elevation which is the expected phenotypic value in the average environment; and the Slope corresponding to the linear change of the phenotype over the environmental gradient. In statistical terms, these parameters correspond respectively to the "Intercept" and the "Slope" of the linear regression of the phenotype over the environment.
 
@@ -255,7 +251,7 @@ However, the study by @ozgulCoupledDynamicsBody2010 used a flawed approach not e
 
 Furthermore, although the lengthening of the active season is indeed a good potential explanation for the body mass increase through phenotypic plasticity, it doesn't match with the observed evolutionary pattern. Indeed, the observed increasingly milder conditions in parallel to this change in body mass should decrease selection on body mass, as it lower the survival pressure through hibernation. The observed body mass increase here should be expected with an increasing pressure over winter survival. It is clear that the lengthening active season and global milder condition are not the only drivers of body mass changes, since we observed both plasticity and microevolution.
 
-As explained earlier, body mass is an important phenotypic trait for the yellow-bellied marmots. It is therefore crucial to understand how this trait and this population is responding to climate change, both for conservation purposes and better comprehension of the links between phenotype and environment. There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
+**As explained earlier**, body mass is an important phenotypic trait for the yellow-bellied marmots. It is therefore crucial to understand how this trait and this population is responding to climate change, both for conservation purposes and better comprehension of the links between phenotype and environment. There is a pressing need to explore which environmental factors may have triggered this shift, the mechanisms behind this increase, and the potential implications for the population's future to better understand how can natural population cope with climate change.
 
 ::: {#fig-A-F-bodymass layout-nrow=2}
 
@@ -274,13 +270,13 @@ Each year between May and September since 1962, marmots are regularly trapped (b
 
 Parental links between individuals are known for most individuals in the population (4,652 individuals to this date), allowing the reconstruciton of a highly detailed pedigree. Before 2002, maternal links were estimated via behavioural observations. Since 2002, genetic parentage assignment is used to confirm the maternal links and determine the paternal links [details in @blumsteinHeritabilityAntipredatoryTraits2010; @olsonNoEvidenceInbreeding2012].
 
-Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (REF)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale (± 50 g) and now with a digital balance (± 10 g)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
+Behavioral observations and experiments (running speed and Flight Initiation Distance (FID) (**REF**)) are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale (± 50 g) and now with a digital balance (± 10 g)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
 
 Body mass is a highly plastic trait, particularly for marmots as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors was used to extract each individual’s body mass on August 15 each year [details in @ozgulCoupledDynamicsBody2010; @jebbBiggerNotAlways2021].
 
 As our study site has been an important scientific station for more than a century, we have various and exhaustive data. By combining multiple sources, such as Billy Barr (a RMBL resident), the National Oceanic and Amospheric Administration (NOAA), the United States Geological Survey (USGS), the United States Department of Agriculture (USDA) and the Oregon State University's PRISM Climate group, @pratherClimateDataRocky2023 provides us with exhaustive data. We have weather data (e.g., monthly temperatures, snowing, precipitations, season lengths) at our study site from 1975 to 2022.
 
-Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be performed in R [@base], Animal models will be performed using R package asreml [ref], lme4breeding [ref ] and MCMCglmm [@mcmcglmm], DHGLMs and other complex models using a bayesian approach will be done with brms [@brms] or stand directly [ref], figures will be made with "ggplot2" [@ggplot].
+Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be performed in R [@base], Animal models will be performed using R package asreml [**REF**], lme4breeding [**REF**] and MCMCglmm [@mcmcglmm], DHGLMs and other complex models using a bayesian approach will be done with brms [@brms] or stand directly [**REF**], figures will be made with "ggplot2" [@ggplot].
 
 
 {{< pagebreak >}}
@@ -414,7 +410,7 @@ JM a) and b) are just a repeated of c and d from the previous figure so not need
 
 Finally, it is worth noting a potential limitation with this method that must be taken into account before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables values. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). However, adding the environment as a fixed effect in the model should remove this bias.
 
-Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced environmental conditions. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@brms], using stan software [@carpenterStanProbabilisticProgramming2017]. I will also investigate the potential use of TMB [ref] which allows to fit DHGLMs using a frequentist approach which is much faster especially in a simulation setup but it relies on a different coding language (mixe of R and C). Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
+Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced environmental conditions. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@brms], using stan software [@carpenterStanProbabilisticProgramming2017]. I will also investigate the potential use of TMB [@tmb] which allows to fit DHGLMs using a frequentist approach which is much faster especially in a simulation setup but it relies on a different coding language (mixe of R and C). Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
 
 ::: {#fig-balanced-unbalanced}
 
@@ -430,7 +426,7 @@ Reactions norms for two individuals (blue and yellow) for a trait without indivi
 
 # Chapter 3 - Identifying predictors of increased body mass. {#sec-chap3}
 
-In the introduction, I explained the link between climate and body mass, especially in hibernating species such as marmots. I also discuss about the different hypotheses in the litterature about the links between climate change and body size. Knowing all that, the main hypothesis to explain the body mass increased in Yellow-Bellied Marmots in the last half-century is a change in climate over the years.
+**In the introduction, I explained** the link between climate and body mass, especially in hibernating species such as marmots. I also discuss about the different hypotheses in the litterature about the links between climate change and body size. Knowing all that, the main hypothesis to explain the body mass increased in Yellow-Bellied Marmots in the last half-century is a change in climate over the years.
 
 ::: {#fig-framework-chapter-3}
 
@@ -482,7 +478,7 @@ $$ {#eq-mod-ch3}
 this chapter seems really descriptive despite the fact that you start by framing it in terms of POLS. can you make it more hypothesis testing ?
 :::
 
-Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes foraging focal observations [ref]) and experiments (Flight Initiation distance [ref]) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
+Following extended Pace Of Life Syndrome framework [POLS, @dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behavior. I will study that using different behavioral observation (i.e., two minutes foraging focal observations [**REF**]) and experiments (Flight Initiation distance [**REF**]) on our individuals. However, by looking at some preliminary results, although some results are statistically significant, the biological effect seems fairly small (@fig-prop-sfg; @fig-prop-slook).
 
 :::{#fig-prop-sfg}
 
@@ -547,7 +543,7 @@ On the other hand, an increased body mass, being synonym of a more important ene
 
 Furthermore, larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
 
-However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (REF).
+However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (**REF**).
 
 Indeed, specializing phenotype, in that case "betting"<!-- whatch out how you say this, there is no intentionality in the "bet"! --> on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
 
@@ -565,11 +561,11 @@ more details needed and maybe a chat to clarify all that
     *(Continuation of a project previously started at NTNU with Dr. Yimen Araya-Ajoy)*
 
 <!-- Abstract from M1 project, to remake + rethink the project with draft_1 and sna_metapop analysis -->
-A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected (REF). Links between subpopualtions (i.e., migration fluxes) in a metapopulations is crucial for its survival over time as it maintains genetic diversity (REF). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (REF).
+A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected (**REF**). Links between subpopualtions (i.e., migration fluxes) in a metapopulations is crucial for its survival over time as it maintains genetic diversity (**REF**). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (**REF**).
 
-To various extent, a metapopulation can be viewed as a population-scale network (i.e., a set of patches connected by edges of varying intensity). Therefore, Social Network Analysis (SNA, REF) can offers a valuable approach to study metapopulation dynamics by identifying key patches contributing to network connectivity and resilience.
+To various extent, a metapopulation can be viewed as a population-scale network (i.e., a set of patches connected by edges of varying intensity). Therefore, Social Network Analysis (SNA, **REF**) can offers a valuable approach to study metapopulation dynamics by identifying key patches contributing to network connectivity and resilience.
 
-Using data from a long-term study on a wild house sparrow metapopulation inhabiting an archipelago in the district Helgeland, northern Norway (REF), I conducted preliminary analysis to test these analysis. Initial findings (e.g., non-random structural patterns and hierarchical order in island selection for emigration, independant from geographic distance) provides encouraging insight about migratory behavior within metapopulation.
+Using data from a long-term study on a wild house sparrow metapopulation inhabiting an archipelago in the district Helgeland, northern Norway (**REF**), I conducted preliminary analysis to test these analysis. Initial findings (e.g., non-random structural patterns and hierarchical order in island selection for emigration, independant from geographic distance) provides encouraging insight about migratory behavior within metapopulation.
 
 Focus on understanding the migration dynamics and identifying critical patches in metapopulation can offer insight for policymakers. We hope to developp new methodes allowing to take effective measures, applicable more efficiently with less need of extensive data. This would help to preserve metapopulation, safeguarding genetic diversity, connectivity and better understanding their resilience capacity in context of changing environment.
 <!-- Need a paragraph about block matrices -->
