@@ -162,3 +162,89 @@ max(predictions_m$y)
 ## Cohort
 predictions_m[which(predictions_m$y == min(predictions_m$y)), "x"]
 predictions_m[which(predictions_m$y == max(predictions_m$y)), "x"]
+
+
+
+
+
+
+
+########################## FEMALES ONLY ###########################
+df_F <- subset(df, df$sex == "F")
+df_F <- subset(df, !is.na(df_F$massaug))
+df_F$year_recruit_sc <- scale(df_F$year_recruit)
+
+df_F_long <- df_F %>%
+  pivot_longer(
+    cols = c(massjun, massaug),
+    names_to = "season",
+    values_to = "mass"
+  ) %>%
+  mutate(season = ifelse(season == "massjun", "beg", "end"))
+
+head(df_F_long)
+
+
+###############
+# Mod aug
+###############
+
+mod_F_aug <- lm(massaug ~ poly(year_recruit_sc, 3), data = df_F)
+
+summary(mod_F_aug)
+
+eff_data_aug_F <- data.frame(effects::effect(c("year_recruit_sc"),
+                                             mod_F_aug, partial.residuals = TRUE))
+
+eff_data_aug_F$season <- as.factor(rep("end", nrow(eff_data_aug_F)))
+
+
+###############
+# Mod jun
+###############
+
+mod_F_jun <- lm(massjun ~ poly(year_recruit_sc, 3), data = df_F)
+
+summary(mod_F_jun)
+
+eff_data_jun_F <- data.frame(effects::effect(c("year_recruit_sc"),
+                                             mod_F_jun, partial.residuals = TRUE))
+
+eff_data_jun_F$season <- as.factor(rep("beg", nrow(eff_data_jun_F)))
+
+
+
+################ Combine ################
+
+eff_data_F <- merge(eff_data_jun_F, eff_data_aug_F, all = TRUE)
+
+
+juvenile_trend_F <- ggplot(eff_data_F, aes(x = year_recruit_sc,
+                                       y = fit,
+                                       color = female_col)) +
+  facet_wrap(~season, labeller = variable_labeller) +
+  geom_ribbon(data = eff_data_F, aes(ymin = lower, # Model's predictions SE
+                                   ymax = upper,
+                                   fill = female_col),
+              linetype = 0, alpha = .4) +
+  geom_line(data = eff_data_F, aes(x = year_recruit_sc, # Model's predictions
+                                 y = fit,
+                                 color = female_col)) +
+  geom_point(data = df_F_long, aes(x = year_recruit_sc, # Raw data
+                                 y = mass,
+                                 color = female_col),
+             size = .8, shape = 16, alpha = .2) +
+  scale_color_manual(values = c(female_col),
+                     labels = c("Female")) +
+  scale_fill_manual(values = c(female_col),
+                    labels = c("Female")) +
+  scale_y_continuous(limits = c(100, 2000),
+                     breaks = seq(500, 2000, 500)) +
+  scale_x_continuous(labels = unique(df$year_recruit)[c(seq(1, 50, 10))],
+                     breaks = unique(df$year_recruit_sc)[c(seq(1, 50, 10))],
+                     limits = c(unique(df$year_recruit_sc)[1],
+                                unique(df$year_recruit_sc)[50])) +
+  xlab("Cohort") +
+  ylab("Body mass (g)")
+
+ggsave("figures/fig-juvenile-trend-F.png", plot = juvenile_trend_F)

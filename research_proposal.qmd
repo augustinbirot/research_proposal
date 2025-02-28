@@ -319,7 +319,7 @@ To investigate the body mass increase in the last-half century, the first step i
 
 Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021^[JM you should get much better references for the missing fraction, some about the theory and not only the marmoty stuff].
 
-However, a preliminary analysis looking at the body mass in juvenile cohorts over the study period for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased from *1,206.18 g in 1976* (Males) and *1,130.64 g in 1979* (Females) to *1,519.71 g in 1998* (Males) and *1,363.03 g in 2001* (Females, *Estimations from local regression on raw data*). These changes represent a body mass increase of 23\% in 22 years (22 cohorts), meaning that between the mid 1970s and the 2000s, each cohort was in average 1\% heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
+However, a preliminary analysis looking at the body mass in juvenile cohorts over the study period for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased from *1,130.64 g in 1979* to *1,363.03 g in 2001* (*Estimations from local regression on raw data*). These changes represent a body mass increase of 23\% in 22 years (22 cohorts), meaning that between the late 1970s and early 2000s, each cohort was in average 1\% heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
 
 The release of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.^[JM I don't think I follow what you mean here]
 
@@ -332,9 +332,9 @@ you can add some info about sample size talk a bit more about animal model and m
 
 ::: {#fig-juvenile-trend}
 
-![](figures/fig-juvenile-trend.png)
+![](figures/fig-juvenile-trend-F.png)
 
-Body mass trend over time cohort for females (yellow) and males (black) Juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
+Body mass trend over time cohort for females juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
 :::
 
 see @eq-mod1-ch1 & @eq-mod2-ch1
