@@ -50,18 +50,16 @@ Climate change impacts on human society are, for example, well represented in th
 
 But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
-<!-- Should I add a paragraph about climate change in alpine habitats?? [@inouyeHighAltitudeClimates2003] --> 
+Climate change have an important impact in alpine habitats, with more pronounced and severe drought, temperature variability and increase. These changes puts these enironments under higher risks and causes changes in plant comunities at high elevation [@inouyeHighAltitudeClimates2003; @ohmuraEnhancedTemperatureVariability2012; @inbook; @giorgiElevationDependencySurface1997; @grabherrClimateChangeImpacts2010].
+These modification are thus expected to have major impacts on food availability for a wide diversity of animals. Therefore, not only alpine animals should adjust to temperature and precipitation changes, but also to food availability potentially.
 
-::: {.callout-note}
-- Add something indicating that alpine habitat have been affected at a faster rate and are under higher risk [@grabherrClimateChangeImpacts2010]
-
-- you are jumping from climate change to body mass and life history trait. I would argue it is too much of a jump and that you need to include a nice link here. you can say that ***plant will be highly affected thus having major impact on food availability for a wide diversity of animals. So not only animal should adjust to temperature but also to food availability potentially.*** Then your link is that ***mass is strongly related to both temperature acclimation and food abundance thus we need to study it in that context***. In addition, the ***theory that allows us to study and understand evolution in changing environment is the life history theory*** (something like that)
-:::
 
 ## Body mass a life-history trait
 
-Life history traits (LHTs)^[JM would be better to first describe the theory then define the traits]
-are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness[@Roff1992TheEO].
+We know that body mass is strongly related to both temperature acclimatation (i.e., thermoregulation, REF) and food aboundance (REF). Therefore, we need to study body mass in that context of climate and ecological changes.
+To study such changes, we rely on Life-History Theory. This framework is used to study how ressources are allocated to specific traits to cope with environment while maximising individual fitness. The theory rely on the fact that ressources are limited and trade-off must be maid between different traits to achieve the best life-history strategy [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001; @bellCostsReproductionTheir1980]
+
+Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness [@Roff1992TheEO].
 The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
 Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (**REF**<!-- study case--> ^[**JM** yep would be good to have an example]).
@@ -144,17 +142,6 @@ Long-term consequences of these processes differ substantially since evolutionar
 
 
 ## Quantitative Genetics and Animal Models
-
-::: {.callout-note}
-no need to repeat all the stuff you mentioned already we have read it already.
-if you start a sentence by "as previously mentioned earlier,..." then you can avoid typing it :)
-
-:::
-
-<!--
-Climate change is causing long-term environmental changes, pressing natural population to adapt in order to persist [@intergovernmentalpanelonclimatechangeipccClimateChange20222022 ??]. As mentioned earlier these adaptations can involve shift in geographical ranges, phenology, or phenotype [@gardnerDecliningBodySize2011; @daufresneGlobalWarmingBenefits2009; @durantClimateMatchMismatch2007; @visserShiftsPhenologyDue2005]. As environments are profoundly and durably impacted by climate change, natural population are expected to evolve accordingly [@sihEvolutionBehaviouralResponses2011; @darwinOriginSpeciesMeans1859].
-
--->
 
 Since an observed phenotypic change is not necessarily due to evolution (i.e., phenotypic plasticity), estimating existence of evolution in natural conditions can be complicated.
 Fortunately, quantitative genetic provides robust and well-established methods to decompose the total phenotypic variance ($V_P$) into it's genetic ($V_A$) and environmental ($V_{E}$) components: $V_P = V_A + V_{E}$ [@lynchGeneticsAnalysisQuantitative1998; @wilsonEcologistsGuideAnimal2010]. Knowing the genetic component of the phenotypic variance allows us to investigate genetic, and so evolutionary, changes through time.
