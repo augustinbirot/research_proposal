@@ -62,15 +62,13 @@ To study such changes, we rely on Life-History Theory. This framework is used to
 Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness [@Roff1992TheEO].
 The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
-Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer poor years in terms of resources (**REF**<!-- study case--> ^[**JM** yep would be good to have an example]).
+Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer against seasonal food scarcity [@heldstabHowMammalsBuffer2017]. Extending this reasonning at a wider time scale, we could expect these bigger individuals to be able to buffer poor years in terms of ressources, and so increasing their resilience to environmental variability. <!-- JM - I can't find examples showing that precisely, only stuff about SEASONAL food scarcity, not at a larger time scale... -->
 
-Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive success **REF**. Body mass is often an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (**REF**). Overall, body mass can be considered a key LHT influencing directly both survival and reproduction in many species.
+Additionally, individuals with greater energy reserves have a better capacity to reproduce and are often more attractive to potential mates, leading to higher reproductive success **REF**. Body mass is often an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (**REF**). 
 
-::: {.callout-note}
-not sure I see the link between the 2 paragraphs here
-:::
+However, a too large body mass can become a handicap. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected as it could induce a cost in individual performance [e.g., capacity to run from predators, @jebbBiggerNotAlways2021].
 
-However, **as said before**, energy quantity are limited and cannot be invested only in body mass. Moreover, a too large body mass can become a handicap [@jebbBiggerNotAlways2021]. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected. Hence, as predicted in Life History Theory, trade-offs must be made between available energy and individuals' performances to find the optimal trait value, here, body mass.
+Overall, body mass can be considered a key LHT influencing directly both survival and reproduction in many species, but a balance must be reach between performances and costs, and with investment in other traits [@10.1093/oso/9780198577416.001.0001].
 
 
 ### Body mass and hibernation
