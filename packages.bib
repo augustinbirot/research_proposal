@@ -1,11 +1,42 @@
-@Manual{base,
-    title = {R: A Language and Environment for Statistical Computing},
-    author = {{R Core Team}},
-    organization = {R Foundation for Statistical Computing},
-    address = {Vienna, Austria},
-    year = {2024},
-    url = {https://www.R-project.org/},
-  }
+@manual{base,
+  type = {Manual},
+  title = {R: A Language and Environment for Statistical Computing},
+  author = {{R Core Team}},
+  year = {2023},
+  address = {Vienna, Austria},
+  institution = {R Foundation for Statistical Computing}
+}
+
+@article{burknerBayesianItemResponse2021,
+  title = {Bayesian {{Item Response Modeling}} in {{{\emph{R}}}} with {\textbf{Brms}} and {{{\emph{Stan}}}}},
+  author = {B{\"u}rkner, Paul-Christian},
+  year = {2021},
+  journal = {Journal of Statistical Software},
+  volume = {100},
+  number = {5},
+  issn = {1548-7660},
+  doi = {10.18637/jss.v100.i05},
+  urldate = {2025-03-05},
+  abstract = {Item response theory (IRT) is widely applied in the human sciences to model persons' responses on a set of items measuring one or more latent constructs. While several R packages have been developed that implement IRT models, they tend to be restricted to respective pre-specified classes of models. Further, most implementations are frequentist while the availability of Bayesian methods remains comparably limited. I demonstrate how to use the R package brms together with the probabilistic programming language Stan to specify and fit a wide range of Bayesian IRT models using flexible and intuitive multilevel formula syntax. Further, item and person parameters can be related in both a linear or non-linear manner. Various distributions for categorical, ordinal, and continuous responses are supported. Users may even define their own custom response distribution for use in the presented framework. Common IRT model classes that can be specified natively in the presented framework include 1PL and 2PL logistic models optionally also containing guessing parameters, graded response and partial credit ordinal models, as well as drift diffusion models of response times coupled with binary decisions. Posterior distributions of item and person parameters can be conveniently extracted and postprocessed. Model fit can be evaluated and compared using Bayes factors and efficient cross-validation procedures.},
+  langid = {english},
+  file = {/Users/augustinbirot/Zotero/storage/KC55X28Z/Bürkner - 2021 - Bayesian Item Response Modeling in R with .pdf}
+}
+
+@article{butlerASRemlEstimatesVariance,
+  title = {{{ASReml}} Estimates Variance Components under a General Linear},
+  author = {Butler, D G and Cullis, B R and Gilmour, A R and Gogel, B J and Thompson, R},
+  langid = {english},
+  file = {/Users/augustinbirot/Zotero/storage/7PNIDIBU/Butler et al. - ASReml estimates variance components under a gener.pdf}
+}
+
+@article{covarrubias2024lme4breeding,
+  title = {Lme4breeding: Enabling Genetic Evaluation in the Era of Genomic Data},
+  author = {{Covarrubias-Pazaran}, Giovanny},
+  year = {2024},
+  journal = {bioRxiv : the preprint server for biology},
+  pages = {2024--05},
+  publisher = {Cold Spring Harbor Laboratory}
+}
 
 @manual{fable,
   type = {Manual},
@@ -26,6 +57,22 @@
   title = {{{grateful}}: {{Facilitate}} Citation of {{R}} Packages},
   author = {{Francisco Rodriguez-Sanchez} and {Connor P. Jackson}},
   year = {2023}
+}
+
+@article{hadfieldMCMCMethodsMultiResponse2010,
+  title = {{{MCMC Methods}} for {{Multi-Response Generalized Linear Mixed Models}}: {{The}} {{{\textbf{MCMCglmm}}}} {{{\emph{R}}}} {{Package}}},
+  shorttitle = {{{MCMC Methods}} for {{Multi-Response Generalized Linear Mixed Models}}},
+  author = {Hadfield, Jarrod D.},
+  year = {2010},
+  journal = {Journal of Statistical Software},
+  volume = {33},
+  number = {2},
+  issn = {1548-7660},
+  doi = {10.18637/jss.v033.i02},
+  urldate = {2024-01-10},
+  abstract = {Generalized linear mixed models provide a flexible framework for modeling a range of data, although with non-Gaussian response variables the likelihood cannot be obtained in closed form. Markov chain Monte Carlo methods solve this problem by sampling from a series of simpler conditional distributions that can be evaluated. The R package MCMCglmm implements such an algorithm for a range of model fitting problems. More than one response variable can be analyzed simultaneously, and these variables are allowed to follow Gaussian, Poisson, multi(bi)nominal, exponential, zero-inflated and censored distributions. A range of variance structures are permitted for the random effects, including interactions with categorical or continuous variables (i.e., random regression), and more complicated variance structures that arise through shared ancestry, either through a pedigree or through a phylogeny. Missing values are permitted in the response variable(s) and data can be known up to some level of measurement error as in meta-analysis. All simulation is done in C/ C++ using the CSparse library for sparse linear systems.},
+  langid = {english},
+  file = {/Users/augustinbirot/Zotero/storage/W2EXWJGS/Hadfield - 2010 - MCMC Methods for Multi-Response Generalized Linear.pdf}
 }
 
 @manual{here,
@@ -67,6 +114,28 @@
   year = {2023}
 }
 
+@article{kristensenTMBAutomaticDifferentiation2016,
+  title = {{{{\textbf{TMB}}}} : {{Automatic Differentiation}} and {{Laplace Approximation}}},
+  shorttitle = {{{{\textbf{TMB}}}}},
+  author = {Kristensen, Kasper and Nielsen, Anders and Berg, Casper W. and Skaug, Hans and Bell, Bradley M.},
+  year = {2016},
+  journal = {Journal of Statistical Software},
+  volume = {70},
+  number = {5},
+  issn = {1548-7660},
+  doi = {10.18637/jss.v070.i05},
+  urldate = {2025-03-05},
+  abstract = {TMB is an open source R package that enables quick implementation of complex nonlinear random effects (latent variable) models in a manner similar to the established AD Model Builder package (ADMB, http://admb-project.org/; Fournier et al. 2011). In addition, it offers easy access to parallel computations. The user defines the joint likelihood for the data and the random effects as a C++ template function, while all the other operations are done in R; e.g., reading in the data. The package evaluates and maximizes the Laplace approximation of the marginal likelihood where the random effects are automatically integrated out. This approximation, and its derivatives, are obtained using automatic differentiation (up to order three) of the joint likelihood. The computations are designed to be fast for problems with many random effects ({$\approx$} 106) and parameters ({$\approx$} 103). Computation times using ADMB and TMB are compared on a suite of examples ranging from simple models to large spatial models where the random effects are a Gaussian random field. Speedups ranging from 1.5 to about 100 are obtained with increasing gains for large problems. The package and examples are available at http://tmb-project.org/.},
+  langid = {english},
+  file = {/Users/augustinbirot/Zotero/storage/9F7FAW4R/Kristensen et al. - 2016 - TMB  Automatic Differentiation and Laplace.pdf}
+}
+
+@book{martinYbamaRmotDatabaseMarmot2024,
+  title = {{{ybamaRmot}}: {{Database}} of the {{Marmot Study}} in the {{East River Valley}}, {{Colorado}}},
+  author = {Martin, Julien and Blumstein, Daniel},
+  year = {2024}
+}
+
 @book{rmarkdown2018,
   title = {R Markdown: {{The}} Definitive Guide},
   author = {Xie, Yihui and Allaire, J.J. and Grolemund, Garrett},
@@ -92,6 +161,13 @@
   year = {2023}
 }
 
+@article{stan2020rstan,
+  title = {{{RStan}}: The {{R}} Interface to Stan},
+  author = {Stan Development Team, C and others},
+  year = {2020},
+  journal = {R package version 2.21. 2}
+}
+
 @article{tidyverse,
   title = {Welcome to the {{tidyverse}}},
   author = {Wickham, Hadley and Averick, Mara and Bryan, Jennifer and Chang, Winston and McGowan, Lucy D'Agostino and Fran{\c c}ois, Romain and Grolemund, Garrett and Hayes, Alex and Henry, Lionel and Hester, Jim and Kuhn, Max and Pedersen, Thomas Lin and Miller, Evan and Bache, Stephan Milton and M{\"u}ller, Kirill and Ooms, Jeroen and Robinson, David and Seidel, Dana Paige and Spinu, Vitalie and Takahashi, Kohske and Vaughan, Davis and Wilke, Claus and Woo, Kara and Yutani, Hiroaki},
@@ -115,80 +191,10 @@
   doi = {10.1080/10618600.2019.1695624}
 }
 
-@Manual{ybamaRmot,
-    title = {ybamaRmot: A R package for the database of the Marmot Study in the East
-River Valley, Colorado},
-    author = {Julien Martin},
-    year = {2024},
-    note = {R package version 22.2.0, commit ef8315bdb02fb3618b4d5caeed690f113b10ed11},
-    url = {https://github.com/JulienGAMartin/ybamaRmot},
-  }
-
-@Article{mcmcglmm,
-    title = {MCMC Methods for Multi-Response Generalized Linear Mixed Models: The {MCMCglmm} {R} Package},
-    author = {Jarrod D. Hadfield},
-    journal = {Journal of Statistical Software},
-    year = {2010},
-    volume = {33},
-    number = {2},
-    pages = {1--22},
-    url = {https://www.jstatsoft.org/v33/i02/},
-  }
-
-@Article{brms,
-    title = {Bayesian Item Response Modeling in {R} with {brms} and {Stan}},
-    author = {Paul-Christian Bürkner},
-    journal = {Journal of Statistical Software},
-    year = {2021},
-    volume = {100},
-    number = {5},
-    pages = {1--54},
-    doi = {10.18637/jss.v100.i05},
-    encoding = {UTF-8},
-  }
-
-@Book{ggplot,
-    author = {Hadley Wickham},
-    title = {ggplot2: Elegant Graphics for Data Analysis},
-    publisher = {},
-    year = {2016},
-    isbn = {978-3-319-24277-4},
-    url = {https://ggplot2.tidyverse.org},
-  }
-
-@Article{tmb,
-  title = {{TMB}: Automatic Differentiation and {L}aplace
-    Approximation},
-  author = {Kasper Kristensen and Anders Nielsen and Casper W. Berg
-    and Hans Skaug and Bradley M. Bell},
-  journal = {Journal of Statistical Software},
+@book{wickhamGgplot2ElegantGraphics2016,
+  title = {Ggplot2: {{Elegant Graphics}} for {{Data Analysis}}},
+  author = {Wickham, Hadley},
   year = {2016},
-  volume = {70},
-  number = {5},
-  pages = {1--21},
-  doi = {10.18637/jss.v070.i05},
-}
-
-@Misc{rstan,
-  title = {{RStan}: the {R} interface to {Stan}},
-  author = {{Stan Development Team}},
-  note = {R package version 2.32.6},
-  year = {2024},
-  url = {https://mc-stan.org/},
-}
-
-@article{butler2017asreml,
-  title={ASReml-R reference manual version 4},
-  author={Butler, DG and Cullis, BR and Gilmour, AR and Gogel, BJ and Thompson, Ret al},
-  journal={VSN International Ltd, Hemel Hempstead, HP1 1ES, UK},
-  year={2017}
-}
-
-@article{covarrubias2024lme4breeding,
-  title={lme4breeding: enabling genetic evaluation in the era of genomic data},
-  author={Covarrubias-Pazaran, Giovanny},
-  journal={bioRxiv},
-  pages={2024--05},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory}
+  publisher = {Springer-Verlag New York},
+  isbn = {978-3-319-24277-4}
 }

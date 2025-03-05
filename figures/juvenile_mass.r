@@ -221,23 +221,23 @@ eff_data_F <- merge(eff_data_jun_F, eff_data_aug_F, all = TRUE)
 
 juvenile_trend_F <- ggplot(eff_data_F, aes(x = year_recruit_sc,
                                        y = fit,
-                                       color = female_col)) +
+                                       color = "black")) +
   facet_wrap(~season, labeller = variable_labeller) +
   geom_ribbon(data = eff_data_F, aes(ymin = lower, # Model's predictions SE
                                    ymax = upper,
-                                   fill = female_col),
+                                   fill = "black"),
               linetype = 0, alpha = .4) +
   geom_line(data = eff_data_F, aes(x = year_recruit_sc, # Model's predictions
                                  y = fit,
-                                 color = female_col)) +
+                                 color = "black")) +
   geom_point(data = df_F_long, aes(x = year_recruit_sc, # Raw data
                                  y = mass,
-                                 color = female_col),
+                                 color = "black"),
              size = .8, shape = 16, alpha = .2) +
-  scale_color_manual(values = c(female_col),
-                     labels = c("Female")) +
-  scale_fill_manual(values = c(female_col),
-                    labels = c("Female")) +
+  scale_color_manual(values = "black",
+                     labels = "Female") +
+  scale_fill_manual(values = "black",
+                    labels = "Female") +
   scale_y_continuous(limits = c(100, 2000),
                      breaks = seq(500, 2000, 500)) +
   scale_x_continuous(labels = unique(df$year_recruit)[c(seq(1, 50, 10))],

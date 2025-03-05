@@ -61,7 +61,7 @@ These modification are thus expected to have major impacts on food availability 
 
 ## Body mass a life-history trait
 
-We know that body mass is strongly related to both temperature acclimatation (i.e., thermoregulation, **REF**) and food aboundance (**REF**). Therefore, we need to study body mass in that context of climate and ecological changes.
+We know that body mass is strongly related to both temperature acclimatation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food aboundance [@acquaroneEffectsFoodAbundance2002]. Therefore, we need to study body mass in that context of climate and ecological changes.
 To study such changes, we rely on Life-History Theory. This framework is used to study how ressources are allocated to specific traits to cope with environment while maximising individual fitness. The theory rely on the fact that ressources are limited and trade-off must be maid between different traits to achieve the best life-history strategy [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001; @bellCostsReproductionTheir1980]
 
 Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness [@Roff1992TheEO].
@@ -224,7 +224,7 @@ Body mass is a highly plastic trait, particularly for marmots as it experiences 
 
 As our study site has been an important scientific station for more than a century, we have various and exhaustive data. By combining multiple sources, such as Billy Barr (a RMBL resident), the National Oceanic and Amospheric Administration (NOAA), the United States Geological Survey (USGS), the United States Department of Agriculture (USDA) and the Oregon State University's PRISM Climate group, @pratherClimateDataRocky2023 provides us with exhaustive data. We have weather data (e.g., monthly temperatures, snowing, precipitations, season lengths) at our study site from 1975 to 2022.
 
-Data are stored in the R package "ybamaRmot" [@ybamaRmot], analysis will be performed in R [@base], Animal models will be performed using R package asreml [@butler2017asreml], lme4breeding [@covarrubias2024lme4breeding] and MCMCglmm [@mcmcglmm], DHGLMs and other complex models using a bayesian approach will be done with brms [@brms] or stan directly [@carpenterStanProbabilisticProgramming2017; @rstan], figures will be made with "ggplot2" [@ggplot].
+Data are stored in the R package "ybamaRmot" [@martinYbamaRmotDatabaseMarmot2024], analysis will be performed in R [@base], Animal models will be performed using R package asreml [@butlerASRemlEstimatesVariance], lme4breeding [@covarrubias2024lme4breeding] and MCMCglmm [@hadfieldMCMCMethodsMultiResponse2010], DHGLMs and other complex models using a bayesian approach will be done with brms [@burknerBayesianItemResponse2021] or stan directly [@carpenterStanProbabilisticProgramming2017; @stan2020rstan], figures will be made with "ggplot2" [@wickhamGgplot2ElegantGraphics2016].
 
 
 {{< pagebreak >}}
@@ -253,20 +253,13 @@ Research objectives illustrative framework.
 
 # Chapter 1 - Structure of the body mass increase. {#sec-chap1}
 
-To investigate the body mass increase in the last-half century, the first step is to understand what has exactly changed. Understanding the mechanism of this increase means understanding if cohorts have now a bigger [constitution]^[JM guess we need a better word. I think what you are trying to say is that we need to know if a marmot is born bigger or if it growth faster or for a longer period] than before (i.e., born bigger), or does the growing capacity of each cohorts has increased? To explain that in statistical term, we have to understand which of the intercept (constitution^[JM yark :)]), the slope (growing) and the length of the growing period have changed over time cohorts.
+The first thing needed, is to analyse deeply the structure of change in body mass in our population. We know that body mass at the end of the active season (estimated on August 15^th^) has increased for adult females at both phenotypic and genetic scale (Birot, Blumstein & Martin, Manuscript in progress). However, we still don't know what is happening with the body mass at the beginnning of the active season (estimated on June 1^st^), nor for the other age classes. It is crucial to consider that selective pressure, and so evolutionary response, could be different over age classes. We need to consider "missing fraction" in order to conduct a comprehensive study of the selection acting on marmots body mass [@grafen1988uses; @mittell2024missing; @hadfieldEstimatingEvolutionaryParameters2008a; @jebbBiggerNotAlways2021].
 
-Body mass in juvenile was predicted to stay stable as it favour a higher running speed allowing juvenile to escape predators more efficiently during foraging. That prediction was the main explanation for a stable body mass in adults marmots even if it was linked to a better fitness. This stable body mass in Juvenile, holding its evolution in the subsequent age classes, is called the "invisible fraction" and is explained by @jebbBiggerNotAlways2021^[JM you should get much better references for the missing fraction, some about the theory and not only the marmoty stuff].
+For instance, body mass in juvenile in our population waas predicted to stay stable as it favour a higher running speed allowing juveniles to escape predators more efficiently and so spending more time foraging. On the contrary, selection was expected for a larger body mass on adults, which rely on social vigilence to avoid predators. This expected stabilizing selection on juvenile body mass was the main explanation for a stable body mass in adults marmots [@jebbBiggerNotAlways2021]. However, with our new results on adult females, we now need to study potential body mass changes and evolution for each age class.
 
-However, a preliminary analysis looking at the body mass in juvenile cohorts over the study period for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased from *1,130.64 g in 1979* to *1,363.03 g in 2001* (*Estimations from local regression on raw data*). These changes represent a body mass increase of 23\% in 22 years (22 cohorts), meaning that between the late 1970s and early 2000s, each cohort was in average 1\% heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
+Additionally, we have studied body mass at the end of the active season (August 15^th^), but we also have data at the emergence from hibernation (June 1^st^). We need to analyse potential changes, at both phenotypic and genetic scale, at emergence to better understand our population response to climate change.
 
-The release of the evolutionary constraint on body mass in Juvenile could be a serious clue to explain the sudden increase observed in adults arround the same period.^[JM I don't think I follow what you mean here]
-
-To better understand the observed change in body mass in adult female marmots, I will analyse the changes in body mass over the study period for all age and sex classes at both phenotypic and genetic level. I will also study the changes in the growth pattern each summer (growth curves as reaction norms) and estimate their correlation with environmental condition variation.
-
-::: {.callout-note}
-you can add some info about sample size talk a bit more about animal model and maybe what you see in terms of analysis
-:::
-
+A preliminary analysis looking at the body mass in juvenile cohorts over the study period for both males and females reveals interesting details (@fig-juvenile-trend). We see that though the mass at birth is indeed relatively stable (or even slightly decreasing), the mass at the end of the individuals first active season shows a similar pattern found in adult females (i.e., cubic effect, @fig-A-F-bodymass), although the decrease at the end of the period seems much more pronounced here. Indeed, the body mass at the end of our juveniles' first foraging season has increased from *1,130.64 g in 1979* to *1,363.03 g in 2001* (*Estimations from local regression on raw data*). These changes represent a body mass increase of 21\% in 22 years (22 cohorts), meaning that between the late 1970s and early 2000s, each cohort was almost 1\% heavier than the last one at the end of their first foraging season (@fig-juvenile-trend).
 
 ::: {#fig-juvenile-trend}
 
@@ -275,7 +268,9 @@ you can add some info about sample size talk a bit more about animal model and m
 Body mass trend over time cohort for females juveniles compared between the beginning (birth weight) and end of their first active season (mass on August 15th).
 :::
 
-see @eq-mod1-ch1 & @eq-mod2-ch1
+Therefore, I will analyse the changes in body mass over the study period for all age classes at the beginning and end of the active season at both phenotypic and genetic level.
+
+To do so, I will use our extensive data set in which we have body mass estimations on June 1^st^ and August 15^th^ for 1,119 juveniles over 49 years (between 1965 and 2017); 552 yearlings over 52 years (between 1965 and 2018 & born between 1964 and 2017); 257 subadults over 49 years (between 1965 and 2019 & born between 1963 and 2017); and for 199 adults with 657 observations over 57 years (between 1965 and 2022 & born between 1962 and 2017), giving a total of [] individuals, with parental links known for most of them.
 
 
 $$
@@ -294,8 +289,6 @@ Fixed &= Valley + Age \\
 Random &= Animal + UID + Measurement\ year
 \end{aligned}
 $$ {#eq-mod1-ch1}
-
-
 
 $$
 \begin{pmatrix}
@@ -316,11 +309,13 @@ $$ {#eq-mod2-ch1}
 
 
 
+In order to conduct a comprehensive study of the selection acting body mass, I will use multivariate animal models to estimate genetic covariation between each age classes (@eq-mod1-ch1 & @eq-mod2-ch1).
+
 {{< pagebreak >}}
 
 # Chapter 2 - Detecting individual variation in plasticity with DHGLMs. {#sec-chap2}
 
-Detecting individual variation in plasticity is challenging due to the unknown aspect of the environmental variables organism are responding to [Nussey et al 2007 and rammakers 2023]. Although some good methods exists today [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023], a lot of biases coming from environmental proxies still limit these methods today. DHGLMs are a promising avenue to help the study of *I \* E* in natural populations, but an investigation to reveal its potential and limit is needed.
+Detecting individual variation in plasticity is challenging due to the unknown aspect of the environmental variables organism are responding to [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023]. Although some good methods exists today, a lot of biases coming from environmental proxies still limit these methods today. DHGLMs are a promising avenue to help the study of *I \* E* in natural populations, but an investigation to reveal its potential and limit is needed.
 
 When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individuals, an absence of I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a) should show and absence of among-individual variance in the residual variance ($V_{V_e} = 0$) as each individual will exhibit the same range of phenotypic values ([Fig. @fig-ie-vs-no-ie] c), so .
 
@@ -333,25 +328,18 @@ However, if there's individual variation in their plastic response (*I \* E*) fo
 Reaction norms (a,b) and phenotypic variance (c,d) for two individuals (blue and yellow) for a trait without (a,c) and with (b,d) individual variations in plasticity. In the absence of I * E, both individual express the same range of phenotypic values. However, with I * E, individuals express different range of values.
 :::
 
-Although detecting $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself , as the variation could be due to other processes, it is a necessary condition of I * E (except under very unlikely conditions @fig-ie-vs-opposed). Finding $V_{V_e} > 0$ would thus suggest that investigating I * E and looking for the enknown E is a worthwhile investigation. 
+Although detecting $V_{V_e}$ significantly different from 0 isn't a proof of I * E in itself , as the variation could be due to other processes, it is a necessary condition of I * E (except under very unlikely conditions @fig-opposed_unbalanced). Finding $V_{V_e} > 0$ would thus suggest that investigating I * E and looking for the enknown E is a worthwhile investigation. 
 
-::: {#fig-ie-vs-opposed}
+::: {#fig-opposed_unbalanced}
 
-![](figures/opposed.png){width="50%"}
+![](figures/opposed_unbalanced.png)
 
-Reactions norms for two individuals (blue and yellow) for a trait a) with individuals expressing exact opposite plastic responses. We can see that d) they express the same range despite the I * E.
+Reactions norms for two individuals (blue and yellow) for a trait a) with individuals expressing exact opposite plastic responses. We can see that b) they express the same range despite the I * E. Another case, c) without I * E (i.e., same slope between individuals) but in an unbalanced design, d) We would have different range of expressed phenotype 
 :::
 
-Finally, it is worth noting a potential limitation with this method that must be taken into account before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables values. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-balanced-unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-balanced-unbalanced d). However, adding the environment as a fixed effect in the model should remove this bias.
+Finally, it is worth noting a potential limitation with this method that must be taken into account before performing such analysis to avoid biases. This method can only work with a balanced setup. By that understand individuals' phenotypic responses sampled on the same range of dependant variables values. Indeed, if the sampling range isn't the same for individuals, then the range of phenotypic values exhibited by them will be different, whether there is I * E or not (@fig-opposed_unbalanced c). In such a scenario, we would also have significant variance in the residual variance even if there is no actual effects (@fig-opposed_unbalanced d). However, adding the environment as a fixed effect in the model should remove this bias.
 
-Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced environmental conditions. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@brms], using stan software [@carpenterStanProbabilisticProgramming2017; @rstan]. I will also investigate the potential use of TMB [@tmb] which allows to fit DHGLMs using a frequentist approach which is much faster especially in a simulation setup but it relies on a different coding language (mixe of R and C). Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
-
-::: {#fig-balanced-unbalanced}
-
-![](figures/balanced_unbalanced.png) 
-
-Reactions norms for two individuals (blue and yellow) for a trait without individual variation in their plasticity in a a) balanced and an b) unbalanced design. c) In the balanced design there is indeed no individual difference in the range of expressed phenotypic values. d) But in the unbalanced design, although both individuals have the same slope (i.e., phenotypic response), there is a difference in the range of expressed phenotypic values.
-:::
+Based on that, I will simulate phenotypic and environmental values for populations with and without I * E, with balanced and unbalanced environmental conditions. On these simulated populations, I will fit DHGLMs models, in a Bayesian framework using R package, brms [@burknerBayesianItemResponse2021], using stan software [@carpenterStanProbabilisticProgramming2017; @stan2020rstan]. I will also investigate the potential use of TMB [@kristensenTMBAutomaticDifferentiation2016] which allows to fit DHGLMs using a frequentist approach which is much faster especially in a simulation setup but it relies on a different coding language (mixe of R and C). Then I will then apply this method on our Yellow-Bellied Marmots population to illustrate it with a real condition example.
 
 
 {{< pagebreak >}}
@@ -514,37 +502,37 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 **Introduction** *(French MSc second year project)*
 
-1. Beyond plasticity: Evidence for strong evolutionary signal behind the observed body mass increase in Yellow-bellied Marmot. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
+1. *Just plasticity you say?*^[AB Too much?] Evidence for a strong increase in Yellow-bellied Marmot's body mass predicted breeding values in the last half century. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
 
 
 **Thesis**
 
-2. Towards more comprehensive studies of phenotypic changes: the case Yellow-bellied Marmots' body mass. [Augustin Birot, 
-  Dan Blumstein and Julien Martin]{.underline}
+2. Towards more comprehensive studies of phenotypic changes: Adressing the missing fraction problem in Yellow-bellied Marmots' body mass. [A Birot, 
+  D Blumstein and JGA Martin]{.underline}. Targeted journal:
 
 
 3. Break free from bad environmental proxies when studying I * E,
   the DHGLMs solution.
-  [Augustin Birot, Ned Dochtermann and Julien Martin]{.underline}
+  [A Birot, N Dochtermann and JGA Martin]{.underline}. Targeted journal: *Journal of Evolutionary Biology*
 
 
-4. Which part of climate change drives body mass evolution? [Augustin Birot, Dan Blumstein and 
-  Julien Martin]{.underline}
+4. Which part of climate change drives body mass evolution? [A Birot, D Blumstein and 
+  JGA Martin]{.underline}. Targeted journal:
 
 
-5. Balance between body condition and experience as predictor of marmots' behavior.^[JM is it really what you will be looking at in chapter 4, I don't think so] [Augustin Birot, Dan Blumstein and Julien Martin]{.underline}
+5. Balance between body condition and experience as predictor of marmots' behavior.^[JM is it really what you will be looking at in chapter 4, I don't think so] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal:
 
 
 **Side projects**
 
 6. Buffer environmental instability by increasing your body mass: an application of 
-  conservative bet-hedging in a hibernant rodent. [Augustin Birot, Dan Blumstein and 
-  Julien Martin]{.underline}
+  conservative bet-hedging in a hibernant rodent. [A Birot, D Blumstein and 
+  JGA Martin]{.underline}. Targeted journal:
 
 
 7. Identify key patches for metapopulation persistence using Social Network Analysis methods.
-  [Augustin Birot, Bernt-Erik Sæther, Henrik Jensen, Jonathan Wright, 
-  (Julien Martin), Yimen Araya-Ajoy]{.underline}
+  [A Birot, B-E Sæther, H Jensen, J Wright, 
+  (JGA Martin), Y Araya-Ajoy]{.underline}. Targeted journal:
 
 
 {{< pagebreak >}}
