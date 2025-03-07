@@ -355,7 +355,7 @@ If we look at the climate harshness variation at our study site in the last 50 y
 
 ::: {#fig-climate-variation layout-nrow="1"}
 
-![PCA correlation circle](figures/climate-corcircle){#fig-corcircle}
+![PCA correlation circle](figures/climate-corcircle.png){#fig-corcircle}
 
 ![Temporal variation](figures/fig-seasonal-gradient.png){#fig-sg}
 
