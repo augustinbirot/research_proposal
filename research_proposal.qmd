@@ -478,8 +478,8 @@ But if the population is set on an "hyper-specified" phenotype, the effects coul
 
 Bet-hedging is defined as a trade-off between fitness variance and mean. In that casse, I could also estimate the fitness and monitor the variance/mean balance over time. Here I would expect a decreasing variance (which again could be "dangerous" in a variable environment as it could lower adaption capacity).
 
-I would need to calculate the GEOMETRIC fitness mean ("n^th^ root of their product).
-"Geometric mean fitness of a genotype can be increased by reducing the variance of its fitness (over generation).
+I would need to calculate the GEOMETRIC fitness mean ("n^th^ root of their product").
+"Geometric mean fitness of a genotype can be increased by reducing the variance of its fitness (over generation)".
 
 I need to find a way to calculate the fitness associated with body mass (genetic value!!), then calculate its geometric mean, then monitor how it changes over time.
 
@@ -546,7 +546,7 @@ I am planing to test the efficiency of different tools already developps for SNA
   JGA Martin]{.underline}. Targeted journal:
 
 
-5. Balance between body condition and experience as predictor of marmots' behavior.^[JM is it really what you will be looking at in chapter 4, I don't think so] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal:
+5. From Mass to Manner: How Body Mass and Age Shape Behavior in Yellow-Bellied Marmots.^[AB - AI suggestion] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal:
 
 
 **Side projects**
