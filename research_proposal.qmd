@@ -467,6 +467,34 @@ Indeed, specializing phenotype, in that case "betting" on the long-term fitness,
 
 I will test the hypothesis that a population average increase in body mass can be interpreted as a conservative bet-hedging strategy to cope with environmental variability on the long-term. To do so, I will simulate different bet-hedging scenario to compare there predictions to the observed patterns in our population.
 
+@philippi1989hedging:
+{Balance number of offspring/offspring size
+in a case of conservative bet-hedging for bigger body mass, we would expect fewer offsprings, BUT bigger (not necessarly at birth tho, it could be bigger overall)
+We know (at least we have clues) that cohorts are in average bigger (<=> increased long-term fitness) now, if that's a case of conservative bet-hedging, we would expect that to be linked with fewer offsprings (<=> lowered immediate fitness) then.
+The strategie would be to produce less but better quality, allowing individuals to buffer environmental unpredictability caused by climate change.
+In a selective point of view, over the years, individuals applying this strategy would have better succes on a long term (which is what we see here with 10 generations over 50 years).
+However, it is also expected that if the environment become too variable, diversified bet-hedging would be a better option.
+But if the population is set on an "hyper-specified" phenotype, the effects could be deletarious. 
+
+Bet-hedging is defined as a trade-off between fitness variance and mean. In that casse, I could also estimate the fitness and monitor the variance/mean balance over time. Here I would expect a decreasing variance (which again could be "dangerous" in a variable environment as it could lower adaption capacity).
+
+I would need to calculate the GEOMETRIC fitness mean ("n^th^ root of their product).
+"Geometric mean fitness of a genotype can be increased by reducing the variance of its fitness (over generation).
+
+I need to find a way to calculate the fitness associated with body mass (genetic value!!), then calculate its geometric mean, then monitor how it changes over time.
+
+Simulate a theoritical conservative bet-hedging (5 offspring in good years and 3 in poor years).
+Simulate a theoritical "classic" strategy (9 offspring in good years and 1 in poor years).
+
+Classic have more variance, a better performance in good year and a better arithmetic mean. However, the conservative will have better performance in poor years, less variance, and on the long-term (geometric mean) better performance.
+Conservative will be selected.
+
+So, simulate both, a check what match with reel life observations.
+
+Conservative = "One bird in the hand is worth two in the bush".
+Diversified = "Don't pull all your eggs in one basket".}
+
+
 ::: {.callout-note}
 I like the idea her ebut it is really hard to follow. I think it would be much better if you start by defining what is conservative bet-hedging and then talk about mass being a potential trait helping to buffer the inter-annual variation in fitness leading to conservative bet-hedging. 
 

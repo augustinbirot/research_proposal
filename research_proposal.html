@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Augustin Birot (300444988)">
-<meta name="dcterms.date" content="2025-03-06">
+<meta name="dcterms.date" content="2025-03-07">
 
 <title>Coping with climate change.</title>
 <style>
@@ -115,7 +115,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 6, 2025</p>
+      <p class="date">March 7, 2025</p>
     </div>
   </div>
   
@@ -524,6 +524,14 @@ Boldness
 <p>However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (<strong>REF</strong>).</p>
 <p>Indeed, specializing phenotype, in that case “betting” on the long-term fitness, there is a risk of a mismatch with the environment <span class="citation" data-cites="stensethClimateChangingPhenology2002 visserShiftsPhenologyDue2005">(<a href="#ref-stensethClimateChangingPhenology2002" role="doc-biblioref">Stenseth and Mysterud 2002</a>; <a href="#ref-visserShiftsPhenologyDue2005" role="doc-biblioref">Visser and Both 2005</a>)</span>. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions <span class="citation" data-cites="schlaepferEcologicalEvolutionaryTraps2002 robertsonEcologicalNoveltyEmergence2013">(<a href="#ref-robertsonEcologicalNoveltyEmergence2013" role="doc-biblioref">Robertson et al. 2013</a>; <a href="#ref-schlaepferEcologicalEvolutionaryTraps2002" role="doc-biblioref">Schlaepfer et al. 2002</a>)</span>.</p>
 <p>I will test the hypothesis that a population average increase in body mass can be interpreted as a conservative bet-hedging strategy to cope with environmental variability on the long-term. To do so, I will simulate different bet-hedging scenario to compare there predictions to the observed patterns in our population.</p>
+<p><span class="citation" data-cites="philippi1989hedging">Philippi and Seger (<a href="#ref-philippi1989hedging" role="doc-biblioref">1989</a>)</span>: {Balance number of offspring/offspring size in a case of conservative bet-hedging for bigger body mass, we would expect fewer offsprings, BUT bigger (not necessarly at birth tho, it could be bigger overall) We know (at least we have clues) that cohorts are in average bigger (&lt;=&gt; increased long-term fitness) now, if that’s a case of conservative bet-hedging, we would expect that to be linked with fewer offsprings (&lt;=&gt; lowered immediate fitness) then. The strategie would be to produce less but better quality, allowing individuals to buffer environmental unpredictability caused by climate change. In a selective point of view, over the years, individuals applying this strategy would have better succes on a long term (which is what we see here with 10 generations over 50 years). However, it is also expected that if the environment become too variable, diversified bet-hedging would be a better option. But if the population is set on an “hyper-specified” phenotype, the effects could be deletarious.</p>
+<p>Bet-hedging is defined as a trade-off between fitness variance and mean. In that casse, I could also estimate the fitness and monitor the variance/mean balance over time. Here I would expect a decreasing variance (which again could be “dangerous” in a variable environment as it could lower adaption capacity).</p>
+<p>I would need to calculate the GEOMETRIC fitness mean (“n<sup>th</sup> root of their product).”Geometric mean fitness of a genotype can be increased by reducing the variance of its fitness (over generation).</p>
+<p>I need to find a way to calculate the fitness associated with body mass (genetic value!!), then calculate its geometric mean, then monitor how it changes over time.</p>
+<p>Simulate a theoritical conservative bet-hedging (5 offspring in good years and 3 in poor years). Simulate a theoritical “classic” strategy (9 offspring in good years and 1 in poor years).</p>
+<p>Classic have more variance, a better performance in good year and a better arithmetic mean. However, the conservative will have better performance in poor years, less variance, and on the long-term (geometric mean) better performance. Conservative will be selected.</p>
+<p>So, simulate both, a check what match with reel life observations.</p>
+<p>Conservative = “One bird in the hand is worth two in the bush”. Diversified = “Don’t pull all your eggs in one basket”.}</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -790,6 +798,9 @@ Olson, L. E., Blumstein, D. T., Pollinger, J. R., and Wayne, R. K. (2012), <span
 </div>
 <div id="ref-ozgulCoupledDynamicsBody2010" class="csl-entry" role="listitem">
 Ozgul, A., Childs, D. Z., Oli, M. K., Armitage, K. B., Blumstein, D. T., Olson, L. E., Tuljapurkar, S., and Coulson, T. (2010), <span>“Coupled dynamics of body mass and population growth in response to environmental change,”</span> <em>Nature</em>, 466, 482–485. <a href="https://doi.org/10.1038/nature09210">https://doi.org/10.1038/nature09210</a>.
+</div>
+<div id="ref-philippi1989hedging" class="csl-entry" role="listitem">
+Philippi, T., and Seger, J. (1989), <span>“Hedging one’s evolutionary bets, revisited,”</span> <em>Trends in ecology &amp; evolution</em>, Elsevier Current Trends, 4, 41–44.
 </div>
 <div id="ref-phillipsVISUALIZINGMULTIVARIATESELECTION1989" class="csl-entry" role="listitem">
 Phillips, P. C., and Arnold, S. J. (1989), <span>“<span>VISUALIZING MULTIVARIATE SELECTION</span>,”</span> <em>Evolution</em>, 43, 1209–1222. <a href="https://doi.org/10.1111/j.1558-5646.1989.tb02569.x">https://doi.org/10.1111/j.1558-5646.1989.tb02569.x</a>.
