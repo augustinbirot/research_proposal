@@ -524,8 +524,6 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 # Expected Products
 
-**JM add potential journal for each of them. Maybe dream a bit**
-
 **Introduction** *(French MSc second year project)*
 
 1. *Just plasticity you say?*^[AB Too much?] Evidence for a strong increase in Yellow-bellied Marmot's body mass predicted breeding values in the last half century. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
@@ -534,7 +532,7 @@ I am planing to test the efficiency of different tools already developps for SNA
 **Thesis**
 
 2. Towards more comprehensive studies of phenotypic changes: Adressing the missing fraction problem in Yellow-bellied Marmots' body mass. [A Birot, 
-  D Blumstein and JGA Martin]{.underline}. Targeted journal:
+  D Blumstein and JGA Martin]{.underline}. Targeted journal: *Evolution*; *Trends in Evolutionary Biology*
 
 
 3. Break free from bad environmental proxies when studying I * E,
@@ -543,22 +541,22 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 
 4. Which part of climate change drives body mass evolution? [A Birot, D Blumstein and 
-  JGA Martin]{.underline}. Targeted journal:
+  JGA Martin]{.underline}. Targeted journal: *Trends in Ecology and Evolution*; *Proc. R. Soc. B.*
 
 
-5. From Mass to Manner: How Body Mass and Age Shape Behavior in Yellow-Bellied Marmots.^[AB - AI suggestion] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal:
+5. From Mass to Manner: How Body Mass and Age Shape Behavior in Yellow-Bellied Marmots.^[AB - AI suggestion] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal: *Proc. R. Soc. B.*; *Oikos*
 
 
 **Side projects**
 
 6. Buffer environmental instability by increasing your body mass: an application of 
   conservative bet-hedging in a hibernant rodent. [A Birot, D Blumstein and 
-  JGA Martin]{.underline}. Targeted journal:
+  JGA Martin]{.underline}. Targeted journal: *Journal of Evolutionary Biology*; *Oikos*
 
 
 7. Identify key patches for metapopulation persistence using Social Network Analysis methods.
   [A Birot, B-E Sæther, H Jensen, J Wright, 
-  (JGA Martin), Y Araya-Ajoy]{.underline}. Targeted journal:
+  (JGA Martin), Y Araya-Ajoy]{.underline}. Targeted journal: *Functionnal ecology*; *Journal of Animal Ecology*
 
 
 {{< pagebreak >}}
