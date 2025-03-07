@@ -451,56 +451,23 @@ We hope that findings from this research will help inform conservation policymak
 
 1. Buffer environmental instability by increasing your body mass: an application of conservative bet-hedging in a hibernant rodent.
 
-Bet-hedging strategy can be summarized as betting on the best fitness for the long term, even though it means lower a bit your immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012]. There is two types of bet-hedging, diversified bet-hedging, corresponding to increasing phenotypic variance in offspring, increasing the probability of survival of at least a part of them, no matter the environmental conditions [@cohenOptimizingReproductionRandomly1966; @rajonEvolutionBetHedging2014]; and conservative bet-hedging, corresponding to lewer fitness variation on the long term by maximizing [...][@einum2004environmental]
+When producind offspring, bet-hedging strategy correspond to "bet" on the best fitness for the long term, at the expense of immediate fitness, in order to cope with an unpredictable environment [@starrfeltBethedgingaTripleTradeoff2012; @philippi1989hedging; @childsEvolutionaryBethedgingReal2010].
 
-With climate change, environment are less predictable than ever, therefore, conservative bet-hedging is expected to be a relevant adaptive strategy in such context [@einum2004environmental]. Let's take body mass increase as an example again.
+Bet-hedging strategy can be of two types, either diversified bet-hedging (usually explained with the adage "don't put all you eggs in the same basket"), corresponding to increasing phenotypic variance in offspring, increasing the chance that at least some of them will be adapted to the condtion they will face, and therefore assuring gene transmission to next generations [@cohenOptimizingReproductionRandomly1966; @rajonEvolutionBetHedging2014]; or conservative bet-hedging (explained by the adage "one bird in the hand is worth two in the bush"), corresponding to lower fitness (i.e., number of offsprings) variation, which can be costly in years with good conditions as the fitness isn't maximized, but more secured in poor years, as the fitness is less variable [@einum2004environmental; @philippi1989hedging].
 
-On the one hand, an increase body mass, over a certain threshold, can become a handicap for certain species. Heavier individuals can be more subject to heat stress and they can be more subject to predation as heavier individuals are potentially slower to escape and more provide a higher energetic benefit.
+With climate change, environment are less predictable than ever. To cope with that unpredicatbility, conservative bet-hedging is expected to be a relevant adaptive strategy [@einum2004environmental].
 
-On the other hand, an increased body mass, being synonym of a more important energy stock, potentially allow indivduals to increase survival in a harsh year. This can be very important for species living in highly challenging environment, such as high altitude [@inouyeHighAltitudeClimates2003]. Therefore, increase in body mass to "buffer" years with less ressources can be expected, especially for hibernating species in alpine environment [@einum2004environmental].
+Applied to body mass, conservative bet-hedging would correspond to the production of less but bigger offspring, and a reduced variance in the offpsring phenotype. The costs on immediate fitness for the parent is that in a good year, more offspring could have been produced, assuring more gene transmission. However, in poor years, the chances that offspring will survive is greater [@philippi1989hedging].
 
-Furthermore, larger body mass can have lower temporal fitness variation as the fitness cost of a poor year would be buffer. Indeed, by increasing the global average body mass in the population, we can expect less phenotypic variation in the population due to environmental change, which should, all else being equal, favoured by selection [@cohenOptimizingReproductionRandomly1966]. This correspond to a "Conservative bet-hedging strategy" [@childsEvolutionaryBethedgingReal2010].
+For the marmots, bigger individuals would have more chance to survive over hibernation and therefore participate to the next breeding season. With environment becoming less and less predictible, especially at high altitude [@inouyeHighAltitudeClimates2003], conservative bet-hedging can be seen as an insurance. With that strategy, fitness will be less variable as it is less impacted by the quality of the year in terms of ressources, bigger individuals being able to buffer poor years. This decreasing fitness variability over time is predicted to be favored by selection [@cohenOptimizingReproductionRandomly1966; @einum2004environmental].
 
-However, reducing the phenotypic variance is again an important risk as it reduce the adaption capacity facing changing environment, just like domestication endangered a lot of species by lower their adaption capacity to new environments due to hyper specialisation (**REF**).
+However, if the environment become too variable, simulations shows that diversified bet-hedging becomes a better option [@einum2004environmental]. Indeed, the population can mismatch with its environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. Then, if phenotypic variation has decreased too much, the population looses its adaption capacity and finds itsel in an "evolutionary trap" [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
 
-Indeed, specializing phenotype, in that case "betting" on the long-term fitness, there is a risk of a mismatch with the environment [@stensethClimateChangingPhenology2002; @visserShiftsPhenologyDue2005]. This is even more relevant in a context of highly variable and unpredictable environment such as expected with an extremely fast climate change. In such conditions, betting on the future can end in evolutionary traps, where maladapted populations can no longer cope with their environmental constrains and risk local extinctions [@schlaepferEcologicalEvolutionaryTraps2002; @robertsonEcologicalNoveltyEmergence2013].
+From our data, I can extract the body mass' genetic value for each individual. I can compute the fitness associated with it (i.e., number of offspring in the individual life), therefore obtaining the fitness associated to each phenotype. I can then calculate the fitness and variance over time. If we are facing a conservative bet-hedging strategy, I expect to see a variance decrease over time [@philippi1989hedging].
 
-I will test the hypothesis that a population average increase in body mass can be interpreted as a conservative bet-hedging strategy to cope with environmental variability on the long-term. To do so, I will simulate different bet-hedging scenario to compare there predictions to the observed patterns in our population.
+Simultaneously, I will simulate two population, one having a fitness directly impacted by the environment (i.e., lots of offpsing in good years and few in poor years), called "classic", and one following a conservative bet-hedging strategy (i.e., less fitness variation, with a max fitness being inferior to "classic" population and lower fitness superior).
 
-@philippi1989hedging:
-{Balance number of offspring/offspring size
-in a case of conservative bet-hedging for bigger body mass, we would expect fewer offsprings, BUT bigger (not necessarly at birth tho, it could be bigger overall)
-We know (at least we have clues) that cohorts are in average bigger (<=> increased long-term fitness) now, if that's a case of conservative bet-hedging, we would expect that to be linked with fewer offsprings (<=> lowered immediate fitness) then.
-The strategie would be to produce less but better quality, allowing individuals to buffer environmental unpredictability caused by climate change.
-In a selective point of view, over the years, individuals applying this strategy would have better succes on a long term (which is what we see here with 10 generations over 50 years).
-However, it is also expected that if the environment become too variable, diversified bet-hedging would be a better option.
-But if the population is set on an "hyper-specified" phenotype, the effects could be deletarious. 
-
-Bet-hedging is defined as a trade-off between fitness variance and mean. In that casse, I could also estimate the fitness and monitor the variance/mean balance over time. Here I would expect a decreasing variance (which again could be "dangerous" in a variable environment as it could lower adaption capacity).
-
-I would need to calculate the GEOMETRIC fitness mean ("n^th^ root of their product").
-"Geometric mean fitness of a genotype can be increased by reducing the variance of its fitness (over generation)".
-
-I need to find a way to calculate the fitness associated with body mass (genetic value!!), then calculate its geometric mean, then monitor how it changes over time.
-
-Simulate a theoritical conservative bet-hedging (5 offspring in good years and 3 in poor years).
-Simulate a theoritical "classic" strategy (9 offspring in good years and 1 in poor years).
-
-Classic have more variance, a better performance in good year and a better arithmetic mean. However, the conservative will have better performance in poor years, less variance, and on the long-term (geometric mean) better performance.
-Conservative will be selected.
-
-So, simulate both, a check what match with reel life observations.
-
-Conservative = "One bird in the hand is worth two in the bush".
-Diversified = "Don't pull all your eggs in one basket".}
-
-
-::: {.callout-note}
-I like the idea her ebut it is really hard to follow. I think it would be much better if you start by defining what is conservative bet-hedging and then talk about mass being a potential trait helping to buffer the inter-annual variation in fitness leading to conservative bet-hedging. 
-
-No sure about the method you are suggesting , but I am not sure what you want to do really. so 
-more details needed and maybe a chat to clarify all that
-:::
+I will compare the predicitons of these two populations: fitness geometric means, variance to our observations. [...]
 
 
 2. Identify key patches for metapopulation persistence using Social Network Analysis methods.
