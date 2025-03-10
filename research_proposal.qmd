@@ -31,11 +31,11 @@ editor:
 ::: {.callout-important}
 comments are added as:
 
-- footnote in the margin of the html and should start with JM so that you can look for them easily. they are written as \^\[JM blablabla\]
-- callout boxes 
-- comments using \<\!\-\- JM blablabla \-\-\> <!--JM blablabla -->
+- using JM as key work for TODO tree extension. it has to been at the beginning of a line or at the start of a comment
+- comments using \<\!\-\- JM blablabla \-\-\> <!-- JM blablabla -->
 :::
 
+<!--JM au final il ya des petites coqui;les en anglais et des choses que je raffinerai pour un proposé final mais il faut vraiment l'envoyer aujourd'hui ou demain matin pour ton comité. Je pnse que c'est bon comme c'est et que tu auras des questions à clarifier pendant ton TAC mais globalement c'est très bon. -->
 
 {{< pagebreak >}}
 
@@ -61,8 +61,8 @@ These modification are thus expected to have major impacts on food availability 
 
 ## Body mass a life-history trait
 
-We know that body mass is strongly related to both temperature acclimatation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food aboundance [@acquaroneEffectsFoodAbundance2002]. Therefore, we need to study body mass in that context of climate and ecological changes.
-To study such changes, we rely on Life-History Theory. This framework is used to study how ressources are allocated to specific traits to cope with environment while maximising individual fitness. The theory rely on the fact that ressources are limited and trade-off must be maid between different traits to achieve the best life-history strategy [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001; @bellCostsReproductionTheir1980]
+We know that body mass is strongly related to both temperature acclimatation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food abundance [@acquaroneEffectsFoodAbundance2002]. Therefore, we need to study body mass in that context of climate and ecological changes.
+To study such changes, we rely on Life-History Theory. This framework is used to study how ressources are allocated to specific traits to cope with environment while maximizing individual fitness. The theory rely on the fact that ressources are limited and trade-off must be maid between different traits to achieve the best life-history strategy [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001; @bellCostsReproductionTheir1980]
 
 Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness [@Roff1992TheEO].
 The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
@@ -97,12 +97,12 @@ However, as noted by @gardnerDecliningBodySize2011, a lack of large-scale compar
 
 On the other hand, several studies at higher latitudes and altitudes yield opposite results [i.e., increasing body mass in response to climate change, @guillemainWinteringFrenchMallard2010; @yom-tovRecentIncreaseBody2008; @sheridanShrinkingBodySize2011; @ozgulCoupledDynamicsBody2010]. In these regions, climate change is a synonym of milder conditions. Hence, individuals have access to a large food supply for a longer time and the severity of the harsh season is reduced, which overall is less energetically demanding. Ultimately, these new conditions enable individuals to grow larger.
 
-Therefore, we expect changes in body mass. But, we need tu understand what is drive this and how this change is happening.
+Therefore, we expect changes in body mass and, we need to understand what is driving it and how it is is happening.
 
 
 ## Phenotypic plasticity vs evolution
 
-When an environment changes, inhabiting populations will have several solutions to avoid disappearance. They can disperse to another, more favorable, environment [@gienappEvolutionaryDynamicsResponse2014]; they can modify their environment to correspond to specific needs (**REF**); or phenotypic changes can occure in the population, giving individuals better suited to their environment [@gienappEvolutionaryDynamicsResponse2014].
+When an environment changes, inhabiting populations will have several solutions to avoid disappearance. They can disperse to another, more favorable, environment [@gienappEvolutionaryDynamicsResponse2014]; they can modify their environment to correspond to specific needs (**REF**); or phenotypic changes can occur in the population, giving individuals better suited to their environment [@gienappEvolutionaryDynamicsResponse2014].
 
 These phenotypic changes could happen in two ways: phenotypic plasticity, define as a change in phenotype expressed by a given genotype, which allows for rapid responses within an individual's lifetime, is highly flexible and does not involve any changes at the genetic level [@pigliucciPhenotypicPlasticityNature2001]; and evolution, define as a change in alleles frequencies in a population over time. When an individual with a better-fitted phenotype for its new environment appears, it would have a higher survival and reproductive success. If this advantage relies on a heritable genetic difference, the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998].
 
@@ -253,7 +253,9 @@ Research objectives illustrative framework.
 
 # Chapter 1 - Structure of the body mass increase. {#sec-chap1}
 
-The first thing needed, is to analyse deeply the structure of change in body mass in our population. We know that body mass at the end of the active season (estimated on August 15^th^) has increased for adult females at both phenotypic and genetic scale (Birot, Blumstein & Martin, Manuscript in progress). However, we still don't know what is happening with the body mass at the beginnning of the active season (estimated on June 1^st^), nor for the other age classes. It is crucial to consider that selective pressure, and so evolutionary response, could be different over age classes. We need to consider "missing fraction" in order to conduct a comprehensive study of the selection acting on marmots body mass [@grafen1988uses; @mittell2024missing; @hadfieldEstimatingEvolutionaryParameters2008a; @jebbBiggerNotAlways2021].
+<!-- JM not sure what you mean by structure in your title -->
+
+The first thing needed, is to analyse deeply the structure of change in body mass in our population. We know that body mass at the end of the active season (estimated on August 15^th^) has increased for adult females at both phenotypic and genetic scale (Birot, Blumstein & Martin, Manuscript in progress). However, we still don't know what is happening with the body mass at the beginnning of the active season (estimated on June 1^st^), nor for the other age classes. It is crucial to consider that selective pressure, and so evolutionary response, could be different over age classes. We need to consider the "missing fraction" in order to conduct a comprehensive study of the selection acting on marmots body mass [@grafen1988uses; @mittell2024missing; @hadfieldEstimatingEvolutionaryParameters2008a; @jebbBiggerNotAlways2021].
 
 For instance, body mass in juvenile in our population waas predicted to stay stable as it favour a higher running speed allowing juveniles to escape predators more efficiently and so spending more time foraging. On the contrary, selection was expected for a larger body mass on adults, which rely on social vigilence to avoid predators. This expected stabilizing selection on juvenile body mass was the main explanation for a stable body mass in adults marmots [@jebbBiggerNotAlways2021]. However, with our new results on adult females, we now need to study potential body mass changes and evolution for each age class.
 
@@ -322,7 +324,7 @@ And before emergence (@eq-mod2-ch1). These models will allow me to estimate the 
 
 Detecting individual variation in plasticity is challenging due to the unknown aspect of the environmental variables organism are responding to [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023]. Although some good methods exists today, a lot of biases coming from environmental proxies still limit these methods today. DHGLMs are a promising avenue to help the study of *I \* E* in natural populations, but an investigation to reveal its potential and limit is needed.
 
-When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individuals, an absence of I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a) should show and absence of among-individual variance in the residual variance ($V_{V_e} = 0$) as each individual will exhibit the same range of phenotypic values ([Fig. @fig-ie-vs-no-ie] c), so .
+When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individuals, an absence of I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a) should show and absence of among-individual variance in the residual variance ($V_{V_e} = 0$) as each individual will exhibit the same range of phenotypic values ([Fig. @fig-ie-vs-no-ie] c). <!--JM missing end of sentence ??-->
 
 However, if there's individual variation in their plastic response (*I \* E*) for the focal phenotypic trait (@fig-ie-vs-no-ie b) and it is not modelled with a reaction norm then within a DHGLM the variation in residual variance won't be the same for each individual, hence $V_{V_e}$ will be different from 0 (@fig-ie-vs-no-ie d).
 
@@ -499,7 +501,7 @@ I am planing to test the efficiency of different tools already developps for SNA
 
 **Introduction** *(French MSc second year project)*
 
-1. *Just plasticity you say?*^[AB Too much?] Evidence for a strong increase in Yellow-bellied Marmot's body mass predicted breeding values in the last half century. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
+1. *Just plasticity, are you sure?* Evidence for a strong increase in Yellow-bellied Marmot's body mass predicted breeding values in the last half century. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
 
 
 **Thesis**
@@ -517,7 +519,7 @@ I am planing to test the efficiency of different tools already developps for SNA
   JGA Martin]{.underline}. Targeted journal: *Trends in Ecology and Evolution*; *Proc. R. Soc. B.*
 
 
-5. From Mass to Manner: How Body Mass and Age Shape Behavior in Yellow-Bellied Marmots.^[AB - AI suggestion] [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal: *Proc. R. Soc. B.*; *Oikos*
+5. From Mass to Manner: How Body Mass and Age Shape Behavior in Yellow-Bellied Marmots. [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal: *Proc. R. Soc. B.*; *Oikos*
 
 
 **Side projects**
