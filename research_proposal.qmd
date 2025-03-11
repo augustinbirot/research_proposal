@@ -19,8 +19,8 @@ bibliography: [research_proposal.bib, packages.bib]
 csl: american-statistical-association.csl
 
 format:
-  #html:
-  #  reference-location: margin
+  html:
+    reference-location: margin
   bio-uo-proposal-pdf:
     toc: true
 editor: 
