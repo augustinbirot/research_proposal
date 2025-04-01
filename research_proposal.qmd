@@ -457,13 +457,43 @@ $$
 Boldness
 \sim
 \begin{aligned}
+\textbf{Fixed} &= Cohort \\
+\\
+\textbf{Random} &= Animal + UID + Measurement\ year_{Factor}
+\end{aligned}
+$$ {#eq-mod-ch4-m1}
+
+- I will first estimate the heritability and genetic variation of boldness over cohorts using an univariate animal model (@eq-mod-ch4-m1)
+
+
+$$
+\begin{pmatrix}
+Boldness \\
+\\
+Body\ mass
+\end{pmatrix}
+\sim
+\begin{aligned}
+\textbf{Fixed} &= Cohort \\
+\\
+\textbf{Random} &= Animal + UID + Measurement\ year_{Factor}
+\end{aligned}
+$$ {#eq-mod-ch4-m2}
+
+- Then I will estimate the genetic correlation between boldness and body mass over cohorts using a bivariate animal model (@eq-mod-ch4-m2)
+
+
+$$
+Boldness
+\sim
+\begin{aligned}
 \textbf{Fixed} &= Body\ mass * Age + Cohort \\
 \\
-\textbf{Random} &= Animal + UID + Measurement\ year
+\textbf{Random} &= UID + Measurement\ year_{Factor}
 \end{aligned}
-$$ {#eq-mod-ch4}
+$$ {#eq-mod-ch4-m3}
 
-I will test if body mass, and age impact behaviour, and if the impact of body mass on behaviour is different depending on the individual's age (@eq-mod-ch4).
+- Finally I will test the effect of the interaction between body mass and individual age while accounting for time cohort variation and controlling for individual and measurement year effects, using LMM (@eq-mod-ch4-m3)
 
 In addition to that, our marmot population seems to be in a demographic expansion since the 2000s [@ozgulCoupledDynamicsBody2010]. Furthermore, it is known that both body mass [@ozgulCoupledDynamicsBody2010], but also behaviour [@realeIntegratingAnimalTemperament2007a; @wolfAnimalPersonalitiesConsequences2012] can impact population dynamics. It is therefore crucial to study the relation between body mass, behaviour, and population dynamics to better understand, and predict, future implications of this body mass increase for our population in a context of climate change.
 
