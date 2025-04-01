@@ -58,27 +58,49 @@ Climate change have an important impact in alpine habitats, with more pronounced
 These modifications are thus expected to have major impacts on food availability for a wide diversity of animals. Therefore, not only alpine animals should adjust to temperature and precipitation changes, but also to food availability potentially.
 
 
+## Life-history traits
+
+Life History Theory studies ressources allocation between the life history traits of an individual. This theory relies on the fact that individuals in natural condition must contend with limited ressources and therefore trade-offs must be made between competing functions such as growth, maintenance and reproduction [@Roff1992TheEO; @bellCostsReproductionTheir1980]. @stearns92 define a Life History Trait as phenotypic characteristics that will directly impact an individual's selective value, or "fitness" (i.e., individual's capacity to transmit their genes to the next generation, measured as the product of survival and reproductive success).
+
+However, this is a wide definition that could correspond to almost any traits as most phenotypic trait could impact either survival [e.g., <!-- TODO: find traits, other than body mass, that impact individual survival -->; bold and active trinidanian guppies, *Poecilia reticulata*, survive longer against predators; @smithBehavioralTypesPredictors2010] or reproductive sucess [e.g., <!-- TODO: find traits, other than body mass, that impact individual survival -->; or courtship ability <!-- bird of paradise --> **REF**]. But conversely, one could argue that no trait would impact directly, *per se*, an individual fitness (e.g., does body mass in itself directly impact over-hibernation survival in yellow-bellied marmots, or is it percentage of fat-tissue, or metabolic capacity, or individual thermoregulation capacity?).
+
+Hence this definition encompass both all and no traits. Furthermore another objection with this definition is that with it, life-history trats both define and are defined by fitness, therefore making this reasoning tautological.
+
+Reading the litterature, I realize that a lot of authors working on life history traits don't explicetely define them, therefore the comunity would benefit from a consensus on a clearer definition of Life History Trait. However, Life-History traits usually recognized as being individuals life-cycle features such as size at birth; age at maturity; size at maturity; number and size of offspring [@Roff1992TheEO; @stearns92].
+
+
 ## Role of body mass
 
 We know that body mass is strongly related to both temperature acclimation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food abundance [@acquaroneEffectsFoodAbundance2002]. Therefore, we need to study body mass in that context of climate and ecological changes.
-To study such changes, we rely on Life-History Theory. This framework is used to study how resources are allocated to specific traits to cope with environment while maximizing individual fitness. The theory rely on the fact that resources are limited and trade-off must be made between different traits to achieve the best life-history strategy [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001; @bellCostsReproductionTheir1980]
-<!-- TODO: no Life-history -->
-Life history traits (LHTs) are phenotypic characteristics that directly impact an individual's survival and reproduction success, thereby determining its overall fitness [@Roff1992TheEO].
-The concept of life history theory relies on the hypothesis that organisms have limited resources and thus must make trade-offs when strategically allocating the different resources between competing functions such as growth, maintenance, and reproduction [@Roff1992TheEO; @10.1093/oso/9780198577416.001.0001].
 
-Various traits can be considered as LHTs, as they represent the outcome of this resource allocation process. Among these, body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer against seasonal food scarcity [@heldstabHowMammalsBuffer2017]. More generally, body fat can be considered as a buffer against harsh environment [@denryterSurvivalFattestHow2022]. Extending this reasoning to a wider timescale, we could expect these bigger individuals to be able to buffer poor years in terms of resources, and so increasing their resilience to environmental variability [@einum2004environmental].
+<!-- STRUCTURE: What is the role of body mass? What does it impact? -->
+Body mass plays a crucial role in many species. Individuals with greater body mass will have more energetic reserves, making them more resilient to environmental pressures, as they will be able to buffer against seasonal food scarcity [@heldstabHowMammalsBuffer2017]. More generally, body fat can be considered as a buffer against harsh environment [@denryterSurvivalFattestHow2022]. Extending this reasoning to a wider timescale, we could expect these bigger individuals to be able to buffer poor years in terms of resources, and so increasing their resilience to environmental variability [@einum2004environmental].
 
-Additionally, individuals with greater energy reserves have a better capacity to reproduce [@festa-bianchetMassDensityDependentReproductive1998]. {Body mass would also be an "honest signal" of an individual capacity to accumulate resources and its quality as a reproducer (**REF**)} <!-- TODO: Change that -->. Overall, a bigger body mass would lead to a better reproductive success.
-<!-- TODO: add examples, "why body mass impact reproduction or survival" -->
 
-However, a too large body mass can become a handicap. Even though some handicaps have been theorized to be an asset in sexual selection [@10.1093/oso/9780195100358.001.0001], beyond a certain threshold, too large individuals will be counter-selected as it could induce a cost in individual performance [e.g., capacity to run from predators, @jebbBiggerNotAlways2021].
+- body mass explain 89% of the hibernation survival in juvenile yellow-bellied marmots, *Marmota flaviventer* [@armitageMarmotBiologySociality2014]
 
-Overall, body mass can be considered a key LHT influencing directly both survival and reproduction in many species, but a balance must be reach between performances and costs, and with investment in other traits [@10.1093/oso/9780198577416.001.0001].
-<!-- TODO: add details about mass biology and physiology, link that with the role of body mass -->
+- <!-- TODO: add another example of impact on survival -->
+
+- impact of winter body mass variation on female reproductive success in Norwegian moose, *Alces alces* [@milnerReproductiveSuccessFailure2013]
+
+- large body size and mass is correlated to higher mating success in northern elephant seals, *Mirounga angustirostris* [@crockerImpactBodyReserves2012]
+
+- ndividuals with greater energy reserves have a better capacity to reproduce, as illustrated in bighorn sheeps, *Ovis canadensis* [@festa-bianchetMassDensityDependentReproductive1998]
+
+
+<!-- STRUCTURE: WHY does it have this role and impact those things -->
+<!-- TODO: Add a § about body mass ecology and physiology & link that with the role of body mass -->
+<!-- TODO: Body captures height (important for fitness in some species for access to reproduction) but also energetic reserve (impact on survival) => Mass is therefore important to study -->
+
+However, a too large body mass can become a handicap. Even though some handicaps have been theorized to be an asset in sexual selection [@zahavi_handicap], beyond a certain threshold, too large individuals will be counter-selected as it could induce a cost in individual performance [e.g., capacity to run from predators, @jebbBiggerNotAlways2021].
+
+Overall, body mass can be considered a crucial trait influencing directly both survival and reproduction in many species, but a balance must be reach between performances and costs, and with investment in other traits.
+
+"Although some could argue that body mass can be considered as a Life History Traits in some species as it can impact directly the fitness of an individual, due to the lack of a clear definition, I will just say that Body mass can be seen as a NODE impacting other traits, finally impacting global fitness"
 
 ### Body mass and hibernation
 
-Within a year, food abundance can fluctuate drastically with season. Often, we see a harsh season, with lower food abundance and extreme temperatures [@williamsUnderstandingEvolutionaryImpacts2017]. Species must adapt to that seasonal variation. Most usual strategies could be to migrate seasonally to a milder environment [e.g., Alpine swift, *Tachymarptis melba*; @alerstamBirdMigration2004; @meierPopulationspecificAdjustmentAnnual2020]; storing food before the harsh season [e.g., Beavers, *Castor canadensis* ;@smithOverwinterActivityBody1991; @10.2307/3503787]; storing energy as fat during the good season [e.g. bighorn sheep, *Ovis canadensis*; @stephensonLinkingPopulationPerformance2020; @denryterSurvivalFattestHow2022]; and eventually hibernating.
+Within a year, food abundance can fluctuate drastically with season. Often, we see a harsh season, with lower food abundance and extreme temperatures [@williamsUnderstandingEvolutionaryImpacts2017]. Species must adapt to that seasonal variation. Most usual strategies could be to migrate seasonally to a milder environment [e.g., Alpine swift, *Tachymarptis melba*; @alerstamBirdMigration2004; @meierPopulationspecificAdjustmentAnnual2020]; storing food before the harsh season [e.g., Beavers, *Castor canadensis* ;@smithOverwinterActivityBody1991; @castor_jenkins]; storing energy as fat during the good season [e.g. bighorn sheep, *Ovis canadensis*; @stephensonLinkingPopulationPerformance2020; @denryterSurvivalFattestHow2022]; and eventually hibernating.
 
 Hibernation is a coping mechanism consisting in reducing metabolism and body temperature to a minimum survival level, then emerge at the start of the favourable season. Beyond hibernators, two main strategies exist, they can either store food before hibernation, called "Food-storing hibernators" (e.g., chimpunks, *Tamias striatus*; @bieberBodyMassDependent2014), or sustain on the energy they stocked in their white adipose tissue, or fat, those are the "Fat-storing hibernators" [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003]. One of the most commonly known example of fat-storing hibernators being the Marmots [tribe: *Marmotini*; @armitageMarmotBiologySociality2014]
 
@@ -86,6 +108,9 @@ Fat-storing hibernators must therefore forage sufficiently to gain enough fat in
 
 Additionally, for some species, reproduction occurs right at the onset of the active season [@armitageMarmotBiologySociality2014]. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
 
+<!-- TODO: potential switch between hibernant § and effect of global warming § -->
+<!-- TODO: effect on survival over hibernation, and survival/reproduction at emergence -->
+<!-- TODO: effect of global warming on hibernant =>  body mass could be less "important" because less "pressure" -->
 
 ### Expected effect of global warming on body mass
 
@@ -99,10 +124,13 @@ On the other hand, several studies at higher latitudes and altitudes yield oppos
 
 Therefore, we expect changes in body mass and, we need to understand what is driving it and how it is happening.
 
+<!-- TODO: observed changes not necessarely adaptive as environmental constraints with hibernants are changing, so changes are not necessarly adaptive -->
 
-## Phenotypic plasticity vs evolution
+## Adaptation, Evolution, Phenotypic plasticity
 
-When an environment changes, inhabiting populations can avoid disappearance in several ways. They can disperse to another, more favourable, environment [@gienappEvolutionaryDynamicsResponse2014]; they can modify their environment to correspond to specific needs (**REF**); or phenotypic changes can occur in the population, giving individuals better suited to their environment [@gienappEvolutionaryDynamicsResponse2014].
+<!-- TODO: crystal clear definition for ADAPTATION ; PLASTICITY (≠ type and necessary conditions) ; EVOLUTION (≠ types of evol and necessary conditions; evol by NS) -->
+
+When an environment changes, inhabiting populations can avoid disappearance in several ways. They can disperse to another, more favourable, environment [@gienappEvolutionaryDynamicsResponse2014]; they can modify their environment to correspond to specific needs [i.e., engineers species such as beavers, *castor canadensis*, @jonesOrganismsEcosystemEngineers1994]; or phenotypic changes can occur in the population, giving individuals better suited to their environment [@gienappEvolutionaryDynamicsResponse2014].
 
 These phenotypic changes could happen in two ways: phenotypic plasticity, define as a change in phenotype expressed by a given genotype, which allows for rapid responses within an individual's lifetime, is highly flexible and does not involve any changes at the genetic level [@pigliucciPhenotypicPlasticityNature2001]; and evolution, define as a change in alleles frequencies in a population over time. When an individual with a better-fitted phenotype for its new environment appears, it would have a higher survival and reproductive success. If this advantage relies on a heritable genetic difference, the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998].
 
@@ -124,9 +152,11 @@ This method has the advantage of being relatively simple to employ, enabling gen
 
 As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations, as the most common problem in such studies is the lack of statistical power, which can be resolved thanks to the quantity of data brought by long-term studies. Such studies would improve our understanding of the relationship between animals and their environment, as well as the genotype-phenotype-environment relationship, especially in a context of global change.
 
+<!-- TODO: hadfield et kruuk 2007: effect of common environment and maternal effect in animal models -->
+
 
 ## Traits coevolution
-
+<!-- TODO: Lande & Arnolds 1983 -->
 A well-recognized challenge, when studying evolution in natural context, is to consider the genetic correlation between several traits [@gouldSpandrelsSanMarco1979; @Roff1992TheEO]. Indeed, when genetically correlated to another trait, a trait does not evolve independently and its evolution can either drive changes in other traits or be driven by other traits. Genetic correlations are often seen as constraints narrowing the range of possibility and reachable outcomes in the adaptive landscape but can also speed up the process of reaching and optimum [@arnoldAdaptiveLandscapeConceptual2001; @teplitskyEvolutionaryPotentialConstraints2014; @gouldSpandrelsSanMarco1979].
 
 When studying the evolution of a specific trait (especially ones having important phenotypic consequences), failing to account for its link with other traits is an oversimplification. This failure can bias not only our understanding of the causes and consequences of phenotypic change, but also the estimations of its evolutionary potential [@walshAbundantGeneticVariation2009; @teplitskyEvolutionaryPotentialConstraints2014]. To effectively study traits' evolution, it is essential to consider that selection generally acts on multiple traits simultaneously, as a phenotype is the result of a combination of various traits [@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
@@ -139,10 +169,13 @@ So, if climate change lead to life history traits changes, it should be expected
 
 As such, changes in such traits are expected to go along with other changes, therefore synonym of greater impacts on the global phenotype. A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [@kruukEstimatingGeneticParameters2004].
 
-However, such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for these complex models [**REFs**]. Again, using long-term datasets brings a lot of expectation to address such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
+However, such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for these complex models [@lynchGeneticsAnalysisQuantitative1998] <!-- TODO: Lynsh & Walsh (data hungry, which constrait the power associated to a lot of studies) -->. This is one of the main reason long-term study datasets in the wild is essentiel <!-- TODO: rephrase --> brings a lot of expectation to address such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
+<!-- TODO: Look at preface and first chapter of QG in the wild -->
 
+## Detecting Individual variation in their plasticity in the wild
 
-## Individual variation in their plasticity
+<!-- TODO: dispatch some in plasticity, evolution, adaptation
+=> Plasticity had to evolve and be selected, and for that it needs individual variation in their plasiticity -->
 
 Plasticity is usually studied using Reaction Norm framework [@viaAdaptivePhenotypicPlasticity1995; @nusseyEvolutionaryEcologyIndividual2007], i.e., studying the value of a phenotypic trait (e.g., body mass) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment. In this framework, a trait is plastic if the slope of the reaction norm is different from 0 [@nusseyEvolutionaryEcologyIndividual2007].
 
@@ -169,7 +202,7 @@ An important feature of this method is that it should be free from the problems 
 This is a very promising method, however, as most new statistical methods, it is poorly understood and rarely used. Hence, a general framework, including clear applications showing how DHGLM should be used to detect *I \* E* would be really helpful for the community, especially with the rising need to study efficiently phenotypic plasticity, and it's evolution, in natural condition in a context of climate change.
 
 
-## Species and study
+## Study system
 
 Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventer*) is monitored continuously, initiated by Kenneth Armitage, and now co-lead by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second-longest long-term monitoring of a wild mammal population in the world.
 
@@ -212,20 +245,19 @@ Adult females' mean cohort’s body mass. (a) At phenotypic level, trend lines (
 :::
 
 
-### Data
+### Data collection
 
 Each year between May and September since 1962, marmots are regularly trapped (between 1 and 20 times per individual, with an average of 4.5) using baited Tomahawk live traps (81 * 25 * 30 cm) situated near burrow entrances. If the individual is captured for the first time, it is identified by placing a unique pair of numbered ear tag, and with a nontoxic black Nyzanol dye fur mark for distant identification during behavioural observations. Over 95\% of individuals are captured during their first 2 summers of life (as juvenile or one-year-old) and thus have known year of birth and age. Marmot age classes can be defined as juveniles, first year of life, yearlings as one-year-old, subadults as two and three years old, and adults over 3 years old [@jebbBiggerNotAlways2021]. It should be noted that subadults can reproduce but have not finished their skeletal growth.
 
-Parental links between individuals are known for most individuals in the population (4,652 individuals to this date), allowing the reconstruction of a highly detailed pedigree. Before 2002, maternal links were estimated via behavioural observations. Since 2002, genetic parentage assignment is used to confirm the maternal links and determine the paternal links [details in @blumsteinHeritabilityAntipredatoryTraits2010; @olsonNoEvidenceInbreeding2012].
+Body mass is a highly plastic trait, particularly for marmots, as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors were used to extract each individual’s body mass at the beginning and end of each years' active seasons, so June 1^st^ and August 15^th^ [details in @ozgulCoupledDynamicsBody2010; @jebbBiggerNotAlways2021]. Over 61 years of observations (1962 - 2022), we have 7,586 body mass estimations for 4,656 individuals.
+
+Parental links between individuals are known for most individuals in the population (maternal links known for 3,435 individuals and paternal links for 1,943 individuals to this date), allowing the reconstruction of a highly detailed pedigree. Before 2002, maternal links were estimated via behavioural observations. Since 2002, genetic parentage assignment is used to confirm the maternal links and determine the paternal links [details in @blumsteinHeritabilityAntipredatoryTraits2010; @olsonNoEvidenceInbreeding2012].
 
 Behavioural observations and experiments [running speed and Flight Initiation Distance; @ydenbergEconomicsFleeingPredators1986]  are conducted all along the season. Upon each capture, individuals are sexed, weighted (initially with a spring scale (± 50 g) and now with a digital balance (± 10 g)) measured and DNA samples are taken. More descriptions can be found in @armitageMarmotBiologySociality2014.
-
-Body mass is a highly plastic trait, particularly for marmots, as it experiences considerable fluctuations throughout the active season. It is, for obvious reasons, impossible to record all individual body mass at the same time. Therefore, it is necessary to estimate it for each individual at the same time of the year. Using repeated measures for each individual throughout each active season, a linear mixed model was fitted and its Best Linear Unbiased Predictors were used to extract each individual’s body mass on August 15 each year [details in @ozgulCoupledDynamicsBody2010; @jebbBiggerNotAlways2021].
 
 As our study site has been an important scientific station for more than a century, we have various and exhaustive data. By combining multiple sources, such as Billy Barr (a RMBL resident), the National Oceanic and Atmospheric Administration (NOAA), the United States Geological Survey (USGS), the United States Department of Agriculture (USDA) and the Oregon State University's PRISM Climate group, @pratherClimateDataRocky2023 provides us with exhaustive data. We have weather data (e.g., monthly temperatures, snowing, precipitations, season lengths) at our study site from 1975 to 2022.
 
 Data are stored in the R package "ybamaRmot" [@martinYbamaRmotDatabaseMarmot2024], analysis will be performed in R [@base], Animal models will be performed using R package asreml [@butlerASRemlEstimatesVariance], lme4breeding [@covarrubias2024lme4breeding] and MCMCglmm [@hadfieldMCMCMethodsMultiResponse2010], DHGLMs and other complex models using a bayesian approach will be done with brms [@burknerBayesianItemResponse2021] or stan directly [@carpenterStanProbabilisticProgramming2017; @stan2020rstan], figures will be made with "ggplot2" [@wickhamGgplot2ElegantGraphics2016].
-
 
 {{< pagebreak >}}
 
@@ -400,6 +432,8 @@ I will then begin by examine temporal trend for both environmental and body mass
 
 # Chapter 4 - Balance between body condition and experience as predictors of marmots' behavior. {#sec-chap4}
 
+<!-- TODO: link with coevolution -->
+
 In the context of the extended pace of life syndrome framework [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behaviour (e.g., bigger individuals would be expected to be bolder).
 
 But we also expect that behaviour and personality will be impacted by life experience and change through an individual's life [@stampsDevelopmentAnimalPersonality2010].
@@ -417,11 +451,13 @@ Although the impact of body mass, with bigger individuals spending more time loo
 
 We have repeated observations for a lot of individuals over various variables from observations from 2-min focal field observations and flight-initiation distance experiments. I am going to use that to conduct PCAs to determine individual values for various personal traits such as boldness [@realeIntegratingAnimalTemperament2007a] and estimate its repeatability (using mixed models) and heritability (using animal models). Then I will use these data to test the effect of body mass.
 
+<!-- TODO: 3 models (boldness genetic value; boldness*body mass genet correlation; effect of body mass * age on boldness (this one isn't an animal model)) -->
+
 $$
 Boldness
 \sim
 \begin{aligned}
-\textbf{Fixed} &= Body\ mass + Age + Cohort \\
+\textbf{Fixed} &= Body\ mass * Age + Cohort \\
 \\
 \textbf{Random} &= Animal + UID + Measurement\ year
 \end{aligned}
@@ -507,7 +543,7 @@ I am planing to test the efficiency of different tools already develops for SNA,
 **Thesis**
 
 2. Towards more comprehensive studies of phenotypic changes: Addressing the missing fraction problem in Yellow-bellied Marmots' body mass. [A Birot, 
-  D Blumstein and JGA Martin]{.underline}. Targeted journal: *Evolution*; *Trends in Evolutionary Biology*
+  D Blumstein and JGA Martin]{.underline}. Targeted journal: *Evolution*
 
 
 3. Break free from bad environmental proxies when studying I * E,
@@ -516,10 +552,10 @@ I am planing to test the efficiency of different tools already develops for SNA,
 
 
 4. Which part of climate change drives body mass evolution? [A Birot, D Blumstein and 
-  JGA Martin]{.underline}. Targeted journal: *Trends in Ecology and Evolution*; *Proc. R. Soc. B.*
+  JGA Martin]{.underline}. Targeted journal: *The American Naturalist*
 
 
-5. From Mass to Manner: How Body Mass and Age Shape Behaviour in Yellow-Bellied Marmots. [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal: *Proc. R. Soc. B.*; *Oikos*
+5. From Mass to Manner: How Body Mass and Age Shape Behaviour in Yellow-Bellied Marmots. [A Birot, D Blumstein and JGA Martin]{.underline}. Targeted journal: *Oikos*
 
 
 **Side projects**
@@ -566,3 +602,11 @@ Proposed timeline for the third and fourth year.
 
 ::: {refs}
 :::
+
+<!-- TODO: Pressure problem: Stearns => gradiant = pression; Lande & Arnold 1983 (the measurement of selection on correlated characters): gradient = forces of selection on the trait ; selection gradient capture selection forces (Lande et arnold); Walsh & lynsh 2022 use selection pressure in general ; so I am in line with the litterature
+Pression : force divided by the area of the surface on which its applied 
+TODO: add the definition in text (Stearns) & use lande & arnold in oral presentation -->
+
+
+<!-- TODO: Bayesian : analysis sur l'ensemble des BLUPs (pas juste sur 1) => distribution posterieur, qui capture donc l'erreur dans les BLUPs
+Au lieu de faire 1 pente => 1000 pentes -->

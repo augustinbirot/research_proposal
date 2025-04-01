@@ -1,3 +1,50 @@
+############## INTRODUCTION ##############
+
+library(ybamaRmot)
+
+data(tb_annualid)
+
+tb_annualid$uid <- as.factor(tb_annualid$uid)
+tb_annualid$year.uid <- as.factor(tb_annualid$year.uid)
+tb_annualid$year <- as.factor(tb_annualid$year)
+
+str(tb_annualid)
+
+tb_annualid <- subset(tb_annualid, !is.na(nb_mass))
+
+summary(tb_annualid$massaug)
+summary(tb_annualid$massjun)
+
+
+
+# Number of observations
+nrow(tb_annualid)
+
+nlevels(as.factor(tb_annualid$massaug))
+(table(table(tb_annualid$massaug)))
+
+
+# Number of individuals
+nlevels(tb_annualid$uid)
+# Number of years of observations
+nlevels(tb_annualid$year)
+
+
+## Pedigree
+pedigree <- fn_ped("dam-sire")
+summary(pedigree)
+
+nrow(pedigree)
+
+# Number of individuals with known fathers
+nrow(subset(pedigree, !is.na(sire)))
+# Number of individuals with known mothers
+nrow(subset(pedigree, !is.na(dam)))
+
+
+
+
+############## CHAPTER 1 ##############
 library(ybamaRmot)
 
 df <- read.csv("/Users/augustinbirot/Desktop/Work/PhD/research/research_projects/ybm_mass_evolution/data/tb_annualid.csv") #nolint
