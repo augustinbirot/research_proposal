@@ -55,7 +55,7 @@ These modifications are thus expected to have major impacts on food availability
 
 Life History Theory studies ressources allocation between the life history traits of an individual. This theory relies on the fact that individuals in natural condition must contend with limited ressources and therefore trade-offs must be made between competing functions such as growth, maintenance and reproduction [@Roff1992TheEO; @bellCostsReproductionTheir1980]. @stearns92 define a Life History Trait as phenotypic characteristics that will directly impact an individual's selective value, or "fitness" (i.e., individual's capacity to transmit their genes to the next generation, measured as the product of survival and reproductive success).
 
-However, this is a wide definition that could correspond to almost any traits as most phenotypic trait could impact either survival [e.g., body condition and time of nesting both predicts nesting females' survival probability in tufted ducks, *Aythya fuligula*, common pochard, *Aythya ferina* and northern shoveler, *Anas clypeata*, @blumsIndividualQualitySurvival2005; bold and active trinidanian guppies, *Poecilia reticulata*, survive longer against predators, @smithBehavioralTypesPredictors2010] or reproductive sucess [e.g., <!-- TODO: find traits, other than body mass, that impact individual reproductive success -->; or courtship ability <!-- bird of paradise --> **REF**]. But conversely, one could argue that no trait would impact directly, *per se*, an individual fitness (e.g., does body mass in itself directly impact over-hibernation survival in yellow-bellied marmots, or is it percentage of fat-tissue, or metabolic capacity, or individual thermoregulation capacity?).
+However, this is a wide definition that could correspond to almost any traits as most phenotypic trait could impact either survival [e.g., body condition and time of nesting both predicts nesting females' survival probability in tufted ducks, *Aythya fuligula*, common pochard, *Aythya ferina* and northern shoveler, *Anas clypeata*, @blumsIndividualQualitySurvival2005; bold and active trinidanian guppies, *Poecilia reticulata*, survive longer against predators, @smithBehavioralTypesPredictors2010] or reproductive sucess [e.g., <!-- TODO: find traits, other than body mass, that impact individual reproductive success; courtship ability? colour? vocalisation? birds of paradise? araignée paon? frogs? -->]. But conversely, one could argue that no trait would impact directly, *per se*, an individual fitness (e.g., does body mass in itself directly impact over-hibernation survival in yellow-bellied marmots, or is it percentage of fat-tissue, or metabolic capacity, or individual thermoregulation capacity?).
 
 Hence this definition encompass both all and no traits. Furthermore another objection with this definition is that with it, life-history trats both define and are defined by fitness, therefore making this reasoning tautological.
 
@@ -72,7 +72,7 @@ Body mass plays a crucial role in many species. Individuals with greater body ma
 
 - body mass explain 89% of the hibernation survival in juvenile yellow-bellied marmots, *Marmota flaviventer* [@armitageMarmotBiologySociality2014]
 
-- <!-- TODO: add another example of impact on survival -->
+- Individuals with heavier early-winter body mass had better overall survival probability in adults males canvasbacks, *Aythya valisineria* [@haramisRelationshipBodyMass1986]
 
 - impact of winter body mass variation on female reproductive success in Norwegian moose, *Alces alces* [@milnerReproductiveSuccessFailure2013]
 
@@ -81,8 +81,8 @@ Body mass plays a crucial role in many species. Individuals with greater body ma
 - Individuals with greater energy reserves have a better capacity to reproduce, as illustrated in bighorn sheeps, *Ovis canadensis* [@festa-bianchetMassDensityDependentReproductive1998]
 
 
-<!-- STRUCTURE: WHY does it have this role and impact those things -->
-<!-- TODO: Add a § about body mass ecology and physiology & link that with the role of body mass
+<!-- STRUCTURE: WHY does it have this role and impact those things
+Add a § about body mass ecology and physiology & link that with the role of body mass
 
 Body captures height (important for fitness in some species for access to reproduction) but also energetic reserve (impact on survival) => Mass is therefore important to study -->
 
@@ -198,7 +198,14 @@ This is a very promising method, however, as most new statistical methods, it is
 
 ## Study system
 
-Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventer*) is monitored continuously, initiated by Kenneth Armitage, and now co-lead by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second-longest long-term monitoring of a wild mammal population in the world.
+Since 1962, a wild population of Yellow-Bellied Marmots (*Marmota flaviventer*, @fig-marmot) is monitored continuously, initiated by Kenneth Armitage, and now co-lead by Julien Martin and Daniel Blumstein, at the Rocky Mountain Biological Laboratory (RMBL) in Gothic, Colorado, USA (38°56’34” – 38°59’13” N / 106°58’60” – 107°0’45” W). This study is the second-longest long-term monitoring of a wild mammal population in the world.
+
+:::{#fig-marmot}
+
+![](figures/marmot.JPG)
+
+Yellow-Bellied Marmot, *Marmota flaviventer*, Yosemite, CA, USA. Picture by [Davefoc](https://commons.wikimedia.org/wiki/File:MarmotaFlaviventris_3268.JPG).
+:::
 
 Yellow-bellied marmots is a ground-dwelling sciurid (Rodentia, Sciuridae) inhabiting alpine habitats in western North America. Their life cycle is divided between an "active season" representing approximately a third of the year (from May to September) where individuals must reproduce and accumulate enough fat reserves in order to survive hibernation over the remainder of the year (September to May) [@armitageMarmotBiologySociality2014].
 
@@ -481,7 +488,7 @@ Boldness
 \end{aligned}
 $$ {#eq-mod-ch4-m3}
 
-Finally, I will test the effect of the interaction between body mass and individual age while accounting for time cohort variation and controlling for individual and measurement year effects, using linnear mixed models (@eq-mod-ch4-m3).
+Finally, I will test the effect of the interaction between body mass and individual age while accounting for time cohort variation and controlling for individual and measurement year effects, using LMM (@eq-mod-ch4-m3).
 
 In addition to that, our marmot population seems to be in a demographic expansion since the 2000s [@ozgulCoupledDynamicsBody2010]. Furthermore, it is known that both body mass [@ozgulCoupledDynamicsBody2010], but also behaviour [@realeIntegratingAnimalTemperament2007a; @wolfAnimalPersonalitiesConsequences2012] can impact population dynamics. It is therefore crucial to study the relation between body mass, behaviour, and population dynamics to better understand, and predict, future implications of this body mass increase for our population in a context of climate change.
 
@@ -536,7 +543,7 @@ We have here a good opportunity to use one of the longest monitoring in the worl
     *(Continuation of a project previously started at NTNU with Dr. Yimen Araya-Ajoy)*
 
 <!-- Abstract from M1 project, to remake + rethink the project with draft_1 and sna_metapop analysis -->
-A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected. Links between subpopulations (i.e., migration fluxes) in a metapopulations is crucial for its survival over time, as it maintains genetic diversity (**REF**). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (**REF**).
+A metapopulation is defined as a set of subpopulations distributed across various patches, more or less interconnected. Links between subpopulations (i.e., migration fluxes) in a metapopulations is crucial for its survival over time, as it maintains genetic diversity (<!--REF-->). If a subpopulation finds itself isolated from the rest of the network, lack of genetic diversity putting it at risk of extinction (<!--REF-->).
 
 To various extent, a metapopulation can be viewed as a population-scale network [i.e., a set of patches connected by edges of varying intensity, @krauseAnimalSocialNetworks2015]. Therefore, Social Network Analysis can offer a valuable approach to study metapopulation dynamics by identifying key patches contributing to network connectivity and resilience [@farineConstructingConductingInterpreting2015].
 
