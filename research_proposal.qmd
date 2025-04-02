@@ -28,13 +28,6 @@ editor:
     wrap: 72
 ---
 
-<!-- ::: {.callout-important}
-comments are added as:
-
-- using JM as key work for TODO tree extension. it has to been at the beginning of a line or at the start of a comment
-- comments using \<\!\-\- JM blablabla \-\-\> <!-- JM blablabla -->
-::: -->
-
 
 {{< pagebreak >}}
 
@@ -62,7 +55,7 @@ These modifications are thus expected to have major impacts on food availability
 
 Life History Theory studies ressources allocation between the life history traits of an individual. This theory relies on the fact that individuals in natural condition must contend with limited ressources and therefore trade-offs must be made between competing functions such as growth, maintenance and reproduction [@Roff1992TheEO; @bellCostsReproductionTheir1980]. @stearns92 define a Life History Trait as phenotypic characteristics that will directly impact an individual's selective value, or "fitness" (i.e., individual's capacity to transmit their genes to the next generation, measured as the product of survival and reproductive success).
 
-However, this is a wide definition that could correspond to almost any traits as most phenotypic trait could impact either survival [e.g., <!-- TODO: find traits, other than body mass, that impact individual survival -->; bold and active trinidanian guppies, *Poecilia reticulata*, survive longer against predators; @smithBehavioralTypesPredictors2010] or reproductive sucess [e.g., <!-- TODO: find traits, other than body mass, that impact individual survival -->; or courtship ability <!-- bird of paradise --> **REF**]. But conversely, one could argue that no trait would impact directly, *per se*, an individual fitness (e.g., does body mass in itself directly impact over-hibernation survival in yellow-bellied marmots, or is it percentage of fat-tissue, or metabolic capacity, or individual thermoregulation capacity?).
+However, this is a wide definition that could correspond to almost any traits as most phenotypic trait could impact either survival [e.g., body condition and time of nesting both predicts nesting females' survival probability in tufted ducks, *Aythya fuligula*, common pochard, *Aythya ferina* and northern shoveler, *Anas clypeata*, @blumsIndividualQualitySurvival2005; bold and active trinidanian guppies, *Poecilia reticulata*, survive longer against predators, @smithBehavioralTypesPredictors2010] or reproductive sucess [e.g., <!-- TODO: find traits, other than body mass, that impact individual reproductive success -->; or courtship ability <!-- bird of paradise --> **REF**]. But conversely, one could argue that no trait would impact directly, *per se*, an individual fitness (e.g., does body mass in itself directly impact over-hibernation survival in yellow-bellied marmots, or is it percentage of fat-tissue, or metabolic capacity, or individual thermoregulation capacity?).
 
 Hence this definition encompass both all and no traits. Furthermore another objection with this definition is that with it, life-history trats both define and are defined by fitness, therefore making this reasoning tautological.
 
@@ -85,18 +78,19 @@ Body mass plays a crucial role in many species. Individuals with greater body ma
 
 - large body size and mass is correlated to higher mating success in northern elephant seals, *Mirounga angustirostris* [@crockerImpactBodyReserves2012]
 
-- ndividuals with greater energy reserves have a better capacity to reproduce, as illustrated in bighorn sheeps, *Ovis canadensis* [@festa-bianchetMassDensityDependentReproductive1998]
+- Individuals with greater energy reserves have a better capacity to reproduce, as illustrated in bighorn sheeps, *Ovis canadensis* [@festa-bianchetMassDensityDependentReproductive1998]
 
 
 <!-- STRUCTURE: WHY does it have this role and impact those things -->
-<!-- TODO: Add a § about body mass ecology and physiology & link that with the role of body mass -->
-<!-- TODO: Body captures height (important for fitness in some species for access to reproduction) but also energetic reserve (impact on survival) => Mass is therefore important to study -->
+<!-- TODO: Add a § about body mass ecology and physiology & link that with the role of body mass
+
+Body captures height (important for fitness in some species for access to reproduction) but also energetic reserve (impact on survival) => Mass is therefore important to study -->
 
 However, a too large body mass can become a handicap. Even though some handicaps have been theorized to be an asset in sexual selection [@zahavi_handicap], beyond a certain threshold, too large individuals will be counter-selected as it could induce a cost in individual performance [e.g., capacity to run from predators, @jebbBiggerNotAlways2021].
 
 Overall, body mass can be considered a crucial trait influencing directly both survival and reproduction in many species, but a balance must be reach between performances and costs, and with investment in other traits.
 
-"Although some could argue that body mass can be considered as a Life History Traits in some species as it can impact directly the fitness of an individual, due to the lack of a clear definition, I will just say that Body mass can be seen as a NODE impacting other traits, finally impacting global fitness"
+"Although some could argue that body mass can be considered as a Life History Traits in some species as it can impact directly the fitness of an individual, due to the lack of a clear definition, I will just say that Body mass can be seen as a NODE impacting other traits, finally impacting global fitness. In this optic, it is crucial to study and understand body mass evolution."
 
 ### Body mass and hibernation
 
@@ -169,8 +163,8 @@ So, if climate change lead to life history traits changes, it should be expected
 
 As such, changes in such traits are expected to go along with other changes, therefore synonym of greater impacts on the global phenotype. A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [@kruukEstimatingGeneticParameters2004].
 
-However, such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for these complex models [@lynchGeneticsAnalysisQuantitative1998] <!-- TODO: Lynsh & Walsh (data hungry, which constrait the power associated to a lot of studies) -->. This is one of the main reason long-term study datasets in the wild is essentiel <!-- TODO: rephrase --> brings a lot of expectation to address such limitations [@teplitskyEvolutionaryPotentialConstraints2014].
-<!-- TODO: Look at preface and first chapter of QG in the wild -->
+However, such models are heavily data-hungry, and the main reason that significant results with such methods are quite rare today is that only a few studies have enough data to support the statistical power required for these complex models [@lynchGeneticsAnalysisQuantitative1998]. That limitation in statistical power is expected to be adressed by long-term study datasets [@qg_in_the_wild].
+<!-- AB: JULIEN, 1er chapitre du livre, "1.4.2 Biostatistical issues" ça dit justement que MALGRÉ les long-term datasets y'a des problèmes de puissance. -->
 
 ## Detecting Individual variation in their plasticity in the wild
 
@@ -356,7 +350,7 @@ And before emergence (@eq-mod2-ch1). These models will allow me to estimate the 
 
 Detecting individual variation in plasticity is challenging due to the unknown aspect of the environmental variables organism are responding to [@nusseyEvolutionaryEcologyIndividual2007; @ramakersProbingVariationReaction2023]. Although some good methods exist today, a lot of biases coming from environmental proxies still limit these methods today. DHGLMs are a promising avenue to help the study of *I \* E* in natural populations, but an investigation to reveal its potential and limit is needed.
 
-When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individual, an absence of I * E (i.e., each individual's phenotypic response will be the same, @fig-ie-vs-no-ie a) should show and absence of among-individual variance in the residual variance ($V_{V_e} = 0$) as each individual will exhibit the same range of phenotypic values ([Fig. @fig-ie-vs-no-ie] c). <!--JM missing end of sentence ??-->
+When fitting a DHGLM on a focal phenotypic trait with multiple observations for each individual, in absence of I * E (i.e., each individual will exhibit the same phenotypic response, @fig-ie-vs-no-ie a) we expect to see no among-individual variance in the residual variance ($V_{V_e} = 0$, @fig-ie-vs-no-ie c).
 
 However, if there's individual variation in their plastic response (*I \* E*) for the focal phenotypic trait (@fig-ie-vs-no-ie b) and it is not modelled with a reaction norm then within a DHGLM the variation in residual variance won't be the same for each individual, hence $V_{V_e}$ will be different from 0 (@fig-ie-vs-no-ie d).
 
@@ -449,10 +443,6 @@ Proportion of time spent stand looking (within two-minute focal observations) as
 
 Although the impact of body mass, with bigger individuals spending more time looking is easily explainable as heavier individuals are slower and thus must stay more vigilant to avoid predation, this age effect is interesting to note and advocate for the hypothesis that with age, experience could prevail on physical condition to dictate behaviour, with older individuals more careful than juveniles, as already suggested by @jebbBiggerNotAlways2021.
 
-We have repeated observations for a lot of individuals over various variables from observations from 2-min focal field observations and flight-initiation distance experiments. I am going to use that to conduct PCAs to determine individual values for various personal traits such as boldness [@realeIntegratingAnimalTemperament2007a] and estimate its repeatability (using mixed models) and heritability (using animal models). Then I will use these data to test the effect of body mass.
-
-<!-- TODO: 3 models (boldness genetic value; boldness*body mass genet correlation; effect of body mass * age on boldness (this one isn't an animal model)) -->
-
 $$
 Boldness
 \sim
@@ -463,8 +453,7 @@ Boldness
 \end{aligned}
 $$ {#eq-mod-ch4-m1}
 
-- I will first estimate the heritability and genetic variation of boldness over cohorts using an univariate animal model (@eq-mod-ch4-m1)
-
+We have repeated observations for a lot of individuals over various variables from observations from 2-min focal field observations and flight-initiation distance experiments. I am going to use that to conduct PCAs to determine individual values for various personality traits such as boldness [@realeIntegratingAnimalTemperament2007a] and estimate its repeatability (using mixed models) and heritability (using animal models, @eq-mod-ch4-m1).
 
 $$
 \begin{pmatrix}
@@ -480,8 +469,7 @@ Body\ mass
 \end{aligned}
 $$ {#eq-mod-ch4-m2}
 
-- Then I will estimate the genetic correlation between boldness and body mass over cohorts using a bivariate animal model (@eq-mod-ch4-m2)
-
+Then, I will estimate the genetic correlation between those personality traits and body mass over cohorts using a bivariate animal model (@eq-mod-ch4-m2).
 
 $$
 Boldness
@@ -493,7 +481,7 @@ Boldness
 \end{aligned}
 $$ {#eq-mod-ch4-m3}
 
-- Finally I will test the effect of the interaction between body mass and individual age while accounting for time cohort variation and controlling for individual and measurement year effects, using LMM (@eq-mod-ch4-m3)
+Finally, I will test the effect of the interaction between body mass and individual age while accounting for time cohort variation and controlling for individual and measurement year effects, using linnear mixed models (@eq-mod-ch4-m3).
 
 In addition to that, our marmot population seems to be in a demographic expansion since the 2000s [@ozgulCoupledDynamicsBody2010]. Furthermore, it is known that both body mass [@ozgulCoupledDynamicsBody2010], but also behaviour [@realeIntegratingAnimalTemperament2007a; @wolfAnimalPersonalitiesConsequences2012] can impact population dynamics. It is therefore crucial to study the relation between body mass, behaviour, and population dynamics to better understand, and predict, future implications of this body mass increase for our population in a context of climate change.
 
@@ -635,7 +623,8 @@ Proposed timeline for the third and fourth year.
 
 <!-- TODO: Pressure problem: Stearns => gradiant = pression; Lande & Arnold 1983 (the measurement of selection on correlated characters): gradient = forces of selection on the trait ; selection gradient capture selection forces (Lande et arnold); Walsh & lynsh 2022 use selection pressure in general ; so I am in line with the litterature
 Pression : force divided by the area of the surface on which its applied 
-TODO: add the definition in text (Stearns) & use lande & arnold in oral presentation -->
+
+Add the definition in text (Stearns) & use lande & arnold in oral presentation -->
 
 
 <!-- TODO: Bayesian : analysis sur l'ensemble des BLUPs (pas juste sur 1) => distribution posterieur, qui capture donc l'erreur dans les BLUPs
