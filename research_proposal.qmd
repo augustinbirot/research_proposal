@@ -219,7 +219,7 @@ The marmots' hibernation life-cycle is highly environment-dependent. Indeed, the
 
 ::: {#fig-map-study-site}
 
-![](figures/map_study_site.pdf)
+![](figures/map_study_site.png)
 
 Red colonies represent the "up" valley, blue ones represent the "down" valleys. Plain background polygons represent the seven main colonies. The map was created with QGIS software [@qgisdevelopmentteamQGISGeographicInformation2024] and the base map comes from ESRI [@GISMappingSoftware].
 :::
