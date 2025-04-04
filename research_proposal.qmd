@@ -61,7 +61,7 @@ Reading the litterature, I realize that a lot of authors working on life history
 
 We know that body mass i strongly related to both temperature acclimation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food abundance [@acquaroneEffectsFoodAbundance2002]. Consequently, climate change is expected to impact body mass, making it crucial to study how individuals will respond.
 
-Body mass plays a critical role for most species. It affects indidivual metabolic rate [@darveauAllometricCascadeUnifying2002] as well as performance (e.g., foraging, exploration, fighting, competition ability). For instance, @weibelAllometricScalingMaximal2004 showed a strong correlation between maximal metabolic rate and body mass in mammals.
+Body mass plays a critical role for most species. It affects indidivual metabolic rate [@darveauAllometricCascadeUnifying2002] as well as performance (e.g., fighting, competition ability). For instance, @weibelAllometricScalingMaximal2004 showed a strong correlation between maximal metabolic rate and body mass in mammals.
 
 Body mass also determines individuals energetic reserves, thereby impacting performance<!-- REF --> and resilience to environmental challenges by buffering against seasonal food scarcity [@heldstabHowMammalsBuffer2017]. More generaly, body fat can be considered a buffer against harsh environments [@denryterSurvivalFattestHow2022]. Extending this reasoning to a wider timescale, we can expect that larger individuals may better buffer rseource-poor years, increasing their resilience to environmental variability and unpredictability [@einum2004environmental].
 
@@ -76,15 +76,18 @@ While some authors might argue that body mass qualifies as a life-history-trait,
 
 Within a year, food abundance can fluctuate drastically with season. Often, we see a harsh season, with lower food abundance and extreme temperatures [@williamsUnderstandingEvolutionaryImpacts2017]. Species must adapt to that seasonal variation. Most usual strategies could be to migrate seasonally to a milder environment [e.g., Alpine swift, *Tachymarptis melba*, @alerstamBirdMigration2004; @meierPopulationspecificAdjustmentAnnual2020]; storing food before the harsh season [e.g., Beavers, *Castor canadensis*, @smithOverwinterActivityBody1991; @castor_jenkins]; storing energy as fat during the good season [e.g. bighorn sheep, *Ovis canadensis*, @stephensonLinkingPopulationPerformance2020; @denryterSurvivalFattestHow2022]; and eventually hibernating.
 
-Hibernation is a coping mechanism consisting in reducing metabolism and body temperature to a minimum survival level, then emerge at the start of the favourable season. Beyond hibernators, two main strategies exist, they can either store food before hibernation, called "Food-storing hibernators" (e.g., chimpunks, *Tamias striatus*, @bieberBodyMassDependent2014), or sustain on the energy they stocked in their white adipose tissue, or fat, those are the "Fat-storing hibernators" [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003]. One of the most commonly known example of fat-storing hibernators being the Marmots [tribe: *Marmotini*, @armitageMarmotBiologySociality2014]
+Hibernation is a coping mechanism consisting in reducing metabolism and body temperature to a minimum survival level, then emerge at the start of the favourable season. Beyond hibernators, two main strategies exist, they can either store food before hibernation, called "Food-storing hibernators" (e.g., chimpunks, *Tamias striatus*, @bieberBodyMassDependent2014), or sustain on the energy they stocked in their white adipose tissue, or fat, those are the "Fat-storing hibernators" [@geiserHibernation2013a; @nedergaardMammalianHibernation1990; @careyMammalianHibernationCellular2003]. One of the most iconic example of fat-storing hibernators are the Marmots [tribe: *Marmotini*, @armitageMarmotBiologySociality2014]
 
 Fat-storing hibernators must therefore forage sufficiently to gain enough fat in a short amount of time, as they are active only for a, usually small, part of the year. They rely on a highly efficient metabolism, allowing them to quickly gain fat that they need to survive through next hibernating season. Some fat-storing hibernators nearly double their weight during a 4 months active season [@careyMammalianHibernationCellular2003; @armitageMarmotBiologySociality2014]. Hence, not only a prerequisite adaptation is the ability to store a lot of fat, but also a sufficiently efficient metabolism to gain weight quickly. These prerequisite represent a lot of challenges and specific adaptation. Body mass and metabolism are therefore highly constrained in hibernating species.
 
-Additionally, for some species, reproduction occurs right at the onset of the active season [@armitageMarmotBiologySociality2014]. This means that before entering into hibernation, individuals much reach a body mass sufficient not only to survive, but also to have to reproduce directly after. Body mass is therefore a keystone LHT for hibernating species' bio-demography.
+The role of body mass for fat-storing hibernators goes beyond surviving over hibernation period. Although hibernators emerge at the end of the unfavorable season, food is often still scarce, making post-hibernation survival highly dependent on remaining body reserves.<!-- REF -->. Individual must therefore have enough stored energy to survive and forage after emergence. Furthermore, for some species, reproduction occurs right at the onset of the active season [@armitageMarmotBiologySociality2014].
 
-<!-- TODO: potential switch between hibernant § and effect of global warming § -->
-<!-- TODO: effect on survival over hibernation, and survival/reproduction at emergence -->
-<!-- TODO: effect of global warming on hibernant =>  body mass could be less "important" because less "pressure" -->
+Consequently, individuals must enter hibernation with enough fat reserves to support both overwinter survival and the energetic costs of the early-season (i.e., foraging with low food abundance and reproduction).
+
+However, global warming may alter the selective pressure (i.e., forces of selection acting on a trait, @lynchGeneticsAnalysisQuantitative1998; @stearns92; e.g., environmental factors) acting on body mass in fat-storing hibernators. Milder and shorter unfavorable seasons<!-- REF --> may shorten hibernation period and the associated challenges on survival. In that context, we could expect that the role of body mass could become less important with climate change for those species.
+
+As the environmental constraints for fat-storing hibernants changing with climate change, observed body mass changes in those species will not be necessarly adaptive (i.e., phenotypic changes associated with improved fitness, @lynchGeneticsAnalysisQuantitative1998<!-- REF? -->).
+
 
 ### Expected effect of global warming on body mass
 
@@ -98,7 +101,6 @@ On the other hand, several studies at higher latitudes and altitudes yield oppos
 
 Therefore, we expect changes in body mass and, we need to understand what is driving it and how it is happening.
 
-<!-- TODO: observed changes not necessarely adaptive as environmental constraints with hibernants are changing, so changes are not necessarly adaptive -->
 
 ## Adaptation, Evolution, Phenotypic plasticity
 
@@ -607,12 +609,6 @@ Proposed timeline for the third and fourth year.
 
 ::: {refs}
 :::
-
-<!-- TODO: Pressure problem: Stearns => gradiant = pression; Lande & Arnold 1983 (the measurement of selection on correlated characters): gradient = forces of selection on the trait ; selection gradient capture selection forces (Lande et arnold); Walsh & lynsh 2022 use selection pressure in general ; so I am in line with the litterature
-Pression : force divided by the area of the surface on which its applied 
-
-Add the definition in text (Stearns) & use lande & arnold in oral presentation -->
-
 
 <!-- TODO: Bayesian : analysis sur l'ensemble des BLUPs (pas juste sur 1) => distribution posterieur, qui capture donc l'erreur dans les BLUPs
 Au lieu de faire 1 pente => 1000 pentes -->
