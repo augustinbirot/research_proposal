@@ -37,7 +37,6 @@ editor:
 
 Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its global impacts, such as melting polar ice caps and rising sea levels, are well documented and increasingly evident. This phenomenon is characterized by rising temperatures, changing season lengths, increased environmental variability and unpredictability, and a growing frequency and severity of droughts and extreme weather events [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
 
-
 Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals worrying, but expected figures [*e.g.*, increasing temperature, less snow, more rain, @walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [*e.g.*, further increase in temperature, @zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
 But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
@@ -108,13 +107,19 @@ Therefore, we expect changes in body mass and, we need to understand what is dri
 <!-- TODO: crystal clear definition for ADAPTATION ; PLASTICITY (≠ type and necessary conditions) ; EVOLUTION (≠ types of evol and necessary conditions; evol by NS) -->
 When an environment changes, inhabiting populations can avoid disappearance in several ways. They can disperse to another, more favourable, environment [@gienappEvolutionaryDynamicsResponse2014]; they can modify their environment to correspond to specific needs [i.e., engineers species such as beavers, *castor canadensis*, @jonesOrganismsEcosystemEngineers1994]; or phenotypic changes can occur in the population, giving individuals better suited to their environment [@gienappEvolutionaryDynamicsResponse2014].
 
-These phenotypic changes could happen in two ways: phenotypic plasticity, define as a change in phenotype expressed by a given genotype, which allows for rapid responses within an individual's lifetime, is highly flexible and does not involve any changes at the genetic level [@pigliucciPhenotypicPlasticityNature2001]; and evolution, define as a change in alleles frequencies in a population over time. When an individual with a better-fitted phenotype for its new environment appears, it would have a higher survival and reproductive success. If this advantage relies on a heritable genetic difference, the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998].
+These phenotypic changes could happen in two ways: phenotypic plasticity, define as the capacity of one genotype to express different phenotype depending on the environment, allowing for rapid responses within an individual's lifetime, is highly flexible and does not involve any changes at the genetic level [@pigliucciPhenotypicPlasticityNature2001]; and evolution, define as a change in alleles frequencies in a population over time.<!-- Evolution can happen through natural selection:--> When an individual with a better-fitted phenotype for its new environment appears, it would have a higher survival and reproductive success. If this advantage relies on a heritable genetic difference, the new genotype is going to rapidly increase in proportion in the population, ultimately replacing the old one [@lynchGeneticsAnalysisQuantitative1998]. <!-- Or through genetic drift: In a finite population, when a new mutation appears, it can spread in the next generations -->
 
 Hence, evolution can be slow but will have effect on long-term, and a better answer to persistent ecological changes. However, if the change is transient, plasticity might be better suited. As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer to a temporary change, presenting costs and limits [@dewittCostsLimitsPhenotypic1998]. Furthermore, if the optimal response to the new environment is a canalized phenotype (i.e., very low phenotypic variance), plasticity can even be maladaptive [@nusseyEvolutionaryEcologyIndividual2007]. Therefore, the expected optimal answer to a long-term environmental change, as expected with climate change, is evolution.
 
 Phenotypic plasticity and evolution are not mutually exclusive. For example, highly plastic traits, like body mass, can change considerably during an individual's life in response to environmental fluctuations both within and between years. At the same time, these traits can also evolve at the population level over similar time scales. Plasticity in itself for such traits can also evolve, indeed, individual, and even genetic-based, variation in phenotypic plasticity can occur within population, meaning that there is a potential for selection and therefore evolution on phenotypic plasticity itself [@pigliucciEvolutionPhenotypicPlasticity2005].
 
 Long-term consequences of these processes differ substantially, since evolutionary changes are measured across generations and tend to be more permanent than plastic adjustments made across an individual lifespan. As a result, determining how much each mechanism contributes to long-term changes is challenging but essential for understanding adaption and evolution in response to climate change in natural population.
+
+Plasticity is usually studied using Reaction Norm framework [@viaAdaptivePhenotypicPlasticity1995; @nusseyEvolutionaryEcologyIndividual2007], i.e., studying the value of a phenotypic trait (e.g., body mass) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment. In this framework, a trait is plastic if the slope of the reaction norm is different from 0 [@nusseyEvolutionaryEcologyIndividual2007].
+
+A reaction norm has two parameters: Elevation, which is the expected phenotypic value in the average environment; and the slope, corresponding to the linear change of the phenotype over the environmental gradient. In statistical terms, these parameters correspond respectively to the "Intercept" and the "Slope" of the linear regression of the phenotype over the environment.
+
+On the other hand, evolution rely on genetic change, therefore evolution can be studied by looking at variation at a genetic level.
 
 
 ## Quantitative Genetics and Animal Models
@@ -124,24 +129,20 @@ Fortunately, quantitative genetic provides robust and well-established methods t
 
 A well-known statistical method to decompose the phenotypic variance into its genetic and environmental components is the so-called Animal Model [@kruukEstimatingGeneticParameters2004]. This method allows a robust estimation of the genetic variance in a trait affected by a large number of genes, each with small effects [i.e., a "quantitative trait", @lynchGeneticsAnalysisQuantitative1998; @kruukStudyQuantitativeGenetics2014]. An Animal model is a specific kind of mixed model fitting individual identity as a random effect and assuming that individuals are not independent but genetically related. The genetic relatedness is most of the time extracted from the population pedigree (i.e., parental links between each individual in the population, @lynchGeneticsAnalysisQuantitative1998).
 
-This method has the advantage of being relatively simple to employ, enabling genetic variance parameters estimation directly from phenotypic data. Only parental links between individuals need to be known, making this method easily applicable to wild populations [@kruukEstimatingGeneticParameters2004; @lynchGeneticsAnalysisQuantitative1998].
+This method has the advantage of being relatively simple to employ, enabling genetic variance parameters estimation directly from phenotypic data. Only parental links between individuals need to be known, making this method easily applicable to wild populations [@kruukEstimatingGeneticParameters2004; @lynchGeneticsAnalysisQuantitative1998]. It also allows to account for maternal effect (i.e., effect of the mother condition and parental care) and common environment on the tested phenotype, avoinding a surrestimation of the genetic effect, simply by adding mother identity and and year factor as random variable in the model [@kruukHowSeparateGenetic2007].
 
 As emphasized by @kruukStudyQuantitativeGenetics2014, there is a pressing need for quantitative genetics studies on long-term wildlife populations, as the most common problem in such studies is the lack of statistical power, which can be resolved thanks to the quantity of data brought by long-term studies. Such studies would improve our understanding of the relationship between animals and their environment, as well as the genotype-phenotype-environment relationship, especially in a context of global change.
 
-<!-- TODO: hadfield et kruuk 2007: effect of common environment and maternal effect in animal models -->
-
 
 ## Traits coevolution
-<!-- TODO: Lande & Arnolds 1983 -->
+<!-- REF: Lande & Arnolds 1983 -->
 A well-recognized challenge, when studying evolution in natural context, is to consider the genetic correlation between several traits [@gouldSpandrelsSanMarco1979; @Roff1992TheEO]. Indeed, when genetically correlated to another trait, a trait does not evolve independently and its evolution can either drive changes in other traits or be driven by other traits. Genetic correlations are often seen as constraints narrowing the range of possibility and reachable outcomes in the adaptive landscape but can also speed up the process of reaching and optimum [@arnoldAdaptiveLandscapeConceptual2001; @teplitskyEvolutionaryPotentialConstraints2014; @gouldSpandrelsSanMarco1979].
 
 When studying the evolution of a specific trait (especially ones having important phenotypic consequences), failing to account for its link with other traits is an oversimplification. This failure can bias not only our understanding of the causes and consequences of phenotypic change, but also the estimations of its evolutionary potential [@walshAbundantGeneticVariation2009; @teplitskyEvolutionaryPotentialConstraints2014]. To effectively study traits' evolution, it is essential to consider that selection generally acts on multiple traits simultaneously, as a phenotype is the result of a combination of various traits [@phillipsVISUALIZINGMULTIVARIATESELECTION1989].
 
-
 A continuation of this reasoning is the extended Pace Of Life Syndrome suggesting that life-history strategy, physiological and behavioural traits coevolve in response to the environment [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010].
 
 So, if climate change lead to life history traits changes, it should be expected that other key physiological or behavioural trait will coevolve with it. For example, it has been observed that some behavioural types will be consistently associated with specific Life-History strategies [*e.g.*, individual with faster life-cycle will tend to be bolder, @stampsGrowthmortalityTradeoffsPersonality2007; @wolfLifehistoryTradeoffsFavour2007; @biroAreAnimalPersonality2008].
-
 
 As such, changes in such traits are expected to go along with other changes, therefore synonym of greater impacts on the global phenotype. A robust method to study such changes are Multivariate Animal models (i.e., an Animal model with multiple phenotypic traits as dependant variables) which allows us to estimate the genetic covariance between each trait [@kruukEstimatingGeneticParameters2004].
 
@@ -150,14 +151,7 @@ However, such models are heavily data-hungry, and the main reason that significa
 
 ## Detecting Individual variation in their plasticity in the wild
 
-<!-- TODO: dispatch some in plasticity, evolution, adaptation
-=> Plasticity had to evolve and be selected, and for that it needs individual variation in their plasiticity -->
-
-Plasticity is usually studied using Reaction Norm framework [@viaAdaptivePhenotypicPlasticity1995; @nusseyEvolutionaryEcologyIndividual2007], i.e., studying the value of a phenotypic trait (e.g., body mass) in response to an environmental proxy (e.g., temperature, precipitation). A plastic response correspond to a different phenotypic value associated to a different environment. In this framework, a trait is plastic if the slope of the reaction norm is different from 0 [@nusseyEvolutionaryEcologyIndividual2007].
-
-A reaction norm has two parameters: Elevation, which is the expected phenotypic value in the average environment; and the slope, corresponding to the linear change of the phenotype over the environmental gradient. In statistical terms, these parameters correspond respectively to the "Intercept" and the "Slope" of the linear regression of the phenotype over the environment.
-
-This is how phenotypic plasticity is usually studied. However, as emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss when plasticity is only studied at the population level (i.e., fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual, this allows the model to account for the individual variability in their phenotype in the average environment. However, that kind of model doesn't allow estimating individual-level difference in their plastic response to the environment, which can be biologically significant and must be accounted for.
+Plasticity had to evolve and be selected, and for that it needs individual variation in their plasiticity. As emphasized by @nusseyEvolutionaryEcologyIndividual2007, a lot of information is loss when plasticity is only studied at the population level (i.e., fixed linear model of the phenotype over the environment). First using a linear mixed model is crucial to estimate different elevations for each individual, this allows the model to account for the individual variability in their phenotype in the average environment. However, that kind of model doesn't allow estimating individual-level difference in their plastic response to the environment, which can be biologically significant and must be accounted for.
 
 @nusseyEvolutionaryEcologyIndividual2007 proposed a framework to estimate that individual variance in plasticity, which is now fairly accepted and used: Random Regression. Let's go back to the Linear Mixed Models (LMMs), the most classical type of mixed models is to add a random individual term on the intercept to estimate the "individual variance" by allowing the model to fit one intercept per individual, however with this model, the slope is the same for each individual. Now, if we add a random term also on the slope, not only the model fit one intercept per individual, but also one slope (so, one reaction norm) per individual, estimating thus the individual variance in the phenotype expected in the average environment (elevation) but also the individual variation in phenotypic variation (slope) which is commonly called the individual by environment interaction and noted *I \* E*.
 
@@ -414,9 +408,7 @@ I will then begin by examine temporal trend for both environmental and body mass
 {{< pagebreak >}}
 
 # Chapter 4 - Balance between body condition and experience as predictors of marmots' behavior. {#sec-chap4}
-
 <!-- TODO: link with coevolution -->
-
 In the context of the extended pace of life syndrome framework [@dammhahnPacelifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect to see correlation between body mass and individuals' behaviour (e.g., bigger individuals would be expected to be bolder).
 
 But we also expect that behaviour and personality will be impacted by life experience and change through an individual's life [@stampsDevelopmentAnimalPersonality2010].
@@ -541,7 +533,7 @@ I am planing to test the efficiency of different tools already develops for SNA,
 
 
 # Expected Products
-<!-- TODO: rethink potential journals -->
+<!-- TODO: potential journals -->
 **Introduction** *(French MSc second year project)*
 
 1. *Just plasticity, are you sure?* Evidence for a strong increase in Yellow-bellied Marmot's body mass predicted breeding values in the last half century. [A Birot, D Blumstein and JGA Martin]{.underline} *Prepared for Evolution*
@@ -609,6 +601,3 @@ Proposed timeline for the third and fourth year.
 
 ::: {refs}
 :::
-
-<!-- TODO: Bayesian : analysis sur l'ensemble des BLUPs (pas juste sur 1) => distribution posterieur, qui capture donc l'erreur dans les BLUPs
-Au lieu de faire 1 pente => 1000 pentes -->
