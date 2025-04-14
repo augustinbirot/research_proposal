@@ -58,7 +58,7 @@ Reading the litterature, I realize that a lot of authors working on life history
 
 ## The role of body mass
 
-We know that body mass i strongly related to both temperature acclimation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food abundance [@acquaroneEffectsFoodAbundance2002]. Consequently, climate change is expected to impact body mass, making it crucial to study how individuals will respond.
+We know that body mass is strongly related to both temperature acclimation [i.e., thermoregulation, @riesenfeldRoleBodyMass1981; @kurzPhysiologyThermoregulation2008] and food abundance [@acquaroneEffectsFoodAbundance2002]. Consequently, climate change is expected to impact body mass, making it crucial to study how individuals will respond.
 
 Body mass plays a critical role for most species. It affects indidivual metabolic rate [@darveauAllometricCascadeUnifying2002] as well as performance (e.g., fighting, competition ability). For instance, @weibelAllometricScalingMaximal2004 showed a strong correlation between maximal metabolic rate and body mass in mammals.
 
