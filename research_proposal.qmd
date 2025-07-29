@@ -35,15 +35,13 @@ editor:
 
 ## Climate change
 
-Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its global impacts, such as melting polar ice caps and rising sea levels, are well documented and increasingly evident. This phenomenon is characterized by rising temperatures, changing season lengths, increased environmental variability and unpredictability, and a growing frequency and severity of droughts and extreme weather events [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
+Climate change is unequivocally recognized as one of the most pressing challenges of our time. Its global impacts, such as melting polar ice caps and rising sea levels, are well documented and increasingly evident. Climate change is characterized by rising temperatures, changing season lengths, increased environmental variability and unpredictability, and a growing frequency and severity of droughts and extreme weather events [@intergovernmentalpanelonclimatechangeipccClimateChange20222022].
 
-Climate change impacts on human society are, for example, well represented in the city of Ottawa. Temperature, snowing and raining trends in the Canadian capital over the last century, reveals worrying, but expected figures [*e.g.*, increasing temperature, less snow, more rain, @walshPrecipitationTemperatureTrends2022], and future projections are not much more reassuring [*e.g.*, further increase in temperature, @zhaiFutureProjectionsTemperature2019]. One good illustration of that is the management of the Rideau canal ice skating rink. Indeed, in later years the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
+Climate change has numerous impacts on human society which are, for example, well represented in the city of Ottawa,Canada. Temperature, snow and rainfall in the Canadian capital over the last century reflect worrying but expected trends [*e.g.*, increasing temperature, less snow, more rain, @walshPrecipitationTemperatureTrends2022], and future projections are not reassuring [*e.g.*, further increases in temperature, @zhaiFutureProjectionsTemperature2019]. Illustrating this trend is the management of the Rideau canal ice skating rink. Indeed, in past few years, the opening of the world's longest ice staking risk has been more and more uncertain, and its future is unfortunately but, fatally, questionable.
 
-But above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. These profound ecological upheavals put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. It is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
+Above all, as shown by countless studies, climate change deeply impacts the vast majority of Earth's ecosystems [@intergovernmentalpanelonclimatechangeipccClimateChange20222022]. Of these, Alpine habitats are especially susceptible to climate change, with more pronounced and severe droughts, as well as increased temperature and variability. Hence, climate change puts high elevation environments at greater risk and may cause changes in plant communities [@inouyeHighAltitudeClimates2003; @ohmuraEnhancedTemperatureVariability2012; @inbook; @giorgiElevationDependencySurface1997; @grabherrClimateChangeImpacts2010], with major impacts on food availability for a wide diversity of animals. Therefore, Alpine animals must adjust not only to changes in temperature and precipitations, but also potentially to food availability.
 
-Climate change have an important impact in alpine habitats, with more pronounced and severe drought, temperature variability and increase. These changes put these environments under higher risks and causes changes in plant communities at high elevation [@inouyeHighAltitudeClimates2003; @ohmuraEnhancedTemperatureVariability2012; @inbook; @giorgiElevationDependencySurface1997; @grabherrClimateChangeImpacts2010].
-These modifications are thus expected to have major impacts on food availability for a wide diversity of animals. Therefore, not only alpine animals should adjust to temperature and precipitation changes, but also to food availability potentially.
-
+The profound ecological upheavals resulting from climate change put numerous species at risk, which must act accordingly to avoid extinction, either by dispersing or adapting [@gienappEvolutionaryDynamicsResponse2014]. Hence, it is crucial to improve our understanding of how natural population cope with this rapid and unpredictable changes in order to conduct efficient conservation policies.
 
 ## Life-history traits
 
@@ -107,8 +105,8 @@ For this natural selection to drive evolutionary change, three conditions must b
 Hence, evolution can be slow but will have effect on long-term, and a better answer to persistent ecological changes. However, if the change is transient, plasticity might be better suited. As noted by @dewittCostsLimitsPhenotypic1998 and @gardnerDecliningBodySize2011, phenotypic plasticity solely is unlikely to be the most optimal long-term response to climate change as it is usually a transient answer to a temporary change,presenting costs and limits. As proposed by, @dewittCostsLimitsPhenotypic1998, plasticity present different costs:
 
 * [Energetic costs]{.underline}, to be able to acquire environmental cues, product and maintain phenotypic modification in response,
-* [Genetic cost]{.underline}, genetic linkage potentially maintaining deleterious genes,
-* [Developmental instability]{.underline}, when a variable environment cause too many phenotypic modification, being delleterious under stabilizing selection context.
+* [Genetic cost]{.underline}, coming from genetic linkage potentially maintaining deleterious genes,
+* [Developmental instability]{.underline}, too many phenotypic modification, caused by a variable environment, will delleterious under stabilizing selection context.
 
 @dewittCostsLimitsPhenotypic1998, also proposed some limits to plasticity:
 
@@ -455,7 +453,7 @@ I will then begin by examine temporal trend for both environmental and body mass
 
 # Chapter 4. Balance between body condition and experience as predictors of marmots' behavior {#sec-chap4}
 
-In the context of the extended pace of life syndrome framework [@dammhahnPaceoflifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect correlation between body mass and individuals' behaviour (e.g., bigger individuals would be expected to be bolder<!--  JM check marmot work on docility, vigilance, FID, and openfield mirror test to support potential mass effect --> As explained and emphasized by @landeMeasurementSelectionCorrelated1983 and @teplitskyEvolutionaryPotentialConstraints2014, understanding the evolution of a trait requires accounting for potential correlations with other traits. Therefore, to better understand what is happening for both body mass and behavior in this population, it is neccesary to study the evolution of each traits as well as their genetic and phenotypic correlation.
+In the context of the extended pace of life syndrome framework [@dammhahnPaceoflifeSyndromesFramework2018; @realePersonalityEmergencePaceoflife2010], we expect correlation between body mass and individuals' behaviour. Evidences has been found for a link between body mass and individual behavior in our marmots population from openfield experiments [@petelleMixedSupportState2019]. As explained and emphasized by @landeMeasurementSelectionCorrelated1983 and @teplitskyEvolutionaryPotentialConstraints2014, understanding the evolution of a trait requires accounting for potential correlations with other traits. Therefore, to better understand what is happening for both body mass and behavior in this population, it is neccesary to study the evolution of each traits as well as their genetic and phenotypic correlation.
 
 In addition to that we also expect that behaviour and personality will be impacted by life experience and change through an individual's life [@stampsDevelopmentAnimalPersonality2010].
 
@@ -481,8 +479,7 @@ Boldness
 \end{aligned}
 $$ {#eq-mod-ch4-m1}
 
-We have repeated observations for a lot of individuals over various variables from observations from 2-min focal observations and flight-initiation distance experiments. I am going to use that to conduct PCAs to determine individual values for various personality traits such as boldness [@realeIntegratingAnimalTemperament2007a] and estimate its repeatability (using mixed models) and heritability (using animal models, @eq-mod-ch4-m1).
-<!-- JM PCA on repeat measures are you sure ??? NOT A PCA-->
+We have repeated observations for a lot of individuals over various variables from observations from 2-min focal observations and flight-initiation distance experiments. I am going to reassess the repetability (using mixed models) of each of these variables, then look at the correlation between those variables to determine individual values for various personality traits such as boldness [@realeIntegratingAnimalTemperament2007a]. Then I will determine the heritability of each of these traits (using animal models, @eq-mod-ch4-m1).
 
 $$
 \begin{pmatrix}
