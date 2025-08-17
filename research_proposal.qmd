@@ -1,6 +1,6 @@
 ---
 title: Coping with climate change.
-subtitle: Implications of the evolution of body mass in Yellow-Bellied Marmot's (*Marmota flaviventer*) in the last half-century.
+subtitle: Implications of the evolution of body mass in yellow-bellied marmot's (*Marmota flaviventer*) in the last half-century.
 author: Augustin Birot (300444988)
 date: last-modified
 affiliation: Department of Biology
